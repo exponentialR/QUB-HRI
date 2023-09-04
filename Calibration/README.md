@@ -20,7 +20,7 @@ This repository provides a set of Python scripts to perform camera calibration u
 Clone this repository to your local machine to get started.
 
 ```bash
-git clone https://github.com/exponentialR/CameraCalibration
+git clone https://github.com/exponentialR/QUB-HRI/Calibration
 ```
 
 ## Getting Started
