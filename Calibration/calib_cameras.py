@@ -3,6 +3,27 @@ import numpy as np
 import glob
 from cv2 import aruco
 import os
+from argparse import ArgumentParser
+
+# Argument parser for command-line options
+parser = ArgumentParser(description='Calibrate camera using a video with Charuco board.')
+parser.add_argument('--squaresX', type=int, default=7, help='Number of chessboard squares along the X-axis')
+parser.add_argument('--squaresY', type=int, default=5, help='Number of chessboard squares along the Y-axis')
+parser.add_argument('--squareLength', type=float, default=0.04,
+                    help='Length of a square in the Charuco board (in meters)')
+parser.add_argument('--markerLength', type=float, default=0.02,
+                    help='Length of a marker in the Charuco board (in meters)')
+parser.add_argument('--dictionary', type=str, default='DICT_4X4_50', choices=[
+    'DICT_4X4_50', 'DICT_4X4_100', 'DICT_4X4_250', 'DICT_4X4_1000',
+    'DICT_5X5_50', 'DICT_5X5_100', 'DICT_5X5_250', 'DICT_5X5_1000',
+    'DICT_6X6_50', 'DICT_6X6_100', 'DICT_6X6_250', 'DICT_6X6_1000',
+    'DICT_7X7_50', 'DICT_7X7_100', 'DICT_7X7_250', 'DICT_7X7_1000',
+    'DICT_ARUCO_ORIGINAL', 'DICT_APRILTAG_16h5', 'DICT_APRILTAG_16H5',
+    'DICT_APRILTAG_25h9', 'DICT_APRILTAG_25H9', 'DICT_APRILTAG_36h10',
+    'DICT_APRILTAG_36H10', 'DICT_APRILTAG_36h11', 'DICT_APRILTAG_36H11',
+    'DICT_ARUCO_MIP_36h12', 'DICT_ARUCO_MIP_36H12'
+], help='Dictionary used for generating the Charuco board')
+args = parser.parse_args()
 
 
 def adjust_parameters_for_original_size(mtx_resized, scaling_factor):
@@ -14,15 +35,18 @@ def adjust_parameters_for_original_size(mtx_resized, scaling_factor):
     return mtx_original
 
 
-def calibrate_camera_from_video(video_paths, save_path):
+def calibrate_camera_from_video(video_paths, save_path, squaresX=args.squaresX, squaresY=args.squaresY,
+                                squareLength=args.squareLength, markerLength=args.markerLength,
+                                dictionary=args.dictionary):
+
     all_charuco_corners = []
     all_charuco_ids = []
     output_folder = 'calibration_frames'
     os.makedirs(output_folder) if not os.path.exists(output_folder) else None
 
     # Define Charuco board parameters
-    aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_100)
-    board = cv2.aruco.CharucoBoard((16, 11), 0.033, 0.026, aruco_dict)
+    aruco_dict = cv2.aruco.getPredefinedDictionary(getattr(cv2.aruco, dictionary))
+    board = cv2.aruco.CharucoBoard((squaresX, squaresY), squareLength/1000, markerLength/1000, aruco_dict)
     min_corners = 10
 
     for idx, video_path in enumerate(video_paths):
@@ -46,11 +70,11 @@ def calibrate_camera_from_video(video_paths, save_path):
             if len(corners) > 0:
 
                 debug_frame = cv2.aruco.drawDetectedMarkers(frame.copy(), corners, ids)
-                # cv2.imshow('Debug Frame - Detected Markers', debug_frame)
                 cv2.waitKey(10)
                 cv2.destroyAllWindows()
 
-                ret, charuco_corners, charuco_ids = cv2.aruco.interpolateCornersCharuco(corners, ids, gray, board, charucoIds=ids)
+                ret, charuco_corners, charuco_ids = cv2.aruco.interpolateCornersCharuco(corners, ids, gray, board,
+                                                                                        charucoIds=ids)
 
                 if not ret or len(charuco_corners) <= min_corners:
                     print(f'Not enough corners for interpolation')
@@ -81,6 +105,7 @@ def calibrate_camera_from_video(video_paths, save_path):
     # Perform camera calibration
     ret, mtx, dist, rvecs, tvecs = cv2.aruco.calibrateCameraCharuco(all_charuco_corners, all_charuco_ids, board,
                                                                     gray.shape[::-1], None, None)
+
     np.savez(save_path, mtx=mtx, dist=dist)
 
 
