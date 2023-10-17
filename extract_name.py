@@ -6,3 +6,7 @@ for files in os.listdir('/home/qub-hri/Documents/PHEO Waiting Data/UL_camera'):
         file_list.append(files)
 
 print(file_list)
+print(f' Number of MP4 Files: {len(file_list)}')
+
+home_dir = ''
+

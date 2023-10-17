@@ -3,6 +3,7 @@ import json
 import os
 
 FOLDERS = ['calibration_videos', 'videos_to_correct', 'corrected_videos']
+import shutil
 
 
 def load_task_order(csv_path):
@@ -16,11 +17,11 @@ def load_task_order(csv_path):
     return participant_data_tasks
 
 
-class QUBData:
-    def __init__(self, project_path):
-        super(QUBData, self).__init__()
+class QUBVisionData:
+    def __init__(self, project_path: str, start_participant: int=0, end_participant: int=100):
+        super(QUBVisionData, self).__init__()
         self.project_path = os.path.join(project_path, 'PHEO-2.5D')
-        self.participants = [os.path.join(self.project_path, 'Participants', f'P{p:02d}') for p in range(0, 100)]
+        self.participants = [os.path.join(self.project_path, 'Participants', f'P{p:02d}') for p in range(start_participant, end_participant+1)]
         self.camera_positions = ['CAM_LL', 'CAM_UL', 'CAM_AV', 'CAM_UR', 'CAM_LR']
         self.task_video_counts = {'BIAH': 3, 'BRIDGE': 2, 'CALIBRATION': 1, 'STAIRWAY': 2, 'TOWER': 2}
         self.skipped_data = {f'p{i:02d}': {} for i in range(100)}
@@ -65,8 +66,9 @@ class QUBData:
                                 version_name = self.task_video_counts[task][version_index]
                                 new_filename = f'{task}_{version_name}_{camera_position}.MP4'
                                 new_path = os.path.join(camera_specific_data, new_filename)
-                                os.rename(old_path, new_path)
-                                print(f'Renamed {old_path} to {new_path}')
+                                shutil.copy(old_path, new_path)
+                                # os.rename(old_path, new_path)
+                                print(f'Copied {old_path} to {new_path}')
                                 video_index += 1
                     elif len(video_list) < 10:
                         self.skipped_data[current_participant][f'{camera_position}'] = '<10'
@@ -80,6 +82,5 @@ class QUBData:
                             f'SKipped {camera_position} for Participant {current_participant} due to Video files > 10... Please Check ')
             else:
                 print(f'Participant Directory {current_participant} does not exist')
-
 
 
