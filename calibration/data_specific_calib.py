@@ -35,7 +35,7 @@ class CalibrateCorrect:
         self.start_participant = os.path.join(proj_repo, f'p{participant_id_start:02d}')
         self.end_participant = os.path.join(proj_repo, f'p{participant_id_last:02d}')
         self.participant_list = [os.path.join(proj_repo, f'{participant_id:02d}') for participant_id in
-                                 range(participant_id_start, participant_id_last)]
+                                 range(participant_id_start, participant_id_last+1)]
 
         self.save_calib_frames = save_every_n_frames
         self.save_path_prefix = 'calib_param'
@@ -193,11 +193,12 @@ class CalibrateCorrect:
 
 if __name__ == '__main__':
     proj_repo = ''
-    squareX, squareY = 16, 11
+    squareX = 16
+    squareY = 11
     square_size = 33
     markerLength = 26,
     dictionary = 'DICT_4X4_250'
     participant_id_last = 5
-    calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squareY=squareY, square_size=square_size,
+    calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
                              dictionary=dictionary, participant_id_last=participant_id_last)
