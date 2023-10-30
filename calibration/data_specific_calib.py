@@ -32,6 +32,21 @@ class CalibrateCorrect:
     def __init__(self, proj_repo, squaresX, squaresY, square_size, markerLength,
                  dictionary='DICT_4X4_250', frame_interval_calib=5, save_every_n_frames=5,
                  participant_id_start=1, participant_id_last=100):
+        """
+       Initialize the CalibrateCorrect class.
+
+       Parameters:
+       - proj_repo (str): The project repository path.
+       - squaresX (int): The number of squares along the X-axis on the Charuco board.
+       - squaresY (int): The number of squares along the Y-axis on the Charuco board.
+       - square_size (float): The size of each square on the Charuco board.
+       - markerLength (float): The size of the ArUco markers on the Charuco board.
+       - dictionary (str): The type of ArUco dictionary to use.
+       - frame_interval_calib (int): The interval between frames to use for calibration.
+       - save_every_n_frames (int): The interval between frames to save.
+       - participant_id_start (int): The starting participant ID.
+       - participant_id_last (int): The last participant ID.
+        """
         self.start_participant = os.path.join(proj_repo, f'p{participant_id_start:02d}')
         self.end_participant = os.path.join(proj_repo, f'p{participant_id_last:02d}')
         self.participant_list = [os.path.join(proj_repo, f'{participant_id:02d}') for participant_id in
@@ -57,6 +72,12 @@ class CalibrateCorrect:
         self.video_parent_dir = None
 
     def singleCalibMultiCorrect(self):
+        """
+        Perform single calibration and multiple corrections.
+
+        This function goes through each participant directory and calibrates based on the 'CALIBRATION.MP4' video.
+        It then performs corrections on the other videos in the same directory.
+        """
         for participant_id in sorted(self.participant_list):
             for camera_view in os.listdir(participant_id):  # CAM_AV, CAM_LL, CAM_UL,
                 current_camera = os.path.join(participant_id, camera_view)
@@ -90,6 +111,15 @@ class CalibrateCorrect:
         self.correct_et_orig_dict.clear()
 
     def calibrate_single_video(self, single_video_calib):
+        """
+       Calibrate a single video.
+
+       Parameters:
+       - single_video_calib (str): The path to the video to be calibrated.
+
+       Returns:
+       - str: The path to the saved calibration parameters.
+       """
         self.video_parent_dir = os.path.dirname(single_video_calib)
         cap = cv2.VideoCapture(single_video_calib)
         if not cap.isOpened():
@@ -160,6 +190,16 @@ class CalibrateCorrect:
         return save_path
 
     def process_video(self, video_file_path, calib_file_path):
+        """
+        Process and correct a video based on calibration parameters.
+
+        Parameters:
+        - video_file_path (str): The path to the video file to be processed.
+        - calib_file_path (str): The path to the calibration parameters.
+
+        Returns:
+        - str: The path to the corrected video.
+        """
         if not os.path.exists(calib_file_path):
             self.logger.warrning((f'CALIBRATION DATA FILE {calib_file_path} NOT FOUND!', 'ERROR'))
             return
