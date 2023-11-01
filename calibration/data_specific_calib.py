@@ -2,6 +2,7 @@ import os
 
 import cv2
 import numpy as np
+from tqdm import tqdm
 
 from utils.logger_utils import setup_calibration_video_logger
 
@@ -30,7 +31,7 @@ def sep_direc_files(input_path):
 
 class CalibrateCorrect:
     def __init__(self, proj_repo, squaresX, squaresY, square_size, markerLength,
-                 dictionary='DICT_4X4_250', frame_interval_calib=5, save_every_n_frames=5,
+                 dictionary='DICT_4X4_100', frame_interval_calib=5, save_every_n_frames=5,
                  participant_id_start=1, participant_id_last=100):
         """
        Initialize the CalibrateCorrect class.
@@ -49,15 +50,17 @@ class CalibrateCorrect:
         """
         self.start_participant = os.path.join(proj_repo, f'p{participant_id_start:02d}')
         self.end_participant = os.path.join(proj_repo, f'p{participant_id_last:02d}')
-        self.participant_list = [os.path.join(proj_repo, f'{participant_id:02d}') for participant_id in
+        self.participant_list = [os.path.join(proj_repo, f'p{participant_id:02d}') for participant_id in
                                  range(participant_id_start, participant_id_last+1)]
 
         self.save_calib_frames = save_every_n_frames
         self.save_path_prefix = 'calib_param'
         self.frame_interval_calib = frame_interval_calib
         self.square_size = square_size
+        print(f'Type of Square size : {type(self.square_size)}')
         self.pattern_size = (squaresX, squaresY)
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(getattr(cv2.aruco, dictionary))
+        print('Pattern Size',          self.pattern_size)
         self.board = cv2.aruco.CharucoBoard(self.pattern_size, self.square_size / 1000, markerLength / 1000,
                                             self.aruco_dict)
         self.min_corners = 10  # 10
@@ -78,37 +81,46 @@ class CalibrateCorrect:
         This function goes through each participant directory and calibrates based on the 'CALIBRATION.MP4' video.
         It then performs corrections on the other videos in the same directory.
         """
-        for participant_id in sorted(self.participant_list):
-            for camera_view in os.listdir(participant_id):  # CAM_AV, CAM_LL, CAM_UL,
+        for participant_id in tqdm(sorted(self.participant_list), desc="Processing participants", position=0, leave=False):
+            for camera_view in tqdm(os.listdir(participant_id), desc='Processing camera views', position=0, leave=False):
                 current_camera = os.path.join(participant_id, camera_view)
-                self.logger.info(f'CURRENT CAMERA DIRECTORY- {current_camera}')
+                # self.logger.info(f'CURRENT CAMERA DIRECTORY- {current_camera}')
 
                 # Perform Calibration
                 calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
+
                 calib_file_path = self.calibrate_single_video(calib_video_file)
                 self.logger.debug(
-                    f'Calibration done for video {os.path.basename(calib_video_file)}. File saved at {calib_file_path}')
+                    f'Calibration done for video {os.path.basename(participant_id)} CAMERA {camera_view}. File saved at {calib_file_path}')
+
                 if calib_file_path is None:
-                    self.logger.critical(f'Calibration file {calib_file_path} does not exist')
+                    # self.logger.critical(f'Calibration file {calib_file_path} does not exist')
                     self.logger.critical('Calibration Failed. Exiting... MOVING TO NEXT ')
                     continue
-                else:
-                    self.logger.info('STARTING VIDEO CORRECTION', 'DEBUG')
-                    videos_camera_view = os.listdir(current_camera)
 
+                else:
+                    self.logger.info('STARTING VIDEO CORRECTION')
+                    videos_camera_view = os.listdir(current_camera)
+                    videos_camera_view = [i for i in videos_camera_view if i.endswith('MP4')]
                     # Perform Correction
                     if len(videos_camera_view) <= 10:
                         total_vids_len = len(videos_camera_view)
-                        for idx, video_file in videos_camera_view:
+                        for idx, video_file in enumerate(videos_camera_view):
+
                             if video_file.endswith('MP4'):
                                 video_file_path = os.path.join(current_camera, video_file)
-                                self.logger.info(f'Correcting Videos {idx + 1} of {total_vids_len}')
+                                self.logger.info(f'Correcting Videos {idx + 1} of {total_vids_len} of {camera_view} of {os.path.basename(participant_id)}')
+
                                 output_video_path = self.process_video(video_file_path, calib_file_path)
-                                self.correct_et_orig_dict[video_file] = output_video_path
-                                save_path_ = sep_direc_files(calib_file_path)
-                                output_vid_path_ = sep_direc_files(output_video_path)
-                                self.calibrate_correct_dict[video_file] = [save_path_, output_vid_path_]
-        self.correct_et_orig_dict.clear()
+                                self.logger.debug(f'Corrected VideoPath: {output_video_path}')
+                                print(f'Corrected VideoPath: {output_video_path}')
+                    else:
+                        print(f'Length of {camera_view} Videos more than 10')
+                                # self.correct_et_orig_dict[video_file] = output_video_path
+        #                         save_path_ = sep_direc_files(calib_file_path)
+        #                         output_vid_path_ = sep_direc_files(output_video_path)
+        #                         self.calibrate_correct_dict[video_file] = [save_path_, output_vid_path_]
+        # self.correct_et_orig_dict.clear()
 
     def calibrate_single_video(self, single_video_calib):
         """
@@ -138,56 +150,60 @@ class CalibrateCorrect:
             create_dir(rejected_folder)
         else:
             raise Exception
+        frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
+        with tqdm(total=frame_total // self.frame_interval_calib, desc='Processing frames', position=0, leave=False) as pbar:
 
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                self.logger.info(f'Done Processing Video {single_video_calib}', 'INFO')
-                break
-            if frame_count % self.frame_interval_calib == 0:
 
-                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-                corners, ids, _ = cv2.aruco.detectMarkers(gray, self.aruco_dict)
-                if len(corners) > 0:
-                    debug_frame = cv2.aruco.drawDetectedMarkers(frame.copy(), corners, ids)
-                    ret, charuco_corners, charuco_ids = cv2.aruco.interpolateCornersCharuco(corners, ids, gray,
-                                                                                            self.board,
-                                                                                            charucoIds=ids)
+            while True:
+                ret, frame = cap.read()
+                if not ret:
+                    self.logger.info(f'Done Processing Video {single_video_calib}')
+                    break
+                if frame_count % self.frame_interval_calib == 0:
+                    pbar.update(1)
+                    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                    corners, ids, _ = cv2.aruco.detectMarkers(gray, self.aruco_dict)
+                    if len(corners) > 0:
+                        debug_frame = cv2.aruco.drawDetectedMarkers(frame.copy(), corners, ids)
+                        ret, charuco_corners, charuco_ids = cv2.aruco.interpolateCornersCharuco(corners, ids, gray,
+                                                                                                self.board,
+                                                                                                charucoIds=ids)
 
-                    if not ret or len(charuco_corners) <= self.min_corners:
-                        self.logger.warning(f'Frame {frame_count}- Not enough corners for interpolation')
-                        rejected_frame_filename = os.path.join(rejected_folder, f'{video_name}_{frame_count}.png')
-                        cv2.imwrite(rejected_frame_filename, debug_frame)
+                        if not ret or len(charuco_corners) <= self.min_corners:
+                            # self.logger.warning(f'Frame {frame_count}- Not enough corners for interpolation')
+                            rejected_frame_filename = os.path.join(rejected_folder, f'{video_name}_{frame_count}.png')
+                            cv2.imwrite(rejected_frame_filename, debug_frame)
 
+                        else:
+                            all_charuco_corners.append(charuco_corners)
+                            all_charuco_ids.append(charuco_ids)
+                            if self.save_calib_frames is not None and frame_count % self.save_calib_frames == 0:
+                                frame_filename = os.path.join(calib_frames, video_name,
+                                                              f'{video_name}_{frame_count}.png')
+                                cv2.imwrite(frame_filename, debug_frame)
                     else:
-                        all_charuco_corners.append(charuco_corners)
-                        all_charuco_ids.append(charuco_ids)
-                        if self.save_calib_frames is not None and frame_count % self.save_calib_frames == 0:
-                            frame_filename = os.path.join(calib_frames, video_name,
-                                                          f'{video_name}_{frame_count}.png')
-                            cv2.imwrite(frame_filename, debug_frame)
-                else:
-                    self.logger.critical(f"Frame {frame_count} - Not enough corners for interpolation")
+                        continue
+                        # self.logger.critical(f"Frame {frame_count} - Not enough corners for interpolation")
 
-            frame_count += 1
+                frame_count += 1
 
-        save_path = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(single_video_calib).split('.')[0]}.npz"
-        if len(all_charuco_corners) > 0 and len(all_charuco_ids) > 0:
-            valid_views = [i for i, corners in enumerate(all_charuco_corners) if len(corners) >= 4]
-            all_charuco_corners = [all_charuco_corners[i] for i in valid_views]
-            all_charuco_ids = [all_charuco_ids[i] for i in valid_views]
+            save_path = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(single_video_calib).split('.')[0]}.npz"
+            if len(all_charuco_corners) > 0 and len(all_charuco_ids) > 0:
+                valid_views = [i for i, corners in enumerate(all_charuco_corners) if len(corners) >= 4]
+                all_charuco_corners = [all_charuco_corners[i] for i in valid_views]
+                all_charuco_ids = [all_charuco_ids[i] for i in valid_views]
 
-            self.logger.info('COMPUTING EXTRINSIC AND INTRINSIC PARAMETERS')
-            ret, mtx, dist, rvecs, tvecs = cv2.aruco.calibrateCameraCharuco(all_charuco_corners, all_charuco_ids,
-                                                                            self.board, gray.shape[::-1], None,
-                                                                            None)
-            np.savez(save_path, mtx=mtx, dist=dist, rvecs=rvecs, tvecs=tvecs)
+                self.logger.info('COMPUTING EXTRINSIC AND INTRINSIC PARAMETERS')
+                ret, mtx, dist, rvecs, tvecs = cv2.aruco.calibrateCameraCharuco(all_charuco_corners, all_charuco_ids,
+                                                                                self.board, gray.shape[::-1], None,
+                                                                                None)
+                np.savez(save_path, mtx=mtx, dist=dist, rvecs=rvecs, tvecs=tvecs)
 
-        else:
-            self.logger.info('NOT ENOUGH CORNERS FOR CALIBRATION. EXITING...')
+            else:
+                self.logger.info('NOT ENOUGH CORNERS FOR CALIBRATION. EXITING...')
 
-        cap.release()
-        return save_path
+            cap.release()
+            return save_path
 
     def process_video(self, video_file_path, calib_file_path):
         """
@@ -214,31 +230,49 @@ class CalibrateCorrect:
         frame_width = int(cap.get(3))
         frame_height = int(cap.get(4))
         fps = int(cap.get(cv2.CAP_PROP_FPS))
-        output_video_path = f'{video_file_path}/{video_name_}.MP4'
-        out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps,
-                              (frame_width, frame_height))
+        new_camera_mtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (frame_width, frame_height), 1, (frame_width, frame_height))
+
+        output_video_path = os.path.join(os.path.dirname(video_file_path), f'{video_name_}_CC.MP4')
+        x, y, w, h = roi
+        if w > 0 and h > 0:
+            out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, (w, h))
+        else:
+            out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, (frame_width, frame_height))
+
+        # out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps,
+        #                       (frame_width, frame_height))
         self.logger.info(f"Correcting {video_name}")
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                break
+        frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
+        with tqdm(total=frame_total, desc=f'Correcting Video {video_name_}', position=0, leave=False) as pbar:
+            while True:
+                ret, frame = cap.read()
+                if not ret:
+                    break
+                corrected = cv2.undistort(frame, mtx, dist, None, new_camera_mtx)
+                if w> 0 and h> 0:
+                    corrected = corrected[y:y+h, x:x+w]
+                out.write(corrected)
+                pbar.update(1)
 
-            corrected = cv2.undistort(frame, mtx, dist, None, mtx)
-            out.write(corrected)
-
-        cap.release()
-        out.release()
-        return output_video_path
+            cap.release()
+            out.release()
+            try:
+                os.remove(video_file_path)
+                self.logger.info(f'Successfully deleted video file: {video_file_path}')
+            except Exception as e:
+                self.logger.error(f'Failed to delete the original video file: {video_file_path}. Error: {e}')
+            return output_video_path
 
 
 if __name__ == '__main__':
-    proj_repo = ''
+    proj_repo = '/home/qub-hri/Documents/PHEO Waiting Data'
     squareX = 16
     squareY = 11
     square_size = 33
-    markerLength = 26,
-    dictionary = 'DICT_4X4_250'
-    participant_id_last = 5
+    markerLength = 26
+    dictionary = 'DICT_4X4_100'
+    participant_id_last = 10
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_last=participant_id_last)
+                             dictionary=dictionary, participant_id_last=participant_id_last, participant_id_start=2)
+    calib.singleCalibMultiCorrect()
