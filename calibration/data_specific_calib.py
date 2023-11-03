@@ -3,9 +3,9 @@ import os
 import cv2
 import numpy as np
 from tqdm import tqdm
-
+from datetime import datetime
+import csv
 from logger_utils import setup_calibration_video_logger
-
 
 DICTIONARY = [
     'DICT_4X4_50', 'DICT_4X4_100', 'DICT_4X4_250', 'DICT_4X4_1000', 'DICT_5X5_50',
@@ -27,6 +27,19 @@ def sep_direc_files(input_path):
     path_parts = input_path.split(os.sep)
     sep_dir_files_path = os.path.join(path_parts[-2], path_parts[-1])
     return sep_dir_files_path
+
+
+def log_exists(filename, row):
+    with open(filename, mode='r', newline='', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        for existing_row in reader:
+            if all(str(cell).strip() == str(value) for cell, value in zip(existing_row, row)):
+                return True
+    return False
+
+
+def is_empty(filename):
+    return os.path.getsize(filename) == 0
 
 
 class CalibrateCorrect:
@@ -51,7 +64,7 @@ class CalibrateCorrect:
         self.start_participant = os.path.join(proj_repo, f'p{participant_id_start:02d}')
         self.end_participant = os.path.join(proj_repo, f'p{participant_id_last:02d}')
         self.participant_list = [os.path.join(proj_repo, f'p{participant_id:02d}') for participant_id in
-                                 range(participant_id_start, participant_id_last+1)]
+                                 range(participant_id_start, participant_id_last + 1)]
 
         self.save_calib_frames = save_every_n_frames
         self.save_path_prefix = 'calib_param'
@@ -60,7 +73,7 @@ class CalibrateCorrect:
         print(f'Type of Square size : {type(self.square_size)}')
         self.pattern_size = (squaresX, squaresY)
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(getattr(cv2.aruco, dictionary))
-        print('Pattern Size',          self.pattern_size)
+        print('Pattern Size', self.pattern_size)
         self.board = cv2.aruco.CharucoBoard(self.pattern_size, self.square_size / 1000, markerLength / 1000,
                                             self.aruco_dict)
         self.min_corners = 10  # 10
@@ -81,52 +94,79 @@ class CalibrateCorrect:
         This function goes through each participant directory and calibrates based on the 'CALIBRATION.MP4' video.
         It then performs corrections on the other videos in the same directory.
         """
-        for participant_id in tqdm(sorted(self.participant_list), desc="Processing participants", position=0, leave=False):
-            for camera_view in tqdm(os.listdir(participant_id), desc='Processing camera views', position=0, leave=False):
-                current_camera = os.path.join(participant_id, camera_view)
-                # self.logger.info(f'CURRENT CAMERA DIRECTORY- {current_camera}')
+        os.makedirs('csvlogs') if not os.path.exists('csvlogs') else None
+        # current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
-                # Perform Calibration
+        with open(f'csvlogs/calibrated_videos.csv', mode='a', newline='') as c_file:
+            calibrated_videos_writer = csv.writer(c_file)
+            if is_empty('csvlogs/calibrated_videos.csv'):
+                calibrated_videos_writer.writerow(["ParticipantID", "CameraViews", "CorrectedVideos"])
 
-                calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
-                self.video_parent_dir = os.path.dirname(calib_video_file)
-                calib_file = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(calib_video_file).split('.')[0]}.npz"
-                if not os.path.exists(calib_file):
-                    calib_file_path = self.calibrate_single_video(calib_video_file)
-                else:
-                    self.logger.info(f'Calibration file {calib_file} already exists for participant {os.path.basename(participant_id)} camera view {camera_view}')
-                    calib_file_path = calib_file
-                self.logger.debug(
-                    f'Calibration done for video {os.path.basename(participant_id)} CAMERA {camera_view}. File saved at {calib_file_path}')
+            # Create or open a log file to log directories with more than 10 videos
+            with open(f'csvlogs/video_stats.csv', mode='a', newline='') as v_file:
+                # Write headers to log files
+                video_stats_writer = csv.writer(v_file)
+                if is_empty('csvlogs/video_stats.csv'):
+                    video_stats_writer.writerow(["ParticipantID", "CameraViews", "VideosCount"])
 
-                if calib_file_path is None:
-                    # self.logger.critical(f'Calibration file {calib_file_path} does not exist')
-                    self.logger.critical('Calibration Failed. Exiting... MOVING TO NEXT ')
-                    continue
-
-                else:
-                    self.logger.info('STARTING VIDEO CORRECTION')
-                    videos_camera_view = os.listdir(current_camera)
-                    videos_camera_view = [i for i in videos_camera_view if i.endswith('MP4')]
-                    # Perform Correction
-                    if len(videos_camera_view) <= 10:
-                        total_vids_len = len(videos_camera_view)
-                        for idx, video_file in enumerate(videos_camera_view):
-
-                            if video_file.endswith('MP4'):
-                                video_file_path = os.path.join(current_camera, video_file)
-                                self.logger.info(f'Correcting Videos {idx + 1} of {total_vids_len} of {camera_view} of {os.path.basename(participant_id)}')
-
-                                output_video_path = self.process_video(video_file_path, calib_file_path)
-                                self.logger.debug(f'Corrected VideoPath: {output_video_path}')
-                                print(f'Corrected VideoPath: {output_video_path}')
+                for participant_id in tqdm(sorted(self.participant_list), desc="Processing participants", position=0,
+                                           leave=False):
+                    if not os.path.exists(participant_id):
+                        self.logger.info(f'{participant_id} not exist')
+                        pass
                     else:
-                        print(f'Length of {camera_view} Videos more than 10')
-                                # self.correct_et_orig_dict[video_file] = output_video_path
-        #                         save_path_ = sep_direc_files(calib_file_path)
-        #                         output_vid_path_ = sep_direc_files(output_video_path)
-        #                         self.calibrate_correct_dict[video_file] = [save_path_, output_vid_path_]
-        # self.correct_et_orig_dict.clear()
+                        for camera_view in tqdm(os.listdir(participant_id), desc='Processing camera views', position=0,
+                                                leave=False):
+                            current_camera = os.path.join(participant_id, camera_view)
+
+                            # Perform Calibration
+
+                            calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
+                            self.video_parent_dir = os.path.dirname(calib_video_file)
+                            calib_file = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(calib_video_file).split('.')[0]}.npz"
+                            if not os.path.exists(calib_file):
+                                calib_file_path = self.calibrate_single_video(calib_video_file)
+                                pass
+                            else:
+                                self.logger.info(
+                                    f'Calibration file {calib_file} already exists for participant {os.path.basename(participant_id)} camera view {camera_view}')
+                                calib_file_path = calib_file
+                            self.logger.debug(
+                                f'Calibration done for video {os.path.basename(participant_id)} CAMERA {camera_view}. File saved at {calib_file_path}')
+
+                            if calib_file_path is None:
+                                # self.logger.critical(f'Calibration file {calib_file_path} does not exist')
+                                self.logger.critical('Calibration Failed. Exiting... MOVING TO NEXT ')
+                                continue
+
+                            else:
+                                self.logger.info('STARTING VIDEO CORRECTION')
+                                videos_camera_view = os.listdir(current_camera)
+                                videos_camera_view = [i for i in videos_camera_view if i.endswith('MP4')]
+                                # Perform Correction
+                                if len(videos_camera_view) <= 10:
+                                    total_vids_len = len(videos_camera_view)
+                                    corrected_video_count = 0
+                                    for idx, video_file in enumerate(videos_camera_view):
+                                        if video_file.endswith('MP4'):
+                                            video_file_path = os.path.join(current_camera, video_file)
+                                            self.logger.info(
+                                                f'Correcting Videos {idx + 1} of {total_vids_len} of {camera_view} of {os.path.basename(participant_id)}')
+                                            output_video_path = self.process_video(video_file_path, calib_file_path)
+                                            self.logger.debug(f'Corrected VideoPath: {output_video_path}')
+                                            print(f'Corrected VideoPath: {output_video_path}')
+                                            corrected_video_count += 1
+                                    data_stats = [os.path.basename(participant_id), os.path.basename(current_camera),
+                                                  corrected_video_count]
+                                    if not log_exists(f'csvlogs/calibrated_videos.csv', data_stats):
+                                        calibrated_videos_writer.writerow(data_stats)
+
+                                else:
+                                    more_than_10 = [os.path.basename(participant_id), os.path.basename(current_camera),
+                                                    len(os.listdir(current_camera))]
+                                    if not log_exists(f'csvlogs/video_stats.csv', more_than_10):
+                                        video_stats_writer.writerow(more_than_10)
+                                    self.logger.critical(f'Length of {camera_view} Videos more than 10')
 
     def calibrate_single_video(self, single_video_calib):
         """
@@ -157,7 +197,8 @@ class CalibrateCorrect:
         else:
             raise Exception
         frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
-        with tqdm(total=frame_total // self.frame_interval_calib, desc='Processing frames', position=0, leave=False) as pbar:
+        with tqdm(total=frame_total // self.frame_interval_calib, desc='Processing frames', position=0,
+                  leave=False) as pbar:
             while True:
                 ret, frame = cap.read()
                 if not ret:
@@ -278,8 +319,8 @@ if __name__ == '__main__':
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    participant_id_last = 10
+    # participant_id_last = 10
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_last=participant_id_last, participant_id_start=1)
+                             dictionary=dictionary, participant_id_last=20, participant_id_start=11)
     calib.singleCalibMultiCorrect()
