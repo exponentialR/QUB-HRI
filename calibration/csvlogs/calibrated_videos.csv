@@ -1,0 +1,10 @@
+ParticipantID,CameraViews,CorrectedVideos
+p11,CAM_UL,9
+p11,CAM_UR,9
+p11,CAM_LL,9
+p11,CAM_UL,0
+p11,CAM_UR,0
+p11,CAM_LL,0
+p11,CAM_AV,9
+p11,CAM_LR,9
+p12,CAM_UL,10

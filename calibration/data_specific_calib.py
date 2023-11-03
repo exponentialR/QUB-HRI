@@ -194,6 +194,7 @@ class CalibrateCorrect:
             rejected_folder = os.path.join(self.video_parent_dir, 'RejectedCalibFrames')
             calib_frames = os.path.join(self.video_parent_dir, 'CalibrationFrames')
             create_dir(rejected_folder)
+            create_dir(calib_frames)
         else:
             raise Exception
         frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
@@ -223,7 +224,7 @@ class CalibrateCorrect:
                             all_charuco_corners.append(charuco_corners)
                             all_charuco_ids.append(charuco_ids)
                             if self.save_calib_frames is not None and frame_count % self.save_calib_frames == 0:
-                                frame_filename = os.path.join(calib_frames, video_name,
+                                frame_filename = os.path.join(calib_frames,
                                                               f'{video_name}_{frame_count}.png')
                                 cv2.imwrite(frame_filename, debug_frame)
                     else:
@@ -322,5 +323,5 @@ if __name__ == '__main__':
     # participant_id_last = 10
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_last=20, participant_id_start=11)
+                             dictionary=dictionary, participant_id_last=15, participant_id_start=11)
     calib.singleCalibMultiCorrect()
