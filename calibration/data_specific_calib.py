@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-from utils.logger_utils import setup_calibration_video_logger
+from logger_utils import setup_calibration_video_logger
 
 
 DICTIONARY = [
@@ -87,9 +87,15 @@ class CalibrateCorrect:
                 # self.logger.info(f'CURRENT CAMERA DIRECTORY- {current_camera}')
 
                 # Perform Calibration
-                calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
 
-                calib_file_path = self.calibrate_single_video(calib_video_file)
+                calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
+                self.video_parent_dir = os.path.dirname(calib_video_file)
+                calib_file = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(calib_video_file).split('.')[0]}.npz"
+                if not os.path.exists(calib_file):
+                    calib_file_path = self.calibrate_single_video(calib_video_file)
+                else:
+                    self.logger.info(f'Calibration file {calib_file} already exists for participant {os.path.basename(participant_id)} camera view {camera_view}')
+                    calib_file_path = calib_file
                 self.logger.debug(
                     f'Calibration done for video {os.path.basename(participant_id)} CAMERA {camera_view}. File saved at {calib_file_path}')
 
@@ -152,8 +158,6 @@ class CalibrateCorrect:
             raise Exception
         frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
         with tqdm(total=frame_total // self.frame_interval_calib, desc='Processing frames', position=0, leave=False) as pbar:
-
-
             while True:
                 ret, frame = cap.read()
                 if not ret:
@@ -229,39 +233,42 @@ class CalibrateCorrect:
         cap = cv2.VideoCapture(video_file_path)
         frame_width = int(cap.get(3))
         frame_height = int(cap.get(4))
+        print(f'Original frame width x height: {frame_width} x {frame_height}')
         fps = int(cap.get(cv2.CAP_PROP_FPS))
-        new_camera_mtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (frame_width, frame_height), 1, (frame_width, frame_height))
+        print(f"The FPS of the video is {fps}")
 
-        output_video_path = os.path.join(os.path.dirname(video_file_path), f'{video_name_}_CC.MP4')
-        x, y, w, h = roi
-        if w > 0 and h > 0:
-            out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, (w, h))
-        else:
-            out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, (frame_width, frame_height))
+        # new_camera_mtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (frame_width, frame_height), 1, (frame_width, frame_height))
 
-        # out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps,
-        #                       (frame_width, frame_height))
-        self.logger.info(f"Correcting {video_name}")
-        frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
-        with tqdm(total=frame_total, desc=f'Correcting Video {video_name_}', position=0, leave=False) as pbar:
-            while True:
-                ret, frame = cap.read()
-                if not ret:
-                    break
-                corrected = cv2.undistort(frame, mtx, dist, None, new_camera_mtx)
-                if w> 0 and h> 0:
-                    corrected = corrected[y:y+h, x:x+w]
-                out.write(corrected)
-                pbar.update(1)
-
-            cap.release()
-            out.release()
-            try:
-                os.remove(video_file_path)
-                self.logger.info(f'Successfully deleted video file: {video_file_path}')
-            except Exception as e:
-                self.logger.error(f'Failed to delete the original video file: {video_file_path}. Error: {e}')
+        output_video_path = os.path.join(os.path.dirname(video_file_path), f'{video_name_}_CC.avi')
+        if os.path.exists(output_video_path):
+            self.logger.info(f'Video Already corrected Proceeding to next Video')
             return output_video_path
+        else:
+            # x, y, w, h = roi
+            # print(f'Width x Height: {w} x {h}')
+            fourcc = cv2.VideoWriter_fourcc(*'XVID')
+
+            out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
+
+            self.logger.info(f"Correcting {video_name}")
+            frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get total number of frames
+            with tqdm(total=frame_total, desc=f'Correcting Video {video_name_}', position=0, leave=False) as pbar:
+                while True:
+                    ret, frame = cap.read()
+                    if not ret:
+                        break
+                    corrected = cv2.undistort(frame, mtx, dist, None, mtx)
+                    out.write(corrected)
+                    pbar.update(1)
+
+                cap.release()
+                out.release()
+                try:
+                    os.remove(video_file_path)
+                    self.logger.info(f'Successfully deleted video file: {video_file_path}')
+                except Exception as e:
+                    self.logger.error(f'Failed to delete the original video file: {video_file_path}. Error: {e}')
+                return output_video_path
 
 
 if __name__ == '__main__':
@@ -274,5 +281,5 @@ if __name__ == '__main__':
     participant_id_last = 10
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_last=participant_id_last, participant_id_start=2)
+                             dictionary=dictionary, participant_id_last=participant_id_last, participant_id_start=1)
     calib.singleCalibMultiCorrect()

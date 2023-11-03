@@ -1,8 +1,7 @@
-import csv
 from datetime import datetime
 from pathlib import Path
 import os
-from utils.logger_utils import setup_calibration_video_logger
+from calibration.logger_utils import setup_calibration_video_logger
 from shutil import move
 
 logger = setup_calibration_video_logger()
