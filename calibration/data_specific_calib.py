@@ -76,9 +76,8 @@ class CalibrateCorrect:
         print('Pattern Size', self.pattern_size)
         self.board = cv2.aruco.CharucoBoard(self.pattern_size, self.square_size / 1000, markerLength / 1000,
                                             self.aruco_dict)
-        self.min_corners = 10  # 10
+        self.min_corners = 15  # 10
         self.calibration_params = None  # To store calibration parameters
-        self.current_frame_number = 0
         self.video_name = None
         self.correct_et_orig_dict = {}
         self.cap_orig = None
