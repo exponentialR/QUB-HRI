@@ -10,6 +10,7 @@ COLOURS = {
     'ENDC': '\033[0m'
 }
 
+
 class CalibrationVideoFormatter(logging.Formatter):
     def format(self, record):
         record.frame_number = record.frame_number if hasattr(record, 'frame_number') else 'N/A'
@@ -17,9 +18,10 @@ class CalibrationVideoFormatter(logging.Formatter):
         log_message = super().format(record)
         return f"{COLOURS[record.levelname]}{log_message}{COLOURS['ENDC']}"
 
-def setup_calibration_video_logger():
+
+def setup_calibration_video_logger(logger_name="Video-Calibration-Correction"):
     # Create logger
-    logger = logging.getLogger("Video-Calibration-Correction")
+    logger = logging.getLogger(logger_name)
     logger.setLevel(logging.DEBUG)
 
     # Create console handler
@@ -37,6 +39,7 @@ def setup_calibration_video_logger():
     logger.addHandler(console_handler)
 
     return logger
+
 
 if __name__ == "__main__":
     logger = setup_calibration_video_logger()
