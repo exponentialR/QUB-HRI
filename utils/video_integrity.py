@@ -38,7 +38,7 @@ class CheckVidIntegrity:
             video_integrity_writer = csv.writer(c_file)
             if is_empty('csvlogs/video_integrity.csv'):
                 video_integrity_writer.writerow(
-                    ["ParticipantID", "CameraViews", "Video", "FPS", "FrameCount", "WIDTH", "HEIGHT"])
+                    ["ParticipantID", "CameraViews", "Video", "FPS", "FrameCount", "WIDTH", "HEIGHT", 'DURATION'])
 
             # Create or open a log file to log directories with more than 10 videos
             with open(f'csvlogs/differ_integrity.csv', mode='a', newline='') as v_file:
@@ -46,7 +46,7 @@ class CheckVidIntegrity:
                 differ_integrity_writer = csv.writer(v_file)
                 if is_empty('csvlogs/differ_integrity.csv'):
                     differ_integrity_writer.writerow(
-                        ["ParticipantID", "CameraViews", "Video", "FPS", "FrameCount", "WIDTH", "HEIGHT"])
+                        ["ParticipantID", "CameraViews", "Video", "FPS", "FrameCount", "WIDTH", "HEIGHT", 'DURATION'])
 
                 for participant_id in tqdm(sorted(self.participant_list), desc="Processing participants", position=0,
                                            leave=False):
