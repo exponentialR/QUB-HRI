@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 import os
-from calibration.logger_utils import setup_calibration_video_logger
+from logger_utils import setup_calibration_video_logger
 from shutil import move
 
 logger = setup_calibration_video_logger()
@@ -71,6 +71,13 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
                             # Skip if the first video is already named 'CALIBRATION.MP4'
 
                             if camera_view_videos[0].lower() == 'calibration.mp4':
+                                if camera_view_videos[0] == 'Calibration.MP4':
+                                    original_video_path = os.path.join(camera_view, 'Calibration.MP4')
+                                    new_video_filepath = os.path.join(camera_view, 'CALIBRATION.MP4')
+                                    os.rename(original_video_path, new_video_filepath)
+                                    logger.info(f'Renamed {original_video_path} to {new_video_filepath}')
+                                    renamed_file.write(f"{original_video_path}, {new_video_filepath}\n")
+
                                 logger.info(
                                     f'{os.path.basename(participant_id)} camera view {os.path.basename(camera_view)} already renamed for Calibration')
                                 print(camera_view_videos[0])
@@ -83,7 +90,7 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
                                 # Loop through each video file to rename it
                                 for original_video_path in camera_view_videos:
                                     new_video_filepath = os.path.join(camera_view, 'CALIBRATION.MP4')
-
+                                    print(f'Original Video Path: {original_video_path}')
                                     # Check if the original video file exists
                                     if os.path.exists(original_video_path):
 
@@ -104,6 +111,6 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
 
 
 if __name__ == '__main__':
-    parent_dir = '/home/qub-hri/Documents/PHEO Waiting Data'
-    cached_bin = '/home/qub-hri/Documents/PHEO Waiting Data/Cached-THM'
-    rearrange_pheo(parent_dir, 11, 20, cached_bin)
+    parent_dir = '/home/iamshri/Documents/PHEO-Data'
+    cached_bin = '/home/iamshri/Documents/PHEO-Data/Cached-THM'
+    rearrange_pheo(parent_dir, 21, 30, cached_bin)

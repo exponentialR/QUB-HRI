@@ -70,10 +70,8 @@ class CalibrateCorrect:
         self.save_path_prefix = 'calib_param'
         self.frame_interval_calib = frame_interval_calib
         self.square_size = square_size
-        print(f'Type of Square size : {type(self.square_size)}')
         self.pattern_size = (squaresX, squaresY)
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(getattr(cv2.aruco, dictionary))
-        print('Pattern Size', self.pattern_size)
         self.board = cv2.aruco.CharucoBoard(self.pattern_size, self.square_size / 1000, markerLength / 1000,
                                             self.aruco_dict)
         self.min_corners = 15  # 10
@@ -86,34 +84,36 @@ class CalibrateCorrect:
         self.logger = setup_calibration_video_logger()
         self.video_parent_dir = None
 
-    def singleCalibMultiCorrect(self):
+    def SingleCalibMultiCorrect(self):
         """
         Perform single calibration and multiple corrections.
 
         This function goes through each participant directory and calibrates based on the 'CALIBRATION.MP4' video.
         It then performs corrections on the other videos in the same directory.
         """
+
         os.makedirs('csvlogs') if not os.path.exists('csvlogs') else None
-        # current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
         with open(f'csvlogs/calibrated_videos.csv', mode='a', newline='') as c_file:
+
             calibrated_videos_writer = csv.writer(c_file)
+
             if is_empty('csvlogs/calibrated_videos.csv'):
                 calibrated_videos_writer.writerow(["ParticipantID", "CameraViews", "CorrectedVideos"])
+
 
             # Create or open a log file to log directories with more than 10 videos
             with open(f'csvlogs/video_stats.csv', mode='a', newline='') as v_file:
                 # Write headers to log files
                 video_stats_writer = csv.writer(v_file)
+
                 if is_empty('csvlogs/video_stats.csv'):
                     video_stats_writer.writerow(["ParticipantID", "CameraViews", "VideosCount"])
 
                 for participant_id in tqdm(sorted(self.participant_list), desc="Processing participants", position=0,
                                            leave=False):
-                    if not os.path.exists(participant_id):
-                        self.logger.info(f'{participant_id} not exist')
-                        pass
-                    else:
+                    print(participant_id)
+                    if os.path.exists(participant_id):
                         for camera_view in tqdm(os.listdir(participant_id), desc='Processing camera views', position=0,
                                                 leave=False):
                             current_camera = os.path.join(participant_id, camera_view)
@@ -166,6 +166,9 @@ class CalibrateCorrect:
                                     if not log_exists(f'csvlogs/video_stats.csv', more_than_10):
                                         video_stats_writer.writerow(more_than_10)
                                     self.logger.critical(f'Length of {camera_view} Videos more than 10')
+                    else:
+                        self.logger.info(f'{participant_id} not exist')
+                        pass
 
     def calibrate_single_video(self, single_video_calib):
         """
@@ -177,6 +180,7 @@ class CalibrateCorrect:
        Returns:
        - str: The path to the saved calibration parameters.
        """
+
         self.video_parent_dir = os.path.dirname(single_video_calib)
         cap = cv2.VideoCapture(single_video_calib)
         if not cap.isOpened():
@@ -313,14 +317,14 @@ class CalibrateCorrect:
 
 
 if __name__ == '__main__':
-    proj_repo = '/home/qub-hri/Documents/PHEO Waiting Data'
+    proj_repo = '/home/iamshri/Documents/PHEO-Data'
     squareX = 16
     squareY = 11
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    # participant_id_last = 10
+    participant_id_last = 10
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_last=15, participant_id_start=11)
-    calib.singleCalibMultiCorrect()
+                             dictionary=dictionary, participant_id_start=21, participant_id_last=30)
+    calib.SingleCalibMultiCorrect()
