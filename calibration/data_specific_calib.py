@@ -101,7 +101,6 @@ class CalibrateCorrect:
             if is_empty('csvlogs/calibrated_videos.csv'):
                 calibrated_videos_writer.writerow(["ParticipantID", "CameraViews", "CorrectedVideos"])
 
-
             # Create or open a log file to log directories with more than 10 videos
             with open(f'csvlogs/video_stats.csv', mode='a', newline='') as v_file:
                 # Write headers to log files
