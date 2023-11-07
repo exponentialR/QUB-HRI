@@ -322,8 +322,11 @@ if __name__ == '__main__':
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    participant_id_last = 10
+    start_participant = 31
+    end_participant = 40
+    logger = setup_calibration_video_logger()
+    logger.info(f'Starting Video Calibration and Correction for Participants p{start_participant:02d} to p{end_participant:02d}')
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
-                             dictionary=dictionary, participant_id_start=21, participant_id_last=30)
+                             dictionary=dictionary, participant_id_start=start_participant, participant_id_last=end_participant)
     calib.SingleCalibMultiCorrect()
