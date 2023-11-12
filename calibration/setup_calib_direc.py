@@ -114,4 +114,4 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
 if __name__ == '__main__':
     parent_dir = '/home/iamshri/Documents/PHEO-Data'
     cached_bin = '/home/iamshri/Documents/PHEO-Data/Cached-THM'
-    rearrange_pheo(parent_dir, 31, 40, cached_bin)
+    rearrange_pheo(parent_dir, 41, 50, cached_bin)
