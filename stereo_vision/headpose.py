@@ -170,15 +170,21 @@ class HeadPose:
         process_thread.join()
         pose_thread.join()
 
+
 if __name__ == '__main__':
     video_direc = '/home/iamshri/Documents/Test-Video/p41/CAM_LL/GX010539_CC.avi'
     video_direc = '/home/iamshri/Documents/Test-Video/p41/CAM_LR/GX010508_CC.avi'
     calibration_file = '/home/iamshri/Documents/Test-Video/p41/CAM_LL/calib_param_CALIBRATION.npz'
-    head_pose_estimator = HeadPose(cap=video_direc, calibration_data=calibration_file)
+    head_pose_estimator = HeadPose(cap=0)
     head_pose_estimator.run()
     # if cv2.cuda.getCudaEnabledDeviceCount() > 0:
     #     print('CUDA device found! Running on GPU.')
     # else:
     #     print('No CUDA device found, running on CPU.')
+        self.void_space_ratio = void_space_ratio
 
-
+    def create_composite_view(self, aerial_view, void_space_height):
+        composite_height = aerial_view.shape[0] + void_space_height
+        composite_view = np.zeros((composite_height, aerial_view.shape[1], 3), dtype=np.uint8)
+        composite_view[void_space_height:, :, :] = aerial_view
+        return composite_view

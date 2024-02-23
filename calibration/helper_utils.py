@@ -12,8 +12,8 @@ def create_dir(directory):
 
 
 def calibrate_single_video(single_video_calib, aruco_dict, board, frame_interval_calib, min_corners,
-                                      save_calib_frames=None, max_calib_frames=50,
-                                      save_path_prefix="CalibrationResult"):
+                           save_calib_frames=None, max_calib_frames=50,
+                           save_path_prefix="CalibrationResult"):
     """
     Standalone function to calibrate a single video.
 
@@ -49,21 +49,27 @@ def calibrate_single_video(single_video_calib, aruco_dict, board, frame_interval
     create_dir(calib_frames)
 
     frame_total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    with tqdm(total=frame_total // frame_interval_calib, desc='Processing frames', position=0, leave=False) as pbar:
+    expected_updates = min(frame_total // frame_interval_calib, max_calib_frames)
+
+    with tqdm(total=expected_updates, desc='Processing frames', position=0, leave=False) as pbar:
         while True:
             if calib_frame_count >= max_calib_frames:
                 print(f'Maximum calibration frames ({max_calib_frames}) reached. Stopping...')
                 break
+
             ret, frame = cap.read()
             if not ret:
                 print(f'Done Processing Video {single_video_calib}')
                 break
+
             if frame_count % frame_interval_calib == 0:
                 pbar.update(1)
                 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
                 corners, ids, _ = cv2.aruco.detectMarkers(gray, aruco_dict)
+
                 if len(corners) > 0:
                     debug_frame = cv2.aruco.drawDetectedMarkers(frame.copy(), corners, ids)
+                    cv2.imshow('frame', debug_frame)
                     ret, charuco_corners, charuco_ids = cv2.aruco.interpolateCornersCharuco(corners, ids, gray, board,
                                                                                             charucoIds=ids)
                     if not ret or len(charuco_corners) <= min_corners:
@@ -92,3 +98,11 @@ def calibrate_single_video(single_video_calib, aruco_dict, board, frame_interval
 
     cap.release()
     return save_path
+
+
+if __name__ == '__main__':
+    calibrate_single_video('/home/qub-hri/Documents/QUBVisionData/temp/p01/CAM_LL/Original_CALIBRATION.MP4',
+                           cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_100),
+                           cv2.aruco.CharucoBoard((16, 11), 33 / 1000, 26 / 1000,
+                                                  cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_100)),
+                           10, 15, 10, 50, 'CalibrationResult')
