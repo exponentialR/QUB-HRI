@@ -7,7 +7,7 @@ from shutil import move
 logger = setup_calibration_video_logger()
 
 
-def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_path):
+def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_path, max_videos=13):
     """
     Renames video files in specific directories to 'CALIBRATION.MP4' based on certain conditions.
 
@@ -66,7 +66,7 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
                                     logger.info(f'Moved {original_thm_path} to {new_thm_filepath}')
 
                         # Check if there are 10 or fewer MP4 files
-                        if len(camera_view_videos) <= 10:
+                        if len(camera_view_videos) <= max_videos:
 
                             # Skip if the first video is already named 'CALIBRATION.MP4'
 
@@ -86,32 +86,27 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
                                 # Generate full file paths for each video file
                                 camera_view_videos = [os.path.join(camera_view, video_file) for video_file in
                                                       camera_view_videos]
-
-                                # Loop through each video file to rename it
-                                for original_video_path in camera_view_videos:
+                                if camera_view_videos[0].lower() != 'calibration.mp4':
+                                    original_video_path = camera_view_videos[0]
                                     new_video_filepath = os.path.join(camera_view, 'CALIBRATION.MP4')
                                     print(f'Original Video Path: {original_video_path}')
                                     # Check if the original video file exists
-                                    if os.path.exists(original_video_path):
+                                    if not os.path.exists(new_video_filepath):
+                                        os.rename(original_video_path, new_video_filepath)
+                                        logger.info(f'Renamed {original_video_path} to {new_video_filepath}')
+                                        renamed_file.write(f"{original_video_path}, {new_video_filepath}\n")
 
-                                        # Check if a file with the new name already exists
-                                        if not os.path.exists(new_video_filepath):
-                                            os.rename(original_video_path, new_video_filepath)
-                                            logger.info(f'Renamed {original_video_path} to {new_video_filepath}')
-                                            renamed_file.write(f"{original_video_path}, {new_video_filepath}\n")
-
-                                        else:
-                                            print(
-                                                f"A file already exists at {new_video_filepath}. Rename operation "
-                                                f"aborted.")
                                     else:
-                                        print(f"The file {original_video_path} does not exist.")
+                                        print(
+                                            f"A file already exists at {new_video_filepath}. Rename operation "
+                                            f"aborted.")
+
                         else:
-                            logger.critical(f'Video Files more than 10 Please check {camera_view}')
+                            logger.critical(f'Video Files more than {max_videos} Please check {camera_view}')
                             more_than_10_file.write(f"{camera_view}\n")
 
 
 if __name__ == '__main__':
-    parent_dir = '/home/iamshri/Documents/PHEO-Data'
+    parent_dir = '/home/iamshri/Documents/PHEO-Data/Unprocessed'
     cached_bin = '/home/iamshri/Documents/PHEO-Data/Cached-THM'
-    rearrange_pheo(parent_dir, 51, 60, cached_bin)
+    rearrange_pheo(parent_dir, 3, 4, cached_bin, max_videos=16)
