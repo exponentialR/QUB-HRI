@@ -40,12 +40,13 @@ class MatchCalibParams:
             print(check['message'])
             print(f'Calibration 1: {check["calib_1"]}')
             print(f'Calibration 2: {check["calib_2"]}')
+            self.calib_path_1, self.calib_path_2 = None, None
             min_shape = min(check['calib_1'][2][0], check['calib_2'][2][0])
-            recalib_path_1, recalib_path_2 = self.stereo_camera_calibration(min_shape)
+            recalib_path_1, recalib_path_2 = self.stereo_camera_calibration(73)
             self.calib_path_1, self.calib_path_2 = recalib_path_1, recalib_path_2
             check = self.check_calibration_param_shape()
-            new_min_shape = min(check['calib_1'][2][0], check['calib_2'][2][0])
             if not check['check']:
+                new_min_shape = min(check['calib_1'][2][0], check['calib_2'][2][0])
                 print('Recalibration failed')
                 print(f'Attempting to Recalibrate')
                 recalib_path_1, recalib_path_2 = self.stereo_camera_calibration(new_min_shape)
@@ -58,10 +59,10 @@ class MatchCalibParams:
         print(f'Now doing Recalibration')
 
         calib_path_1 = calibrate_single_video(self.calibration_video_path_1, self.aruco_dict, self.board, self.frame_interval_calib,
-                                              min_corners=self.min_corners, save_path_prefix=self.save_path_prefix,
+                                              min_corners=self.min_corners,
                                               max_calib_frames=max_calib_frames)
         calib_path_2 = calibrate_single_video(self.calibration_video_path_2, self.aruco_dict, self.board, self.frame_interval_calib,
-                                              min_corners=self.min_corners, save_path_prefix=self.save_path_prefix,
+                                              min_corners=self.min_corners,
                                               max_calib_frames=max_calib_frames)
         return calib_path_1, calib_path_2
 
@@ -72,5 +73,6 @@ if __name__ == '__main__':
     video_path_1 = '/media/iamshri/Seagate/QUB-PHEOVision/p01/CAM_LR/BIAH_BS.mp4'
 
     video_path_2 = '/media/iamshri/Seagate/QUB-PHEOVision/p01/CAM_LL/BIAH_BS.mp4'
+
     match_calib_params = MatchCalibParams(calib_path_1, calib_path_2, video_path_1, video_path_2)
     match_calib_params.run()
