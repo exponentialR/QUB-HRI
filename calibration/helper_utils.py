@@ -11,77 +11,172 @@ def create_dir(directory):
         os.makedirs(directory, exist_ok=True)
 
 
-def stereo_calibrate(left_calibration_data, right_calibration_data, stereo_image_pairs, board_use, termination_criteria,
-                     flags):
+# def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_image_pairs, aruco_dictionary, board_used, termination_criteria,
+#                      flags):
+#     """
+#     Perform extrinsic/stereo calibration using previously obtained individual calibration data.
+#
+#     Parameters:
+#     - left_calibration_data: Path to the npz file containing left camera calibration data.
+#     - right_calibration_data: Path to the npz file containing right camera calibration data.
+#     - stereo_image_pairs: List of tuples, each containing a pair of file paths to the left and right images for stereo calibration.
+#     - board: The object points of the calibration pattern (e.g., chessboard, charuco board).
+#     - termination_criteria: Criteria for the termination of the stereo calibration iterative algorithm.
+#     - flags: Flags used by the stereoCalibrate function.
+#
+#     Returns:
+#     - The stereo calibration parameters.
+#     """
+#     # Load individual camera calibration data
+#
+#     left_calib = np.load(left_calibration_data)
+#     right_calib = np.load(right_calibration_data)
+#     left_camera_matrix, left_dist_coeffs = left_calib['mtx'], left_calib['dist']
+#     right_camera_matrix, right_dist_coeffs = right_calib['mtx'], right_calib['dist']
+#
+#     # Prepare object points
+#     object_points = board_used.chessboardCorners
+#     all_charuco_corners_left = []
+#     all_charuco_corners_right = []
+#     all_charuco_ids_left = []
+#     all_charuco_ids_right = []
+#     all_object_points = []
+#
+#     # Precompute Charuco board object points
+#     objp = np.zeros((len(board_used.chessboardCorners), 3), np.float32)
+#     objp[:, :2] = np.mgrid[0:board_used.chessboardSize[0], 0:board_used.chessboardSize[1]].T.reshape(-1, 2)
+#     objp *= board_used.squareLength  # Assuming squareLength includes the spacing
+#
+#     for left_img_path, right_img_path in stereo_image_pairs:
+#         left_img = cv2.imread(left_img_path)
+#         right_img = cv2.imread(right_img_path)
+#         print(f'Processing {left_img_path} and {right_img_path}')
+#         gray_left = cv2.cvtColor(left_img, cv2.COLOR_BGR2GRAY)
+#         gray_right = cv2.cvtColor(right_img, cv2.COLOR_BGR2GRAY)
+#
+#         corners_left, ids_left, _ = cv2.aruco.detectMarkers(gray_left, aruco_dictionary)
+#         corners_right, ids_right, _ = cv2.aruco.detectMarkers(gray_right, aruco_dictionary)
+#
+#         if len(corners_left) > 0 and len(corners_right) > 0:
+#             _, charuco_corners_left, charuco_ids_left = cv2.aruco.interpolateCornersCharuco(corners_left, ids_left,
+#                                                                                             gray_left, board_used)
+#             _, charuco_corners_right, charuco_ids_right = cv2.aruco.interpolateCornersCharuco(corners_right, ids_right,
+#                                                                                               gray_right, board_used)
+#
+#             if charuco_corners_left is not None and charuco_corners_right is not None:
+#                 all_charuco_corners_left.append(charuco_corners_left)
+#                 all_charuco_corners_right.append(charuco_corners_right)
+#                 all_charuco_ids_left.append(charuco_ids_left)
+#                 all_charuco_ids_right.append(charuco_ids_right)
+#
+#                 obj_points = board_used.getChessboardCorners(charuco_corners_left.flatten(), charuco_ids_left, gray_left)
+#                 all_object_points.append(obj_points)
+#
+#     retval, mtx_left, dist_left, mtx_right, dist_right, R, T, E, F = cv2.stereoCalibrate(
+#         all_object_points, all_charuco_corners_left, all_charuco_corners_right,
+#         left_camera_matrix, left_dist_coeffs, right_camera_matrix, right_dist_coeffs,
+#         gray_left.shape[::-1], criteria=termination_criteria, flags=flags)
+#
+#     print(f'Stereo Calibration Successful: {retval}')
+#     return {'mtx_left': mtx_left, 'dist_left': dist_left,
+#             'mtx_right': mtx_right, 'dist_right': dist_right,
+#             'R': R, 'T': T, 'E': E, 'F': F}
+
+def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_image_pairs, board,
+                          termination_criteria, flags):
     """
-    Perform stereo calibration using previously obtained individual calibration data.
+    Perform extrinsic/stereo calibration using previously obtained individual calibration data.
 
     Parameters:
     - left_calibration_data: Path to the npz file containing left camera calibration data.
     - right_calibration_data: Path to the npz file containing right camera calibration data.
     - stereo_image_pairs: List of tuples, each containing a pair of file paths to the left and right images for stereo calibration.
-    - board: The object points of the calibration pattern (e.g., chessboard, charuco board).
+    - board: The Charuco board used for calibration.
     - termination_criteria: Criteria for the termination of the stereo calibration iterative algorithm.
     - flags: Flags used by the stereoCalibrate function.
 
     Returns:
     - The stereo calibration parameters.
     """
-    # Load individual camera calibration data
 
+    # Load individual camera calibration data
     left_calib = np.load(left_calibration_data)
     right_calib = np.load(right_calibration_data)
     left_camera_matrix, left_dist_coeffs = left_calib['mtx'], left_calib['dist']
     right_camera_matrix, right_dist_coeffs = right_calib['mtx'], right_calib['dist']
 
     # Prepare object points
+    # Generate object points for the Charuco board just once, as they are the same for every image
+    object_points = board.getChessboardCorners()
     all_charuco_corners_left = []
     all_charuco_corners_right = []
-    all_charuco_ids_left = []
-    all_charuco_ids_right = []
+    all_charuco_ids = []
     all_object_points = []
 
     for left_img_path, right_img_path in stereo_image_pairs:
         left_img = cv2.imread(left_img_path)
         right_img = cv2.imread(right_img_path)
+        # frame, mtx, dist, None, mtx
+        # undis_left = cv2.undistort(left_img, left_camera_matrix, left_dist_coeffs, None, left_camera_matrix)
+        # undis_right = cv2.undistort(right_img, right_camera_matrix, right_dist_coeffs, None, right_camera_matrix)
+
         gray_left = cv2.cvtColor(left_img, cv2.COLOR_BGR2GRAY)
         gray_right = cv2.cvtColor(right_img, cv2.COLOR_BGR2GRAY)
+        # gray_left = cv2.cvtColor(undis_left, cv2.COLOR_BGR2GRAY)
+        # gray_right = cv2.cvtColor(undis_right, cv2.COLOR_BGR2GRAY)
+        # Detect and interpolate Charuco corners
+        corners_left, ids_left, _ = cv2.aruco.detectMarkers(gray_left, board.getDictionary())
+        corners_right, ids_right, _ = cv2.aruco.detectMarkers(gray_right, board.getDictionary())
 
-        corners_left, ids_left, _ = cv2.aruco.detectMarkers(gray_left, board_use.dictionary)
-        corners_right, ids_right, _ = cv2.aruco.detectMarkers(gray_right, board_use.dictionary)
-
-        if len(corners_left) > 0 and len(corners_right) > 0:
+        if len(corners_left) > 0 and len(ids_left) > 0 and len(corners_right) > 0 and len(ids_right) > 0:
             _, charuco_corners_left, charuco_ids_left = cv2.aruco.interpolateCornersCharuco(corners_left, ids_left,
-                                                                                            gray_left, board_use)
+                                                                                            gray_left, board)
             _, charuco_corners_right, charuco_ids_right = cv2.aruco.interpolateCornersCharuco(corners_right, ids_right,
-                                                                                              gray_right, board_use)
+                                                                                              gray_right, board)
 
-            if charuco_corners_left is not None and charuco_corners_right is not None:
+            if charuco_corners_left is not None and charuco_corners_right is not None and np.array_equal(
+                    charuco_ids_left, charuco_ids_right):
                 all_charuco_corners_left.append(charuco_corners_left)
                 all_charuco_corners_right.append(charuco_corners_right)
-                all_charuco_ids_left.append(charuco_ids_left)
-                all_charuco_ids_right.append(charuco_ids_right)
+                all_charuco_ids.append(charuco_ids_left)
 
-                obj_points = board_use.chessboardCorners[charuco_corners_left.flatten(), :]
+                # Compute object points for the detected corners
+                obj_points = np.array([object_points[i] for i in charuco_ids_left.flatten()], dtype=np.float32)
                 all_object_points.append(obj_points)
 
-    retval, mtx_left, dist_left, mtx_right, dist_right, R, T, E, F = cv2.stereoCalibrate(
-        all_object_points, all_charuco_corners_left, all_charuco_corners_right,
-        left_camera_matrix, left_dist_coeffs, right_camera_matrix, right_dist_coeffs,
-        gray_left.shape[::-1], criteria=termination_criteria, flags=flags)
+    # Perform stereo calibration
+    if len(all_object_points) > 0 and len(all_charuco_corners_left) > 0 and len(all_charuco_corners_right) > 0:
+        retval, cameraMatrix1, distCoeffs1, cameraMatrix2, distCoeffs2, R, T, E, F = cv2.stereoCalibrate(
+            all_object_points, all_charuco_corners_left, all_charuco_corners_right,
+            left_camera_matrix, left_dist_coeffs, right_camera_matrix, right_dist_coeffs,
+            gray_left.shape[::-1], criteria=termination_criteria, flags=flags)
+        print(f'Stereo Calibration Successful: {retval}')
+        print(f'Camera Matrix 1: {cameraMatrix1}')
+        print(f'Distortion Coefficients 1: {distCoeffs1}')
+        print(f'Camera Matrix 2: {cameraMatrix2}')
+        print(f'Distortion Coefficients 2: {distCoeffs2}')
+        print(f'R: {R}')
+        print(f'T: {T}')
+        print(f'E: {E}')
+        print(f'F: {F}')
 
-    print(f'Stereo Calibration Successful: {retval}')
-    return {'mtx_left': mtx_left, 'dist_left': dist_left,
-            'mtx_right': mtx_right, 'dist_right': dist_right,
-            'R': R, 'T': T, 'E': E, 'F': F}
+        return {'retval': retval, 'cameraMatrix1': cameraMatrix1, 'distCoeffs1': distCoeffs1,
+                'cameraMatrix2': cameraMatrix2, 'distCoeffs2': distCoeffs2, 'R': R, 'T': T, 'E': E, 'F': F}
+    else:
+        print(f'Not enough corners for stereo calibration. Exiting...')
+        return None
 
 
-def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, board, frame_interval=5, min_corners=10,
-                                max_frames=100):
+def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, board, frame_interval=1, min_corners=5,
+                                max_frames=400):
     save_left_path = os.path.join(os.path.dirname(left_video_path), 'StereoCalibFrames')
     save_right_path = os.path.join(os.path.dirname(right_video_path), 'StereoCalibFrames')
     create_dir(save_right_path)
     create_dir(save_left_path)
+    if len(os.listdir(save_left_path)) > 0 or len(os.listdir(save_right_path)) > 0:
+        print(f'Frames have already been extracted from {os.path.basename(left_video_path)} and '
+              f'{os.path.basename(right_video_path)}. Skipping...')
+        return save_left_path, save_right_path
 
     cap_left = cv2.VideoCapture(left_video_path)
     cap_right = cv2.VideoCapture(right_video_path)
@@ -93,13 +188,27 @@ def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, b
     frame_count = 0
     saved_frame_count = 0
 
+    left_fps = cap_left.get(cv2.CAP_PROP_FPS)
+    right_fps = cap_right.get(cv2.CAP_PROP_FPS)
+    common_fps = min(left_fps, right_fps)
+
     while saved_frame_count < max_frames:
+        left_time = cap_left.get(cv2.CAP_PROP_POS_MSEC)
+        right_time = cap_right.get(cv2.CAP_PROP_POS_MSEC)
+        time_difference = abs(left_time - right_time)
+        if time_difference > (1000 / common_fps):
+            if left_time < right_time:
+                cap_left.read()
+            else:
+                cap_right.read()
+            continue
         ret_left, frame_left = cap_left.read()
         ret_right, frame_right = cap_right.read()
 
         if not ret_left or not ret_right:
             print(
                 f'Done processing videos {os.path.basename(left_video_path)} and {os.path.basename(right_video_path)}')
+            break
 
         if frame_count % frame_interval == 0:
             visible_left = detect_charuco_board(frame_left, aruco_dict, board, min_corners)
@@ -111,6 +220,8 @@ def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, b
                 saved_frame_count += 1
                 print(f'Saved frame pair {saved_frame_count}')
         frame_count += 1
+    if saved_frame_count < max_frames:
+        print(f'Could not extract enough frames for stereo calibration. Extracted {saved_frame_count} frames')
     cap_left.release()
     cap_right.release()
     return save_left_path, save_right_path
