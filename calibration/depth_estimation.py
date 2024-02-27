@@ -99,7 +99,7 @@ class DepthEstimation:
 
 
 if __name__ == '__main__':
-    extrinsic_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/extrinsic_calib.npz'
+    extrinsic_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/stereo_calib.npz'
     left_video = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UL/CALIBRATION.mp4'
     right_video = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UR/CALIBRATION.mp4'
     depth_estimation = DepthEstimation(extrinsic_path, left_video, right_video)
