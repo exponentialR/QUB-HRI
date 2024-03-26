@@ -140,11 +140,11 @@ def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, b
     if left_frame_count > right_frame_count:
         for _ in range(frame_count_difference):
             cap_left.read()  # Skip initial frames in left video
-        print(f'Skip frame {frame_count_difference} in left video')
+        print(f'Skipped {frame_count_difference} frames in left video')
     elif right_frame_count > left_frame_count:
         for _ in range(frame_count_difference):
             cap_right.read()  # Skip initial frames in right video
-        print(f'Skip frame {frame_count_difference} in right video')
+        print(f'Skipped {frame_count_difference} frames in right video')
 
     frame_count = 0
     saved_frame_count = 0

@@ -57,10 +57,10 @@ class ExtrinsicCalibration:
 
 
 if __name__ == '__main__':
-    left_calib_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UL/calib_param_CALIBRATION.npz'
-    right_calib_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UR/calib_param_CALIBRATION.npz'
-    left_video_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UL/CALIBRATION.mp4'
-    right_video_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UR/CALIBRATION.mp4'
+    left_calib_path = '/home/iamshri/Documents/PHEO-Data/Test-ground/p07/CAM_UL/calib_param_CALIBRATION.npz'
+    right_calib_path = '/home/iamshri/Documents/PHEO-Data/Test-ground/p07/CAM_UR/calib_param_CALIBRATION.npz'
+    left_video_path = '/home/iamshri/Documents/PHEO-Data/Test-ground/p07/CAM_UL/CALIBRATION_CC.MP4'
+    right_video_path = '/home/iamshri/Documents/PHEO-Data/Test-ground/p07/CAM_UR/CALIBRATION_CC.MP4'
     left_cap = cv2.VideoCapture(left_video_path)
     right_cap = cv2.VideoCapture(right_video_path)
     left_frame_count = int(left_cap.get(cv2.CAP_PROP_FRAME_COUNT))
