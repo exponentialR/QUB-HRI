@@ -79,7 +79,6 @@ def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_
                     charuco_ids_left, charuco_ids_right):
                 all_charuco_corners_left.append(charuco_corners_left)
                 all_charuco_corners_right.append(charuco_corners_right)
-                all_charuco_ids.append(charuco_ids_left)
 
                 # Compute object points for the detected corners
                 obj_points = np.array([object_points[i] for i in charuco_ids_left.flatten()], dtype=np.float32)

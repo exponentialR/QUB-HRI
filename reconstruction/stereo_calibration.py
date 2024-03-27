@@ -25,24 +25,18 @@ Year: 2024
 
 """
 
-
-
-
 import os.path
 
 import numpy as np
 import cv2
-from utils import extract_synchronized_frames, extrinsic_calibration
+from extrinsic_calibration import extrinsic_calibration
+from extract_sync_frames import extract_synchronized_frames
 
-# Define termination criteria for corner refinement.
 TERMINATION_CRITERIA = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.0001)
-
-# Flags used for stereo calibration.
-FLAGS = cv2.CALIB_USE_INTRINSIC_GUESS + cv2.CALIB_FIX_ASPECT_RATIO + cv2.CALIB_SAME_FOCAL_LENGTH + cv2.CALIB_FIX_PRINCIPAL_POINT + cv2.CALIB_ZERO_TANGENT_DIST + cv2.CALIB_RATIONAL_MODEL + cv2.CALIB_FIX_K3 + cv2.CALIB_FIX_K4 + cv2.CALIB_FIX_K5
-
-# Define the Aruco dictionary and board that will be used for calibration.
+FLAGS = cv2.CALIB_USE_INTRINSIC_GUESS + cv2.CALIB_FIX_ASPECT_RATIO + cv2.CALIB_SAME_FOCAL_LENGTH + cv2.CALIB_FIX_PRINCIPAL_POINT + cv2.CALIB_ZERO_TANGENT_DIST + cv2.CALIB_RATIONAL_MODEL + cv2.CALIB_FIX_K3 + cv2.CALIB_FIX_K4 + cv2.CALIB_FIX_K5 # 48.2 reprojection error
 ARUCO_DICT = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
-BOARD_USED = cv2.aruco.CharucoBoard.create(16, 11, 33 / 1000, 26 / 1000, ARUCO_DICT)
+BOARD_USED = cv2.aruco.CharucoBoard((16, 11), 33 / 1000, 26 / 1000,
+                                    ARUCO_DICT)
 
 
 class StereoCalibration:
@@ -114,17 +108,20 @@ class StereoCalibration:
 
 
 if __name__ == '__main__':
-    left_calib_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UL/calib_param_CALIBRATION.npz'
-    right_calib_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UR/calib_param_CALIBRATION.npz'
-    left_video_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UL/CALIBRATION.mp4'
-    right_video_path = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo/CAM_UR/CALIBRATION.mp4'
+    left_calib_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/calib_param_CALIBRATION.npz'
+    right_calib_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/calib_param_CALIBRATION.npz'
+    left_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/CALIBRATION_CC.MP4'
+    right_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/CALIBRATION_CC.MP4'
+    calib_prefix = left_video_path.split('_')[1].split('/')[0].lower() + right_video_path.split('_')[1].split('/')[0].lower()
+
     left_cap = cv2.VideoCapture(left_video_path)
     right_cap = cv2.VideoCapture(right_video_path)
     left_frame_count = int(left_cap.get(cv2.CAP_PROP_FRAME_COUNT))
     right_frame_count = int(right_cap.get(cv2.CAP_PROP_FRAME_COUNT))
     print(f'Left video frame count: {left_frame_count}')
     print(f'Right video frame count: {right_frame_count}')
-    stereo_calib = StereoCalibration(left_calib_path, right_calib_path, left_video_path, right_video_path, frame_interval=1, min_corners=15)
+
+    stereo_calib = StereoCalibration(left_calib_path, right_calib_path, left_video_path, right_video_path, frame_interval=1, min_corners=15, calib_prefix=calib_prefix)
     stereo_data_path = stereo_calib.run()
     print(f'Stereo calibration data saved to {stereo_data_path}')
     pass
