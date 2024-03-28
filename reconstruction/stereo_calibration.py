@@ -31,9 +31,10 @@ import numpy as np
 import cv2
 from extrinsic_calibration import extrinsic_calibration
 from extract_sync_frames import extract_synchronized_frames
+from downgrade_fps import downgrade_fps
 
 TERMINATION_CRITERIA = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.0001)
-FLAGS = cv2.CALIB_USE_INTRINSIC_GUESS + cv2.CALIB_FIX_ASPECT_RATIO + cv2.CALIB_SAME_FOCAL_LENGTH + cv2.CALIB_FIX_PRINCIPAL_POINT + cv2.CALIB_ZERO_TANGENT_DIST + cv2.CALIB_RATIONAL_MODEL + cv2.CALIB_FIX_K3 + cv2.CALIB_FIX_K4 + cv2.CALIB_FIX_K5 # 48.2 reprojection error
+FLAGS = cv2.CALIB_USE_INTRINSIC_GUESS + cv2.CALIB_FIX_ASPECT_RATIO + cv2.CALIB_SAME_FOCAL_LENGTH + cv2.CALIB_FIX_PRINCIPAL_POINT + cv2.CALIB_ZERO_TANGENT_DIST + cv2.CALIB_RATIONAL_MODEL + cv2.CALIB_FIX_K3 + cv2.CALIB_FIX_K4 + cv2.CALIB_FIX_K5  # 48.2 reprojection error
 ARUCO_DICT = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
 BOARD_USED = cv2.aruco.CharucoBoard((16, 11), 33 / 1000, 26 / 1000,
                                     ARUCO_DICT)
@@ -56,7 +57,9 @@ class StereoCalibration:
     - board: The Charuco board used for calibration.
 
     """
-    def __init__(self, left_calibration_data, right_calibration_data, left_video_path, right_video_path, calib_prefix, min_corners=2, frame_interval=1, max_frames=1000):
+
+    def __init__(self, left_calibration_data, right_calibration_data, left_video_path, right_video_path, calib_prefix,
+                 min_corners=2, frame_interval=1, max_frames=1000):
         self.stereo_data_path = os.path.join(os.path.dirname(os.path.dirname(left_calibration_data)),
                                              f'{calib_prefix}stereo_calib.npz')
         self.min_corners = min_corners
@@ -86,11 +89,13 @@ class StereoCalibration:
 
         :return: str: The path to the saved stereo calibration data.
         """
+
         extracted_frames_left, extracted_frames_right = extract_synchronized_frames(self.left_video_path,
                                                                                     self.right_video_path,
                                                                                     self.aruco_dict, self.board,
                                                                                     frame_interval=self.frame_interval,
-                                                                                    min_corners=self.min_corners, max_frames=self.max_frames)
+                                                                                    min_corners=self.min_corners,
+                                                                                    max_frames=self.max_frames)
         extracted_frames_left_paths = [os.path.join(extracted_frames_left, files) for files in
                                        sorted(os.listdir(extracted_frames_left)) if
                                        files.endswith('.png')]
@@ -108,11 +113,12 @@ class StereoCalibration:
 
 
 if __name__ == '__main__':
-    left_calib_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/calib_param_CALIBRATION.npz'
-    right_calib_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/calib_param_CALIBRATION.npz'
-    left_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/CALIBRATION_CC.MP4'
-    right_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/CALIBRATION_CC.MP4'
-    calib_prefix = left_video_path.split('_')[1].split('/')[0].lower() + right_video_path.split('_')[1].split('/')[0].lower()
+    left_calib_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/calib_param_CALIBRATION.npz'
+    right_calib_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/calib_param_CALIBRATION.npz'
+    left_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/CALIBRATION_CC.MP4'
+    right_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/CALIBRATION_CC.MP4'
+    calib_prefix = left_video_path.split('_')[1].split('/')[0].lower() + right_video_path.split('_')[1].split('/')[
+        0].lower()
 
     left_cap = cv2.VideoCapture(left_video_path)
     right_cap = cv2.VideoCapture(right_video_path)
@@ -121,7 +127,8 @@ if __name__ == '__main__':
     print(f'Left video frame count: {left_frame_count}')
     print(f'Right video frame count: {right_frame_count}')
 
-    stereo_calib = StereoCalibration(left_calib_path, right_calib_path, left_video_path, right_video_path, frame_interval=1, min_corners=15, calib_prefix=calib_prefix)
+    stereo_calib = StereoCalibration(left_calib_path, right_calib_path, left_video_path, right_video_path,
+                                     frame_interval=1, min_corners=15, calib_prefix=calib_prefix)
     stereo_data_path = stereo_calib.run()
     print(f'Stereo calibration data saved to {stereo_data_path}')
     pass

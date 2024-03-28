@@ -31,7 +31,6 @@ def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_
     object_points = board.getChessboardCorners()
     all_charuco_corners_left = []
     all_charuco_corners_right = []
-    all_charuco_ids = []
     all_object_points = []
 
     for left_img_path, right_img_path in stereo_image_pairs:

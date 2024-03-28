@@ -32,29 +32,32 @@ def frame_difference(left_video, right_video):
     return frame_count_difference, longer_video
 
 
-def display_synchronized_video(left_video, right_video, frame_difference, longer_video):
+def display_synchronized_video(left_video, right_video, frame_count_diff, video_long):
     """
     Display the synchronized videos side by side by starting from the start_frame of the longer video.
     :param left_video: str: Path to the left video
     :param right_video: str: Path to the right video
-    :param frame_difference: int: The frame to start reading for the longer video
-    :param longer_video: str: The longer video
+    :param frame_count_diff: int: The frame to start reading for the longer video
+    :param video_long: str: The longer video
     :return: None
     """
-    print(frame_difference, longer_video)
+    print(frame_count_diff, video_long)
     left_cap = cv2.VideoCapture(left_video)
     right_cap = cv2.VideoCapture(right_video)
 
     # Set the starting frame for the longer video
-    if longer_video == 'left':
-        print(f'Skipping {frame_difference} frames in left video')
-        for _ in range(frame_difference):
+    if video_long == 'left':
+        print(f'Skipping {frame_count_diff} frames in left video')
+        for _ in range(frame_count_diff):
             left_cap.read()  # Skip initial frames in left video
         # left_cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-    elif longer_video == 'right':
-        print(f'Skipping {frame_difference} frames in right video')
-        for _ in range(frame_difference):
+    elif video_long == 'right':
+        print(f'Skipping {frame_count_diff} frames in right video')
+        for _ in range(frame_count_diff):
             right_cap.read()  # Skip initial frames in right video
+    elif video_long == 'none':
+        print('Both videos have the same number of frames')
+        return
         # right_cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
     left_fps = left_cap.get(cv2.CAP_PROP_FPS)
     right_fps = right_cap.get(cv2.CAP_PROP_FPS)
@@ -149,5 +152,5 @@ left_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/CALIBRATION_CC.
 right_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/CALIBRATION_CC.MP4'
 start_frame, longer_video = frame_difference(left_video_path, right_video_path)
 print(f' Start Frame: {start_frame}', f' Longer Video: {longer_video}')
-display_synchronized_video(left_video_path, right_video_path, start_frame, longer_video)
-# display_video(left_video_path, right_video_path)
+# display_synchronized_video(left_video_path, right_video_path, start_frame, longer_video)
+display_video(left_video_path, right_video_path)
