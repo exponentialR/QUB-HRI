@@ -4,11 +4,12 @@ import numpy as np
 import cv2
 from downgrade_fps import downgrade_fps
 from utils import create_dir, remove_files_in_folder, detect_charuco_board
+from downgrade_fps import downgrade_fps, match_frame_length
 
 
 class ExtractSyncFrames:
-    def __init__(self, left_video_path, right_video_path, aruco_dict, board, frame_interval=1, min_corners=5,
-                 max_frames=1000):
+    def __init__(self, left_video_path, right_video_path, aruco_dict, board, frame_interval, min_corners,
+                 max_frames):
         self.left_video_path = left_video_path
         self.right_video_path = right_video_path
         self.aruco_dict = aruco_dict
@@ -17,15 +18,17 @@ class ExtractSyncFrames:
         self.min_corners = min_corners
         self.max_frames = max_frames
 
-    def downgrade_fps(self):
-        pass
-
     def extract_synchronized_frames(self):
-        pass
+        downgraded_video = downgrade_fps(self.left_video_path, self.right_video_path)
+        if downgraded_video:
+            _, _ = match_frame_length(self.left_video_path, self.right_video_path)
+        return extract_synchronized_frames(self.left_video_path, self.right_video_path, self.aruco_dict, self.board,
+                                           frame_interval=self.frame_interval, min_corners=self.min_corners,
+                                           max_frames=self.max_frames)
 
 
-def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, board, frame_interval=2, min_corners=5,
-                                max_frames=500):
+def extract_synchronized_frames(left_video_path, right_video_path, aruco_dict, board, frame_interval, min_corners,
+                                max_frames):
     save_left_path = os.path.join(os.path.dirname(left_video_path), 'StereoCalibFrames')
     save_right_path = os.path.join(os.path.dirname(right_video_path), 'StereoCalibFrames')
     create_dir(save_right_path)

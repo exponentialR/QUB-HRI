@@ -135,6 +135,9 @@ def match_frame_length(left_video_addr, right_video_addr):
     print(f"Trimmed video now saved to: {video_addr}")
 
     left_count, right_count = compare_frame_count(left_video_addr, right_video_addr)
+    if left_count == right_count:
+        print(f'Both videos now have the same number of frames: {left_count}')
+    return left_video_addr, right_video_addr
 
     # Compare the frames to confirm that the videos have the same number of frames
 

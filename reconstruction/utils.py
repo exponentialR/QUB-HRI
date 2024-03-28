@@ -2,7 +2,25 @@ import os.path
 import os
 import numpy as np
 import cv2
+from  tqdm import tqdm
+import h5py
 
+
+def convert_data(data):
+    for key, value in data.items():
+        if isinstance(value, np.ndarray):
+            data[key] = value.tolist()
+        elif value is None:
+            # No need to do anything special for None values
+            continue
+    return data
+
+
+def save_to_hdf5(data_list, hdf5_path):
+    with h5py.File(hdf5_path, 'w') as f:
+        for idx, data in tqdm(enumerate(data_list), total=len(data_list), desc=f'Saving {os.path.basename(hdf5_path)}'):
+            f.create_dataset(f'frame_{idx}', data=np.string_(data))
+    print(f'Saved {len(data_list)} frames to {hdf5_path}')
 
 def detect_charuco_board(frame, aruco_dict, board, min_corners):
     """
@@ -26,6 +44,7 @@ def create_dir(directory):
     """
     if not os.path.exists(directory):
         os.makedirs(directory, exist_ok=True)
+    return directory
 
 
 def remove_files_in_folder(folder_path, file_ext=('png', 'jpg', 'jpeg')):
@@ -73,3 +92,43 @@ def convert_to_structured_array(face_landmarks):
         structured_array[key] = value
 
     return structured_array
+
+
+def normalize(vector):
+    return vector / np.linalg.norm(vector)
+
+
+def calculate_gaze_vector(left_iris_3d, right_iris_3d, forehead_3d, rot_vec):
+    left_iris_3d = np.array(left_iris_3d)
+    right_iris_3d = np.array(right_iris_3d)
+
+    # Dynamically calculate the distance between the eyes
+    eye_distance = np.linalg.norm(left_iris_3d - right_iris_3d)
+
+    # Define eye centers based on the dynamic eye distance
+    E_left = np.array([forehead_3d[0] - eye_distance / 2, forehead_3d[1], forehead_3d[2]])
+    E_right = np.array([forehead_3d[0] + eye_distance / 2, forehead_3d[1], forehead_3d[2]])
+
+    # Gaze vectors for each eye
+    gaze_vector_left = normalize(left_iris_3d - E_left)
+    gaze_vector_right = normalize(right_iris_3d - E_right)
+
+    # Average gaze vector
+    combined_gaze_vector = (gaze_vector_left + gaze_vector_right) / 2
+
+    # Rotate gaze vector according to head pose
+    rmat, _ = cv2.Rodrigues(rot_vec)
+    world_gaze_vector = rmat.dot(combined_gaze_vector)
+
+    return world_gaze_vector
+
+
+def load_calibration_data(video_path):
+    calibration_path = os.path.join(os.path.dirname(video_path), 'calib_param_CALIBRATION.npz')
+    try:
+        with np.load(calibration_path) as data:
+            mtx, dist, rvecs, tvecs = data['mtx'], data['dist'], data['rvecs'], data['tvecs']
+            return mtx, dist, rvecs, tvecs
+    except IOError:
+        print(f'Error Loading Claibration data from {calibration_path}')
+        return None, None, None, None

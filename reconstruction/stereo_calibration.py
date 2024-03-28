@@ -30,8 +30,7 @@ import os.path
 import numpy as np
 import cv2
 from extrinsic_calibration import extrinsic_calibration
-from extract_sync_frames import extract_synchronized_frames
-from downgrade_fps import downgrade_fps
+from extract_sync_frames import ExtractSyncFrames
 
 TERMINATION_CRITERIA = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.0001)
 FLAGS = cv2.CALIB_USE_INTRINSIC_GUESS + cv2.CALIB_FIX_ASPECT_RATIO + cv2.CALIB_SAME_FOCAL_LENGTH + cv2.CALIB_FIX_PRINCIPAL_POINT + cv2.CALIB_ZERO_TANGENT_DIST + cv2.CALIB_RATIONAL_MODEL + cv2.CALIB_FIX_K3 + cv2.CALIB_FIX_K4 + cv2.CALIB_FIX_K5  # 48.2 reprojection error
@@ -89,13 +88,11 @@ class StereoCalibration:
 
         :return: str: The path to the saved stereo calibration data.
         """
+        extracted_frames_left, extracted_frames_right = ExtractSyncFrames(self.left_video_path, self.right_video_path,
+                                                                          self.aruco_dict, self.board,
+                                                                          self.frame_interval, self.min_corners,
+                                                                          self.max_frames).extract_synchronized_frames()
 
-        extracted_frames_left, extracted_frames_right = extract_synchronized_frames(self.left_video_path,
-                                                                                    self.right_video_path,
-                                                                                    self.aruco_dict, self.board,
-                                                                                    frame_interval=self.frame_interval,
-                                                                                    min_corners=self.min_corners,
-                                                                                    max_frames=self.max_frames)
         extracted_frames_left_paths = [os.path.join(extracted_frames_left, files) for files in
                                        sorted(os.listdir(extracted_frames_left)) if
                                        files.endswith('.png')]
@@ -113,10 +110,10 @@ class StereoCalibration:
 
 
 if __name__ == '__main__':
-    left_calib_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/calib_param_CALIBRATION.npz'
-    right_calib_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/calib_param_CALIBRATION.npz'
-    left_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/CALIBRATION_CC.MP4'
-    right_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/CALIBRATION_CC.MP4'
+    left_calib_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LL/calib_param_CALIBRATION.npz'
+    right_calib_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LR/calib_param_CALIBRATION.npz'
+    left_video_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LL/CALIBRATION_CC.MP4'
+    right_video_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LR/CALIBRATION_CC.MP4'
     calib_prefix = left_video_path.split('_')[1].split('/')[0].lower() + right_video_path.split('_')[1].split('/')[
         0].lower()
 
