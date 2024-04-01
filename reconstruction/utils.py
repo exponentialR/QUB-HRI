@@ -6,14 +6,16 @@ from  tqdm import tqdm
 import h5py
 
 
-def convert_data(data):
-    for key, value in data.items():
-        if isinstance(value, np.ndarray):
-            data[key] = value.tolist()
-        elif value is None:
-            # No need to do anything special for None values
-            continue
-    return data
+def convert_to_list(data):
+    if isinstance(data, np.ndarray):
+        return data.tolist()
+    elif isinstance(data, dict):
+        return {k: convert_to_list(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [convert_to_list(item) for item in data]
+    else:
+        return data
+
 
 
 def save_to_hdf5(data_list, hdf5_path):

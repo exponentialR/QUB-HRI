@@ -8,7 +8,7 @@ import cv2
 import os
 import h5py
 from tqdm import tqdm
-from utils import load_calibration_data, create_dir, save_to_hdf5, convert_data
+from utils import load_calibration_data, create_dir, save_to_hdf5, convert_to_list
 
 
 """
@@ -31,7 +31,7 @@ TypeError: Object of type ndarray is not JSON serializable
 
 """
 
-class Synch_DataExtraction:
+class Sync_DataExtraction:
     def __init__(self, left_video_path, right_video_path, frame_interval=1, max_frames=1000):
         self.left_video_path = left_video_path
         self.right_video_path = right_video_path
@@ -106,10 +106,10 @@ class Synch_DataExtraction:
                 if processed_frame % self.frame_interval == 0:
                     left_efgh = FrameEFGH(left_frame, processed_frame, self.left_cam_matrix, self.left_dist_coeffs, fps=self.left_fps)
                     right_efgh = FrameEFGH(right_frame, processed_frame, self.right_cam_matrix, self.right_dist_coeffs, fps=self.right_fps)
-                    left_data = convert_data(left_efgh.processEFGH())
-                    right_data = convert_data(right_efgh.processEFGH())
-                    left_data_list.append(json.dumps(left_data))
-                    right_data_list.append(json.dumps(right_data))
+                    left_data = left_efgh.processEFGH()
+                    right_data = right_efgh.processEFGH()
+                    left_data_list.append(json.dumps(convert_to_list(left_data)))
+                    right_data_list.append(json.dumps(convert_to_list(right_data)))
                     pbar.update(1)
                     processed_frame += 1
 
@@ -119,8 +119,8 @@ class Synch_DataExtraction:
 
 
 if __name__ == '__main__':
-    left_video_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4'
-    right_video_path = '/media/qub-hri/Seagate/Test_Evironment/p03/CAM_LR/BIAH_RB.mp4'
-    synch_data = Synch_DataExtraction(left_video_path, right_video_path)
+    left_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4'
+    right_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/BIAH_RB.mp4'
+    synch_data = Sync_DataExtraction(left_video_path, right_video_path)
     synch_data.sync_data_extract()
     print('Data extraction complete')

@@ -58,7 +58,7 @@ class StereoCalibration:
     """
 
     def __init__(self, left_calibration_data, right_calibration_data, left_video_path, right_video_path, calib_prefix,
-                 min_corners=2, frame_interval=1, max_frames=1000):
+                 min_corners=5, frame_interval=2, max_frames=1000):
         self.stereo_data_path = os.path.join(os.path.dirname(os.path.dirname(left_calibration_data)),
                                              f'{calib_prefix}stereo_calib.npz')
         self.min_corners = min_corners
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     print(f'Right video frame count: {right_frame_count}')
 
     stereo_calib = StereoCalibration(left_calib_path, right_calib_path, left_video_path, right_video_path,
-                                     frame_interval=1, min_corners=15, calib_prefix=calib_prefix)
+                                     frame_interval=2, min_corners=10, calib_prefix=calib_prefix)
     stereo_data_path = stereo_calib.run()
     print(f'Stereo calibration data saved to {stereo_data_path}')
     pass

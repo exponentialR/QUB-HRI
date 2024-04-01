@@ -4,7 +4,7 @@ import mediapipe as mp
 import os
 
 from utils import get_video_fps, extract_landmarks, calculate_gaze_vector
-os.environ["GLOG_minloglevel"] ="2"
+# os.environ["GLOG_minloglevel"] ="2"
 
 
 
