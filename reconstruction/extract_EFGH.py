@@ -11,26 +11,6 @@ from tqdm import tqdm
 from utils import load_calibration_data, create_dir, save_to_hdf5, convert_to_list
 
 
-"""
-TODO: Handle the error below:
-Traceback (most recent call last):
-  File "/home/qub-hri/PycharmProjects/QUB-HRI/reconstruction/extract_EFGH.py", line 105, in <module>
-    synch_data.sync_data_extract()
-  File "/home/qub-hri/PycharmProjects/QUB-HRI/reconstruction/extract_EFGH.py", line 91, in sync_data_extract
-    left_data_list.append(json.dumps(left_data))
-  File "/usr/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/usr/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/usr/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/usr/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type ndarray is not JSON serializable
-
-
-"""
-
 class Sync_DataExtraction:
     def __init__(self, left_video_path, right_video_path, frame_interval=1, max_frames=1000):
         self.left_video_path = left_video_path
