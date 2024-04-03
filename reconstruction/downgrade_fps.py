@@ -76,6 +76,9 @@ def downgrade_fps(left_video, right_video, new_video_path=None):
         higher_fps_cap.release()
         out.release()
         cv2.destroyAllWindows()
+        left_cap.release()
+        right_cap.release()
+
     return video_to_downgrade
 
 
@@ -120,7 +123,7 @@ def match_frame_length(left_video_addr, right_video_addr):
         print(f'{left_cap_count - right_cap_count} frames will be trimmed from the left video')
 
     frame_count = 0
-    while frame_count <= n_frames_to_keep:
+    while frame_count < n_frames_to_keep:
         ret, frame = video_to_trim_cap.read()
         if not ret:
             break
@@ -137,6 +140,13 @@ def match_frame_length(left_video_addr, right_video_addr):
     left_count, right_count = compare_frame_count(left_video_addr, right_video_addr)
     if left_count == right_count:
         print(f'Both videos now have the same number of frames: {left_count}')
+    else:
+        print(f'Videos still have different frame counts: {left_count} and {right_count}')
+        # Attempt to trim the videos again
+        match_frame_length(left_video_addr, right_video_addr)
+    left_cap.release()
+    right_cap.release()
+
     return left_video_addr, right_video_addr
 
     # Compare the frames to confirm that the videos have the same number of frames
@@ -150,12 +160,13 @@ def compare_frame_count(left_video, right_video):
 
     print(f'Left Video Frame Count: {left_frame_count}')
     print(f'Right Video Frame Count: {right_frame_count}')
+    left_cap.release(), right_cap.release()
     return left_frame_count, right_frame_count
 
 
 if __name__ == '__main__':
-    left_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/CALIBRATION_CC.MP4'
-    right_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/CALIBRATION_CC.MP4'
+    left_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LL/CALIBRATION_CC.MP4'
+    right_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LR/CALIBRATION_CC.MP4'
     downgraded_video = downgrade_fps(left_video_path, right_video_path)
     match_frame_length(left_video_path, right_video_path)
     # downgrade_fps(left_video_path, right_video_path)

@@ -4,8 +4,9 @@ import mediapipe as mp
 import os
 
 from utils import get_video_fps, extract_landmarks, calculate_gaze_vector
-# os.environ["GLOG_minloglevel"] ="2"
 
+
+# os.environ["GLOG_minloglevel"] ="2"
 
 
 class FrameEFGH:
@@ -24,7 +25,7 @@ class FrameEFGH:
         self.right_iris_indices = [473, 474, 475, 476, 477]
         self.fps = fps
 
-    def process_frame(self, frame):
+    def process_face_frame(self, frame):
         image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         image.flags.writeable = False
         results = self.face_mesh.process(image)
@@ -77,7 +78,6 @@ class FrameEFGH:
         proj_matrix = np.hstack((rmat, tvec))
         _, _, _, _, _, _, euler_angles = cv2.decomposeProjectionMatrix(proj_matrix)
 
-        # euler_angles = cv2.decomposeProjectionMatrix(rmat)[6]
         pitch, yaw, roll = euler_angles.flatten()[:3]
         text = 'HeadEyeData'
         head_eye = {
@@ -89,6 +89,16 @@ class FrameEFGH:
             'text': text
         }
         return head_eye
+
+    def process_upper_body_pose(self, image):
+        upper_body_landmarks = []
+        results = self.pose.process(image)
+        if results.pose_landmarks:
+            for idx, landmark in enumerate(results.pose_landmarks.landmark):
+                upper_body_landmarks.append([landmark.x, landmark.y, landmark.z])
+        else:
+            upper_body_landmarks = [(0.0, 0.0, 0.0) for _ in range(33)]
+        return upper_body_landmarks
 
     def processEFGH(self):
         """
@@ -104,28 +114,17 @@ class FrameEFGH:
         :param frame_index:
         :return:
         """
-        face_results, processed_image = self.process_frame(self.image)
-        timestamp = self.image_index/self.fps
-        # Process Hand Pose
-        hand_results = self.hands.process(processed_image)
-        hand_landmarks_list = []
-        if hand_results.multi_hand_landmarks:
-            for hand_landmarks in hand_results.multi_hand_landmarks:
-                hand_landmarks = extract_landmarks(hand_landmarks)
-                hand_landmarks_list.append(hand_landmarks)
-        else:
-            hand_landmarks_list = None
-        if isinstance(hand_landmarks_list, np.ndarray):
-            hand_landmarks_list = hand_landmarks_list.tolist()
 
+        timestamp = self.image_index / self.fps
+        face_results, processed_image = self.process_face_frame(self.image)
         if face_results.multi_face_landmarks:
             face_landmarks = face_results.multi_face_landmarks[0]
             head_eye_data = self.calculate_head_pose(processed_image, face_landmarks)
             gaze_vector = calculate_gaze_vector(head_eye_data['left_iris'], head_eye_data['right_iris'],
-                                                 head_eye_data['forehead'], head_eye_data['rvec'])
+                                                head_eye_data['forehead'], head_eye_data['rvec'])
             facial_landmarks = extract_landmarks(face_landmarks)
 
-            for key in head_eye_data.keys():
+            for key in ['head_pitch', 'head_yaw', 'head_roll', 'left_iris', 'right_iris', 'forehead', 'rvec', 'tvec', 'cam_matrix', 'dist_matrix', 'text']:
                 if key in head_eye_data and isinstance(head_eye_data[key], np.ndarray):
                     head_eye_data[key] = head_eye_data[key].tolist()
 
@@ -137,24 +136,40 @@ class FrameEFGH:
 
         else:
             face_present = 0
-            head_eye_data = None
-            gaze_vector = None
-            facial_landmarks = None
+            head_eye_data = {'head_pitch': 0, 'head_yaw': 0, 'head_roll': 0, 'left_iris': (0, 0, 0),
+                             'right_iris': (0, 0, 0), 'forehead': (0, 0, 0), 'rvec': (0, 0, 0), 'tvec': (0, 0, 0), 'cam_matrix': (0, 0, 0),
+                             'dist_matrix': (0, 0, 0), 'text': 'Head-Eye Data Not Available'}
+            gaze_vector = (0, 0, 0)
+            facial_landmarks = [(0.0, 0.0, 0.0)] * 13
+
+        # Process Hand Pose
+        image = cv2.cvtColor(self.image, cv2.COLOR_BGR2RGB)
+        image.flags.writeable = False
+        hand_results = self.hands.process(image)
+        upper_body_landmarks = self.process_upper_body_pose(self.image)
+        image.flags.writeable = True
+        hand_landmarks_list = []
+        if hand_results.multi_hand_landmarks:
+            for hlms in hand_results.multi_hand_landmarks[0].landmark:
+                hand_landmarks_list.append((hlms.x, hlms.y, hlms.z))
+        else:
+            hand_landmarks_list = [(0.0, 0.0, 0.0) for _ in range(21)]
+
+        if isinstance(hand_landmarks_list, np.ndarray):
+            hand_landmarks_list = hand_landmarks_list.tolist()
+
+        if isinstance(upper_body_landmarks, np.ndarray):
+            upper_body_landmarks = upper_body_landmarks.tolist()
 
         data = {
             'timestamp': timestamp,
             'frame_index': self.image_index,
-            'face_present': face_present,
+            'face_presence': face_present,
             'head_eye_data': head_eye_data,
             'gaze_vector': gaze_vector,
             'facial_landmarks': facial_landmarks,
-            'hand_landmarks': hand_landmarks_list
+            'hand_landmarks': hand_landmarks_list,
+            'upper_body_pose': upper_body_landmarks
         }
 
         return data
-
-
-
-
-
-
