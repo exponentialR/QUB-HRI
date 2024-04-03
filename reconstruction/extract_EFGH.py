@@ -11,6 +11,26 @@ from tqdm import tqdm
 from utils import load_calibration_data, create_dir, save_to_hdf5, convert_to_list
 
 
+"""
+TODO: Handle the error below:
+Traceback (most recent call last):
+  File "/home/qub-hri/PycharmProjects/QUB-HRI/reconstruction/extract_EFGH.py", line 105, in <module>
+    synch_data.sync_data_extract()
+  File "/home/qub-hri/PycharmProjects/QUB-HRI/reconstruction/extract_EFGH.py", line 91, in sync_data_extract
+    left_data_list.append(json.dumps(left_data))
+  File "/usr/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+
+
+"""
+
 class Sync_DataExtraction:
     def __init__(self, left_video_path, right_video_path, frame_interval=1, max_frames=1000):
         self.left_video_path = left_video_path
@@ -28,9 +48,9 @@ class Sync_DataExtraction:
         self.right_fps = None
 
     def sync_data_extract(self):
-        # downgraded_video = downgrade_fps(self.left_video_path, self.right_video_path)
-        # if downgraded_video:
-        #     _, _ = match_frame_length(self.left_video_path, self.right_video_path)
+        downgraded_video = downgrade_fps(self.left_video_path, self.right_video_path)
+        if downgraded_video:
+            _, _ = match_frame_length(self.left_video_path, self.right_video_path)
 
         left_hdf5_path = os.path.join(self.left_dir, f'{self.left_video_name}.hdf5')
         right_hdf5_path = os.path.join(self.right_dir, f'{self.right_video_name}.hdf5')
@@ -59,20 +79,14 @@ class Sync_DataExtraction:
         else:
             print('Videos are already synchronized')
         print(f'{frame_count_difference} frames skipped in {skipped} video')
+        left_data_list = []
+        right_data_list = []
 
-        with h5py.File(left_hdf5_path, 'w') as left_hdf_file, h5py.File(right_hdf5_path, 'w') as right_hdf_file:
-            pbar = tqdm(total=max_frame, desc='Processing Frames and Extracting Data from Left Video', unit='frames')
-            right_timestamps, right_frame_indices, right_face_presence, right_gaze_vector, right_face_landmarks, right_hand_landmarks, right_upper_body_pose, = [], [], [], [], [], [], []
-            left_timestamps, left_frame_indices, left_face_presence, left_gaze_vector, left_face_landmarks, left_hand_landmarks, left_upper_body_pose = [], [], [], [], [], [], []
+        with tqdm(total=max_frame, desc='Processing Frames and Extracting Data') as pbar:
 
-            head_eye_data_left = {key: [] for key in
-                                  ['head_pitch', 'head_yaw', 'head_roll', 'left_iris', 'right_iris', 'forehead', 'rvec',
-                                   'tvec', 'cam_matrix', 'dist_matrix', 'text']}
-            head_eye_data_right = {key: [] for key in
-                                   ['head_pitch', 'head_yaw', 'head_roll', 'left_iris', 'right_iris', 'forehead', 'rvec',
-                                    'tvec', 'cam_matrix', 'dist_matrix', 'text']}
             processed_frame = 0
-            while left_cap.isOpened() and right_cap.isOpened() and processed_frame < max_frame:
+
+            while processed_frame < max_frame and left_cap.isOpened() and right_cap.isOpened():
                 left_time = left_cap.get(cv2.CAP_PROP_POS_MSEC)
                 right_time = right_cap.get(cv2.CAP_PROP_POS_MSEC)
                 time_difference = abs(left_time - right_time)
@@ -90,70 +104,23 @@ class Sync_DataExtraction:
                     break
 
                 if processed_frame % self.frame_interval == 0:
-                    try:
-
-                        left_efgh = FrameEFGH(left_frame, processed_frame, self.left_cam_matrix, self.left_dist_coeffs,
-                                              fps=self.left_fps)
-                        # right_efgh = FrameEFGH(right_frame, processed_frame, self.right_cam_matrix,
-                        #                        self.right_dist_coeffs,
-                        #                        fps=self.right_fps)
-                        left_data = left_efgh.processEFGH()
-                        # right_data = right_efgh.processEFGH()
-
-                        left_timestamps.append(left_data['timestamp'])
-                        left_frame_indices.append(left_data['frame_index'])
-                        left_face_presence.append(left_data['face_presence'])
-                        left_gaze_vector.append(left_data['gaze_vector'])
-                        left_face_landmarks.append(left_data['facial_landmarks'])
-                        left_hand_landmarks.append(left_data['hand_landmarks'])
-                        left_upper_body_pose.append(left_data['upper_body_pose'])
-
-                        # right_timestamps.append(right_data['timestamp'])
-                        # right_frame_indices.append(right_data['frame_index'])
-                        # right_face_presence.append(right_data['face_presence'])
-                        # right_gaze_vector.append(right_data['gaze_vector'])
-                        # right_face_landmarks.append(right_data['facial_landmarks'])
-                        # right_hand_landmarks.append(right_data['hand_landmarks'])
-                        # right_upper_body_pose.append(right_data['upper_body_pose'])
-                        #
-                        # for key in head_eye_data_left:
-                        #     head_eye_data_left[key].append(left_data['head_eye_data'][key])
-                        # for key in head_eye_data_right:
-                        #     head_eye_data_right[key].append(right_data['head_eye_data'][key])
-
-                    except Exception as e:
-                        print(f'Error processing frame {processed_frame} due to {e}')
-                        break
+                    left_efgh = FrameEFGH(left_frame, processed_frame, self.left_cam_matrix, self.left_dist_coeffs, fps=self.left_fps)
+                    right_efgh = FrameEFGH(right_frame, processed_frame, self.right_cam_matrix, self.right_dist_coeffs, fps=self.right_fps)
+                    left_data = left_efgh.processEFGH()
+                    right_data = right_efgh.processEFGH()
+                    left_data_list.append(json.dumps(convert_to_list(left_data)))
+                    right_data_list.append(json.dumps(convert_to_list(right_data)))
                     pbar.update(1)
                     processed_frame += 1
 
             # Batch save to hdf5
-
-            left_hdf_file.create_dataset('timestamps', data=np.array(left_timestamps))
-            left_hdf_file.create_dataset('frame_indices', data=np.array(left_frame_indices))
-            left_hdf_file.create_dataset('face_presence', data=np.array(left_face_presence))
-            left_hdf_file.create_dataset('gaze_vector', data=np.array(left_gaze_vector))
-            left_hdf_file.create_dataset('facial_landmarks', data=np.array(left_face_landmarks))
-            left_hdf_file.create_dataset('hand_landmarks', data=np.array(left_hand_landmarks))
-            left_hdf_file.create_dataset('upper_body_pose', data=np.array(left_upper_body_pose))
-            for key, values in head_eye_data_left.items():
-                left_hdf_file.create_dataset(f'head_eye_data/{key}', data=np.array(values))
-            #
-            # right_hdf_file.create_dataset('timestamps', data=np.array(right_timestamps))
-            # right_hdf_file.create_dataset('frame_indices', data=np.array(right_frame_indices))
-            # right_hdf_file.create_dataset('face_presence', data=np.array(right_face_presence))
-            # right_hdf_file.create_dataset('gaze_vector', data=np.array(right_gaze_vector))
-            # right_hdf_file.create_dataset('facial_landmarks', data=np.array(right_face_landmarks))
-            # right_hdf_file.create_dataset('hand_landmarks', data=np.array(right_hand_landmarks))
-            # right_hdf_file.create_dataset('upper_body_pose', data=np.array(right_upper_body_pose))
-            # for key, values in head_eye_data_right.items():
-            #     right_hdf_file.create_dataset(f'head_eye_data/{key}', data=np.array(values))
-        pbar.close()
+            save_to_hdf5(left_data_list, left_hdf5_path)
+            save_to_hdf5(right_data_list, right_hdf5_path)
 
 
 if __name__ == '__main__':
-    left_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4'
-    right_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LR/BIAH_RB.mp4'
+    left_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4'
+    right_video_path = '/media/iamshri/Seagate/Test_Evironment/p03/CAM_LR/BIAH_RB.mp4'
     synch_data = Sync_DataExtraction(left_video_path, right_video_path)
     synch_data.sync_data_extract()
     print('Data extraction complete')
