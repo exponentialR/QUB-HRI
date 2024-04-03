@@ -73,5 +73,5 @@ def display_video(video_path, window_name):
 if __name__ == "__main__":
     input_video_path = 'data/input/BIAH_RB.mp4'
     output_video_path = 'data/output/output.mp4'
-    reduce_resolution(input_video_path, output_video_path, 40)
+    reduce_resolution(input_video_path, output_video_path, 45)
     display_video(output_video_path, 'Reduced Resolution Video')
