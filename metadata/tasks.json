@@ -320,15 +320,13 @@
         "BRIDGE_AS",
         "BRIDGE_BV",
         "BIAH_BS",
-        "BIAH_RB",
-        "BIAH_BV"
+        "BIAH_RB"
     ],
     "p35": [
         "CALIBRATION",
         "BRIDGE_AS",
         "BRIDGE_BV",
         "TOWER_MS",
-        "TOWER_HO",
         "BIAH_BS",
         "BIAH_RB",
         "BIAH_BV",
@@ -509,11 +507,11 @@
         "TOWER_HO",
         "BRIDGE_AS",
         "BRIDGE_BV",
-        "STAIRWAY_AP",
-        "STAIRWAY_MS",
         "BIAH_BS",
         "BIAH_RB",
-        "BIAH_BV"
+        "BIAH_BV",
+        "STAIRWAY_AP",
+        "STAIRWAY_MS"
     ],
     "p51": [
         "CALIBRATION",

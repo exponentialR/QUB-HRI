@@ -80,22 +80,22 @@ def process_cam_directory(cam_dir, task_metadata):
         print(f'{intrinsic_calib_file_path} renamed to {new_intrinsic_calib_file_path}')
         file_rename_map[intrinsic_calib_file] = 'intrinsic.npz'
         file_count += 1
-    # try:
-    #     video_file_list = [f for f in os.listdir(cam_dir) if
-    #                        f.endswith('.avi') and not f.lower().startswith('calib')]
-    #     video_file_list.sort()
-    #     new_names = [os.path.join(cam_dir, f'{i}.mp4') for i in task_metadata[1:]]
-    #     video_paths = [os.path.join(cam_dir, f) for f in video_file_list]
-    #
-    #     for old_name, new_name in zip(video_paths, new_names):
-    #         os.rename(old_name, new_name)
-    #         print(f'{old_name} renamed to {new_name}')
-    #         file_rename_map[os.path.basename(old_name)] = os.path.basename(new_name)
-    #         file_count += 1
-    #     return file_rename_map, file_count
-    #
-    # except Exception as e:
-    #     print(f'Error processing {cam_dir}: {e}')
+    try:
+        video_file_list = [f for f in os.listdir(cam_dir) if
+                           f.endswith('.avi') and not f.lower().startswith('calib')]
+        video_file_list.sort()
+        new_names = [os.path.join(cam_dir, f'{i}.mp4') for i in task_metadata[1:]]
+        video_paths = [os.path.join(cam_dir, f) for f in video_file_list]
+
+        for old_name, new_name in zip(video_paths, new_names):
+            os.rename(old_name, new_name)
+            print(f'{old_name} renamed to {new_name}')
+            file_rename_map[os.path.basename(old_name)] = os.path.basename(new_name)
+            file_count += 1
+        return file_rename_map, file_count
+
+    except Exception as e:
+        print(f'Error processing {cam_dir}: {e}')
     return file_rename_map, file_count
 
 

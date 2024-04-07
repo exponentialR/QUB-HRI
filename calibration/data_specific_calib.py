@@ -119,7 +119,7 @@ class CalibrateCorrect:
 
                             # Perform Calibration
 
-                            calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
+                            calib_video_file = os.path.join(current_camera, 'CALIBRATION_2.MP4')
                             self.video_parent_dir = os.path.dirname(calib_video_file)
                             calib_file = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(calib_video_file).split('.')[0]}.npz"
                             if not os.path.exists(calib_file):
@@ -316,17 +316,18 @@ class CalibrateCorrect:
 
 
 if __name__ == '__main__':
-    proj_repo = '/home/iamshri/Documents/PHEO-Data'
+    proj_repo = '/home/iamshri/Documents/Dataset/QUB-PHEO'
     squareX = 16
     squareY = 11
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    start_participant = 61
-    end_participant = 64
+    start_participant = 23
+    end_participant = 23
     logger = setup_calibration_video_logger()
     logger.info(f'Starting Video Calibration and Correction for Participants p{start_participant:02d} to p{end_participant:02d}')
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,
                              markerLength=markerLength,
                              dictionary=dictionary, participant_id_start=start_participant, participant_id_last=end_participant)
     calib.SingleCalibMultiCorrect()
+    logger.info(f'Completed Video Calibration and Correction for Participants p{start_participant:02d} to p{end_participant:02d}')
