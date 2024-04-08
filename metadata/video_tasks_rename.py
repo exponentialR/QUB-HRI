@@ -49,8 +49,8 @@ class RenameVideos:
 
 if __name__ == '__main__':
     proj_dir = "/media/iamshri/EXTERNAL_USB/Waiting-Data"
-    start_participant = 31
-    end_participant = 40
+    start_participant = 41
+    end_participant = 50
     task_metadata = 'tasks.json'
 
     renamer = RenameVideos(proj_dir, start_participant, end_participant, task_metadata)
