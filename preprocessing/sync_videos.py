@@ -42,3 +42,12 @@ class VideoSynchronizer:
                         synchronize_videos(reference_video_path, target_video_path)
                     else:
                         logger.warning(f'Video {target_video_path} does not exist. Skipping...')
+
+
+if __name__ == '__main__':
+    base_dir = "/media/iamshri/EXTERNAL_USB/Waiting-Data"
+    start_participant = 41
+    end_participant = 50
+
+    synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
+    synchronizer.synchronize()
