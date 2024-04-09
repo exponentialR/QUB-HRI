@@ -1,0 +1,2355 @@
+{
+      "p11": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            }
+      },
+      "p13": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            }
+      },
+      "p14": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            }
+      },
+      "p15": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            }
+      },
+      "p12": {
+            "CAM_LR": {
+                  "calibration.mp4": "calibration.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4"
+            }
+      },
+      "p17": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010258_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010259_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010260_CC.avi": "TOWER_MS.mp4",
+                  "GX010261_CC.avi": "TOWER_HO.mp4",
+                  "GX010262_CC.avi": "BIAH_BS.mp4",
+                  "GX010263_CC.avi": "BIAH_RB.mp4",
+                  "GX010264_CC.avi": "BIAH_BV.mp4",
+                  "GX010265_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010266_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010286_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010287_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010288_CC.avi": "TOWER_MS.mp4",
+                  "GX010289_CC.avi": "TOWER_HO.mp4",
+                  "GX010290_CC.avi": "BIAH_BS.mp4",
+                  "GX010291_CC.avi": "BIAH_RB.mp4",
+                  "GX010292_CC.avi": "BIAH_BV.mp4",
+                  "GX010293_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010294_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010253_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010254_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010255_CC.avi": "TOWER_MS.mp4",
+                  "GX010256_CC.avi": "TOWER_HO.mp4",
+                  "GX010257_CC.avi": "BIAH_BS.mp4",
+                  "GX010258_CC.avi": "BIAH_RB.mp4",
+                  "GX010259_CC.avi": "BIAH_BV.mp4",
+                  "GX010260_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010261_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010253_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010254_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010255_CC.avi": "TOWER_MS.mp4",
+                  "GX010256_CC.avi": "TOWER_HO.mp4",
+                  "GX010257_CC.avi": "BIAH_BS.mp4",
+                  "GX010258_CC.avi": "BIAH_RB.mp4",
+                  "GX010259_CC.avi": "BIAH_BV.mp4",
+                  "GX010260_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010261_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010234_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010235_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010236_CC.avi": "TOWER_MS.mp4",
+                  "GX010237_CC.avi": "TOWER_HO.mp4",
+                  "GX010238_CC.avi": "BIAH_BS.mp4",
+                  "GX010239_CC.avi": "BIAH_RB.mp4",
+                  "GX010240_CC.avi": "BIAH_BV.mp4",
+                  "GX010241_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010242_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p18": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010269_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010270_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010271_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010272_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010273_CC.avi": "TOWER_MS.mp4",
+                  "GX010274_CC.avi": "TOWER_HO.mp4",
+                  "GX010275_CC.avi": "BIAH_BS.mp4",
+                  "GX010276_CC.avi": "BIAH_RB.mp4",
+                  "GX010277_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010297_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010298_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010299_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010300_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010301_CC.avi": "TOWER_MS.mp4",
+                  "GX010302_CC.avi": "TOWER_HO.mp4",
+                  "GX010303_CC.avi": "BIAH_BS.mp4",
+                  "GX010304_CC.avi": "BIAH_RB.mp4",
+                  "GX010305_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010264_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010265_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010266_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010267_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010268_CC.avi": "TOWER_MS.mp4",
+                  "GX010269_CC.avi": "TOWER_HO.mp4",
+                  "GX010270_CC.avi": "BIAH_BS.mp4",
+                  "GX010271_CC.avi": "BIAH_RB.mp4",
+                  "GX010272_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010264_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010265_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010266_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010267_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010268_CC.avi": "TOWER_MS.mp4",
+                  "GX010269_CC.avi": "TOWER_HO.mp4",
+                  "GX010270_CC.avi": "BIAH_BS.mp4",
+                  "GX010271_CC.avi": "BIAH_RB.mp4",
+                  "GX010272_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010244_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010245_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010246_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010247_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010248_CC.avi": "TOWER_MS.mp4",
+                  "GX010249_CC.avi": "TOWER_HO.mp4",
+                  "GX010250_CC.avi": "BIAH_BS.mp4",
+                  "GX010251_CC.avi": "BIAH_RB.mp4",
+                  "GX010252_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p19": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010279_CC.avi": "TOWER_MS.mp4",
+                  "GX010280_CC.avi": "TOWER_HO.mp4",
+                  "GX010281_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010282_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010283_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010284_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010285_CC.avi": "BIAH_BS.mp4",
+                  "GX010286_CC.avi": "BIAH_RB.mp4",
+                  "GX010287_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010307_CC.avi": "TOWER_MS.mp4",
+                  "GX010308_CC.avi": "TOWER_HO.mp4",
+                  "GX010309_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010310_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010311_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010312_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010313_CC.avi": "BIAH_BS.mp4",
+                  "GX010314_CC.avi": "BIAH_RB.mp4",
+                  "GX010315_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010274_CC.avi": "TOWER_MS.mp4",
+                  "GX010275_CC.avi": "TOWER_HO.mp4",
+                  "GX010276_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010277_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010278_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010279_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010280_CC.avi": "BIAH_BS.mp4",
+                  "GX010281_CC.avi": "BIAH_RB.mp4",
+                  "GX010282_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010274_CC.avi": "TOWER_MS.mp4",
+                  "GX010275_CC.avi": "TOWER_HO.mp4",
+                  "GX010276_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010277_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010278_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010279_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010280_CC.avi": "BIAH_BS.mp4",
+                  "GX010281_CC.avi": "BIAH_RB.mp4",
+                  "GX010282_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010254_CC.avi": "TOWER_MS.mp4",
+                  "GX010255_CC.avi": "TOWER_HO.mp4",
+                  "GX010256_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010257_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010258_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010259_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010260_CC.avi": "BIAH_BS.mp4",
+                  "GX010261_CC.avi": "BIAH_RB.mp4",
+                  "GX010262_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p20": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010289_CC.avi": "TOWER_MS.mp4",
+                  "GX010291_CC.avi": "TOWER_HO.mp4",
+                  "GX010292_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010293_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010294_CC.avi": "BIAH_BS.mp4",
+                  "GX010295_CC.avi": "BIAH_RB.mp4",
+                  "GX010296_CC.avi": "BIAH_BV.mp4",
+                  "GX010298_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010299_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010317_CC.avi": "TOWER_MS.mp4",
+                  "GX010319_CC.avi": "TOWER_HO.mp4",
+                  "GX010320_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010321_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010322_CC.avi": "BIAH_BS.mp4",
+                  "GX010323_CC.avi": "BIAH_RB.mp4",
+                  "GX010324_CC.avi": "BIAH_BV.mp4",
+                  "GX010326_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010327_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010284_CC.avi": "TOWER_MS.mp4",
+                  "GX010286_CC.avi": "TOWER_HO.mp4",
+                  "GX010287_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010288_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010289_CC.avi": "BIAH_BS.mp4",
+                  "GX010290_CC.avi": "BIAH_RB.mp4",
+                  "GX010291_CC.avi": "BIAH_BV.mp4",
+                  "GX010293_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010294_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010284_CC.avi": "TOWER_MS.mp4",
+                  "GX010286_CC.avi": "TOWER_HO.mp4",
+                  "GX010287_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010288_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010289_CC.avi": "BIAH_BS.mp4",
+                  "GX010290_CC.avi": "BIAH_RB.mp4",
+                  "GX010291_CC.avi": "BIAH_BV.mp4",
+                  "GX010293_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010294_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010264_CC.avi": "TOWER_MS.mp4",
+                  "GX010266_CC.avi": "TOWER_HO.mp4",
+                  "GX010267_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010268_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010269_CC.avi": "BIAH_BS.mp4",
+                  "GX010270_CC.avi": "BIAH_RB.mp4",
+                  "GX010271_CC.avi": "BIAH_BV.mp4",
+                  "GX010273_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010274_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p21": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010302_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010304_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010305_CC.avi": "TOWER_MS.mp4",
+                  "GX010306_CC.avi": "TOWER_HO.mp4",
+                  "GX010307_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010308_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010309_CC.avi": "BIAH_BS.mp4",
+                  "GX010310_CC.avi": "BIAH_RB.mp4",
+                  "GX010311_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010330_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010332_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010333_CC.avi": "TOWER_MS.mp4",
+                  "GX010334_CC.avi": "TOWER_HO.mp4",
+                  "GX010335_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010336_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010337_CC.avi": "BIAH_BS.mp4",
+                  "GX010338_CC.avi": "BIAH_RB.mp4",
+                  "GX010339_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010297_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010299_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010300_CC.avi": "TOWER_MS.mp4",
+                  "GX010301_CC.avi": "TOWER_HO.mp4",
+                  "GX010302_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010303_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010304_CC.avi": "BIAH_BS.mp4",
+                  "GX010305_CC.avi": "BIAH_RB.mp4",
+                  "GX010306_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010297_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010299_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010300_CC.avi": "TOWER_MS.mp4",
+                  "GX010301_CC.avi": "TOWER_HO.mp4",
+                  "GX010302_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010303_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010304_CC.avi": "BIAH_BS.mp4",
+                  "GX010305_CC.avi": "BIAH_RB.mp4",
+                  "GX010306_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010277_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010279_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010280_CC.avi": "TOWER_MS.mp4",
+                  "GX010281_CC.avi": "TOWER_HO.mp4",
+                  "GX010282_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010283_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010284_CC.avi": "BIAH_BS.mp4",
+                  "GX010285_CC.avi": "BIAH_RB.mp4",
+                  "GX010286_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p22": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010313_CC.avi": "BIAH_BS.mp4",
+                  "GX010314_CC.avi": "BIAH_RB.mp4",
+                  "GX010315_CC.avi": "BIAH_BV.mp4",
+                  "GX010316_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010317_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010318_CC.avi": "TOWER_MS.mp4",
+                  "GX010319_CC.avi": "TOWER_HO.mp4",
+                  "GX010320_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010321_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010341_CC.avi": "BIAH_BS.mp4",
+                  "GX010342_CC.avi": "BIAH_RB.mp4",
+                  "GX010343_CC.avi": "BIAH_BV.mp4",
+                  "GX010344_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010345_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010346_CC.avi": "TOWER_MS.mp4",
+                  "GX010347_CC.avi": "TOWER_HO.mp4",
+                  "GX010348_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010349_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010308_CC.avi": "BIAH_BS.mp4",
+                  "GX010309_CC.avi": "BIAH_RB.mp4",
+                  "GX010310_CC.avi": "BIAH_BV.mp4",
+                  "GX010311_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010312_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010313_CC.avi": "TOWER_MS.mp4",
+                  "GX010314_CC.avi": "TOWER_HO.mp4",
+                  "GX010315_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010316_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010308_CC.avi": "BIAH_BS.mp4",
+                  "GX010309_CC.avi": "BIAH_RB.mp4",
+                  "GX010310_CC.avi": "BIAH_BV.mp4",
+                  "GX010311_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010312_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010313_CC.avi": "TOWER_MS.mp4",
+                  "GX010314_CC.avi": "TOWER_HO.mp4",
+                  "GX010315_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010316_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010288_CC.avi": "BIAH_BS.mp4",
+                  "GX010289_CC.avi": "BIAH_RB.mp4",
+                  "GX010290_CC.avi": "BIAH_BV.mp4",
+                  "GX010291_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010292_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010293_CC.avi": "TOWER_MS.mp4",
+                  "GX010294_CC.avi": "TOWER_HO.mp4",
+                  "GX010295_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010296_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p23": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010323_CC.avi": "TOWER_MS.mp4",
+                  "GX010324_CC.avi": "TOWER_HO.mp4",
+                  "GX010325_CC.avi": "BIAH_BS.mp4",
+                  "GX010326_CC.avi": "BIAH_RB.mp4",
+                  "GX010327_CC.avi": "BIAH_BV.mp4",
+                  "GX010328_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010329_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010364_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010365_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010351_CC.avi": "TOWER_MS.mp4",
+                  "GX010352_CC.avi": "TOWER_HO.mp4",
+                  "GX010353_CC.avi": "BIAH_BS.mp4",
+                  "GX010354_CC.avi": "BIAH_RB.mp4",
+                  "GX010355_CC.avi": "BIAH_BV.mp4",
+                  "GX010356_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010357_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010391_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010392_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010318_CC.avi": "TOWER_MS.mp4",
+                  "GX010319_CC.avi": "TOWER_HO.mp4",
+                  "GX010320_CC.avi": "BIAH_BS.mp4",
+                  "GX010321_CC.avi": "BIAH_RB.mp4",
+                  "GX010322_CC.avi": "BIAH_BV.mp4",
+                  "GX010323_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010324_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010358_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010359_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010318_CC.avi": "TOWER_MS.mp4",
+                  "GX010319_CC.avi": "TOWER_HO.mp4",
+                  "GX010320_CC.avi": "BIAH_BS.mp4",
+                  "GX010321_CC.avi": "BIAH_RB.mp4",
+                  "GX010322_CC.avi": "BIAH_BV.mp4",
+                  "GX010323_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010324_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010356_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010357_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010298_CC.avi": "TOWER_MS.mp4",
+                  "GX010299_CC.avi": "TOWER_HO.mp4",
+                  "GX010300_CC.avi": "BIAH_BS.mp4",
+                  "GX010301_CC.avi": "BIAH_RB.mp4",
+                  "GX010302_CC.avi": "BIAH_BV.mp4",
+                  "GX010303_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010304_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010338_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010339_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p24": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010334_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010335_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010336_CC.avi": "TOWER_MS.mp4",
+                  "GX010337_CC.avi": "TOWER_HO.mp4",
+                  "GX010338_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010339_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010340_CC.avi": "BIAH_BS.mp4",
+                  "GX010341_CC.avi": "BIAH_RB.mp4",
+                  "GX010342_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010361_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010362_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010363_CC.avi": "TOWER_MS.mp4",
+                  "GX010364_CC.avi": "TOWER_HO.mp4",
+                  "GX010365_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010366_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010367_CC.avi": "BIAH_BS.mp4",
+                  "GX010368_CC.avi": "BIAH_RB.mp4",
+                  "GX010369_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010328_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010329_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010330_CC.avi": "TOWER_MS.mp4",
+                  "GX010331_CC.avi": "TOWER_HO.mp4",
+                  "GX010332_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010333_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010334_CC.avi": "BIAH_BS.mp4",
+                  "GX010335_CC.avi": "BIAH_RB.mp4",
+                  "GX010336_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010326_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010327_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010328_CC.avi": "TOWER_MS.mp4",
+                  "GX010329_CC.avi": "TOWER_HO.mp4",
+                  "GX010330_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010331_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010332_CC.avi": "BIAH_BS.mp4",
+                  "GX010333_CC.avi": "BIAH_RB.mp4",
+                  "GX010334_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010308_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010309_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010310_CC.avi": "TOWER_MS.mp4",
+                  "GX010311_CC.avi": "TOWER_HO.mp4",
+                  "GX010312_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010313_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010314_CC.avi": "BIAH_BS.mp4",
+                  "GX010315_CC.avi": "BIAH_RB.mp4",
+                  "GX010316_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p25": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010344_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010345_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010346_CC.avi": "TOWER_MS.mp4",
+                  "GX010347_CC.avi": "TOWER_HO.mp4",
+                  "GX010348_CC.avi": "BIAH_BS.mp4",
+                  "GX010349_CC.avi": "BIAH_RB.mp4",
+                  "GX010350_CC.avi": "BIAH_BV.mp4",
+                  "GX010351_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010352_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010371_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010372_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010373_CC.avi": "TOWER_MS.mp4",
+                  "GX010374_CC.avi": "TOWER_HO.mp4",
+                  "GX010375_CC.avi": "BIAH_BS.mp4",
+                  "GX010376_CC.avi": "BIAH_RB.mp4",
+                  "GX010377_CC.avi": "BIAH_BV.mp4",
+                  "GX010378_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010379_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010338_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010339_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010340_CC.avi": "TOWER_MS.mp4",
+                  "GX010341_CC.avi": "TOWER_HO.mp4",
+                  "GX010342_CC.avi": "BIAH_BS.mp4",
+                  "GX010343_CC.avi": "BIAH_RB.mp4",
+                  "GX010344_CC.avi": "BIAH_BV.mp4",
+                  "GX010345_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010346_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010336_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010337_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010338_CC.avi": "TOWER_MS.mp4",
+                  "GX010339_CC.avi": "TOWER_HO.mp4",
+                  "GX010340_CC.avi": "BIAH_BS.mp4",
+                  "GX010341_CC.avi": "BIAH_RB.mp4",
+                  "GX010342_CC.avi": "BIAH_BV.mp4",
+                  "GX010343_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010344_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010318_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010319_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010320_CC.avi": "TOWER_MS.mp4",
+                  "GX010321_CC.avi": "TOWER_HO.mp4",
+                  "GX010322_CC.avi": "BIAH_BS.mp4",
+                  "GX010323_CC.avi": "BIAH_RB.mp4",
+                  "GX010324_CC.avi": "BIAH_BV.mp4",
+                  "GX010325_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010326_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p26": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010355_CC.avi": "TOWER_MS.mp4",
+                  "GX010356_CC.avi": "TOWER_HO.mp4",
+                  "GX010357_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010358_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010359_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010360_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010361_CC.avi": "BIAH_BS.mp4",
+                  "GX010362_CC.avi": "BIAH_RB.mp4",
+                  "GX010363_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010382_CC.avi": "TOWER_MS.mp4",
+                  "GX010383_CC.avi": "TOWER_HO.mp4",
+                  "GX010384_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010385_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010386_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010387_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010388_CC.avi": "BIAH_BS.mp4",
+                  "GX010389_CC.avi": "BIAH_RB.mp4",
+                  "GX010390_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010349_CC.avi": "TOWER_MS.mp4",
+                  "GX010350_CC.avi": "TOWER_HO.mp4",
+                  "GX010351_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010352_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010353_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010354_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010355_CC.avi": "BIAH_BS.mp4",
+                  "GX010356_CC.avi": "BIAH_RB.mp4",
+                  "GX010357_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010347_CC.avi": "TOWER_MS.mp4",
+                  "GX010348_CC.avi": "TOWER_HO.mp4",
+                  "GX010349_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010350_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010351_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010352_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010353_CC.avi": "BIAH_BS.mp4",
+                  "GX010354_CC.avi": "BIAH_RB.mp4",
+                  "GX010355_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010329_CC.avi": "TOWER_MS.mp4",
+                  "GX010330_CC.avi": "TOWER_HO.mp4",
+                  "GX010331_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010332_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010333_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010334_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010335_CC.avi": "BIAH_BS.mp4",
+                  "GX010336_CC.avi": "BIAH_RB.mp4",
+                  "GX010337_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p27": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010368_CC.avi": "BIAH_BS.mp4",
+                  "GX010369_CC.avi": "BIAH_RB.mp4",
+                  "GX010370_CC.avi": "BIAH_BV.mp4",
+                  "GX010371_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010372_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010373_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010374_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010375_CC.avi": "TOWER_MS.mp4",
+                  "GX010376_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010395_CC.avi": "BIAH_BS.mp4",
+                  "GX010396_CC.avi": "BIAH_RB.mp4",
+                  "GX010397_CC.avi": "BIAH_BV.mp4",
+                  "GX010398_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010399_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010400_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010401_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010402_CC.avi": "TOWER_MS.mp4",
+                  "GX010403_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010362_CC.avi": "BIAH_BS.mp4",
+                  "GX010363_CC.avi": "BIAH_RB.mp4",
+                  "GX010364_CC.avi": "BIAH_BV.mp4",
+                  "GX010365_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010366_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010367_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010368_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010369_CC.avi": "TOWER_MS.mp4",
+                  "GX010370_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010360_CC.avi": "BIAH_BS.mp4",
+                  "GX010361_CC.avi": "BIAH_RB.mp4",
+                  "GX010362_CC.avi": "BIAH_BV.mp4",
+                  "GX010363_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010364_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010365_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010366_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010367_CC.avi": "TOWER_MS.mp4",
+                  "GX010368_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010342_CC.avi": "BIAH_BS.mp4",
+                  "GX010343_CC.avi": "BIAH_RB.mp4",
+                  "GX010344_CC.avi": "BIAH_BV.mp4",
+                  "GX010345_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010346_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010347_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010348_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010349_CC.avi": "TOWER_MS.mp4",
+                  "GX010350_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p28": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010377_CC.avi": "BIAH_BS.mp4",
+                  "GX010378_CC.avi": "BIAH_RB.mp4",
+                  "GX010379_CC.avi": "BIAH_BV.mp4",
+                  "GX010380_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010381_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010382_CC.avi": "TOWER_MS.mp4",
+                  "GX010383_CC.avi": "TOWER_HO.mp4",
+                  "GX010384_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010385_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010404_CC.avi": "BIAH_BS.mp4",
+                  "GX010405_CC.avi": "BIAH_RB.mp4",
+                  "GX010406_CC.avi": "BIAH_BV.mp4",
+                  "GX010407_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010408_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010409_CC.avi": "TOWER_MS.mp4",
+                  "GX010410_CC.avi": "TOWER_HO.mp4",
+                  "GX010411_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010412_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010371_CC.avi": "BIAH_BS.mp4",
+                  "GX010372_CC.avi": "BIAH_RB.mp4",
+                  "GX010373_CC.avi": "BIAH_BV.mp4",
+                  "GX010374_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010375_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010376_CC.avi": "TOWER_MS.mp4",
+                  "GX010377_CC.avi": "TOWER_HO.mp4",
+                  "GX010378_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010379_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010369_CC.avi": "BIAH_BS.mp4",
+                  "GX010370_CC.avi": "BIAH_RB.mp4",
+                  "GX010371_CC.avi": "BIAH_BV.mp4",
+                  "GX010372_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010373_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010374_CC.avi": "TOWER_MS.mp4",
+                  "GX010375_CC.avi": "TOWER_HO.mp4",
+                  "GX010376_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010377_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010351_CC.avi": "BIAH_BS.mp4",
+                  "GX010352_CC.avi": "BIAH_RB.mp4",
+                  "GX010353_CC.avi": "BIAH_BV.mp4",
+                  "GX010354_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010355_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010356_CC.avi": "TOWER_MS.mp4",
+                  "GX010357_CC.avi": "TOWER_HO.mp4",
+                  "GX010358_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010359_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p29": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010387_CC.avi": "BIAH_BS.mp4",
+                  "GX010388_CC.avi": "BIAH_RB.mp4",
+                  "GX010389_CC.avi": "BIAH_BV.mp4",
+                  "GX010390_CC.avi": "TOWER_MS.mp4",
+                  "GX010391_CC.avi": "TOWER_HO.mp4",
+                  "GX010392_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010393_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010394_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010395_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010418_CC.avi": "BIAH_BS.mp4",
+                  "GX010419_CC.avi": "BIAH_RB.mp4",
+                  "GX010420_CC.avi": "BIAH_BV.mp4",
+                  "GX010421_CC.avi": "TOWER_MS.mp4",
+                  "GX010422_CC.avi": "TOWER_HO.mp4",
+                  "GX010423_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010424_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010425_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010426_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010384_CC.avi": "BIAH_BS.mp4",
+                  "GX010385_CC.avi": "BIAH_RB.mp4",
+                  "GX010386_CC.avi": "BIAH_BV.mp4",
+                  "GX010387_CC.avi": "TOWER_MS.mp4",
+                  "GX010388_CC.avi": "TOWER_HO.mp4",
+                  "GX010389_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010390_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010391_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010392_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010379_CC.avi": "BIAH_BS.mp4",
+                  "GX010380_CC.avi": "BIAH_RB.mp4",
+                  "GX010381_CC.avi": "BIAH_BV.mp4",
+                  "GX010382_CC.avi": "TOWER_MS.mp4",
+                  "GX010383_CC.avi": "TOWER_HO.mp4",
+                  "GX010384_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010385_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010386_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010387_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010361_CC.avi": "BIAH_BS.mp4",
+                  "GX010362_CC.avi": "BIAH_RB.mp4",
+                  "GX010363_CC.avi": "BIAH_BV.mp4",
+                  "GX010364_CC.avi": "TOWER_MS.mp4",
+                  "GX010365_CC.avi": "TOWER_HO.mp4",
+                  "GX010366_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010367_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010368_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010369_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p30": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010397_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010398_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010399_CC.avi": "TOWER_MS.mp4",
+                  "GX010400_CC.avi": "TOWER_HO.mp4",
+                  "GX010401_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010402_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010403_CC.avi": "BIAH_BS.mp4",
+                  "GX010404_CC.avi": "BIAH_RB.mp4",
+                  "GX010405_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010428_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010429_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010430_CC.avi": "TOWER_MS.mp4",
+                  "GX010431_CC.avi": "TOWER_HO.mp4",
+                  "GX010432_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010433_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010434_CC.avi": "BIAH_BS.mp4",
+                  "GX010435_CC.avi": "BIAH_RB.mp4",
+                  "GX010436_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010394_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010395_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010396_CC.avi": "TOWER_MS.mp4",
+                  "GX010397_CC.avi": "TOWER_HO.mp4",
+                  "GX010398_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010399_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010400_CC.avi": "BIAH_BS.mp4",
+                  "GX010401_CC.avi": "BIAH_RB.mp4",
+                  "GX010402_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010389_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010390_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010391_CC.avi": "TOWER_MS.mp4",
+                  "GX010392_CC.avi": "TOWER_HO.mp4",
+                  "GX010393_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010394_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010395_CC.avi": "BIAH_BS.mp4",
+                  "GX010396_CC.avi": "BIAH_RB.mp4",
+                  "GX010397_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010371_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010372_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010373_CC.avi": "TOWER_MS.mp4",
+                  "GX010374_CC.avi": "TOWER_HO.mp4",
+                  "GX010375_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010376_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010377_CC.avi": "BIAH_BS.mp4",
+                  "GX010378_CC.avi": "BIAH_RB.mp4",
+                  "GX010379_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p31": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010408_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010409_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010410_CC.avi": "TOWER_MS.mp4",
+                  "GX010411_CC.avi": "TOWER_HO.mp4",
+                  "GX010412_CC.avi": "BIAH_BS.mp4",
+                  "GX010413_CC.avi": "BIAH_RB.mp4",
+                  "GX010414_CC.avi": "BIAH_BV.mp4",
+                  "GX010415_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010416_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010439_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010440_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010441_CC.avi": "TOWER_MS.mp4",
+                  "GX010442_CC.avi": "TOWER_HO.mp4",
+                  "GX010443_CC.avi": "BIAH_BS.mp4",
+                  "GX010444_CC.avi": "BIAH_RB.mp4",
+                  "GX010445_CC.avi": "BIAH_BV.mp4",
+                  "GX010446_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010447_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010405_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010406_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010407_CC.avi": "TOWER_MS.mp4",
+                  "GX010408_CC.avi": "TOWER_HO.mp4",
+                  "GX010409_CC.avi": "BIAH_BS.mp4",
+                  "GX010410_CC.avi": "BIAH_RB.mp4",
+                  "GX010411_CC.avi": "BIAH_BV.mp4",
+                  "GX010412_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010413_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010400_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010401_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010402_CC.avi": "TOWER_MS.mp4",
+                  "GX010403_CC.avi": "TOWER_HO.mp4",
+                  "GX010404_CC.avi": "BIAH_BS.mp4",
+                  "GX010405_CC.avi": "BIAH_RB.mp4",
+                  "GX010406_CC.avi": "BIAH_BV.mp4",
+                  "GX010407_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010408_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010382_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010383_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010384_CC.avi": "TOWER_MS.mp4",
+                  "GX010385_CC.avi": "TOWER_HO.mp4",
+                  "GX010386_CC.avi": "BIAH_BS.mp4",
+                  "GX010387_CC.avi": "BIAH_RB.mp4",
+                  "GX010388_CC.avi": "BIAH_BV.mp4",
+                  "GX010389_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010390_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p32": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010418_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010419_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010420_CC.avi": "BIAH_BS.mp4",
+                  "GX010421_CC.avi": "BIAH_RB.mp4",
+                  "GX010422_CC.avi": "BIAH_BV.mp4",
+                  "GX010423_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010424_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010425_CC.avi": "TOWER_MS.mp4",
+                  "GX010426_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010449_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010450_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010451_CC.avi": "BIAH_BS.mp4",
+                  "GX010452_CC.avi": "BIAH_RB.mp4",
+                  "GX010453_CC.avi": "BIAH_BV.mp4",
+                  "GX010454_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010455_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010456_CC.avi": "TOWER_MS.mp4",
+                  "GX010457_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010415_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010416_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010417_CC.avi": "BIAH_BS.mp4",
+                  "GX010418_CC.avi": "BIAH_RB.mp4",
+                  "GX010419_CC.avi": "BIAH_BV.mp4",
+                  "GX010420_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010421_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010422_CC.avi": "TOWER_MS.mp4",
+                  "GX010423_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010410_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010411_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010412_CC.avi": "BIAH_BS.mp4",
+                  "GX010413_CC.avi": "BIAH_RB.mp4",
+                  "GX010414_CC.avi": "BIAH_BV.mp4",
+                  "GX010415_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010416_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010417_CC.avi": "TOWER_MS.mp4",
+                  "GX010418_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010392_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010393_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010394_CC.avi": "BIAH_BS.mp4",
+                  "GX010395_CC.avi": "BIAH_RB.mp4",
+                  "GX010396_CC.avi": "BIAH_BV.mp4",
+                  "GX010397_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010398_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010399_CC.avi": "TOWER_MS.mp4",
+                  "GX010400_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p33": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010428_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010429_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010430_CC.avi": "TOWER_MS.mp4",
+                  "GX010431_CC.avi": "TOWER_HO.mp4",
+                  "GX010432_CC.avi": "BIAH_BS.mp4",
+                  "GX010433_CC.avi": "BIAH_RB.mp4",
+                  "GX010434_CC.avi": "BIAH_BV.mp4",
+                  "GX010435_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010436_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010459_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010460_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010461_CC.avi": "TOWER_MS.mp4",
+                  "GX010462_CC.avi": "TOWER_HO.mp4",
+                  "GX010463_CC.avi": "BIAH_BS.mp4",
+                  "GX010464_CC.avi": "BIAH_RB.mp4",
+                  "GX010465_CC.avi": "BIAH_BV.mp4",
+                  "GX010466_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010467_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010425_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010426_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010427_CC.avi": "TOWER_MS.mp4",
+                  "GX010428_CC.avi": "TOWER_HO.mp4",
+                  "GX010429_CC.avi": "BIAH_BS.mp4",
+                  "GX010430_CC.avi": "BIAH_RB.mp4",
+                  "GX010431_CC.avi": "BIAH_BV.mp4",
+                  "GX010432_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010433_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010420_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010421_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010422_CC.avi": "TOWER_MS.mp4",
+                  "GX010423_CC.avi": "TOWER_HO.mp4",
+                  "GX010424_CC.avi": "BIAH_BS.mp4",
+                  "GX010425_CC.avi": "BIAH_RB.mp4",
+                  "GX010426_CC.avi": "BIAH_BV.mp4",
+                  "GX010427_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010428_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010402_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010403_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010404_CC.avi": "TOWER_MS.mp4",
+                  "GX010405_CC.avi": "TOWER_HO.mp4",
+                  "GX010406_CC.avi": "BIAH_BS.mp4",
+                  "GX010407_CC.avi": "BIAH_RB.mp4",
+                  "GX010408_CC.avi": "BIAH_BV.mp4",
+                  "GX010409_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010410_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p34": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010438_CC.avi": "TOWER_MS.mp4",
+                  "GX010439_CC.avi": "TOWER_HO.mp4",
+                  "GX010440_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010441_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010442_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010443_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010444_CC.avi": "BIAH_BS.mp4",
+                  "GX010445_CC.avi": "BIAH_RB.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010469_CC.avi": "TOWER_MS.mp4",
+                  "GX010470_CC.avi": "TOWER_HO.mp4",
+                  "GX010471_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010472_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010473_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010474_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010475_CC.avi": "BIAH_BS.mp4",
+                  "GX010476_CC.avi": "BIAH_RB.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010435_CC.avi": "TOWER_MS.mp4",
+                  "GX010436_CC.avi": "TOWER_HO.mp4",
+                  "GX010437_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010438_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010439_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010440_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010441_CC.avi": "BIAH_BS.mp4",
+                  "GX010442_CC.avi": "BIAH_RB.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010430_CC.avi": "TOWER_MS.mp4",
+                  "GX010431_CC.avi": "TOWER_HO.mp4",
+                  "GX010432_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010433_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010434_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010435_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010436_CC.avi": "BIAH_BS.mp4",
+                  "GX010437_CC.avi": "BIAH_RB.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010412_CC.avi": "TOWER_MS.mp4",
+                  "GX010413_CC.avi": "TOWER_HO.mp4",
+                  "GX010414_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010415_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010416_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010417_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010418_CC.avi": "BIAH_BS.mp4",
+                  "GX010419_CC.avi": "BIAH_RB.mp4"
+            }
+      },
+      "p35": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010447_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010448_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010449_CC.avi": "TOWER_MS.mp4",
+                  "GX010450_CC.avi": "BIAH_BS.mp4",
+                  "GX010451_CC.avi": "BIAH_RB.mp4",
+                  "GX010452_CC.avi": "BIAH_BV.mp4",
+                  "GX010453_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010454_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010478_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010479_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010480_CC.avi": "TOWER_MS.mp4",
+                  "GX010481_CC.avi": "BIAH_BS.mp4",
+                  "GX010482_CC.avi": "BIAH_RB.mp4",
+                  "GX010483_CC.avi": "BIAH_BV.mp4",
+                  "GX010484_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010485_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010444_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010445_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010446_CC.avi": "TOWER_MS.mp4",
+                  "GX010447_CC.avi": "BIAH_BS.mp4",
+                  "GX010448_CC.avi": "BIAH_RB.mp4",
+                  "GX010449_CC.avi": "BIAH_BV.mp4",
+                  "GX010450_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010451_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010439_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010440_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010441_CC.avi": "TOWER_MS.mp4",
+                  "GX010442_CC.avi": "BIAH_BS.mp4",
+                  "GX010443_CC.avi": "BIAH_RB.mp4",
+                  "GX010444_CC.avi": "BIAH_BV.mp4",
+                  "GX010445_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010446_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010421_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010422_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010423_CC.avi": "TOWER_MS.mp4",
+                  "GX010424_CC.avi": "BIAH_BS.mp4",
+                  "GX010425_CC.avi": "BIAH_RB.mp4",
+                  "GX010426_CC.avi": "BIAH_BV.mp4",
+                  "GX010427_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010428_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p36": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010456_CC.avi": "TOWER_MS.mp4",
+                  "GX010457_CC.avi": "TOWER_HO.mp4",
+                  "GX010458_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010459_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010460_CC.avi": "BIAH_BS.mp4",
+                  "GX010461_CC.avi": "BIAH_RB.mp4",
+                  "GX010462_CC.avi": "BIAH_BV.mp4",
+                  "GX010463_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010464_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010487_CC.avi": "TOWER_MS.mp4",
+                  "GX010488_CC.avi": "TOWER_HO.mp4",
+                  "GX010489_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010490_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010491_CC.avi": "BIAH_BS.mp4",
+                  "GX010492_CC.avi": "BIAH_RB.mp4",
+                  "GX010493_CC.avi": "BIAH_BV.mp4",
+                  "GX010494_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010495_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010453_CC.avi": "TOWER_MS.mp4",
+                  "GX010454_CC.avi": "TOWER_HO.mp4",
+                  "GX010455_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010456_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010457_CC.avi": "BIAH_BS.mp4",
+                  "GX010458_CC.avi": "BIAH_RB.mp4",
+                  "GX010459_CC.avi": "BIAH_BV.mp4",
+                  "GX010460_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010461_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010448_CC.avi": "TOWER_MS.mp4",
+                  "GX010449_CC.avi": "TOWER_HO.mp4",
+                  "GX010450_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010451_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010452_CC.avi": "BIAH_BS.mp4",
+                  "GX010453_CC.avi": "BIAH_RB.mp4",
+                  "GX010454_CC.avi": "BIAH_BV.mp4",
+                  "GX010455_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010456_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010430_CC.avi": "TOWER_MS.mp4",
+                  "GX010431_CC.avi": "TOWER_HO.mp4",
+                  "GX010432_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010433_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010434_CC.avi": "BIAH_BS.mp4",
+                  "GX010435_CC.avi": "BIAH_RB.mp4",
+                  "GX010436_CC.avi": "BIAH_BV.mp4",
+                  "GX010437_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010438_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p37": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010466_CC.avi": "BIAH_BS.mp4",
+                  "GX010467_CC.avi": "BIAH_RB.mp4",
+                  "GX010468_CC.avi": "BIAH_BV.mp4",
+                  "GX010469_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010470_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010471_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010472_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010473_CC.avi": "TOWER_MS.mp4",
+                  "GX010474_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010497_CC.avi": "BIAH_BS.mp4",
+                  "GX010498_CC.avi": "BIAH_RB.mp4",
+                  "GX010499_CC.avi": "BIAH_BV.mp4",
+                  "GX010500_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010501_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010502_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010503_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010504_CC.avi": "TOWER_MS.mp4",
+                  "GX010505_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010463_CC.avi": "BIAH_BS.mp4",
+                  "GX010464_CC.avi": "BIAH_RB.mp4",
+                  "GX010465_CC.avi": "BIAH_BV.mp4",
+                  "GX010466_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010467_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010468_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010469_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010470_CC.avi": "TOWER_MS.mp4",
+                  "GX010471_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010458_CC.avi": "BIAH_BS.mp4",
+                  "GX010459_CC.avi": "BIAH_RB.mp4",
+                  "GX010460_CC.avi": "BIAH_BV.mp4",
+                  "GX010461_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010462_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010463_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010464_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010465_CC.avi": "TOWER_MS.mp4",
+                  "GX010466_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010440_CC.avi": "BIAH_BS.mp4",
+                  "GX010441_CC.avi": "BIAH_RB.mp4",
+                  "GX010442_CC.avi": "BIAH_BV.mp4",
+                  "GX010443_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010444_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010445_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010446_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010447_CC.avi": "TOWER_MS.mp4",
+                  "GX010448_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p38": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010477_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010479_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010480_CC.avi": "BIAH_BS.mp4",
+                  "GX010481_CC.avi": "BIAH_RB.mp4",
+                  "GX010482_CC.avi": "BIAH_BV.mp4",
+                  "GX010483_CC.avi": "TOWER_MS.mp4",
+                  "GX010484_CC.avi": "TOWER_HO.mp4",
+                  "GX010485_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010486_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010508_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010510_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010511_CC.avi": "BIAH_BS.mp4",
+                  "GX010512_CC.avi": "BIAH_RB.mp4",
+                  "GX010513_CC.avi": "BIAH_BV.mp4",
+                  "GX010514_CC.avi": "TOWER_MS.mp4",
+                  "GX010515_CC.avi": "TOWER_HO.mp4",
+                  "GX010516_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010517_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010474_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010476_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010477_CC.avi": "BIAH_BS.mp4",
+                  "GX010478_CC.avi": "BIAH_RB.mp4",
+                  "GX010479_CC.avi": "BIAH_BV.mp4",
+                  "GX010480_CC.avi": "TOWER_MS.mp4",
+                  "GX010481_CC.avi": "TOWER_HO.mp4",
+                  "GX010482_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010483_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010469_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010471_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010472_CC.avi": "BIAH_BS.mp4",
+                  "GX010473_CC.avi": "BIAH_RB.mp4",
+                  "GX010474_CC.avi": "BIAH_BV.mp4",
+                  "GX010475_CC.avi": "TOWER_MS.mp4",
+                  "GX010476_CC.avi": "TOWER_HO.mp4",
+                  "GX010477_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010478_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010451_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010453_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010454_CC.avi": "BIAH_BS.mp4",
+                  "GX010455_CC.avi": "BIAH_RB.mp4",
+                  "GX010456_CC.avi": "BIAH_BV.mp4",
+                  "GX010457_CC.avi": "TOWER_MS.mp4",
+                  "GX010458_CC.avi": "TOWER_HO.mp4",
+                  "GX010459_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010460_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p39": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010488_CC.avi": "BIAH_BS.mp4",
+                  "GX010489_CC.avi": "BIAH_RB.mp4",
+                  "GX010490_CC.avi": "BIAH_BV.mp4",
+                  "GX010491_CC.avi": "TOWER_MS.mp4",
+                  "GX010492_CC.avi": "TOWER_HO.mp4",
+                  "GX010493_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010494_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010495_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010496_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010519_CC.avi": "BIAH_BS.mp4",
+                  "GX010520_CC.avi": "BIAH_RB.mp4",
+                  "GX010521_CC.avi": "BIAH_BV.mp4",
+                  "GX010522_CC.avi": "TOWER_MS.mp4",
+                  "GX010523_CC.avi": "TOWER_HO.mp4",
+                  "GX010524_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010525_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010526_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010527_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010485_CC.avi": "BIAH_BS.mp4",
+                  "GX010486_CC.avi": "BIAH_RB.mp4",
+                  "GX010487_CC.avi": "BIAH_BV.mp4",
+                  "GX010488_CC.avi": "TOWER_MS.mp4",
+                  "GX010489_CC.avi": "TOWER_HO.mp4",
+                  "GX010490_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010491_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010492_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010493_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010480_CC.avi": "BIAH_BS.mp4",
+                  "GX010481_CC.avi": "BIAH_RB.mp4",
+                  "GX010482_CC.avi": "BIAH_BV.mp4",
+                  "GX010483_CC.avi": "TOWER_MS.mp4",
+                  "GX010484_CC.avi": "TOWER_HO.mp4",
+                  "GX010485_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010486_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010487_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010488_CC.avi": "BRIDGE_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010462_CC.avi": "BIAH_BS.mp4",
+                  "GX010463_CC.avi": "BIAH_RB.mp4",
+                  "GX010464_CC.avi": "BIAH_BV.mp4",
+                  "GX010465_CC.avi": "TOWER_MS.mp4",
+                  "GX010466_CC.avi": "TOWER_HO.mp4",
+                  "GX010467_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010468_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010469_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010470_CC.avi": "BRIDGE_BV.mp4"
+            }
+      },
+      "p40": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010498_CC.avi": "BIAH_BS.mp4",
+                  "GX010499_CC.avi": "BIAH_RB.mp4",
+                  "GX010500_CC.avi": "BIAH_BV.mp4",
+                  "GX010501_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010502_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010503_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010504_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010505_CC.avi": "TOWER_MS.mp4",
+                  "GX010506_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010529_CC.avi": "BIAH_BS.mp4",
+                  "GX010530_CC.avi": "BIAH_RB.mp4",
+                  "GX010531_CC.avi": "BIAH_BV.mp4",
+                  "GX010532_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010533_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010534_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010535_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010536_CC.avi": "TOWER_MS.mp4",
+                  "GX010537_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010495_CC.avi": "BIAH_BS.mp4",
+                  "GX010496_CC.avi": "BIAH_RB.mp4",
+                  "GX010497_CC.avi": "BIAH_BV.mp4",
+                  "GX010498_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010499_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010500_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010501_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010502_CC.avi": "TOWER_MS.mp4",
+                  "GX010503_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010490_CC.avi": "BIAH_BS.mp4",
+                  "GX010491_CC.avi": "BIAH_RB.mp4",
+                  "GX010492_CC.avi": "BIAH_BV.mp4",
+                  "GX010493_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010494_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010495_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010496_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010497_CC.avi": "TOWER_MS.mp4",
+                  "GX010498_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010472_CC.avi": "BIAH_BS.mp4",
+                  "GX010473_CC.avi": "BIAH_RB.mp4",
+                  "GX010474_CC.avi": "BIAH_BV.mp4",
+                  "GX010475_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010476_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010477_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010478_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010479_CC.avi": "TOWER_MS.mp4",
+                  "GX010480_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p41": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010508_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010509_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010510_CC.avi": "TOWER_MS.mp4",
+                  "GX010511_CC.avi": "TOWER_HO.mp4",
+                  "GX010512_CC.avi": "BIAH_BS.mp4",
+                  "GX010513_CC.avi": "BIAH_RB.mp4",
+                  "GX010514_CC.avi": "BIAH_BV.mp4",
+                  "GX010515_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010516_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010539_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010540_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010541_CC.avi": "TOWER_MS.mp4",
+                  "GX010542_CC.avi": "TOWER_HO.mp4",
+                  "GX010543_CC.avi": "BIAH_BS.mp4",
+                  "GX010544_CC.avi": "BIAH_RB.mp4",
+                  "GX010545_CC.avi": "BIAH_BV.mp4",
+                  "GX010546_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010547_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010505_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010506_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010507_CC.avi": "TOWER_MS.mp4",
+                  "GX010508_CC.avi": "TOWER_HO.mp4",
+                  "GX010509_CC.avi": "BIAH_BS.mp4",
+                  "GX010510_CC.avi": "BIAH_RB.mp4",
+                  "GX010511_CC.avi": "BIAH_BV.mp4",
+                  "GX010512_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010513_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010500_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010501_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010502_CC.avi": "TOWER_MS.mp4",
+                  "GX010503_CC.avi": "TOWER_HO.mp4",
+                  "GX010504_CC.avi": "BIAH_BS.mp4",
+                  "GX010505_CC.avi": "BIAH_RB.mp4",
+                  "GX010506_CC.avi": "BIAH_BV.mp4",
+                  "GX010507_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010508_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010482_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010483_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010484_CC.avi": "TOWER_MS.mp4",
+                  "GX010485_CC.avi": "TOWER_HO.mp4",
+                  "GX010486_CC.avi": "BIAH_BS.mp4",
+                  "GX010487_CC.avi": "BIAH_RB.mp4",
+                  "GX010488_CC.avi": "BIAH_BV.mp4",
+                  "GX010489_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010490_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p42": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010518_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010519_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010520_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010522_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010523_CC.avi": "BIAH_BS.mp4",
+                  "GX010524_CC.avi": "BIAH_RB.mp4",
+                  "GX010525_CC.avi": "BIAH_BV.mp4",
+                  "GX010526_CC.avi": "TOWER_MS.mp4",
+                  "GX010527_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010549_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010550_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010551_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010553_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010554_CC.avi": "BIAH_BS.mp4",
+                  "GX010555_CC.avi": "BIAH_RB.mp4",
+                  "GX010556_CC.avi": "BIAH_BV.mp4",
+                  "GX010557_CC.avi": "TOWER_MS.mp4",
+                  "GX010558_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010515_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010516_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010517_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010519_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010520_CC.avi": "BIAH_BS.mp4",
+                  "GX010521_CC.avi": "BIAH_RB.mp4",
+                  "GX010522_CC.avi": "BIAH_BV.mp4",
+                  "GX010523_CC.avi": "TOWER_MS.mp4",
+                  "GX010524_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010510_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010511_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010512_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010514_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010515_CC.avi": "BIAH_BS.mp4",
+                  "GX010516_CC.avi": "BIAH_RB.mp4",
+                  "GX010517_CC.avi": "BIAH_BV.mp4",
+                  "GX010518_CC.avi": "TOWER_MS.mp4",
+                  "GX010519_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010492_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010493_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010494_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010496_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010497_CC.avi": "BIAH_BS.mp4",
+                  "GX010498_CC.avi": "BIAH_RB.mp4",
+                  "GX010499_CC.avi": "BIAH_BV.mp4",
+                  "GX010500_CC.avi": "TOWER_MS.mp4",
+                  "GX010501_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p43": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010529_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010530_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010531_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010532_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010533_CC.avi": "TOWER_MS.mp4",
+                  "GX010534_CC.avi": "TOWER_HO.mp4",
+                  "GX010535_CC.avi": "BIAH_BS.mp4",
+                  "GX010536_CC.avi": "BIAH_RB.mp4",
+                  "GX010537_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010560_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010561_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010562_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010563_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010564_CC.avi": "TOWER_MS.mp4",
+                  "GX010565_CC.avi": "TOWER_HO.mp4",
+                  "GX010566_CC.avi": "BIAH_BS.mp4",
+                  "GX010567_CC.avi": "BIAH_RB.mp4",
+                  "GX010568_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010526_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010527_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010528_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010529_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010530_CC.avi": "TOWER_MS.mp4",
+                  "GX010531_CC.avi": "TOWER_HO.mp4",
+                  "GX010532_CC.avi": "BIAH_BS.mp4",
+                  "GX010533_CC.avi": "BIAH_RB.mp4",
+                  "GX010534_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010521_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010522_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010523_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010524_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010525_CC.avi": "TOWER_MS.mp4",
+                  "GX010526_CC.avi": "TOWER_HO.mp4",
+                  "GX010527_CC.avi": "BIAH_BS.mp4",
+                  "GX010528_CC.avi": "BIAH_RB.mp4",
+                  "GX010529_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010503_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010504_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010505_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010506_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010507_CC.avi": "TOWER_MS.mp4",
+                  "GX010508_CC.avi": "TOWER_HO.mp4",
+                  "GX010509_CC.avi": "BIAH_BS.mp4",
+                  "GX010510_CC.avi": "BIAH_RB.mp4",
+                  "GX010511_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p44": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010539_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010540_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010541_CC.avi": "BIAH_BS.mp4",
+                  "GX010542_CC.avi": "BIAH_RB.mp4",
+                  "GX010543_CC.avi": "BIAH_BV.mp4",
+                  "GX010544_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010545_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010546_CC.avi": "TOWER_MS.mp4",
+                  "GX010547_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010570_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010571_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010572_CC.avi": "BIAH_BS.mp4",
+                  "GX010573_CC.avi": "BIAH_RB.mp4",
+                  "GX010574_CC.avi": "BIAH_BV.mp4",
+                  "GX010575_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010576_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010577_CC.avi": "TOWER_MS.mp4",
+                  "GX010578_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010536_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010537_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010538_CC.avi": "BIAH_BS.mp4",
+                  "GX010539_CC.avi": "BIAH_RB.mp4",
+                  "GX010540_CC.avi": "BIAH_BV.mp4",
+                  "GX010541_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010542_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010543_CC.avi": "TOWER_MS.mp4",
+                  "GX010544_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010531_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010532_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010533_CC.avi": "BIAH_BS.mp4",
+                  "GX010534_CC.avi": "BIAH_RB.mp4",
+                  "GX010535_CC.avi": "BIAH_BV.mp4",
+                  "GX010536_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010537_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010538_CC.avi": "TOWER_MS.mp4",
+                  "GX010539_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010513_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010514_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010515_CC.avi": "BIAH_BS.mp4",
+                  "GX010516_CC.avi": "BIAH_RB.mp4",
+                  "GX010517_CC.avi": "BIAH_BV.mp4",
+                  "GX010518_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010519_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010520_CC.avi": "TOWER_MS.mp4",
+                  "GX010521_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p45": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010549_CC.avi": "BIAH_BS.mp4",
+                  "GX010550_CC.avi": "BIAH_RB.mp4",
+                  "GX010551_CC.avi": "BIAH_BV.mp4",
+                  "GX010552_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010553_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010554_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010555_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010556_CC.avi": "TOWER_MS.mp4",
+                  "GX010557_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010580_CC.avi": "BIAH_BS.mp4",
+                  "GX010581_CC.avi": "BIAH_RB.mp4",
+                  "GX010582_CC.avi": "BIAH_BV.mp4",
+                  "GX010583_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010584_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010585_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010586_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010587_CC.avi": "TOWER_MS.mp4",
+                  "GX010588_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010546_CC.avi": "BIAH_BS.mp4",
+                  "GX010547_CC.avi": "BIAH_RB.mp4",
+                  "GX010548_CC.avi": "BIAH_BV.mp4",
+                  "GX010549_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010550_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010551_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010552_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010553_CC.avi": "TOWER_MS.mp4",
+                  "GX010554_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010541_CC.avi": "BIAH_BS.mp4",
+                  "GX010542_CC.avi": "BIAH_RB.mp4",
+                  "GX010543_CC.avi": "BIAH_BV.mp4",
+                  "GX010544_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010545_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010546_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010547_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010548_CC.avi": "TOWER_MS.mp4",
+                  "GX010549_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010523_CC.avi": "BIAH_BS.mp4",
+                  "GX010524_CC.avi": "BIAH_RB.mp4",
+                  "GX010525_CC.avi": "BIAH_BV.mp4",
+                  "GX010526_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010527_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010528_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010529_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010530_CC.avi": "TOWER_MS.mp4",
+                  "GX010531_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p46": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010559_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010560_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010561_CC.avi": "BIAH_BS.mp4",
+                  "GX010562_CC.avi": "BIAH_RB.mp4",
+                  "GX010563_CC.avi": "BIAH_BV.mp4",
+                  "GX010564_CC.avi": "TOWER_MS.mp4",
+                  "GX010565_CC.avi": "TOWER_HO.mp4",
+                  "GX010567_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010568_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010590_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010591_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010592_CC.avi": "BIAH_BS.mp4",
+                  "GX010593_CC.avi": "BIAH_RB.mp4",
+                  "GX010594_CC.avi": "BIAH_BV.mp4",
+                  "GX010595_CC.avi": "TOWER_MS.mp4",
+                  "GX010596_CC.avi": "TOWER_HO.mp4",
+                  "GX010598_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010599_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010556_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010557_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010558_CC.avi": "BIAH_BS.mp4",
+                  "GX010559_CC.avi": "BIAH_RB.mp4",
+                  "GX010560_CC.avi": "BIAH_BV.mp4",
+                  "GX010561_CC.avi": "TOWER_MS.mp4",
+                  "GX010562_CC.avi": "TOWER_HO.mp4",
+                  "GX010564_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010565_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010551_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010552_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010553_CC.avi": "BIAH_BS.mp4",
+                  "GX010554_CC.avi": "BIAH_RB.mp4",
+                  "GX010555_CC.avi": "BIAH_BV.mp4",
+                  "GX010556_CC.avi": "TOWER_MS.mp4",
+                  "GX010557_CC.avi": "TOWER_HO.mp4",
+                  "GX010559_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010560_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010533_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010534_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010535_CC.avi": "BIAH_BS.mp4",
+                  "GX010536_CC.avi": "BIAH_RB.mp4",
+                  "GX010537_CC.avi": "BIAH_BV.mp4",
+                  "GX010538_CC.avi": "TOWER_MS.mp4",
+                  "GX010539_CC.avi": "TOWER_HO.mp4",
+                  "GX010541_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010542_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p47": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010570_CC.avi": "TOWER_MS.mp4",
+                  "GX010571_CC.avi": "TOWER_HO.mp4",
+                  "GX010572_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010573_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010574_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010575_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010576_CC.avi": "BIAH_BS.mp4",
+                  "GX010577_CC.avi": "BIAH_RB.mp4",
+                  "GX010578_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010601_CC.avi": "TOWER_MS.mp4",
+                  "GX010602_CC.avi": "TOWER_HO.mp4",
+                  "GX010603_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010604_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010605_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010606_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010607_CC.avi": "BIAH_BS.mp4",
+                  "GX010608_CC.avi": "BIAH_RB.mp4",
+                  "GX010609_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010567_CC.avi": "TOWER_MS.mp4",
+                  "GX010568_CC.avi": "TOWER_HO.mp4",
+                  "GX010569_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010570_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010571_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010572_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010573_CC.avi": "BIAH_BS.mp4",
+                  "GX010574_CC.avi": "BIAH_RB.mp4",
+                  "GX010575_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010562_CC.avi": "TOWER_MS.mp4",
+                  "GX010563_CC.avi": "TOWER_HO.mp4",
+                  "GX010564_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010565_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010566_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010567_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010568_CC.avi": "BIAH_BS.mp4",
+                  "GX010569_CC.avi": "BIAH_RB.mp4",
+                  "GX010570_CC.avi": "BIAH_BV.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010544_CC.avi": "TOWER_MS.mp4",
+                  "GX010545_CC.avi": "TOWER_HO.mp4",
+                  "GX010546_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010547_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010548_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010549_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010550_CC.avi": "BIAH_BS.mp4",
+                  "GX010551_CC.avi": "BIAH_RB.mp4",
+                  "GX010552_CC.avi": "BIAH_BV.mp4"
+            }
+      },
+      "p48": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010580_CC.avi": "TOWER_MS.mp4",
+                  "GX010581_CC.avi": "TOWER_HO.mp4",
+                  "GX010582_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010583_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010584_CC.avi": "BIAH_BS.mp4",
+                  "GX010585_CC.avi": "BIAH_RB.mp4",
+                  "GX010586_CC.avi": "BIAH_BV.mp4",
+                  "GX010587_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010588_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010611_CC.avi": "TOWER_MS.mp4",
+                  "GX010612_CC.avi": "TOWER_HO.mp4",
+                  "GX010613_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010614_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010615_CC.avi": "BIAH_BS.mp4",
+                  "GX010616_CC.avi": "BIAH_RB.mp4",
+                  "GX010617_CC.avi": "BIAH_BV.mp4",
+                  "GX010618_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010619_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010577_CC.avi": "TOWER_MS.mp4",
+                  "GX010578_CC.avi": "TOWER_HO.mp4",
+                  "GX010579_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010580_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010581_CC.avi": "BIAH_BS.mp4",
+                  "GX010582_CC.avi": "BIAH_RB.mp4",
+                  "GX010583_CC.avi": "BIAH_BV.mp4",
+                  "GX010584_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010585_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010572_CC.avi": "TOWER_MS.mp4",
+                  "GX010573_CC.avi": "TOWER_HO.mp4",
+                  "GX010574_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010575_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010576_CC.avi": "BIAH_BS.mp4",
+                  "GX010577_CC.avi": "BIAH_RB.mp4",
+                  "GX010578_CC.avi": "BIAH_BV.mp4",
+                  "GX010579_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010580_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010554_CC.avi": "TOWER_MS.mp4",
+                  "GX010555_CC.avi": "TOWER_HO.mp4",
+                  "GX010556_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010557_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010558_CC.avi": "BIAH_BS.mp4",
+                  "GX010559_CC.avi": "BIAH_RB.mp4",
+                  "GX010560_CC.avi": "BIAH_BV.mp4",
+                  "GX010561_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010562_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      },
+      "p49": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010590_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010591_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010592_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010593_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010594_CC.avi": "BIAH_BS.mp4",
+                  "GX010595_CC.avi": "BIAH_RB.mp4",
+                  "GX010596_CC.avi": "BIAH_BV.mp4",
+                  "GX010597_CC.avi": "TOWER_MS.mp4",
+                  "GX010598_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010621_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010622_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010623_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010624_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010650_CC.avi": "BIAH_BS.mp4",
+                  "GX010651_CC.avi": "BIAH_RB.mp4",
+                  "GX010652_CC.avi": "BIAH_BV.mp4",
+                  "GX010653_CC.avi": "TOWER_MS.mp4",
+                  "GX010654_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010587_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010588_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010589_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010590_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010591_CC.avi": "BIAH_BS.mp4",
+                  "GX010592_CC.avi": "BIAH_RB.mp4",
+                  "GX010593_CC.avi": "BIAH_BV.mp4",
+                  "GX010594_CC.avi": "TOWER_MS.mp4",
+                  "GX010595_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010582_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010583_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010584_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010585_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010586_CC.avi": "BIAH_BS.mp4",
+                  "GX010587_CC.avi": "BIAH_RB.mp4",
+                  "GX010588_CC.avi": "BIAH_BV.mp4",
+                  "GX010589_CC.avi": "TOWER_MS.mp4",
+                  "GX010590_CC.avi": "TOWER_HO.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010564_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010565_CC.avi": "STAIRWAY_MS.mp4",
+                  "GX010566_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010567_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010568_CC.avi": "BIAH_BS.mp4",
+                  "GX010569_CC.avi": "BIAH_RB.mp4",
+                  "GX010570_CC.avi": "BIAH_BV.mp4",
+                  "GX010571_CC.avi": "TOWER_MS.mp4",
+                  "GX010572_CC.avi": "TOWER_HO.mp4"
+            }
+      },
+      "p50": {
+            "CAM_LR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010601_CC.avi": "TOWER_MS.mp4",
+                  "GX010602_CC.avi": "TOWER_HO.mp4",
+                  "GX010603_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010604_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010605_CC.avi": "BIAH_BS.mp4",
+                  "GX010606_CC.avi": "BIAH_RB.mp4",
+                  "GX010607_CC.avi": "BIAH_BV.mp4",
+                  "GX010608_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010609_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_LL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010657_CC.avi": "TOWER_MS.mp4",
+                  "GX010658_CC.avi": "TOWER_HO.mp4",
+                  "GX010659_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010660_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010661_CC.avi": "BIAH_BS.mp4",
+                  "GX010662_CC.avi": "BIAH_RB.mp4",
+                  "GX010663_CC.avi": "BIAH_BV.mp4",
+                  "GX010664_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010665_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UR": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010598_CC.avi": "TOWER_MS.mp4",
+                  "GX010599_CC.avi": "TOWER_HO.mp4",
+                  "GX010600_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010601_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010602_CC.avi": "BIAH_BS.mp4",
+                  "GX010603_CC.avi": "BIAH_RB.mp4",
+                  "GX010604_CC.avi": "BIAH_BV.mp4",
+                  "GX010605_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010606_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_UL": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010593_CC.avi": "TOWER_MS.mp4",
+                  "GX010594_CC.avi": "TOWER_HO.mp4",
+                  "GX010595_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010596_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010597_CC.avi": "BIAH_BS.mp4",
+                  "GX010598_CC.avi": "BIAH_RB.mp4",
+                  "GX010599_CC.avi": "BIAH_BV.mp4",
+                  "GX010600_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010601_CC.avi": "STAIRWAY_MS.mp4"
+            },
+            "CAM_AV": {
+                  "CALIBRATION_CC.avi": "calibration.mp4",
+                  "calib_param_CALIBRATION.npz": "intrinsic.npz",
+                  "GX010574_CC.avi": "TOWER_MS.mp4",
+                  "GX010575_CC.avi": "TOWER_HO.mp4",
+                  "GX010576_CC.avi": "BRIDGE_AS.mp4",
+                  "GX010577_CC.avi": "BRIDGE_BV.mp4",
+                  "GX010578_CC.avi": "BIAH_BS.mp4",
+                  "GX010579_CC.avi": "BIAH_RB.mp4",
+                  "GX010580_CC.avi": "BIAH_BV.mp4",
+                  "GX010581_CC.avi": "STAIRWAY_AP.mp4",
+                  "GX010582_CC.avi": "STAIRWAY_MS.mp4"
+            }
+      }
+}
