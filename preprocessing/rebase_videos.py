@@ -1,6 +1,7 @@
 import os
 from reconstruction.downgrade_fps import downgrade_fps, match_frame_length
 
+
 class FPSFrameCountRebaser:
     def __init__(self, proj_dir, output_dir, start_participant, end_participant):
         self.proj_dir = proj_dir
