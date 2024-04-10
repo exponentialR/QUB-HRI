@@ -47,10 +47,10 @@ class ReduceResolution:
 
 
 if __name__ == '__main__':
-    proj_dir = "/media/iamshri/EXTERNAL_USB/Waiting-Data"
-    output_dir = "/home/iamshri/Documents/Dataset/QUB-PHEO"
-    start_participant = 41
-    end_participant = 50
+    proj_dir = "/media/qub-hri/EXTERNAL_USB/Waiting-Data"
+    output_dir = "/media/qub-hri/EXTERNAL_USB/QUB-PHEO"
+    start_participant = 51
+    end_participant = 55
     scale_percent = 45
 
     processor = ReduceResolution(proj_dir, output_dir, start_participant, end_participant, scale_percent)
