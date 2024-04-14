@@ -58,9 +58,11 @@ def setup_calibration_video_logger(logger_name, format_str, extra_attrs, error_l
 
 
 def process_cam_directory(cam_dir, task_metadata):
+    calib_preext = ('intrinsic', 'calib')
+    video_ext = ('AVI', 'MP4', 'mp4', 'avi')
     calibration_vid = [f for f in os.listdir(cam_dir) if
-                       f.endswith(('AVI', 'MP4', 'mp4', '.avi')) and f.lower().startswith('calib')]
-    intrinsic_calib_file = [f for f in os.listdir(cam_dir) if f.endswith('.npz') and f.startswith('calib')]
+                       f.endswith(video_ext) and f.lower().startswith('calib')]
+    intrinsic_calib_file = [f for f in os.listdir(cam_dir) if f.endswith('.npz') and f.startswith((calib_preext))]
     file_rename_map = {}
     file_count = 0
     if calibration_vid:
@@ -82,7 +84,7 @@ def process_cam_directory(cam_dir, task_metadata):
         file_count += 1
     try:
         video_file_list = [f for f in os.listdir(cam_dir) if
-                           f.endswith('.avi') and not f.lower().startswith('calib')]
+                           f.endswith((video_ext)) and f.startswith('GX') and not f.lower().startswith((calib_preext))]
         video_file_list.sort()
         new_names = [os.path.join(cam_dir, f'{i}.mp4') for i in task_metadata[1:]]
         video_paths = [os.path.join(cam_dir, f) for f in video_file_list]

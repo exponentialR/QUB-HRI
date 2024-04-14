@@ -47,10 +47,10 @@ class ReduceResolution:
 
 
 if __name__ == '__main__':
-    proj_dir = "/media/qub-hri/EXTERNAL_USB/Waiting-Data"
-    output_dir = "/media/qub-hri/EXTERNAL_USB/QUB-PHEO"
-    start_participant = 51
-    end_participant = 55
+    proj_dir = "/media/exponential_r/EXTERNAL_USB/Waiting-Data"
+    output_dir = "/media/exponential_r/EXTERNAL_USB/QUB-PHEO"
+    start_participant = 56
+    end_participant = 60
     scale_percent = 45
 
     processor = ReduceResolution(proj_dir, output_dir, start_participant, end_participant, scale_percent)

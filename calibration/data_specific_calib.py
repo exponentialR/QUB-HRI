@@ -119,7 +119,7 @@ class CalibrateCorrect:
 
                             # Perform Calibration
 
-                            calib_video_file = os.path.join(current_camera, 'CALIBRATION_2.MP4')
+                            calib_video_file = os.path.join(current_camera, 'CALIBRATION.MP4')
                             self.video_parent_dir = os.path.dirname(calib_video_file)
                             calib_file = f"{self.video_parent_dir}/{self.save_path_prefix}_{os.path.basename(calib_video_file).split('.')[0]}.npz"
                             if not os.path.exists(calib_file):
@@ -181,6 +181,7 @@ class CalibrateCorrect:
        """
 
         self.video_parent_dir = os.path.dirname(single_video_calib)
+        print(f'Calibration video: {single_video_calib}')
         cap = cv2.VideoCapture(single_video_calib)
         if not cap.isOpened():
             extra_info = {'frame_number'}
@@ -283,14 +284,14 @@ class CalibrateCorrect:
 
         # new_camera_mtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (frame_width, frame_height), 1, (frame_width, frame_height))
 
-        output_video_path = os.path.join(os.path.dirname(video_file_path), f'{video_name_}_CC.avi')
+        output_video_path = os.path.join(os.path.dirname(video_file_path), f'{video_name_}_CC.mp4')
         if os.path.exists(output_video_path):
             self.logger.info(f'Video Already corrected Proceeding to next Video')
             return output_video_path
         else:
             # x, y, w, h = roi
             # print(f'Width x Height: {w} x {h}')
-            fourcc = cv2.VideoWriter_fourcc(*'XVID')
+            fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 
             out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
 
@@ -316,14 +317,14 @@ class CalibrateCorrect:
 
 
 if __name__ == '__main__':
-    proj_repo = '/home/iamshri/Documents/Dataset/QUB-PHEO'
+    proj_repo = '/media/BlueHDD/waiting-data'
     squareX = 16
     squareY = 11
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    start_participant = 23
-    end_participant = 23
+    start_participant = 61
+    end_participant = 64
     logger = setup_calibration_video_logger()
     logger.info(f'Starting Video Calibration and Correction for Participants p{start_participant:02d} to p{end_participant:02d}')
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,

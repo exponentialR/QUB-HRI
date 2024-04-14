@@ -48,9 +48,9 @@ class RenameVideos:
 
 
 if __name__ == '__main__':
-    proj_dir = "/media/qub-hri/EXTERNAL_USB/Waiting-Data"
-    start_participant = 51
-    end_participant = 55
+    proj_dir = "/media/exponential_r/EXTERNAL_USB/Waiting-Data"
+    start_participant = 56
+    end_participant = 60
     task_metadata = 'tasks.json'
 
     renamer = RenameVideos(proj_dir, start_participant, end_participant, task_metadata)
