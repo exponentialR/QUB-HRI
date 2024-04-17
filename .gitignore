@@ -1,3 +1,5 @@
+calibration/logs
+calibration/csvlogs
 # Byte-compiled / optimized / DLL files
 pheo-data
 __pycache__/

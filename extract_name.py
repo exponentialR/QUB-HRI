@@ -1,12 +1,21 @@
 import os
-file_list = []
+import os
 
-for files in os.listdir('/home/qub-hri/Documents/PHEO Waiting Data/UL_camera'):
-    if files.endswith('.MP4'):
-        file_list.append(files)
+# Given full path
 
-print(file_list)
-print(f' Number of MP4 Files: {len(file_list)}')
+# Split the path into components
 
-home_dir = ''
 
+
+def extract_name(full_path):
+    components = full_path.split('/')
+    desired_path = ''
+    for component in components:
+        if component.startswith('p') or component.startswith('CAM_') or component.endswith('.mp4'):
+            desired_path = os.path.join(desired_path, component)
+    return desired_path
+
+full_path = "/home/qub-hri/Documents/Datasets/QUB-PHEO/p61/CAM_AV/BIAH_BV.mp4"
+
+test = extract_name(full_path)
+print(test)

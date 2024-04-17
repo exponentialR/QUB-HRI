@@ -2,6 +2,18 @@ import os
 import cv2
 import numpy as np
 from tqdm import tqdm
+from moviepy.editor import VideoFileClip, AudioFileClip
+import logging
+
+# ANSI escape codes for coloured terminal text
+COLOURS = {
+    'WARNING': '\033[93m',
+    'INFO': '\033[94m',
+    'DEBUG': '\033[92m',
+    'CRITICAL': '\033[91m',
+    'ERROR': '\033[91m',
+    'ENDC': '\033[0m'
+}
 
 
 def reduce_resolution(input_video_path, output_video_path, scale_percent):
@@ -67,6 +79,60 @@ def display_video(video_path, window_name):
     # When everything is done, release the capture and close any opened windows
     cap.release()
     cv2.destroyAllWindows()
+
+
+class DebugWarningErrorFilter(logging.Filter):
+    def filter(self, record):
+        # Allow only debug, warning, and error levels (exclude info and critical)
+        return record.levelno in (logging.DEBUG, logging.WARNING, logging.ERROR)
+
+
+class DynamicVideoFormatter(logging.Formatter):
+    def __init__(self, format_str, extra_attrs):
+        super().__init__(format_str)
+        self.extra_attrs = extra_attrs
+
+    def format(self, record):
+        # Set default values for extra attributes
+        for attr in self.extra_attrs:
+            setattr(record, attr, getattr(record, attr, 'N/A'))
+
+        log_message = super().format(record)
+        return f"{COLOURS[record.levelname]}{log_message}{COLOURS['ENDC']}"
+
+
+def extract_name(full_path):
+    components = full_path.split('/')
+    desired_path = ''
+    for component in components:
+        if component.startswith('p') or component.startswith('CAM_') or component.endswith('.mp4'):
+            desired_path = os.path.join(desired_path, component)
+    return desired_path
+
+def setup_calibration_video_logger(logger_name, format_str, extra_attrs, error_log_file):
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging.DEBUG)  # Logger level
+
+    # Clear existing handlers
+    logger.handlers.clear()
+
+    # File handler for specific task
+    file_handler = logging.FileHandler(error_log_file)
+    file_handler.setLevel(logging.DEBUG)  # Capture debug and above
+    file_handler.addFilter(DebugWarningErrorFilter())  # Custom filter for file handler
+
+    # Console handler for output to terminal
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)  # Set higher than DEBUG to exclude debug messages
+
+    formatter = DynamicVideoFormatter(format_str, extra_attrs)
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    return logger
 
 
 # Testing

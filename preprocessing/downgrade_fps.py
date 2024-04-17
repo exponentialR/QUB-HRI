@@ -13,7 +13,8 @@ def extract_name(full_path):
             desired_path = os.path.join(desired_path, component)
     return desired_path
 
-def downgrade_fps(left_video, right_video, new_video_path=None):
+
+def downgrade_fps(left_video, right_video, new_video_path=None, logger=None):
     """
     Downgrade the fps of the video to the fps of the guiding video
     The guiding video is the video with the lower fps
@@ -26,7 +27,7 @@ def downgrade_fps(left_video, right_video, new_video_path=None):
     right_cap = cv2.VideoCapture(right_video)
     left_fps = left_cap.get(cv2.CAP_PROP_FPS)
     right_fps = right_cap.get(cv2.CAP_PROP_FPS)
-    print(f'Right FPS: {right_fps} \n Left FPS: {left_fps}')
+    # logger.info(f'Right FPS: {right_fps} \n Left FPS: {left_fps}')
 
     if left_fps > right_fps:
         target_fps = right_fps
@@ -42,10 +43,10 @@ def downgrade_fps(left_video, right_video, new_video_path=None):
         video_to_downgrade = right_video
         skip_rate = right_fps / left_fps
     else:
-        print(f'Both videos have the same FPS: {left_fps}')
+        logger.info(f'{extract_name(left_video)} and {extract_name(right_video)} have the same FPS. No need to downgrade', extra={'task_name': 'Downgrade FPS', 'detail': 'FPS is the same'})
         return None
 
-    print(f'Video to downgrade: {video_to_downgrade} \n Target FPS: {target_fps} \n Skip Rate: {skip_rate}')
+    logger.info(f'Video to downgrade: {extract_name(video_to_downgrade)} \n Target FPS: {target_fps} \n Skip Rate: {skip_rate}')
 
     if new_video_path is None:
         new_video_path = os.path.join(os.path.dirname(video_to_downgrade),
@@ -76,11 +77,11 @@ def downgrade_fps(left_video, right_video, new_video_path=None):
     if new_video_path is not None:
         # Delete the original video
         os.remove(video_to_downgrade)
-        print(f"Original video deleted: {video_to_downgrade}")
+        logger.info(f"Original video deleted: {video_to_downgrade}", extra={'task_name': 'Downgrade FPS', 'detail': 'Original video deleted'})
 
         os.rename(new_video_path, video_to_downgrade)
 
-        print(f"Frames written: {frames_written}")
+        # print(f"Frames written: {frames_written}")
         higher_fps_cap.release()
         out.release()
         cv2.destroyAllWindows()
@@ -90,22 +91,24 @@ def downgrade_fps(left_video, right_video, new_video_path=None):
     return video_to_downgrade
 
 
-def match_frame_length(left_video_addr, right_video_addr):
+def match_frame_length(left_video_addr, right_video_addr, logger):
     left_cap = cv2.VideoCapture(left_video_addr)
     right_cap = cv2.VideoCapture(right_video_addr)
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 
     left_cap_count = int(left_cap.get(cv2.CAP_PROP_FRAME_COUNT))
     right_cap_count = int(right_cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    print(f'Total Frames in Left Video: {left_cap_count}')
-    print(f'Total Frames in Right Video: {right_cap_count}')
+    # logger.info(f'Frame count ==> {os.path.basename(left_video_addr)} = {left_cap_count} | {os.path.basename(right_video_addr)} = {right_cap_count}')
+    # print(f'Total Frames in Right Video: {right_cap_count}')
 
     if left_cap_count == right_cap_count:
-        print(f'Both videos have the same number of frames')
-        return None
+        logger.info(
+            f'Both videos {extract_name(right_video_addr)} and {extract_name(left_video_addr)} have the same number of frames', extra={'task_name': 'Match Frame Length', 'detail': 'Frame count is the same'})
+        # print(f'FRAME COUNT: {left_cap_count}')
+        return None, None
 
     elif left_cap_count < right_cap_count:
-        print(f'Left video has fewer frames than the low fps video')
+        # print(f'Left video has fewer frames than the low fps video')
         n_frames_to_keep = left_cap_count
         trimmed_video_path = os.path.join(os.path.dirname(right_video_addr),
                                           os.path.basename(right_video_addr).split('.')[0] + '_trimmed.MP4')
@@ -115,10 +118,11 @@ def match_frame_length(left_video_addr, right_video_addr):
         frame_width, frame_height = int(right_cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(
             right_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         out = cv2.VideoWriter(trimmed_video_path, fourcc, target_fps, (frame_width, frame_height))
-        print(f'{right_cap_count - left_cap_count} frames will be trimmed from the right video')
+        logger.info(
+            f'{right_cap_count - left_cap_count} frames will be trimmed from {extract_name(right_video_addr)}')
 
     else:
-        print(f'Right video has fewer frames than the left video')
+        # print(f'Right video has fewer frames than the left video')
         n_frames_to_keep = right_cap_count
         trimmed_video_path = os.path.join(os.path.dirname(left_video_addr),
                                           os.path.basename(left_video_addr).split('.')[0] + '_trimmed.MP4')
@@ -128,7 +132,8 @@ def match_frame_length(left_video_addr, right_video_addr):
         frame_width, frame_height = int(left_cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(
             left_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         out = cv2.VideoWriter(trimmed_video_path, fourcc, target_fps, (frame_width, frame_height))
-        print(f'{left_cap_count - right_cap_count} frames will be trimmed from the left video')
+        logger.info(
+            f'{left_cap_count - right_cap_count} frames will be trimmed from {extract_name(left_video_addr)}', extra={'task_name': 'Match Frame Length', 'detail': 'Trimming video'})
 
     frame_count = 0
     while frame_count < n_frames_to_keep:
@@ -141,17 +146,16 @@ def match_frame_length(left_video_addr, right_video_addr):
     out.release()
     cv2.destroyAllWindows()
     os.remove(video_addr)
-    print(f'Original video deleted: {video_addr}')
     os.rename(trimmed_video_path, video_addr)
-    print(f"Trimmed video now saved to: {video_addr}")
+    # logger.info(f"Trimmed video now saved to: {video_addr}")
 
-    left_count, right_count = compare_frame_count(left_video_addr, right_video_addr)
+    left_count, right_count = compare_frame_count(left_video_addr, right_video_addr, logger)
     if left_count == right_count:
-        print(f'Both videos now have the same number of frames: {left_count}')
+        logger.info(f'Both {extract_name(left_video_addr)} and {extract_name(right_video_addr)} now have the same number of frames', extra={'task_name': 'Match Frame Length', 'detail': f'Frame count :{left_count}'})
     else:
-        print(f'Videos still have different frame counts: {left_count} and {right_count}')
+        logger.warning(f'Both {extract_name(left_video_addr)} and {extract_name(right_video_addr)} do not have the same number of frames', extra={'task_name': 'Match Frame Length', 'detail': f'Frame count :{left_count} | {right_count}'})
         # Attempt to trim the videos again
-        match_frame_length(left_video_addr, right_video_addr)
+        match_frame_length(left_video_addr, right_video_addr, logger)
     left_cap.release()
     right_cap.release()
 
@@ -160,21 +164,24 @@ def match_frame_length(left_video_addr, right_video_addr):
     # Compare the frames to confirm that the videos have the same number of frames
 
 
-def compare_frame_count(left_video, right_video):
+def compare_frame_count(left_video, right_video, logger):
     left_cap = cv2.VideoCapture(left_video)
     right_cap = cv2.VideoCapture(right_video)
     left_frame_count = int(left_cap.get(cv2.CAP_PROP_FRAME_COUNT))
     right_frame_count = int(right_cap.get(cv2.CAP_PROP_FRAME_COUNT))
 
-    print(f'Left Video Frame Count: {left_frame_count}')
-    print(f'Right Video Frame Count: {right_frame_count}')
+    # logger.info(f'{os.path.basename(left_video)}:{left_frame_count} | {os.path.basename(right_video)}:{right_frame_count}')
     left_cap.release(), right_cap.release()
     return left_frame_count, right_frame_count
 
 
 if __name__ == '__main__':
-    left_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LL/CALIBRATION_CC.MP4'
-    right_video_path = '/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LR/CALIBRATION_CC.MP4'
-    downgraded_video = downgrade_fps(left_video_path, right_video_path)
-    match_frame_length(left_video_path, right_video_path)
-    # downgrade_fps(left_video_path, right_video_path)
+    import logging
+
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+    # logging.getLogger('moviepy').setLevel(logging.WARNING)
+    logger = logging.getLogger(__name__)
+    left_video_path = '/media/qub-hri/Seagate/PHEO-Data-Reduced/p61/CAM_AV/STAIRWAY_AP.mp4'
+    right_video_path = '/media/qub-hri/Seagate/PHEO-Data-Reduced/p61/CAM_LR/STAIRWAY_AP.mp4'
+    downgraded_video = downgrade_fps(left_video_path, right_video_path, logger=logger)
+    match_frame_length(left_video_path, right_video_path, logger)
