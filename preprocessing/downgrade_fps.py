@@ -181,7 +181,7 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
     # logging.getLogger('moviepy').setLevel(logging.WARNING)
     logger = logging.getLogger(__name__)
-    left_video_path = '/media/qub-hri/Seagate/PHEO-Data-Reduced/p61/CAM_AV/STAIRWAY_AP.mp4'
-    right_video_path = '/media/qub-hri/Seagate/PHEO-Data-Reduced/p61/CAM_LR/STAIRWAY_AP.mp4'
+    left_video_path = '/home/qub-hri/Documents/Datasets/QUB-PHEO/p61/CAM_AV/TOWER_MS.mp4'
+    right_video_path = '/home/qub-hri/Documents/Datasets/QUB-PHEO/p61/CAM_AV_P/TOWER_MS.mp4'
     downgraded_video = downgrade_fps(left_video_path, right_video_path, logger=logger)
     match_frame_length(left_video_path, right_video_path, logger)

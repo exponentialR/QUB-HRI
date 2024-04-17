@@ -19,7 +19,7 @@ class AddAudioData:
                                 range(self.start_participant, self.end_participant + 1)]
         self.long_audio_clip = AudioFileClip(audio_path)
         self.logger = setup_calibration_video_logger(
-            "Video-Synchronization-Logger",
+            "Add-Audio-Logger",
             format_str='%(asctime)s - %(name)s - [Task: %(task_name)s] - [Detail: %(detail)s] - %(levelname)s - %('
                        'message)s',
             extra_attrs=['task_name', 'detail'],
@@ -59,8 +59,7 @@ class AddAudioData:
 
                     output_video_path = self.add_audio_var_video(current_video, new_video_path,
                                                                  long_audio_clip=self.long_audio_clip)
-                    self.logger.debug(f'Audio added to {current_participant}/CAM_AV/{video_file}')
-                    print(f'Output Video found in {output_video_path}')
+                    self.logger.debug(f'Audio added to {current_participant}/CAM_AV_P/{video_file}')
                     part_video_count += 1
             print(f'Audio added to {part_video_count} videos in {self.participant_dir}')
             total_video_count += part_video_count
