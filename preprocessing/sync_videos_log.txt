@@ -1,0 +1,17 @@
+[94m2024-04-19 11:43:10,335 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO - Video to downgrade: p01/CAM_AV/BIAH_BS.mp4 
+ Target FPS: 23.0 
+ Skip Rate: 1.2608695652173914[0m
+[94m2024-04-19 11:43:44,424 - Video-Synchronization-Logger - [Task: Downgrade FPS] - [Detail: Original video deleted] - INFO - Original video deleted: /media/BlueHDD/QUB-PHEO-datasets/p01/CAM_AV/BIAH_BS.mp4[0m
+[94m2024-04-19 11:43:44,466 - Video-Synchronization-Logger - [Task: Match Frame Length] - [Detail: Trimming video] - INFO - 6 frames will be trimmed from p01/CAM_LR/BIAH_BS.mp4[0m
+[94m2024-04-19 11:44:18,874 - Video-Synchronization-Logger - [Task: Match Frame Length] - [Detail: Frame count :925] - INFO - Both p01/CAM_LR/BIAH_BS.mp4 and p01/CAM_AV/BIAH_BS.mp4 now have the same number of frames[0m
+[94m2024-04-19 11:44:18,887 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO - Video to downgrade: p01/CAM_LL/BIAH_BS.mp4 
+ Target FPS: 23.0 
+ Skip Rate: 1.2608695652173914[0m
+[94m2024-04-19 11:44:52,663 - Video-Synchronization-Logger - [Task: Downgrade FPS] - [Detail: Original video deleted] - INFO - Original video deleted: /media/BlueHDD/QUB-PHEO-datasets/p01/CAM_LL/BIAH_BS.mp4[0m
+[94m2024-04-19 11:44:52,707 - Video-Synchronization-Logger - [Task: Match Frame Length] - [Detail: Trimming video] - INFO - 2 frames will be trimmed from p01/CAM_LR/BIAH_BS.mp4[0m
+[94m2024-04-19 11:45:27,999 - Video-Synchronization-Logger - [Task: Match Frame Length] - [Detail: Frame count :923] - INFO - Both p01/CAM_LR/BIAH_BS.mp4 and p01/CAM_LL/BIAH_BS.mp4 now have the same number of frames[0m
+[94m2024-04-19 11:45:28,012 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO - Video to downgrade: p01/CAM_UL/BIAH_BS.mp4 
+ Target FPS: 23.0 
+ Skip Rate: 1.2608695652173914[0m
+[94m2024-04-19 11:46:03,916 - Video-Synchronization-Logger - [Task: Downgrade FPS] - [Detail: Original video deleted] - INFO - Original video deleted: /media/BlueHDD/QUB-PHEO-datasets/p01/CAM_UL/BIAH_BS.mp4[0m
+[94m2024-04-19 11:46:03,938 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO - 3 frames will be trimmed from p01/CAM_UL/BIAH_BS.mp4[0m

@@ -54,8 +54,8 @@ class VideoSynchronizer:
                         self.logger.warning(f'Video {target_video_path} does not exist. Skipping...', extra={'task_name': 'Synchronization', 'detail': 'Video does not exist'})
 
 if __name__ == '__main__':
-    base_dir = '/home/qub-hri/Documents/Datasets/QUB-PHEO'
-    start_participant = 61
-    end_participant = 61
+    base_dir = '/media/BlueHDD/QUB-PHEO-datasets'
+    start_participant = 1
+    end_participant = 20
     synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
     synchronizer.synchronize()
