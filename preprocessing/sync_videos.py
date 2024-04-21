@@ -9,7 +9,6 @@ import subprocess
 import re
 from downgrade_fps import downgrade_fps, match_frame_length
 from logger_utils import setup_calibration_video_logger
-import shutil
 
 
 def synchronize_videos(reference_video_path, target_video_path, logger):
@@ -51,26 +50,7 @@ class VideoSynchronizer:
                     target_video_path = os.path.join(participant_dir, target_view, video_name)
                     
                     if os.path.exists(target_video_path):
-                        if f'p{part_id:02d}' == 'p42' and video_name == 'TOWER_MS.mp4':
-                            
-                            unsync_path = os.path.join(participant_dir, 'unsyn_videos', target_view)
-                            
-                            os.makedirs(unsync_path, exist_ok=True) if not os.path.exists(unsync_path) else None
-                            unsync_video = os.path.join(unsync_path, video_name)
-                            shutil.move(reference_video_path, unsync_video)
-                            self.logger.debug(f'UNSYNC VIDEO MOVED TO {unsync_lr_video}. MOVING', extra={'task_name': f'MOVING UNSYNCHRONISED {video_name}', 'detail':'Video moved'})
-                            if target_view == 'CAM_LR':
-                                unsyc_lr = os.path.join(participant_dir, 'unsync_videos', 'CAM_LR')
-                                os.makedirs(unsyc_lr, exist_ok=True) if not os.path.exists(unsyc_lr) else None
-                                unsync_lr_video = os.path(unsyc_lr, video_name)
-                                shutil.move(reference_video_path, unsyc_lr)
-                                self.logger.debug(f'UNSYNC VIDEO MOVED TO {unsync_lr_video}. MOVING', extra={'task_name': f'MOVING UNSYNCHRONISED {video_name}', 'detail':'Video moved'})
-
-                            print(f'{unsync_video}: TOWER_MS.mp4 Found')
-                            # continue
-                        else:
-                            print ('will process this')
-                            # synchronize_videos(reference_video_path, target_video_path, logger=self.logger)
+                        synchronize_videos(reference_video_path, target_video_path, logger=self.logger)
                     else:
                         self.logger.warning(f'Video {target_video_path} does not exist. Skipping...', extra={'task_name': 'Synchronization', 'detail': 'Video does not exist'})
 
