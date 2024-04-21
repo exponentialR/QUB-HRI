@@ -67,9 +67,10 @@ if __name__ == '__main__':
         print('Directory does not exist')
     else:
         pass
-    output_csv = "/media/BlueHDD/QUB-PHEO-datasets/qub-pheo_metadata_withcalib.csv"
+    # output_csv = "/media/BlueHDD/QUB-PHEO-datasets/qub-pheo_metadata_withcalib.csv"
+    output_csv = '/media/BlueHDD/QUB-PHEO-datasets/qub-pheo_woc_01_30.csv'
     start_participant = 1
-    end_participant = 64
+    end_participant = 30
 
-    metadata_extractor = VideoMetadataExtractor(proj_dir, output_csv, start_participant, end_participant, with_calib=True)
+    metadata_extractor = VideoMetadataExtractor(proj_dir, output_csv, start_participant, end_participant, with_calib=False)
     metadata_extractor.extract_and_save()
