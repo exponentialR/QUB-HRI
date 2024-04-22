@@ -1,5 +1,6 @@
 calibration/logs
 calibration/csvlogs
+actionLabelling/action-label
 # Byte-compiled / optimized / DLL files
 pheo-data
 __pycache__/

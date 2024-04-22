@@ -56,7 +56,7 @@ class VideoSynchronizer:
 
 if __name__ == '__main__':
     base_dir = '/media/BlueHDD/QUB-PHEO-datasets'
-    start_participant = 42
-    end_participant = 42
+    start_participant = 60
+    end_participant = 64
     synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
     synchronizer.synchronize()
