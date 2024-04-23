@@ -317,14 +317,14 @@ class CalibrateCorrect:
 
 
 if __name__ == '__main__':
-    proj_repo = '/media/BlueHDD/waiting-data'
+    proj_repo = '/media/BlueHDD/Raw-QUB-PHEO/corrected'
     squareX = 16
     squareY = 11
     square_size = 33
     markerLength = 26
     dictionary = 'DICT_4X4_100'
-    start_participant = 61
-    end_participant = 64
+    start_participant = 65
+    end_participant = 70
     logger = setup_calibration_video_logger()
     logger.info(f'Starting Video Calibration and Correction for Participants p{start_participant:02d} to p{end_participant:02d}')
     calib = CalibrateCorrect(proj_repo=proj_repo, squaresX=squareX, squaresY=squareY, square_size=square_size,

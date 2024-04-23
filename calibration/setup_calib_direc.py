@@ -107,6 +107,6 @@ def rearrange_pheo(parent_dir, start_participant, last_participant, cached_bin_p
 
 
 if __name__ == '__main__':
-    parent_dir = '/media/BlueHDD/waiting-data'
-    cached_bin = '/media/BlueHDD/waiting-data/Cached-THM'
-    rearrange_pheo(parent_dir, 61, 64, cached_bin, max_videos=16)
+    parent_dir = '/media/BlueHDD/Raw-QUB-PHEO/uncorrected'
+    cached_bin = '/media/BlueHDD/Raw-QUB-PHEO/uncorrected/Cached-THM'
+    rearrange_pheo(parent_dir, 65, 70, cached_bin, max_videos=16)
