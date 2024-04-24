@@ -1,0 +1,23 @@
+[92m2024-04-17 17:13:38,121 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/STAIRWAY_AP.mp4[0m
+[92m2024-04-17 17:14:08,332 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_BV.mp4[0m
+[92m2024-04-17 17:14:42,982 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BRIDGE_AS.mp4[0m
+[92m2024-04-17 17:15:24,196 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/STAIRWAY_MS.mp4[0m
+[92m2024-04-17 17:16:04,245 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/TOWER_HO.mp4[0m
+[92m2024-04-17 17:16:38,358 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/calibration.mp4[0m
+[92m2024-04-17 17:17:08,963 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BRIDGE_BV.mp4[0m
+[92m2024-04-17 17:17:39,385 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_BS.mp4[0m
+[92m2024-04-17 17:18:18,238 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/TOWER_MS.mp4[0m
+[92m2024-04-17 17:18:57,593 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_RB.mp4[0m[94m2024-04-17 18:16:07,852 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO -  Current Project Directory is /home/qub-hri/Documents/Datasets/QUB-PHEO[0m
+[94m2024-04-17 18:16:07,852 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO -  Will now add audio to all videos in p61/CAM_AV to p61/CAM_AV[0m
+[94m2024-04-17 18:16:07,852 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO -  Videos with added audio will be saved in p61/CAM_AV_P to p61/CAM_AV_P[0m
+[92m2024-04-17 18:17:36,771 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/STAIRWAY_AP.mp4[0m
+[92m2024-04-17 18:18:10,782 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_BV.mp4[0m
+[92m2024-04-17 18:18:52,114 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BRIDGE_AS.mp4[0m
+[92m2024-04-17 18:19:39,678 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/STAIRWAY_MS.mp4[0m
+[92m2024-04-17 18:20:30,191 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/TOWER_HO.mp4[0m
+[92m2024-04-17 18:21:17,686 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/calibration.mp4[0m
+[92m2024-04-17 18:21:53,389 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BRIDGE_BV.mp4[0m
+[92m2024-04-17 18:22:28,549 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_BS.mp4[0m
+[92m2024-04-17 18:23:17,120 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/TOWER_MS.mp4[0m
+[92m2024-04-17 18:24:06,877 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - Audio added to p61/CAM_AV/BIAH_RB.mp4[0m
+[94m2024-04-17 18:24:06,877 - Video-Synchronization-Logger - [Task: N/A] - [Detail: N/A] - INFO - Audio added to 10 videos[0m

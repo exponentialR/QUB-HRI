@@ -1,0 +1,2 @@
+2024-04-17 17:52:52,538 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - DEBUG - This is a debug message.
+2024-04-17 17:52:52,539 - Renaming-Videos-Logger - [Task: N/A] - [Detail: N/A] - INFO - This is an info message.
