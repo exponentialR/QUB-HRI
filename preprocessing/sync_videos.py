@@ -1,12 +1,6 @@
-import time
-
-import cv2
-from moviepy.editor import VideoFileClip, AudioFileClip
 import os
 import logging
 from tqdm import tqdm
-import subprocess
-import re
 from downgrade_fps import downgrade_fps, match_frame_length
 from logger_utils import setup_calibration_video_logger
 
@@ -36,7 +30,7 @@ class VideoSynchronizer:
             extra_attrs=['task_name', 'detail'],
             error_log_file='sync_videos_log.txt',
             levels_to_save={logging.DEBUG, logging.INFO},  # Set levels to save
-            console_level = logging.INFO  # Set console level
+            console_level=logging.INFO  # Set console level
         )
 
     def synchronize(self):
@@ -48,15 +42,17 @@ class VideoSynchronizer:
                 reference_video_path = os.path.join(participant_dir, self.reference_view, video_name)
                 for target_view in self.target_views:
                     target_video_path = os.path.join(participant_dir, target_view, video_name)
-                    
+
                     if os.path.exists(target_video_path):
                         synchronize_videos(reference_video_path, target_video_path, logger=self.logger)
                     else:
-                        self.logger.warning(f'Video {target_video_path} does not exist. Skipping...', extra={'task_name': 'Synchronization', 'detail': 'Video does not exist'})
+                        self.logger.warning(f'Video {target_video_path} does not exist. Skipping...',
+                                            extra={'task_name': 'Synchronization', 'detail': 'Video does not exist'})
+
 
 if __name__ == '__main__':
-    base_dir = '/media/BlueHDD/QUB-PHEO-datasets'
-    start_participant = 60
-    end_participant = 64
+    base_dir = '/home/iamshri/Documents/Dataset'
+    start_participant = 1
+    end_participant = 1
     synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
     synchronizer.synchronize()

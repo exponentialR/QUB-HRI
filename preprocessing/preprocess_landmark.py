@@ -1,22 +1,25 @@
 import cv2
 import mediapipe as mp
-from ultralytics import yolov5
+# from ultralytics import yolov5
 import h5py
 import numpy as np
 from tqdm import tqdm
 
 
 class LandmarksToHDF5:
-    def __init__(self, video_path, hdf5_path):
-        self.video_path = video_path
-        self.hdf5_path = hdf5_path
+    def __init__(self, vid_path, landmark_hdf5_path, detect_confidence=0.5, track_confidence=0.5, logger=None):
+        self.video_path = vid_path
+        self.hdf5_path = landmark_hdf5_path
         self.face_mesh = mp.solutions.face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1,
                                                          refine_landmarks=True,
-                                                         min_detection_confidence=0.5, min_tracking_confidence=0.5)
-        self.pose = mp.solutions.pose.Pose(static_image_mode=False, min_detection_confidence=0.5,
-                                           min_tracking_confidence=0.5)
-        self.hands = mp.solutions.hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.5,
-                                              min_tracking_confidence=0.5)
+                                                         min_detection_confidence=detect_confidence,
+                                                         min_tracking_confidence=track_confidence)
+        self.pose = mp.solutions.pose.Pose(static_image_mode=False, min_detection_confidence=detect_confidence,
+                                           min_tracking_confidence=track_confidence)
+        self.hands = mp.solutions.hands.Hands(static_image_mode=False, max_num_hands=2,
+                                              min_detection_confidence=detect_confidence,
+                                              min_tracking_confidence=track_confidence)
+        self.logger = logger
 
     def process_and_save(self):
         cap = cv2.VideoCapture(self.video_path)
@@ -26,9 +29,9 @@ class LandmarksToHDF5:
             face_dset = f.create_dataset("face_landmarks", (frame_count, 478, 3), dtype='f')
             pose_dset = f.create_dataset("pose_landmarks", (frame_count, 33, 4), dtype='f')
             hands_dset = f.create_dataset("hand_landmarks", (frame_count, 2, 21, 3),
-                                          dtype='f')  # Assuming 2 hands max, 21 landmarks each
+                                          dtype='f')  # 2 hands, 21 landmarks, 3 coordinates
 
-            with tqdm(total=frame_count, desc="Processing Video") as pbar:
+            with tqdm(total=frame_count, desc=f"Processing Video {self.video_path}") as pbar:
                 frame_idx = 0
                 while cap.isOpened():
                     success, frame = cap.read()
@@ -68,11 +71,11 @@ class LandmarksToHDF5:
                     pbar.update(1)
 
         cap.release()
-        print("Landmarks saved to HDF5.")
+        print(f"Landmarks saved to HDF5 : {self.hdf5_path}")
 
 
-# Usage example
-video_path = "/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4"  # Replace with the path to your video file
-hdf5_path = 'landmarks_data.hdf5'  # Path where you want to save the HDF5 file
-processor = LandmarksToHDF5(video_path, hdf5_path)
-processor.process_and_save()
+if __name__ == '__main__':
+    video_path = "/home/iamshri/Documents/Dataset/Test_Evironment/p03/CAM_LL/BIAH_RB.mp4"  # Replace with the path to your video file
+    hdf5_path = 'landmarks_data.hdf5'  # Path where you want to save the HDF5 file
+    processor = LandmarksToHDF5(video_path, hdf5_path)
+    processor.process_and_save()

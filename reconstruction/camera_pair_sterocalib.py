@@ -6,7 +6,6 @@ START_PARTICIPANT = 1
 END_PARTICIPANT = 1
 HOME_DIR = '/home/qub-hri/Documents/QUBVisionData/RawData/stereo'
 
-# Assuming CAMERA_PAIRS is correctly defined as before
 CAMERA_PAIRS = [
     ('CAM_LL', 'CAM_LR'),
     ('CAM_UL', 'CAM_UR'),
