@@ -13,6 +13,7 @@ def extract_name(full_path):
             desired_path = os.path.join(desired_path, component)
     return desired_path
 
+
 def downgrade_fps(left_video, right_video, new_video_path=None):
     """
     Downgrade the fps of the video to the fps of the guiding video

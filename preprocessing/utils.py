@@ -109,6 +109,7 @@ def extract_name(full_path):
             desired_path = os.path.join(desired_path, component)
     return desired_path
 
+
 def setup_calibration_video_logger(logger_name, format_str, extra_attrs, error_log_file):
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.DEBUG)  # Logger level

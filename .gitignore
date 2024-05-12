@@ -1,6 +1,7 @@
 calibration/logs
 calibration/csvlogs
 actionLabelling/action-label
+stereo_vision
 # Byte-compiled / optimized / DLL files
 pheo-data
 __pycache__/

@@ -2,6 +2,15 @@ import os
 from reconstruction.downgrade_fps import downgrade_fps, match_frame_length
 
 
+def adjust_video_fps_frame_count(base_video_path, target_video_path, adjusted_video_path):
+    # Placeholder for the actual adjustment logic
+    downgraded_video = downgrade_fps(base_video_path, target_video_path)
+    if downgraded_video:
+        _, _ = match_frame_length(base_video_path, target_video_path)
+
+    pass
+
+
 class FPSFrameCountRebaser:
     def __init__(self, proj_dir, output_dir, start_participant, end_participant):
         self.proj_dir = proj_dir
@@ -24,12 +33,4 @@ class FPSFrameCountRebaser:
                         os.makedirs(os.path.dirname(adjusted_video_path), exist_ok=True)
                         # Call the adjustment function for each video
                         if os.path.exists(target_video_path):
-                            self.adjust_video_fps_frame_count(base_video_path, target_video_path, adjusted_video_path)
-
-    def adjust_video_fps_frame_count(self, base_video_path, target_video_path, adjusted_video_path):
-        # Placeholder for the actual adjustment logic
-        downgraded_video = downgrade_fps(base_video_path, target_video_path)
-        if downgraded_video:
-            _, _ = match_frame_length(base_video_path, target_video_path)
-
-        pass
+                            adjust_video_fps_frame_count(base_video_path, target_video_path, adjusted_video_path)
