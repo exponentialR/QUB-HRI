@@ -65,6 +65,10 @@ def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_
             left_camera_matrix, left_dist_coeffs, right_camera_matrix, right_dist_coeffs,
             gray_left.shape[::-1], criteria=termination_criteria, flags=flags)
 
+        R1, R2, P1, P2, Q, _, _ = cv2.stereoRectify(cameraMatrix1, distCoeffs1,
+                                                    cameraMatrix2, distCoeffs2,
+                                                    gray_left.shape[::-1], R, T)
+
         print(f'Stereo Calibration Successful| Reprojection Error: {retval}')
         print(f'Camera Matrix 1: {cameraMatrix1}')
         print(f'Distortion Coefficients 1: {distCoeffs1}')
@@ -76,7 +80,9 @@ def extrinsic_calibration(left_calibration_data, right_calibration_data, stereo_
         print(f'F: {F}')
 
         return {'retval': retval, 'left_mtx': cameraMatrix1, 'left_dist': distCoeffs1,
-                'right_mtx': cameraMatrix2, 'right_dist': distCoeffs2, 'R': R, 'T': T, 'E': E, 'F': F}
+                'right_mtx': cameraMatrix2, 'right_dist': distCoeffs2,
+                'R': R, 'T': T, 'E': E, 'F': F,
+                'R1': R1, 'R2': R2, 'P1': P1, 'P2': P2, 'Q': Q}
     else:
         print(f'Not enough corners for stereo calibration. Exiting...')
         return None

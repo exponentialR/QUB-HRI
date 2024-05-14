@@ -1,100 +1,45 @@
 import numpy as np
+import cv2
 import h5py
 
 
-def scale_intrinsic_matrix(K, original_res, new_res):
-    """
-    Scale an intrinsic camera matrix from an original resolution to a new resolution.
+class Triangulation:
+    def __init__(self, left_hdf5, right_hdf5, output_hdf5, stereo_calib):
+        self.left_hdf5 = left_hdf5
+        self.right_hdf5 = right_hdf5
+        self.output_hdf5 = output_hdf5
+        self.stereo_calib = np.load(stereo_calib)
+        self.left_keypoints, self.left_frame_count = self.load_keypoints(self.left_hdf5)
+        self.right_keypoints, self.right_frame_count = self.load_keypoints(self.right_hdf5)
+        self.baseline = None
+        self.compute_baseline()
+        self.disparities = None
+        self.depths = None
+        self.point_3D = None
+        self.points_3D_world = None
 
-    Args:
-    K (np.array): Original 3x3 intrinsic matrix.
-    original_res (tuple): The original resolution (width, height).
-    new_res (tuple): The new resolution (width, height).
+    @staticmethod
+    def load_keypoints(hdf5_file):
+        with h5py.File(hdf5_file, 'r') as f:
+            keypoints = {key: f[key][:] for key in f.keys() if key != 'frame_count'}
+            frame_count = len(f['face_landmarks'] if 'face_landmarks' in f.keys() else f['pose_landmarks'])
+        return keypoints, frame_count
 
-    Returns:
-    np.array: Scaled intrinsic matrix.
-    """
-    # Extract original dimensions
-    original_width, original_height = original_res
-    new_width, new_height = new_res
+    def compute_baseline(self):
+        self.baseline = np.linalg.norm(self.stereo_calib['T'])
+        print(f'Baseline: {self.baseline:.2f} meters')
 
-    # Compute scale factors
-    scale_x = new_width / original_width
-    scale_y = new_height / original_height
-
-    # Create a scaling matrix
-    scaling_matrix = np.array([
-        [scale_x, 0, 0],
-        [0, scale_y, 0],
-        [0, 0, 1]
-    ])
-
-    # Scale the intrinsic matrix
-    K_scaled = scaling_matrix @ K
-
-    return K_scaled
+    def run(self):
+        pass
 
 
-def convert_landmarks_adjusted(hdf5_path, K_scaled):
-    """
-    Convert normalized landmark data in an HDF5 file to pixel coordinates for varying data shapes.
-    """
-    with h5py.File(hdf5_path, 'r') as file:
-        results = {}
-        for landmark_type in file.keys():
-            data = file[landmark_type][:]
+if __name__ == '__main__':
+    left_hdf5_path = '/home/iamshri/Documents/Dataset/p01/CAM_LL/landmarks/BIAH_BS.hdf5'
+    right_hdf5_path = '/home/iamshri/Documents/Dataset/p01/CAM_LR/landmarks/BIAH_BS.hdf5'
+    output_hdf5_path = 'output.hdf5'
 
-            if landmark_type == 'hand_landmarks':
-                # Handle two hands with multiple landmarks
-                F, H, N, _ = data.shape  # Frames, Hands, Landmarks, Coordinates
-                pixel_coords = np.zeros((F, H, N, 2))  # Prepare array for pixel coords
-                for f in range(F):
-                    for h in range(H):
-                        frame_coords = data[f, h, :, :2]  # x, y coordinates
-                        pixel_coords[f, h] = convert_to_pixels(frame_coords, K_scaled)
-            else:
-                # General case for face and pose
-                F, N, _ = data.shape  # Frames, Landmarks, Coordinates
-                pixel_coords = np.zeros((F, N, 2))
-                for f in range(F):
-                    frame_coords = data[f, :, :2]  # x, y coordinates
-                    pixel_coords[f] = convert_to_pixels(frame_coords, K_scaled)
+    stereo_calib = '/home/iamshri/Documents/Dataset/p01/LL_LR_stereo.npz'
+    triangulate = Triangulation(left_hdf5_path, right_hdf5_path, output_hdf5_path, stereo_calib)
+    print(triangulate.left_frame_count)
+    print(triangulate.right_frame_count)
 
-            results[landmark_type] = pixel_coords
-
-    return results
-
-
-def convert_to_pixels(frame_coords, K):
-    """
-    Helper function to convert normalized coordinates to pixel coordinates using intrinsic matrix.
-    """
-    ones = np.ones((frame_coords.shape[0], 1))
-    homogeneous_norm_coords = np.hstack((frame_coords, ones))
-    transformed_coords = K @ homogeneous_norm_coords.T
-    return (transformed_coords[:2, :] / transformed_coords[2, :]).T
-
-
-def check_hdf5_structure(hdf5_path):
-    """
-    Print the structure and shapes of datasets within an HDF5 file.
-
-    Args:
-    hdf5_path (str): Path to the HDF5 file.
-    """
-    with h5py.File(hdf5_path, 'r') as file:
-        for key in file.keys():
-            data = file[key]
-            print(f"Dataset '{key}' shape: {data.shape}")
-            # Optionally print more details or the data itself
-            # print(data[:])
-
-
-# Example usage
-hdf5_path = '/home/iamshri/Documents/Dataset/p01/CAM_LL/landmarks/LL_BIAH_BS.hdf5'
-check_hdf5_structure(hdf5_path)
-K = np.load('/home/iamshri/Documents/Dataset/p01/LL_LR_stereo.npz')['left_mtx']
-# K_scaled = scale_intrinsic_matrix(K, (3849, 2160), (1728, 972))
-landmark_pixels = convert_landmarks_adjusted(hdf5_path, K)
-# landmark_pixels = convert_landmarks(hdf5_path, K_scaled)
-print("Processed Landmark Pixel Coordinates:", landmark_pixels)
