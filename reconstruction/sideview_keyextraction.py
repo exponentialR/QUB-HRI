@@ -84,7 +84,7 @@ class LandmarksToHDF5:
 
         with h5py.File(self.hdf5_path, 'w') as f:
             face_dset = f.create_dataset("face_landmarks", (frame_count, 478, 2), dtype='f')
-            pose_dset = f.create_dataset("pose_landmarks", (frame_count, 33, 3), dtype='f')
+            pose_dset = f.create_dataset("pose_landmarks", (frame_count, 33, 2), dtype='f')
             left_hand_dset = f.create_dataset("left_hand_landmarks", (frame_count, 21, 2), dtype='f')
             right_hand_dset = f.create_dataset("right_hand_landmarks", (frame_count, 21, 2), dtype='f')
 
@@ -114,9 +114,9 @@ class LandmarksToHDF5:
                     if pose_results.pose_landmarks:
                         for idx, landmark in enumerate(pose_results.pose_landmarks.landmark):
                             px, py = convert_to_pixel_coords(landmark.x, landmark.y, frame.shape[1], frame.shape[0])
-                            pose_dset[frame_idx, idx] = (px, py, landmark.visibility)
+                            pose_dset[frame_idx, idx] = (px, py)
                     else:
-                        pose_dset[frame_idx] = np.zeros((33, 3))
+                        pose_dset[frame_idx] = np.zeros((33, 2))
 
                     if hand_results.multi_hand_landmarks:
                         for hand_landmarks, classification in zip(hand_results.multi_hand_landmarks,
