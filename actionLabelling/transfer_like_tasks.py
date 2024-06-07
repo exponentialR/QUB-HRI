@@ -1,25 +1,33 @@
 import os
+import shutil
 
-FILE_EXTS = ['avi', 'mp4']
+FILE_EXTS = ('avi', 'mp4')
 
 
 def copy_like_files(project_dir, start_participant, end_participant, output_folder, tasks_to_copy,
                     camera_view='CAM_AV_P'):
-    participants_dir = [(os.path.join(project_dir, f'p{participant:02d}', camera_view), f'p{participant:02d}') for
-                        participant in range(start_participant, end_participant + 1)]
+    for participant in range(start_participant, end_participant + 1):
+        participant = f'p{participant:02d}'
+        output_participant_path = os.path.join(output_folder, tasks_to_copy)
+        os.makedirs(output_participant_path) if not os.path.exists(output_participant_path) else None
+        participant_cam_view = os.path.join(project_dir, participant, camera_view)
+        list_files = [file for file in os.listdir(participant_cam_view) if
+                      file.endswith((FILE_EXTS)) and file.startswith(tasks_to_copy)]
+        for video_file in list_files:
+            output_path = os.path.join(output_participant_path, f'{participant}_{camera_view}_{video_file}')
+            original_video_file = os.path.join(participant_cam_view, video_file)
 
-    for participant_dir, participant in participants_dir:
-        files_in_participant_dir = [f for f in os.listdir(participant_dir) if
-                                    os.path.isfile(os.path.join(participant_dir, f)) and f.lower().endswith((FILE_EXTS))
-                                    and tasks_to_copy in f]
-        print(files_in_participant_dir)
+            if not os.path.exists(original_video_file):
+                print(f'FILE {original_video_file} DOES NOT EXISTS')
+            else:
+                shutil.copy(original_video_file, output_path)
 
 
 if __name__ == '__main__':
-    project_dir = '/home/iamshri/Documents/Dataset'
-    start_participant = 1
-    end_participant = 1
-    output_folder = '/home/iamshri/Documents/Dataset/transfer_like_tasks'
-    tasks_to_copy = 'BIAH'
+    project_dir = '/home/samueladebayo/Documents/Dataset/QUB-PHEO/'
+    start_participant = 7
+    end_participant = 7
+    output_folder = '/home/samueladebayo/Documents/Dataset/transfer_like_tasks'
+    tasks_to_copy = 'STAIRWAY_AP'
     camera_view = 'CAM_AV_P'
     copy_like_files(project_dir, start_participant, end_participant, output_folder, tasks_to_copy, camera_view)
