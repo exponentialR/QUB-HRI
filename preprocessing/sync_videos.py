@@ -3,6 +3,9 @@ import logging
 from tqdm import tqdm
 from downgrade_fps import downgrade_fps, match_frame_length
 from logger_utils import setup_calibration_video_logger
+from datetime import datetime
+
+CURRENT_DATE = datetime.now().strftime('%Y-%m-%d')
 
 
 def synchronize_videos(reference_video_path, target_video_path, logger):
@@ -28,7 +31,7 @@ class VideoSynchronizer:
             format_str='%(asctime)s - %(name)s - [Task: %(task_name)s] - [Detail: %(detail)s] - %(levelname)s - %('
                        'message)s',
             extra_attrs=['task_name', 'detail'],
-            error_log_file='sync_videos_log.txt',
+            error_log_file='sync_videos_log.txt_{}'.format(CURRENT_DATE),
             levels_to_save={logging.DEBUG, logging.INFO},  # Set levels to save
             console_level=logging.INFO  # Set console level
         )
@@ -51,8 +54,10 @@ class VideoSynchronizer:
 
 
 if __name__ == '__main__':
-    base_dir = '/home/iamshri/Documents/Dataset'
-    start_participant = 1
-    end_participant = 1
+    base_dir = '/home/iamshri/ml_projects/Datasets/QUB-PHEO'
+    start_participant = 7
+    end_participant = 10
     synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
     synchronizer.synchronize()
+
+

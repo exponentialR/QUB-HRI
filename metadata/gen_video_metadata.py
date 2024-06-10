@@ -10,18 +10,16 @@ class VideoMetadataExtractor:
         self.start_participant = start_participant
         self.end_participant = end_participant
         self.with_calib = with_calib
-        self.camera_views = ['CAM_LR', 'CAM_LL', 'CAM_UR', 'CAM_UL', 'CAM_AV']
+        self.camera_views = ['CAM_LR', 'CAM_LL', 'CAM_UR', 'CAM_UL', 'CAM_AV', 'CAM_AV_P']
         self.ensure_csv_exists()
         self.existing_data = self.load_existing_data()
-    
+
     def ensure_csv_exists(self):
         if not os.path.exists(self.output_csv) or os.stat(self.output_csv).st_size == 0:
             with open(self.output_csv, 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow(['Participant', 'Camera View', 'Video File', 'Duration (s)', 'FPS', 'Frame Count'])
 
-
-    
     def load_existing_data(self):
         data = set()
         with open(self.output_csv, 'r') as file:
@@ -61,16 +59,18 @@ class VideoMetadataExtractor:
         cap.release()
         return duration, fps, frame_count
 
+
 if __name__ == '__main__':
-    proj_dir = "/media/BlueHDD/QUB-PHEO-datasets"
+    proj_dir = "/home/iamshri/ml_projects/Datasets/QUB-PHEO"
     if not os.path.exists(proj_dir):
         print('Directory does not exist')
     else:
         pass
     # output_csv = "/media/BlueHDD/QUB-PHEO-datasets/qub-pheo_metadata_withcalib.csv"
-    output_csv = '/media/BlueHDD/QUB-PHEO-datasets/qub-pheo_woc_01_30.csv'
+    output_csv = '/home/iamshri/ml_projects/Datasets/QUB-PHEO/qub-pheo_metadata.csv'
     start_participant = 1
-    end_participant = 30
+    end_participant = 10
 
-    metadata_extractor = VideoMetadataExtractor(proj_dir, output_csv, start_participant, end_participant, with_calib=False)
+    metadata_extractor = VideoMetadataExtractor(proj_dir, output_csv, start_participant, end_participant,
+                                                with_calib=False)
     metadata_extractor.extract_and_save()
