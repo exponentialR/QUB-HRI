@@ -8,6 +8,12 @@ def copy_calibration_videos(project_dir, start_participant, end_participant, ori
     for participant_id in range(start_participant, end_participant + 1):
         calib_part_count = 0
         for camera_view in camera_views:
+            camera_view_path = os.path.join(original_project_path, f'p{participant_id:02d}', camera_view)
+            calibration_video_path = [os.path.join(camera_view_path, calib) for calib in os.listdir(camera_view_path) if calib.lower().startswith(('calib')) and calib.lower().endswith(('mp4', 'avi'))]
+
+            for calib_video in calibration_video_path:
+                new_video_filepath = os.path.join(project_dir, f'')
+
             original_video_path = os.path.join(original_project_path, f'p{participant_id:02d}', camera_view,
                                                'CALIBRATION.MP4')
             new_video_filepath = os.path.join(project_dir, f'p{participant_id:02d}', camera_view, 'Original_CALIBRATION.MP4')
