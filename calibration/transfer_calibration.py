@@ -8,15 +8,10 @@ def copy_calibration_videos(project_dir, start_participant, end_participant, ori
     for participant_id in range(start_participant, end_participant + 1):
         calib_part_count = 0
         for camera_view in camera_views:
-            camera_view_path = os.path.join(original_project_path, f'p{participant_id:02d}', camera_view)
-            calibration_video_path = [os.path.join(camera_view_path, calib) for calib in os.listdir(camera_view_path) if calib.lower().startswith(('calib')) and calib.lower().endswith(('mp4', 'avi'))]
-
-            for calib_video in calibration_video_path:
-                new_video_filepath = os.path.join(project_dir, f'')
-
             original_video_path = os.path.join(original_project_path, f'p{participant_id:02d}', camera_view,
                                                'CALIBRATION.MP4')
-            new_video_filepath = os.path.join(project_dir, f'p{participant_id:02d}', camera_view, 'Original_CALIBRATION.MP4')
+            new_video_filepath = os.path.join(project_dir, f'p{participant_id:02d}', camera_view,
+                                              'Original_CALIBRATION.MP4')
             if os.path.exists(original_video_path):
                 if not os.path.exists(new_video_filepath):
                     os.makedirs(os.path.dirname(new_video_filepath), exist_ok=True)
@@ -24,6 +19,7 @@ def copy_calibration_videos(project_dir, start_participant, end_participant, ori
                     print(f'Copied {original_video_path} to {new_video_filepath}')
                     calib_part_count += 1
                 else:
+                    shutil.copy(original_video_path, new_video_filepath)
                     print(f'{new_video_filepath} already exists')
             else:
                 print(f'{original_video_path} does not exist')
@@ -33,8 +29,8 @@ def copy_calibration_videos(project_dir, start_participant, end_participant, ori
 
 
 if __name__ == '__main__':
-    project_dir = '/media/iamshri/Seagate/QUB-PHEOVision'
-    original_project_path = '/home/iamshri/Documents/PHEO-Data/Unprocessed'
-    start_participant = 2
-    end_participant = 5
+    project_dir = '/media/BlueHDD/QUB-PHEO-Raw-Calibration'
+    original_project_path = '/media/BlueHDD/Raw-QUB-PHEO/uncorrected'
+    start_participant = 1
+    end_participant = 70
     copy_calibration_videos(project_dir, start_participant, end_participant, original_project_path)
