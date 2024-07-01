@@ -45,7 +45,7 @@ def create_3d_scatter_plot(x, y, z, title):
 
 
 # Load the 3D points from the output HDF5 file
-points_3d = load_3d_points('output.hdf5')
+points_3d = load_3d_points('../test-ground/output.hdf5')
 
 # Example: Prepare data and create a 3D scatter plot for face landmarks
 x, y, z = prepare_plotly_data(points_3d, 'face_landmarks')
