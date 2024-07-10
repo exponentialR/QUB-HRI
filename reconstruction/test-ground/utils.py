@@ -145,8 +145,8 @@ if __name__ == '__main__':
 
     # Load H5 data
     data_to_load = 'face_landmarks'
-    left_data = '/home/iamshri/Documents/Dataset/p01/CAM_LL/landmarks/LL_BIAH_BS.hdf5'
-    right_data = '/home/iamshri/Documents/Dataset/p01/CAM_LR/landmarks/LR_BIAH_BS.hdf5'
+    left_data = '/home/iamshri/Documents/Dataset/p01/CAM_LL/landmarks/BIAH_BS.hdf5'
+    right_data = '/home/iamshri/Documents/Dataset/p01/CAM_LR/landmarks/BIAH_BS.hdf5'
 
     norm_coord_left = load_data(left_data, data_to_load)
     norm_coord_right = load_data(right_data, data_to_load)

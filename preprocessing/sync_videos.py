@@ -55,8 +55,8 @@ class VideoSynchronizer:
 
 if __name__ == '__main__':
     base_dir = '/home/iamshri/ml_projects/Datasets/QUB-PHEO'
-    start_participant = 7
-    end_participant = 10
+    start_participant = 21
+    end_participant = 40
     synchronizer = VideoSynchronizer(base_dir, start_participant, end_participant)
     synchronizer.synchronize()
 

@@ -148,9 +148,9 @@ def display_video(left_video, right_video):
 
 
 # Example usage
-left_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LL/CALIBRATION_CC.MP4'
-right_video_path = '/home/iamshri/Documents/Test-Video/p03/CAM_LR/CALIBRATION_CC.MP4'
+left_video_path = '/home/iamshri/Documents/Dataset/p01/CAM_LR/BIAH_BS.mp4'
+right_video_path = '/home/iamshri/Documents/Dataset/p01/CAM_LL/BIAH_BS.mp4'
 start_frame, longer_video = frame_difference(left_video_path, right_video_path)
-print(f' Start Frame: {start_frame}', f' Longer Video: {longer_video}')
-# display_synchronized_video(left_video_path, right_video_path, start_frame, longer_video)
+# print(f' Start Frame: {start_frame}', f' Longer Video: {longer_video}')
+display_synchronized_video(left_video_path, right_video_path, start_frame, longer_video)
 display_video(left_video_path, right_video_path)
