@@ -1,0 +1,8077 @@
+[
+  {
+    "video_url": "\/data\/upload\/2\/f8f9c772-p01_CAM_AV_P_BIAH_BS.mp4",
+    "id": 1,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 5.276217910271547,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 5.323751404958678,
+        "end": 5.428131923770911,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 5.434340943396227,
+        "end": 9.70000641509434,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 9.758440188679245,
+        "end": 11.219284528301886,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.277718301886791,
+        "end": 15.192781132075472,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.07591358490566,
+        "end": 17.939168490566036,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.99760226415094,
+        "end": 20.218085660377355,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.276519433962264,
+        "end": 21.795797547169812,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.854231320754714,
+        "end": 26.23676433962264,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 26.295198113207547,
+        "end": 29.158453018867924,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 29.216886792452826,
+        "end": 30.736164905660374,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 30.853032452830185,
+        "end": 31.495803962264148,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 31.554237735849057,
+        "end": 40.26087,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 78,
+    "created_at": "2024-06-13T21:52:33.091841Z",
+    "updated_at": "2024-06-13T22:06:34.530736Z",
+    "lead_time": 13804.004
+  },
+  {
+    "video_url": "\/data\/upload\/2\/1966a5f7-p02_CAM_AV_P_BIAH_BS.mp4",
+    "id": 2,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.4521841794569066,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.4644549763033177,
+        "end": 6.827014218009479,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 6.877962085308056,
+        "end": 8.20260663507109,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 8.253554502369669,
+        "end": 10.342417061611375,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 10.444312796208532,
+        "end": 15.182464454976303,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.196335078534032,
+        "end": 16.884816753926703,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.917105263157893,
+        "end": 19.010974170254133,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)",
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.11741424802111,
+        "end": 20.4221635883905,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)",
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.478891820580476,
+        "end": 22.804749340369394,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.861477572559366,
+        "end": 26.321899736147756,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 26.347480106100797,
+        "end": 30.111405835543767,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 30.14018691588785,
+        "end": 33.699599465954606,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 33.757009345794394,
+        "end": 35.192256341789054,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 35.23930481283422,
+        "end": 43,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 60,
+    "created_at": "2024-06-13T18:22:06.033459Z",
+    "updated_at": "2024-06-13T18:22:06.033500Z",
+    "lead_time": 2042.3510000000003
+  },
+  {
+    "video_url": "\/data\/upload\/2\/4412b33e-p03_CAM_AV_P_BIAH_BS.mp4",
+    "id": 3,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.849228607526882,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.8833780120643433,
+        "end": 5.265298978552279,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.307087065683646,
+        "end": 7.1039748123324395,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.145762899463806,
+        "end": 10.154505172922251,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.183478246666667,
+        "end": 12.303304330666666,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.344869548,
+        "end": 14.381565197333332,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.423130414666666,
+        "end": 16.085739108,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.088413545576408,
+        "end": 19.09715581903485,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.13894390616622,
+        "end": 21.520864872654155,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 21.568977643243244,
+        "end": 23.38043475,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 23.422561659459458,
+        "end": 25.48678022297297,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 25.50592881818182,
+        "end": 31.173913,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 61,
+    "created_at": "2024-06-13T18:22:14.904671Z",
+    "updated_at": "2024-06-13T18:22:14.904706Z",
+    "lead_time": 926.6479999999999
+  },
+  {
+    "video_url": "\/data\/upload\/2\/6657f1eb-p04_CAM_AV_P_BIAH_BS.mp4",
+    "id": 4,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.354020381275441,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.454191461329715,
+        "end": 4.808211842605156,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.858297382632294,
+        "end": 7.663087624151967,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.713173164179104,
+        "end": 10.267535705563095,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.367706785617369,
+        "end": 14.574892147896879,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.624977687924016,
+        "end": 17.079169149253733,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.12925468928087,
+        "end": 19.48327507055631,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.533360610583447,
+        "end": 21.937466531886024,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.087723151967438,
+        "end": 26.29490851424695,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.44516513432836,
+        "end": 29.199869835820895,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.270694449255753,
+        "end": 31.0688941082544,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.16879408930988,
+        "end": 36.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 62,
+    "created_at": "2024-06-13T18:22:20.479812Z",
+    "updated_at": "2024-06-13T18:22:20.479852Z",
+    "lead_time": 2289.18
+  },
+  {
+    "video_url": "\/data\/upload\/2\/dc485e01-p05_CAM_AV_P_BIAH_BS.mp4",
+    "id": 5,
+    "tricks": [
+      {
+        "start": 0.054599231292517,
+        "end": 3.3305531088435374,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.3305531088435374,
+        "end": 6.770304680272108,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 6.788777544338335,
+        "end": 8.595468342428376,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.650216548431104,
+        "end": 13.084821234652114,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 13.139569440654844,
+        "end": 16.53395821282401,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.58870641882674,
+        "end": 19.70935416098226,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.70935416098226,
+        "end": 21.46129675306958,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.553571545329667,
+        "end": 24.309782740384613,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 24.475155412087915,
+        "end": 26.95574548763736,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 27.01086971153846,
+        "end": 29.54658401098901,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.65683245879121,
+        "end": 32.30279520604395,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 32.357919429945056,
+        "end": 40.130435,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 63,
+    "created_at": "2024-06-13T18:22:25.447738Z",
+    "updated_at": "2024-06-13T18:22:25.447817Z",
+    "lead_time": 1083.0639999999999
+  },
+  {
+    "video_url": "\/data\/upload\/2\/c204a250-p06_CAM_AV_P_BIAH_BS.mp4",
+    "id": 6,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 4.8824653186813185,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 4.99343043956044,
+        "end": 7.60111078021978,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 7.65659334065934,
+        "end": 9.875895758241757,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 9.957966914127423,
+        "end": 12.755148631578946,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.922979534626037,
+        "end": 16.167710326869805,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.257781136490248,
+        "end": 17.889184779944287,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.92008557746479,
+        "end": 20.024984518309857,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.024984518309857,
+        "end": 24.8036740056338,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 24.8036740056338,
+        "end": 27.818799515492955,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 27.875688676056335,
+        "end": 29.127250208450704,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.297917690140846,
+        "end": 31.516594952112673,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.687262433802815,
+        "end": 40.391304,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 64,
+    "created_at": "2024-06-13T18:22:36.735191Z",
+    "updated_at": "2024-06-13T18:22:36.735233Z",
+    "lead_time": 884.299
+  },
+  {
+    "video_url": "\/data\/upload\/2\/2748e9b2-p07_CAM_AV_P_BIAH_BS.mp4",
+    "id": 8,
+    "tricks": [
+      {
+        "start": 0.03227189154929577,
+        "end": 3.614451853521127,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.6789956366197183,
+        "end": 5.744396695774648,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.808940478873239,
+        "end": 8.745682609859154,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.797835075949365,
+        "end": 11.923805780590717,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 11.957441339915372,
+        "end": 15.480038923836387,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.512356332863185,
+        "end": 17.612987919605075,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.645305328631874,
+        "end": 20.327650277856133,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.442984463829784,
+        "end": 22.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 9,
+    "created_at": "2024-06-10T22:43:31.476413Z",
+    "updated_at": "2024-06-11T07:30:04.323071Z",
+    "lead_time": 31646.797
+  },
+  {
+    "video_url": "\/data\/upload\/2\/2a8a96a8-p08_CAM_AV_P_BIAH_BS.mp4",
+    "id": 9,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.036102508928572,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.0595171812339332,
+        "end": 5.536269185089974,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.584832949871465,
+        "end": 7.624511070694087,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.721638600257069,
+        "end": 12.578015078406171,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.626704169032257,
+        "end": 15.649312889032258,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.673149897269182,
+        "end": 18.12975646423927,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.178888595578673,
+        "end": 21.274212869960987,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.372477132639794,
+        "end": 23.976480093628087,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 24.02561222496749,
+        "end": 26.48221879193758,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.53135092327698,
+        "end": 29.08622175292588,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.13535388426528,
+        "end": 30.46192143042913,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 30.520497140259742,
+        "end": 37.782609,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 65,
+    "created_at": "2024-06-13T18:22:44.075624Z",
+    "updated_at": "2024-06-13T18:22:44.075659Z",
+    "lead_time": 728.592
+  },
+  {
+    "video_url": "\/data\/upload\/2\/092e7666-p09_CAM_AV_P_BIAH_BS.mp4",
+    "id": 10,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.5700102992125986,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.6339004703557314,
+        "end": 6.57088852173913,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 6.620667980237155,
+        "end": 8.860743612648221,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.910523071146246,
+        "end": 11.897290581027669,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 11.912986215039579,
+        "end": 15.103074573878628,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.143029797619048,
+        "end": 17.342017623015874,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.39199461904762,
+        "end": 20.29066038888889,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.34834660239362,
+        "end": 22.910730989361703,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.011216651595745,
+        "end": 25.724329531914893,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 25.774572363031915,
+        "end": 28.487685243351066,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 28.58817090558511,
+        "end": 31.351526617021275,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.460217935742975,
+        "end": 37.782609,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 11,
+    "created_at": "2024-06-11T07:46:19.741347Z",
+    "updated_at": "2024-06-11T08:30:45.212348Z",
+    "lead_time": 2667.0730000000003
+  },
+  {
+    "video_url": "\/data\/upload\/2\/5481501b-p10_CAM_AV_P_BIAH_BS.mp4",
+    "id": 11,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.1688160959147424,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.1736841815789476,
+        "end": 5.056178422368421,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.1034324263157895,
+        "end": 7.607894635526316,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.6716780774365825,
+        "end": 10.740349308411215,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.788297296395195,
+        "end": 12.898008767690254,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.993904743658211,
+        "end": 15.19951219092123,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 15.266678198380568,
+        "end": 17.689960452091768,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.835357387314442,
+        "end": 21.712608993252363,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 21.858005928475034,
+        "end": 25.056738503373822,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 25.099987818801093,
+        "end": 27.497452542234335,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 27.561172534883724,
+        "end": 29.23154662790698,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.280675277701782,
+        "end": 35.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 12,
+    "created_at": "2024-06-11T14:35:39.354089Z",
+    "updated_at": "2024-06-11T16:01:09.601415Z",
+    "lead_time": 5206.5650000000005
+  },
+  {
+    "video_url": "\/data\/upload\/2\/4ad8228e-p11_CAM_AV_P_BIAH_BS.mp4",
+    "id": 12,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.6112532147742817,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.6178929945054943,
+        "end": 5.446906414835165,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.554765947802197,
+        "end": 7.65802684065934,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.765886373626373,
+        "end": 10.732023530219779,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.821209321329638,
+        "end": 13.485728199445981,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 13.485728199445981,
+        "end": 15.93273533240997,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 15.98711326869806,
+        "end": 19.902324681440444,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.01108055401662,
+        "end": 23.436890540166203,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.49126847645429,
+        "end": 26.699566717451518,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.79362994428969,
+        "end": 29.85575908077994,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.965120835654595,
+        "end": 32.91788821727019,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 32.97256909470752,
+        "end": 39.26087,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 13,
+    "created_at": "2024-06-11T16:01:50.940191Z",
+    "updated_at": "2024-06-11T16:20:01.096942Z",
+    "lead_time": 1084.342
+  },
+  {
+    "video_url": "\/data\/upload\/2\/90138d5b-p12_CAM_AV_P_BIAH_BS.mp4",
+    "id": 13,
+    "tricks": [
+      {
+        "start": 1.7284280867132866,
+        "end": 4.412040116083916,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.4575250657342655,
+        "end": 6.413377900699301,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 1.7212062423398327,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 6.451388639526276,
+        "end": 9.773372341968912,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.797444687638784,
+        "end": 12.54169209400444,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.589836785344188,
+        "end": 14.611913821613618,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.660058512953366,
+        "end": 16.609918512213174,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.63399085788305,
+        "end": 19.18565949888971,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.233804190229456,
+        "end": 22.12248567061436,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 22.14655801628423,
+        "end": 24.26492443523316,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 24.28899678090303,
+        "end": 27.033244187268686,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 27.105461224278308,
+        "end": 32.473594308660246,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 14,
+    "created_at": "2024-06-11T16:24:49.565857Z",
+    "updated_at": "2024-06-11T18:06:17.504473Z",
+    "lead_time": 6149.8060000000005
+  },
+  {
+    "video_url": "\/data\/upload\/2\/ecdbe7fb-p13_CAM_AV_P_BIAH_BS.mp4",
+    "id": 15,
+    "tricks": [
+      {
+        "start": 0.05159919971264368,
+        "end": 2.270364787356322,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.296164387212644,
+        "end": 4.463330775143678,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.489130375,
+        "end": 6.811094362068966,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.836893961925288,
+        "end": 10.21664154310345,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.24244114295977,
+        "end": 12.641803929597701,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.667603529454023,
+        "end": 15.582958313218391,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 15.608757913074713,
+        "end": 18.39511469755747,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 18.47251349712644,
+        "end": 21.207271081896554,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 21.233070681752874,
+        "end": 23.322838270114946,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.400237069683907,
+        "end": 25.49000465804598,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.5158042579023,
+        "end": 29.592141035201152,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.643740234913796,
+        "end": 35.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 15,
+    "created_at": "2024-06-11T18:19:18.294052Z",
+    "updated_at": "2024-06-11T18:33:06.824589Z",
+    "lead_time": 1562.9009999999998
+  },
+  {
+    "video_url": "\/data\/upload\/2\/4bd626e5-p14_CAM_AV_P_BIAH_BS.mp4",
+    "id": 16,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.8968328103448275,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.9580209655172414,
+        "end": 3.4673287931034484,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.5081208965517243,
+        "end": 6.771489172413793,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.81228127586207,
+        "end": 9.239411431034483,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.280203534482759,
+        "end": 11.44218501724138,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.462581068965518,
+        "end": 13.359413879310345,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.400205982758623,
+        "end": 16.37802953448276,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.398425586206898,
+        "end": 18.009713672413795,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.05050577586207,
+        "end": 20.375655672413792,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.39605172413793,
+        "end": 21.76258718965517,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.823775344827588,
+        "end": 24.067341034482762,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.128529189655172,
+        "end": 28.391304,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 16,
+    "created_at": "2024-06-11T18:37:27.482975Z",
+    "updated_at": "2024-06-11T18:54:51.879265Z",
+    "lead_time": 1247.3390000000002
+  },
+  {
+    "video_url": "\/data\/upload\/2\/41eebe05-p15_CAM_AV_P_BIAH_BS.mp4",
+    "id": 17,
+    "tricks": [
+      {
+        "start": 0.028575037037037034,
+        "end": 2.7432035555555556,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.800353629629629,
+        "end": 5.68643237037037,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.743582444444444,
+        "end": 8.886836518518518,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.915411555555554,
+        "end": 11.630040074074072,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 11.687190148148147,
+        "end": 14.116068296296294,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.144643333333333,
+        "end": 16.77354674074074,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 16.802121777777778,
+        "end": 20.488301555555555,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.556534277858177,
+        "end": 23.375228036179447,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.432171344428365,
+        "end": 27.019599764109984,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 27.105014726483358,
+        "end": 29.46816201881331,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.553576981186687,
+        "end": 33.11253374674385,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 33.19794870911722,
+        "end": 39.347826,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 17,
+    "created_at": "2024-06-11T18:56:37.973397Z",
+    "updated_at": "2024-06-11T19:31:30.355928Z",
+    "lead_time": 2092.205
+  },
+  {
+    "video_url": "\/data\/upload\/2\/aeef2fec-p17_CAM_AV_P_BIAH_BS.mp4",
+    "id": 19,
+    "tricks": [
+      {
+        "start": 0.018682799567411677,
+        "end": 2.596909139870223,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.615591939437635,
+        "end": 4.2223127022350395,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.2596783013698625,
+        "end": 6.146641057678442,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.165323857245854,
+        "end": 8.295163007930785,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.332528607065608,
+        "end": 9.472179380677721,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.509544979812544,
+        "end": 10.35027096034607,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.368953759913481,
+        "end": 12.25591651622206,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.293282115356885,
+        "end": 15.413309643114635,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.450675242249458,
+        "end": 16.552960416726748,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.59032601586157,
+        "end": 17.449734795962506,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.46841759552992,
+        "end": 18.83226196395097,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 18.850944763518385,
+        "end": 25.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 18,
+    "created_at": "2024-06-11T20:25:28.685409Z",
+    "updated_at": "2024-06-11T20:51:42.087533Z",
+    "lead_time": 4791.582999999999
+  },
+  {
+    "video_url": "\/data\/upload\/2\/a71b3897-p18_CAM_AV_P_BIAH_BS.mp4",
+    "id": 20,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.6393843547224227,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.5882721556195967,
+        "end": 5.600613972622479,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.624859054755043,
+        "end": 9.091905799711817,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 9.067660717579251,
+        "end": 12.825648448126802,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.825648448126802,
+        "end": 15.638077975504324,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.613832893371757,
+        "end": 19.444555870317004,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.420310788184437,
+        "end": 22.329720644092223,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.329720644092223,
+        "end": 24.53602311815562,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 24.536023118155622,
+        "end": 26.305914113832856,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 26.305914113832856,
+        "end": 28.487971505763692,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 28.43948134149856,
+        "end": 33.652174,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2024-06-11T20:56:46.470971Z",
+    "updated_at": "2024-06-11T21:30:25.341239Z",
+    "lead_time": 2163.208
+  },
+  {
+    "video_url": "\/data\/upload\/2\/60f8d389-p19_CAM_AV_P_BIAH_BS.mp4",
+    "id": 21,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.30008769740634,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.30008769740634,
+        "end": 4.3424069459654175,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.322578603746398,
+        "end": 6.166614430115273,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.126957745677233,
+        "end": 8.407217100864553,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.387388758645534,
+        "end": 10.925416562680116,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.885759878242075,
+        "end": 12.47202725576369,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.452198913544668,
+        "end": 14.117779659942363,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.097951317723345,
+        "end": 16.398039015129683,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.37821067291066,
+        "end": 19.63005879682997,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.610230454610953,
+        "end": 21.037871094380403,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 20.998214409942364,
+        "end": 22.703451840778097,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.68362349855908,
+        "end": 27.521739,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2024-06-11T21:35:03.558934Z",
+    "updated_at": "2024-06-11T21:37:00.478170Z",
+    "lead_time": 379.58799999999997
+  },
+  {
+    "video_url": "\/data\/upload\/2\/a2fd29c1-p20_CAM_AV_P_BIAH_BS.mp4",
+    "id": 23,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.376393969740634,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)",
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.376393969740634,
+        "end": 4.447563025936599,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)",
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 4.41038796124684,
+        "end": 6.271418719460826,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.220431575400169,
+        "end": 8.183436621735467,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.13244947767481,
+        "end": 11.242665265374896,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.242665265374896,
+        "end": 13.10369602358888,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.10369602358888,
+        "end": 15.474598222409435,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.449104650379105,
+        "end": 17.972968281381632,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.972968281381632,
+        "end": 21.006703352990733,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.955716208930077,
+        "end": 22.714772679022747,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.68927910699242,
+        "end": 24.98370058972199,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.958207017691663,
+        "end": 30.26087,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2024-06-11T21:53:44.003233Z",
+    "updated_at": "2024-06-11T21:53:44.003296Z",
+    "lead_time": 868.985
+  },
+  {
+    "video_url": "\/data\/upload\/2\/e33f4022-p21_CAM_AV_P_BIAH_BS.mp4",
+    "id": 24,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.637156117944398,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.611552660488627,
+        "end": 4.915863831508004,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.864656916596462,
+        "end": 6.503278193765796,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.477674736310025,
+        "end": 9.268451598989047,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.268451598989047,
+        "end": 11.777590429654593,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.751986972198821,
+        "end": 12.980952930075821,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.92974601516428,
+        "end": 14.850005324347094,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.824401866891323,
+        "end": 16.744661176074136,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.719057718618366,
+        "end": 20.815610911541704,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.76440399663016,
+        "end": 22.19819761415333,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.17259415669756,
+        "end": 23.888025806234207,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.862422348778434,
+        "end": 30.314493627632686,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2024-06-11T22:01:58.065413Z",
+    "updated_at": "2024-06-11T22:05:55.295854Z",
+    "lead_time": 689.66
+  },
+  {
+    "video_url": "\/data\/upload\/2\/c625fe52-p22_CAM_AV_P_BIAH_BS.mp4",
+    "id": 25,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.236584737152485,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.2120068828980624,
+        "end": 5.333394373209773,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.2842386647009265,
+        "end": 7.7174462358887945,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.692868381634371,
+        "end": 10.445588058129738,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.37185449536647,
+        "end": 12.436394252737994,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.411816398483571,
+        "end": 13.075418463352989,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.050840609098566,
+        "end": 14.94333538668913,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.918757532434707,
+        "end": 17.253653686604885,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.22907583235046,
+        "end": 19.416504860994102,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.391927006739678,
+        "end": 21.210688221566976,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.18611036731255,
+        "end": 22.90656016512216,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.90656016512216,
+        "end": 29.173913,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2024-06-11T22:11:09.503449Z",
+    "updated_at": "2024-06-11T22:11:09.503486Z",
+    "lead_time": 304.452
+  },
+  {
+    "video_url": "\/data\/upload\/2\/539d2e9e-p23_CAM_AV_P_BIAH_BS.mp4",
+    "id": 26,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.2240943555181127,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.198820556023589,
+        "end": 5.080033698399326,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.054759898904802,
+        "end": 7.556866048862679,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.531592249368154,
+        "end": 9.452401010951979,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.427127211457456,
+        "end": 11.625947767481046,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.600673967986522,
+        "end": 12.914911541701768,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.864363942712721,
+        "end": 14.987363100252738,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.962089300758214,
+        "end": 17.489469250210615,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.489469250210615,
+        "end": 20.16849199663016,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.143218197135635,
+        "end": 21.65964616680708,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.65964616680708,
+        "end": 24.035383319292336,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.010109519797812,
+        "end": 30,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2024-06-11T22:15:21.078961Z",
+    "updated_at": "2024-06-11T22:18:59.514983Z",
+    "lead_time": 459.41900000000004
+  },
+  {
+    "video_url": "\/data\/upload\/2\/cd05ac6b-p24_CAM_AV_P_BIAH_BS.mp4",
+    "id": 27,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.2427750042123,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.1852679528222407,
+        "end": 4.600564111204717,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.543057059814658,
+        "end": 7.389656103622577,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.360902577927547,
+        "end": 9.632431107834877,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.603677582139847,
+        "end": 12.162741368997473,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.105234317607414,
+        "end": 14.232995219039594,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.204241693344567,
+        "end": 17.367129519797807,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.338375994102776,
+        "end": 19.552397472620047,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.49489042122999,
+        "end": 21.881433053917437,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 21.852679528222406,
+        "end": 25.59063786857624,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.561884342881214,
+        "end": 28.89729332350463,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 28.8685397978096,
+        "end": 34.130435,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2024-06-11T22:24:11.428190Z",
+    "updated_at": "2024-06-11T22:30:17.553695Z",
+    "lead_time": 671.757
+  },
+  {
+    "video_url": "\/data\/upload\/2\/56071821-p25_CAM_AV_P_BIAH_BS.mp4",
+    "id": 28,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.190359309182814,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.1265521229991577,
+        "end": 5.232189267059814,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.1683820808761585,
+        "end": 8.996813251895535,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.93300606571188,
+        "end": 11.612907885425443,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 11.581004292333613,
+        "end": 14.867074380791914,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.803267194608257,
+        "end": 16.366543256107835,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 16.334639663016006,
+        "end": 20.450203171861837,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.418299578770007,
+        "end": 22.747261874473462,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.715358281381633,
+        "end": 25.90571759056445,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 25.87381399747262,
+        "end": 27.883740362257793,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 27.819933176074137,
+        "end": 31.584557160909856,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.520749974726204,
+        "end": 37.869565,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2024-06-11T22:35:01.883376Z",
+    "updated_at": "2024-06-11T22:38:26.714506Z",
+    "lead_time": 486.006
+  },
+  {
+    "video_url": "\/data\/upload\/2\/d1dc660b-p31_CAM_AV_P_BIAH_BS.mp4",
+    "id": 29,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.168577684919966,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.168577684919966,
+        "end": 3.588479740522325,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.5626633395113734,
+        "end": 5.550526217354675,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.4988934153327715,
+        "end": 8.106349917438921,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.054717115417017,
+        "end": 11.901360866048863,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.84972806402696,
+        "end": 13.94085654591407,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.915040144903116,
+        "end": 16.212699834877842,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.18688343386689,
+        "end": 18.691074331929233,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.63944152990733,
+        "end": 20.678937209772535,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.69773067457627,
+        "end": 22.801264155932206,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.827233705084744,
+        "end": 25.034645383050847,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 25.060614932203393,
+        "end": 30.644068,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2024-06-11T22:42:27.298798Z",
+    "updated_at": "2024-06-12T08:36:19.169734Z",
+    "lead_time": 35863.810000000005
+  },
+  {
+    "video_url": "\/data\/upload\/2\/0c17f4b8-p30_CAM_AV_P_BIAH_BS.mp4",
+    "id": 30,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.2345590254237289,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.2592502059322033,
+        "end": 3.8271329788135597,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.851824159322034,
+        "end": 6.271559849152542,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.2962510296610175,
+        "end": 8.7406779,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.7406779,
+        "end": 10.493751716101695,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.51844289661017,
+        "end": 12.148060810169492,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.19744317118644,
+        "end": 14.51841413898305,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.543105319491525,
+        "end": 16.814693926271186,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.839385106779662,
+        "end": 18.88875308898305,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.913444269491524,
+        "end": 21.481327042372882,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.53070940338983,
+        "end": 29.135593,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2024-06-12T08:40:44.576702Z",
+    "updated_at": "2024-06-12T08:42:35.598088Z",
+    "lead_time": 369.163
+  },
+  {
+    "video_url": "\/data\/upload\/2\/3b695030-p29_CAM_AV_P_BIAH_BS.mp4",
+    "id": 31,
+    "tricks": [
+      {
+        "start": 0.02325481186440678,
+        "end": 2.116187879661017,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.139442691525424,
+        "end": 4.534688313559322,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.557943125423728,
+        "end": 6.743895440677966,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.790405064406779,
+        "end": 8.046164905084744,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.069419716949152,
+        "end": 9.9530594779661,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.976314289830507,
+        "end": 11.022780823728812,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.046035635593219,
+        "end": 13.441281257627118,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.487790881355933,
+        "end": 15.138882523728814,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.162137335593219,
+        "end": 18.022479194915253,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.045734006779657,
+        "end": 19.627061213559323,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.673570837288135,
+        "end": 21.51070097457627,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.58046541016949,
+        "end": 27.440678,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2024-06-12T13:27:22.882543Z",
+    "updated_at": "2024-06-12T13:30:45.103372Z",
+    "lead_time": 17271.406
+  },
+  {
+    "video_url": "\/data\/upload\/2\/fb79a2c6-p28_CAM_AV_P_BIAH_BS.mp4",
+    "id": 32,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.526146202725724,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.547737195911414,
+        "end": 4.059106718909711,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.10228870528109,
+        "end": 6.045478091993186,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.0670690851788756,
+        "end": 8.35571436286201,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.42048734241908,
+        "end": 10.687541626916525,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.709132620102215,
+        "end": 11.572772347529813,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.615954333901193,
+        "end": 13.580734713798979,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.645507693356048,
+        "end": 14.897785298126065,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.940967284497447,
+        "end": 16.819383691652472,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.84097468483816,
+        "end": 18.697800098807498,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.719391091993185,
+        "end": 20.014850683134583,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.079623662691652,
+        "end": 25.347826,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2024-06-12T13:32:32.300472Z",
+    "updated_at": "2024-06-12T13:57:15.453374Z",
+    "lead_time": 1584.1260000000002
+  },
+  {
+    "video_url": "\/data\/upload\/2\/ad0154c1-p27_CAM_AV_P_BIAH_BS.mp4",
+    "id": 33,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.106806930153322,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.147322448040886,
+        "end": 3.889489717206133,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.9097474761499145,
+        "end": 5.996296647359454,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.036812165247018,
+        "end": 7.535886327086883,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.556144086030665,
+        "end": 9.359084632027256,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.379342390971038,
+        "end": 10.493519132879047,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.513776891822829,
+        "end": 12.397748473594548,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.418006232538332,
+        "end": 13.653729528109029,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 13.653729528109029,
+        "end": 15.557958868824532,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.578216627768315,
+        "end": 16.530331298126065,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 16.55058905706985,
+        "end": 18.53584943356048,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 18.576364951448042,
+        "end": 23.782609,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2024-06-12T14:52:09.721842Z",
+    "updated_at": "2024-06-12T14:52:09.721873Z",
+    "lead_time": 3287.436
+  },
+  {
+    "video_url": "\/data\/upload\/2\/f961f42a-p26_CAM_AV_P_BIAH_BS.mp4",
+    "id": 34,
+    "tricks": [
+      {
+        "start": 0.0812162069846678,
+        "end": 3.356936555366269,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.411080693356048,
+        "end": 5.658062419931857,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.685134488926746,
+        "end": 7.6613955255536625,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 7.688467594548552,
+        "end": 10.260314149063031,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.287386218057922,
+        "end": 12.480223806643954,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.53436794463373,
+        "end": 13.969187601362863,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.996259670357752,
+        "end": 15.376935189097104,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.404007258091994,
+        "end": 18.652655537478704,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.679727606473595,
+        "end": 20.574772436115843,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.62891657410562,
+        "end": 22.415673127768315,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.496889334752982,
+        "end": 24.52729450936968,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.581438647359455,
+        "end": 31.782609,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 32,
+    "created_at": "2024-06-12T19:01:23.874965Z",
+    "updated_at": "2024-06-12T19:09:14.100659Z",
+    "lead_time": 15410.697
+  },
+  {
+    "video_url": "\/data\/upload\/2\/37279ee2-p36_CAM_AV_P_BIAH_BS.mp4",
+    "id": 35,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.9575837751277683,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.9945854545454544,
+        "end": 4.1571359999999995,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.199127272727273,
+        "end": 5.668821818181818,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.689817454545454,
+        "end": 7.7473898181818175,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.768385454545455,
+        "end": 9.133101818181817,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.154097454545454,
+        "end": 10.518813818181817,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.539809454545454,
+        "end": 11.88353018181818,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 11.904525818181817,
+        "end": 14.046080727272727,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.067076363636364,
+        "end": 16.250622545454544,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.27161818181818,
+        "end": 17.23741745454545,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.25841309090909,
+        "end": 19.50494618181818,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.525941818181817,
+        "end": 24.711864,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 33,
+    "created_at": "2024-06-12T19:16:15.296854Z",
+    "updated_at": "2024-06-12T19:58:35.141016Z",
+    "lead_time": 2930.189
+  },
+  {
+    "video_url": "\/data\/upload\/2\/301e52fa-p35_CAM_AV_P_BIAH_BS.mp4",
+    "id": 36,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.8029175191163977,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.8254539881053529,
+        "end": 3.876272666100255,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.8988091350892105,
+        "end": 6.017237220050977,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.039773689039932,
+        "end": 7.910300615123195,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.932837084112149,
+        "end": 11.087942742565845,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.1104792115548,
+        "end": 11.92179209515718,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.944328564146135,
+        "end": 13.837391959218353,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.859928428207308,
+        "end": 16.767132927782498,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.78966939677145,
+        "end": 18.524977508920987,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.54751397790994,
+        "end": 19.40389979949023,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.426436268479186,
+        "end": 21.499791415463044,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.522327884451997,
+        "end": 26.525424,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 34,
+    "created_at": "2024-06-12T20:04:08.599896Z",
+    "updated_at": "2024-06-12T20:04:08.599938Z",
+    "lead_time": 315.814
+  },
+  {
+    "video_url": "\/data\/upload\/2\/1f8156df-p34_CAM_AV_P_BIAH_BS.mp4",
+    "id": 37,
+    "tricks": [
+      {
+        "start": 0.02325279489361702,
+        "end": 2.6043130280851066,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.627565822978723,
+        "end": 4.650558978723404,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.673811773617022,
+        "end": 7.673422314893617,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.71992790468085,
+        "end": 9.440634726808511,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.463887521702127,
+        "end": 11.021824779574468,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.045077574468083,
+        "end": 12.928553960851064,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.95180675574468,
+        "end": 15.091063885957446,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.103338966523605,
+        "end": 17.84726856137339,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.87072095107296,
+        "end": 19.066792825751072,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.090245215450643,
+        "end": 20.872626832618025,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 20.896079222317596,
+        "end": 22.584651280686693,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.608103670386267,
+        "end": 27.322034,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 35,
+    "created_at": "2024-06-12T21:24:42.657263Z",
+    "updated_at": "2024-06-12T21:38:14.812358Z",
+    "lead_time": 871.76
+  },
+  {
+    "video_url": "\/data\/upload\/2\/f8a0dc14-p33_CAM_AV_P_BIAH_BS.mp4",
+    "id": 38,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.6647850575107297,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.6877573424892702,
+        "end": 3.8823161613733905,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.9052884463519315,
+        "end": 5.720098959656652,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.766043529613734,
+        "end": 7.994355172532189,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.01732745751073,
+        "end": 9.418636841201717,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.441609126180259,
+        "end": 10.957779934763948,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.98075221974249,
+        "end": 13.04825786781116,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.071230152789699,
+        "end": 15.827904350214594,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.873848920171675,
+        "end": 18.469717122746783,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.515661692703866,
+        "end": 19.733192796566524,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.756165081545067,
+        "end": 22.26014414420601,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.28311642918455,
+        "end": 26.762712,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 36,
+    "created_at": "2024-06-12T21:51:00.443422Z",
+    "updated_at": "2024-06-12T21:51:00.443495Z",
+    "lead_time": 761.825
+  },
+  {
+    "video_url": "\/data\/upload\/2\/e1c5ce37-p32_CAM_AV_P_BIAH_BS.mp4",
+    "id": 39,
+    "tricks": [
+      {
+        "start": 0.022972284978540772,
+        "end": 1.5850876635193134,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.6080599484978542,
+        "end": 3.078286187124464,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.1012584721030043,
+        "end": 4.640401565665236,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 4.663373850643777,
+        "end": 7.006546918454936,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.029519203433477,
+        "end": 9.83213797081545,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.855110255793992,
+        "end": 11.371281064377682,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.371281064377682,
+        "end": 14.28876125665236,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.3117335416309,
+        "end": 16.494100614592277,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.540045184549356,
+        "end": 19.36563623690987,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.388608521888415,
+        "end": 21.318280460085838,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.36422503004292,
+        "end": 22.673645273819744,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.719589843776824,
+        "end": 26.762712,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 37,
+    "created_at": "2024-06-12T21:56:06.102898Z",
+    "updated_at": "2024-06-12T21:56:06.102960Z",
+    "lead_time": 270.468
+  },
+  {
+    "video_url": "\/data\/upload\/2\/c92bc0fe-p41_CAM_AV_P_BIAH_BS.mp4",
+    "id": 40,
+    "tricks": [
+      {
+        "start": 0.02154651931330472,
+        "end": 2.4347566824034335,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.456303201716738,
+        "end": 4.632501652360515,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.65404817167382,
+        "end": 6.183851042918454,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.2269440815450645,
+        "end": 8.467782090128756,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.48932860944206,
+        "end": 10.622434021459227,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.643980540772532,
+        "end": 11.850585622317595,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.850585622317595,
+        "end": 13.617400206008584,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.660493244635191,
+        "end": 15.9659708111588,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.00906384978541,
+        "end": 18.228355339055792,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.2499018583691,
+        "end": 19.34877434334764,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.370320862660943,
+        "end": 21.35260063948498,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.395693678111588,
+        "end": 25.101695,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 38,
+    "created_at": "2024-06-12T21:56:42.098434Z",
+    "updated_at": "2024-06-12T22:02:05.026486Z",
+    "lead_time": 353.37199999999996
+  },
+  {
+    "video_url": "\/data\/upload\/2\/5b64b88f-p40_CAM_AV_P_BIAH_BS.mp4",
+    "id": 41,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.2514294291845496,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.278300746781116,
+        "end": 5.213035613733905,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.239906931330472,
+        "end": 8.142009231759657,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.168880549356222,
+        "end": 10.211100686695278,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.237972004291844,
+        "end": 12.575776635193131,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.629519270386265,
+        "end": 14.940452583690986,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.967323901287552,
+        "end": 17.305128532188842,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.358871167381974,
+        "end": 19.132378128755363,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.186120763948498,
+        "end": 21.47018275965665,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 21.523925394849783,
+        "end": 23.88860134334764,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 23.915472660944204,
+        "end": 25.393395128755362,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 25.474009081545063,
+        "end": 31.305085,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 39,
+    "created_at": "2024-06-12T22:03:25.278668Z",
+    "updated_at": "2024-06-12T22:08:20.349227Z",
+    "lead_time": 369.678
+  },
+  {
+    "video_url": "\/data\/upload\/2\/0ad59a12-p39_CAM_AV_P_BIAH_BS.mp4",
+    "id": 42,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.044897050643777,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.064945060944206,
+        "end": 3.7489779261802574,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.7890739467811154,
+        "end": 5.332770739914163,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.372866760515022,
+        "end": 7.658339934763948,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.678387945064378,
+        "end": 9.402516830901288,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.422564841201716,
+        "end": 10.625445459227468,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.665541479828326,
+        "end": 12.630246489270387,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.690390520171674,
+        "end": 14.394471395708155,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.434567416309013,
+        "end": 15.938168188841201,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.95821619914163,
+        "end": 17.161096817167383,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.20119283776824,
+        "end": 18.985465754506436,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.005513764806867,
+        "end": 23.355932,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 40,
+    "created_at": "2024-06-12T22:12:04.997369Z",
+    "updated_at": "2024-06-12T22:12:04.997428Z",
+    "lead_time": 222.018
+  },
+  {
+    "video_url": "\/data\/upload\/2\/31f99f4f-p38_CAM_AV_P_BIAH_BS.mp4",
+    "id": 43,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.660837750528541,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.708352710359408,
+        "end": 4.252588904862579,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.323861344608879,
+        "end": 5.511735340380549,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.535492820295983,
+        "end": 8.03002821141649,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.053785691331923,
+        "end": 10.239473843551796,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.239473843551796,
+        "end": 11.5223777589852,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.569892718816066,
+        "end": 12.900311594080337,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.92406907399577,
+        "end": 14.302002909090909,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.325760389006343,
+        "end": 15.84623910359408,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.869996583509513,
+        "end": 16.77278082029598,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 16.796538300211417,
+        "end": 18.174472135306555,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 18.245744575052854,
+        "end": 22.474576,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 41,
+    "created_at": "2024-06-12T22:17:43.991529Z",
+    "updated_at": "2024-06-12T22:17:43.991573Z",
+    "lead_time": 297.332
+  },
+  {
+    "video_url": "\/data\/upload\/2\/0c2e55ea-p37_CAM_AV_P_BIAH_BS.mp4",
+    "id": 44,
+    "tricks": [
+      {
+        "start": 0.03181997357293869,
+        "end": 2.895617595137421,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.9592575422832983,
+        "end": 5.250295639534884,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.313935586680761,
+        "end": 7.191314027484144,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.254953974630022,
+        "end": 9.673271966173361,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.7050919397463,
+        "end": 11.90067011627907,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.964310063424946,
+        "end": 13.396208874207188,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.491668794926005,
+        "end": 16.00544670718816,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.00544670718816,
+        "end": 18.741964434460886,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.773784408033826,
+        "end": 20.65116284883721,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.714802795983086,
+        "end": 22.687641157505286,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.783101078224103,
+        "end": 24.56501959830867,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.660479519027483,
+        "end": 30.101695,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 42,
+    "created_at": "2024-06-12T22:19:45.314512Z",
+    "updated_at": "2024-06-12T22:22:32.161845Z",
+    "lead_time": 284.78000000000003
+  },
+  {
+    "video_url": "\/data\/upload\/2\/8dfb57cb-p46_CAM_AV_P_BIAH_BS.mp4",
+    "id": 45,
+    "tricks": [
+      {
+        "start": 0.07044827484143763,
+        "end": 2.4304654820295983,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.4656896194503175,
+        "end": 4.0155516659619455,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.050775803382664,
+        "end": 5.67108612473573,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.706310262156449,
+        "end": 7.995879194503171,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.031103331923891,
+        "end": 9.897982615221988,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.933206752642706,
+        "end": 11.870534310782242,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.90575844820296,
+        "end": 14.019206693446089,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.089654968287528,
+        "end": 15.81563770190275,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.850861839323468,
+        "end": 17.752965260042284,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 17.85863767230444,
+        "end": 18.985810069767442,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.0914824820296,
+        "end": 21.557172101479917,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.592396238900637,
+        "end": 23.52972379704017,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.52972379704017,
+        "end": 26.030637553911205,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.065861691331925,
+        "end": 27.12258581395349,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 27.193034088794928,
+        "end": 28.707671997885836,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 28.778120272727275,
+        "end": 33.322034,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 43,
+    "created_at": "2024-06-12T22:26:52.148725Z",
+    "updated_at": "2024-06-12T22:28:07.343766Z",
+    "lead_time": 324.207
+  },
+  {
+    "video_url": "\/data\/upload\/2\/adfc7d24-p45_CAM_AV_P_BIAH_BS.mp4",
+    "id": 46,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.1298419926004226,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.1866377790697675,
+        "end": 4.401673451374207,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.458469237843552,
+        "end": 6.474719657505285,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.503117550739957,
+        "end": 9.314508980972516,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.342906874207188,
+        "end": 11.643136226215645,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.671534119450316,
+        "end": 13.460601393234672,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.517397179704018,
+        "end": 15.39165813319239,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.42005602642706,
+        "end": 17.209123300211417,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 17.23752119344609,
+        "end": 19.22537371987315,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.253771613107823,
+        "end": 20.361289449260042,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 20.418085235729386,
+        "end": 22.263948295983084,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.320744082452432,
+        "end": 26.864407,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 44,
+    "created_at": "2024-06-12T22:32:21.559971Z",
+    "updated_at": "2024-06-12T22:32:21.560030Z",
+    "lead_time": 243.455
+  },
+  {
+    "video_url": "\/data\/upload\/2\/78a222ae-p44_CAM_AV_P_BIAH_BS.mp4",
+    "id": 47,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.9175296775898518,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.9686638023255814,
+        "end": 4.1929982283298095,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.218565290697674,
+        "end": 6.11052790591966,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.136094968287526,
+        "end": 7.670118710359407,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.6956857727272725,
+        "end": 9.280843639534883,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.331977764270611,
+        "end": 11.351775691331923,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.402909816067654,
+        "end": 13.064768869978858,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.090335932346722,
+        "end": 15.135700921775896,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.161267984143763,
+        "end": 16.311785790697673,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.33735285306554,
+        "end": 17.743541283298097,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.794675408033825,
+        "end": 19.661070960887947,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.686638023255814,
+        "end": 24.186441,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 45,
+    "created_at": "2024-06-12T22:38:45.587230Z",
+    "updated_at": "2024-06-12T22:38:45.587273Z",
+    "lead_time": 380.623
+  },
+  {
+    "video_url": "\/data\/upload\/2\/12c89d4d-p43_CAM_AV_P_BIAH_BS.mp4",
+    "id": 48,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.205898192389006,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.2304081723044398,
+        "end": 4.117676625792812,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.142186605708245,
+        "end": 5.735335300211416,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.808865239957717,
+        "end": 7.622603753699789,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.647113733615222,
+        "end": 9.828501946088794,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.853011926004227,
+        "end": 11.372630680761098,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.397140660676532,
+        "end": 12.843229475687105,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.867739455602536,
+        "end": 14.460888150105706,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.48539813002114,
+        "end": 16.372666583509513,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.397176563424946,
+        "end": 17.94130529809725,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.990325257928117,
+        "end": 19.632493912262156,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.65700389217759,
+        "end": 23.186441,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 46,
+    "created_at": "2024-06-12T22:43:24.562956Z",
+    "updated_at": "2024-06-12T22:43:24.562993Z",
+    "lead_time": 255.249
+  },
+  {
+    "video_url": "\/data\/upload\/2\/1dd83823-p42_CAM_AV_P_BIAH_BS.mp4",
+    "id": 49,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.0123983509513743,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.0381983298097253,
+        "end": 4.0505966807611,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.0763966596194505,
+        "end": 5.882395179704018,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.93399513742072,
+        "end": 7.4303939112050745,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.4561938900634255,
+        "end": 9.829791945031713,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.855591923890064,
+        "end": 11.764790359408035,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.790590338266385,
+        "end": 13.725588752642707,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.75138873150106,
+        "end": 15.428387357293872,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.47998731501057,
+        "end": 16.718386300211417,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.74418627906977,
+        "end": 17.64718553911205,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.698785496828755,
+        "end": 19.55638397463002,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.633783911205075,
+        "end": 24.38098002114165,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 47,
+    "created_at": "2024-06-12T22:48:40.864788Z",
+    "updated_at": "2024-06-12T22:48:40.864824Z",
+    "lead_time": 311.549
+  },
+  {
+    "video_url": "\/data\/upload\/2\/e525ba82-p51_CAM_AV_P_BIAH_BS.mp4",
+    "id": 50,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.297774773784355,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.365356384778013,
+        "end": 4.798294380549683,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.865875991543341,
+        "end": 6.5554162663847775,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.6567886828752645,
+        "end": 8.751818623678647,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.853191040169134,
+        "end": 10.508940509513742,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.5765221205074,
+        "end": 12.435016422832982,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.502598033826638,
+        "end": 14.732791196617336,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.800372807610994,
+        "end": 16.185795832980972,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.253377443974628,
+        "end": 18.078080940803382,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.11187174630021,
+        "end": 19.76762121564482,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.801412021141648,
+        "end": 21.6261155179704,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.69369712896406,
+        "end": 23.417028209302323,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.450819014799155,
+        "end": 24.734869623678645,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 24.734869623678645,
+        "end": 26.120292649048626,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 26.154083454545457,
+        "end": 27.742251312896403,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 27.77604211839323,
+        "end": 31.966102,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 48,
+    "created_at": "2024-06-12T22:54:02.694056Z",
+    "updated_at": "2024-06-12T22:54:02.694093Z",
+    "lead_time": 317.061
+  },
+  {
+    "video_url": "\/data\/upload\/2\/eeab0d45-p50_CAM_AV_P_BIAH_BS.mp4",
+    "id": 51,
+    "tricks": [
+      {
+        "start": 0.06525244608879494,
+        "end": 2.512219174418605,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.5774716205073998,
+        "end": 4.4371663340380545,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.50241878012685,
+        "end": 5.840093924947146,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.90534637103594,
+        "end": 7.667162415433404,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.7650410845665965,
+        "end": 9.461604682875265,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.494230905919661,
+        "end": 11.778066519027483,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.81069274207188,
+        "end": 13.11574166384778,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.180994109936575,
+        "end": 15.366951053911205,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.399577276955602,
+        "end": 17.61816044397463,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 17.716039113107822,
+        "end": 19.118966704016913,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.184219150105708,
+        "end": 20.521894294926003,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.554520517970403,
+        "end": 22.38158900845666,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.414215231501057,
+        "end": 24.045526383720933,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 24.110778829809725,
+        "end": 25.122191744186047,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.187444190274842,
+        "end": 26.688250450317124,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 26.75350289640592,
+        "end": 30.864407,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 49,
+    "created_at": "2024-06-12T23:00:02.553814Z",
+    "updated_at": "2024-06-12T23:00:02.553861Z",
+    "lead_time": 356.614
+  },
+  {
+    "video_url": "\/data\/upload\/2\/e41e8cf9-p49_CAM_AV_P_BIAH_BS.mp4",
+    "id": 52,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.6974952632135305,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.7365893974630024,
+        "end": 4.613107841437633,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 4.652201975687104,
+        "end": 7.897015118393236,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 7.936109252642706,
+        "end": 9.969004233615223,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.047192502114166,
+        "end": 13.682946987315013,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 13.722041121564482,
+        "end": 15.168524088794927,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 15.207618223044399,
+        "end": 17.475078009513744,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.514172143763215,
+        "end": 21.97090344820296,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.088185850951376,
+        "end": 23.26100987843552,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.339198146934464,
+        "end": 25.020245919661736,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.059340053911207,
+        "end": 27.01404676638478,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 27.170423303382666,
+        "end": 29.24241241860465,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 29.203318284355184,
+        "end": 31.236213265327702,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 31.314401533826643,
+        "end": 32.3308490243129,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 32.471974327024185,
+        "end": 36.983051,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 50,
+    "created_at": "2024-06-12T23:01:51.814702Z",
+    "updated_at": "2024-06-12T23:49:51.476134Z",
+    "lead_time": 2938.323
+  },
+  {
+    "video_url": "\/data\/upload\/2\/755cf301-p48_CAM_AV_P_BIAH_BS.mp4",
+    "id": 53,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.4313267241379313,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.466059963054187,
+        "end": 3.8553895197044334,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.8901227586206892,
+        "end": 5.8351841379310345,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.904650615763546,
+        "end": 7.293980172413793,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.328713411330049,
+        "end": 8.822242684729064,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 8.891709162561575,
+        "end": 10.281038719211821,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.350505197044335,
+        "end": 11.461968842364533,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 11.531435320197044,
+        "end": 12.747098682266008,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.81656516009852,
+        "end": 14.55322710591133,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.587960344827586,
+        "end": 16.42882200738916,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 16.463555246305418,
+        "end": 17.60975213054187,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.644485369458128,
+        "end": 19.415880554187193,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.45061379310345,
+        "end": 20.944143066502463,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.97887630541872,
+        "end": 22.40293910098522,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.47240557881773,
+        "end": 23.722802179802958,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.792268657635468,
+        "end": 28.20339,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 51,
+    "created_at": "2024-06-13T05:22:55.479510Z",
+    "updated_at": "2024-06-13T05:22:55.479549Z",
+    "lead_time": 4909.049
+  },
+  {
+    "video_url": "\/data\/upload\/2\/1cdfa343-p47_CAM_AV_P_BIAH_BS.mp4",
+    "id": 54,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.3810845849753695,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.422935633004926,
+        "end": 3.4317859384236455,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.473636986453202,
+        "end": 5.775444628078818,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.859146724137932,
+        "end": 7.99355017364532,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.035401221674878,
+        "end": 10.086102575123153,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.169804671182266,
+        "end": 11.76014449630542,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.801995544334977,
+        "end": 13.685292705665026,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 13.727143753694582,
+        "end": 15.861547203201972,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.903398251231527,
+        "end": 17.99595065270936,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.037801700738918,
+        "end": 19.586290477832513,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.62814152586207,
+        "end": 21.260332399014782,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 21.30218344704434,
+        "end": 22.850672224137934,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.89252327216749,
+        "end": 24.943224625615766,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 24.985075673645323,
+        "end": 26.826521786945815,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 26.86837283497537,
+        "end": 29.253882572660103,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.295733620689656,
+        "end": 33.983051,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 52,
+    "created_at": "2024-06-13T05:35:06.274937Z",
+    "updated_at": "2024-06-13T05:37:02.188242Z",
+    "lead_time": 841.111
+  },
+  {
+    "video_url": "\/data\/upload\/2\/211007a0-p54_CAM_AV_P_BIAH_BS.mp4",
+    "id": 55,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.7874885036945816,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.8669324371921183,
+        "end": 3.8530307746305423,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.892752741379311,
+        "end": 6.117182879310345,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.156904846059113,
+        "end": 7.586895649014779,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.626617615763547,
+        "end": 8.897720551724138,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 8.937442518472908,
+        "end": 10.367433321428573,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.486599221674878,
+        "end": 12.949361160098524,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.98908312684729,
+        "end": 14.89573753078818,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.935459497536947,
+        "end": 16.96127980172414,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 17.00100176847291,
+        "end": 18.55015847167488,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.589880438423645,
+        "end": 20.258203041871923,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.29792500862069,
+        "end": 22.125135479064042,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.16485744581281,
+        "end": 23.75373611576355,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.793458082512316,
+        "end": 25.382336752463058,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.46178068596059,
+        "end": 28.321762291871924,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 28.40120622536946,
+        "end": 32.254237,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 53,
+    "created_at": "2024-06-13T05:41:43.202759Z",
+    "updated_at": "2024-06-13T05:41:43.202792Z",
+    "lead_time": 272.022
+  },
+  {
+    "video_url": "\/data\/upload\/2\/19eddea7-p53_CAM_AV_P_BIAH_BS.mp4",
+    "id": 56,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.540410745073892,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.584119519704434,
+        "end": 5.81326702586207,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.856975800492611,
+        "end": 9.09142512315271,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 9.135133897783252,
+        "end": 10.927193657635469,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.97090243226601,
+        "end": 12.806670966748769,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.850379741379312,
+        "end": 14.292769304187193,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.336478078817736,
+        "end": 16.215955387931036,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.30337293719212,
+        "end": 18.008015147783254,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.051723922413792,
+        "end": 20.71795917487685,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.76166794950739,
+        "end": 22.116639963054187,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.116639963054187,
+        "end": 24.476913793103453,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.564331342364532,
+        "end": 26.137847229064043,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 26.18155600369458,
+        "end": 27.53652801724138,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 27.580236791871926,
+        "end": 29.284879002463057,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.328587777093595,
+        "end": 31.251773860837442,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.295482635467984,
+        "end": 35.491525,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 54,
+    "created_at": "2024-06-13T05:47:25.562730Z",
+    "updated_at": "2024-06-13T05:47:25.562772Z",
+    "lead_time": 339.351
+  },
+  {
+    "video_url": "\/data\/upload\/2\/4d1f87ab-p52_CAM_AV_P_BIAH_BS.mp4",
+    "id": 57,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.1481172019704435,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.1816815332512314,
+        "end": 3.8934624285714285,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.9270267598522164,
+        "end": 5.370293004926109,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.437421667487685,
+        "end": 6.947816575123152,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 6.947816575123152,
+        "end": 10.035735052955665,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.102863715517241,
+        "end": 11.176922316502464,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.21048664778325,
+        "end": 12.68731722413793,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.72088155541872,
+        "end": 14.499791113300493,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.533355444581282,
+        "end": 16.178007677339902,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.21157200862069,
+        "end": 17.35275927216749,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.38632360344828,
+        "end": 18.628203860837438,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 18.695332523399014,
+        "end": 20.00434144334975,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 20.07147010591133,
+        "end": 21.111964375615763,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 21.145528706896553,
+        "end": 22.555230620689656,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.62235928325123,
+        "end": 23.93136820320197,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.998496865763546,
+        "end": 27.254237,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 55,
+    "created_at": "2024-06-13T05:52:50.379182Z",
+    "updated_at": "2024-06-13T05:56:12.043280Z",
+    "lead_time": 520.519
+  },
+  {
+    "video_url": "\/data\/upload\/2\/6e31aab3-p55_CAM_AV_P_BIAH_BS.mp4",
+    "id": 58,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.9322033773584906,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.981747053701016,
+        "end": 4.558018223512336,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.558018223512336,
+        "end": 6.539765277213353,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.589308953555878,
+        "end": 8.571056007256892,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.62059968359942,
+        "end": 11.494132911465892,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.543676587808418,
+        "end": 12.732724820029029,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.782268496371552,
+        "end": 12.900518397066687,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.910524157894738,
+        "end": 14.247536368421054,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.38632223690773,
+        "end": 16.131408662094763,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.17397174563591,
+        "end": 19.323639927680798,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.45132917830424,
+        "end": 21.494357188279302,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.55932189473684,
+        "end": 22.26960963157895,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.311391263157894,
+        "end": 23.899093263157894,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.94087489473684,
+        "end": 26.113519736842107,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.197083000000003,
+        "end": 27.116278894736844,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 27.15806052631579,
+        "end": 28.87110742105263,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 28.912889052631577,
+        "end": 34.135593,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 56,
+    "created_at": "2024-06-13T08:07:31.447690Z",
+    "updated_at": "2024-06-13T10:07:18.485955Z",
+    "lead_time": 25735.564
+  },
+  {
+    "video_url": "\/data\/upload\/2\/d3d62da7-p56_CAM_AV_P_BIAH_BS.mp4",
+    "id": 59,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.0990809816401468,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 1.134535206854345,
+        "end": 3.1908802692778457,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.1908802692778457,
+        "end": 5.0344999804161565,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 5.0699542056303555,
+        "end": 6.275397862913097,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 6.346306313341493,
+        "end": 8.012654898408812,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.08356334883721,
+        "end": 9.359915456548348,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.395369681762546,
+        "end": 12.054436572827418,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.125345023255814,
+        "end": 12.834429527539779,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.905337977968177,
+        "end": 14.039873184822522,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.07532741003672,
+        "end": 15.812584445532437,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.883492895960831,
+        "end": 17.833475282741738,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 17.904383733170132,
+        "end": 18.6134682374541,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.6489224626683,
+        "end": 20.527996399020807,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.563450624235003,
+        "end": 22.229799209302325,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.265253434516524,
+        "end": 23.896147794369643,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.96705624479804,
+        "end": 26.165218208078333,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 26.23612665850673,
+        "end": 28.966102,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 57,
+    "created_at": "2024-06-13T09:32:38.179765Z",
+    "updated_at": "2024-06-13T09:42:30.879774Z",
+    "lead_time": 674.3919999999999
+  },
+  {
+    "video_url": "\/data\/upload\/2\/16913426-p57_CAM_AV_P_BIAH_BS.mp4",
+    "id": 60,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.6925295116279069,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.7616123488372093,
+        "end": 3.246893348837209,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.2814347674418602,
+        "end": 5.250295627906977,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.284837046511628,
+        "end": 6.735576627906976,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 6.7701180465116275,
+        "end": 8.63535465116279,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 8.669896069767441,
+        "end": 9.222558767441859,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 9.291641604651161,
+        "end": 11.087795372093023,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 11.156878209302326,
+        "end": 12.46945211627907,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.50399353488372,
+        "end": 14.023815953488372,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.058357372093024,
+        "end": 14.9218928372093,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 15.025517093023257,
+        "end": 17.23616788372093,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.27070930232558,
+        "end": 19.135945906976744,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.170487325581394,
+        "end": 20.82847541860465,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.833557572464187,
+        "end": 22.168096720698255,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 22.244673581395347,
+        "end": 23.833578837209302,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.902661674418603,
+        "end": 28.220339,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 58,
+    "created_at": "2024-06-13T10:14:32.295231Z",
+    "updated_at": "2024-06-13T10:24:26.777809Z",
+    "lead_time": 1007.2509999999999
+  },
+  {
+    "video_url": "\/data\/upload\/2\/a168c170-p58_CAM_AV_P_BIAH_BS.mp4",
+    "id": 61,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.38690535495716,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 2.4087968069666186,
+        "end": 5.781112336719884,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 5.78951511627907,
+        "end": 7.059145624235006,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 7.109930844553244,
+        "end": 9.598406640146878,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 9.649191860465116,
+        "end": 12.493164198286413,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.543949418604651,
+        "end": 14.575358231334151,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.62614345165239,
+        "end": 16.302055722154225,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.403626162790697,
+        "end": 18.333464534883724,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.435034975520196,
+        "end": 20.263302906976744,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.36487334761322,
+        "end": 22.497852600979193,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 22.59942304161567,
+        "end": 24.427690973072217,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 24.478476193390456,
+        "end": 26.205173684210525,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 26.306744124847,
+        "end": 28.947575581395352,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.049146022031827,
+        "end": 31.486836597307224,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 31.53762181762546,
+        "end": 33.36588974908201,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 33.41667496940025,
+        "end": 37.276351713586294,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 37.327136933904534,
+        "end": 41.23759889840882,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 59,
+    "created_at": "2024-06-13T17:59:17.034449Z",
+    "updated_at": "2024-06-13T19:31:25.467097Z",
+    "lead_time": 16050.325999999997
+  },
+  {
+    "video_url": "\/data\/upload\/2\/3694410e-p59_CAM_AV_P_BIAH_BS.mp4",
+    "id": 62,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.222380737300435,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.304691134978229,
+        "end": 3.7451230943396223,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.8274334920174167,
+        "end": 8.354505364296081,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.395660563134978,
+        "end": 10.206489312046443,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.288799709724238,
+        "end": 12.922732435413643,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 13.005042833091435,
+        "end": 13.869302008708273,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.951612406386067,
+        "end": 16.626700330914367,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.667855529753265,
+        "end": 18.725615471698113,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.76677067053701,
+        "end": 20.78337541364296,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.82453061248186,
+        "end": 21.565324191582004,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.606479390420898,
+        "end": 23.87001532656023,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.911170525399125,
+        "end": 28.355932,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 66,
+    "created_at": "2024-06-13T19:33:11.193269Z",
+    "updated_at": "2024-06-13T19:40:59.058570Z",
+    "lead_time": 540.458
+  },
+  {
+    "video_url": "\/data\/upload\/2\/90f4d5fd-p60_CAM_AV_P_BIAH_BS.mp4",
+    "id": 63,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.5977958461538462,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.6325305384615387,
+        "end": 3.612408,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.647142692307692,
+        "end": 5.175469153846154,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.2102038461538465,
+        "end": 7.085877230769231,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.120611923076923,
+        "end": 8.961550615384615,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 8.996285307692307,
+        "end": 10.66355053846154,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 10.698285230769232,
+        "end": 12.191877,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.261346384615386,
+        "end": 14.137019769230768,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.137019769230768,
+        "end": 16.53371353846154,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.56844823076923,
+        "end": 17.714693076923076,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.714693076923076,
+        "end": 19.520897076923077,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.55563176923077,
+        "end": 23.932203,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 67,
+    "created_at": "2024-06-13T19:46:28.707825Z",
+    "updated_at": "2024-06-13T19:46:28.707916Z",
+    "lead_time": 321.945
+  },
+  {
+    "video_url": "\/data\/upload\/2\/790f5a37-p61_CAM_AV_P_BIAH_BS.mp4",
+    "id": 64,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.555263098693759,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 3.6026666066763426,
+        "end": 5.07217535413643,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 5.119578862119013,
+        "end": 6.541684101596516,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 6.5890876095791,
+        "end": 8.295613896952105,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.390420912917271,
+        "end": 10.618385788098694,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 10.665789296081279,
+        "end": 12.040491027576198,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.08789453555878,
+        "end": 13.747017314949202,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.794420822931786,
+        "end": 16.35421025399129,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.401613761973874,
+        "end": 18.013333033381713,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.060736541364296,
+        "end": 19.245824240928883,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 19.293227748911466,
+        "end": 21.331578592162558,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.378982100145137,
+        "end": 23.464736451378812,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.512139959361395,
+        "end": 25.40828027866473,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 25.455683786647317,
+        "end": 26.830385518142236,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.925192534107403,
+        "end": 32.661017,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 68,
+    "created_at": "2024-06-13T19:48:56.851038Z",
+    "updated_at": "2024-06-13T19:57:47.160690Z",
+    "lead_time": 667.148
+  },
+  {
+    "video_url": "\/data\/upload\/2\/b86422c9-p62_CAM_AV_P_BIAH_BS.mp4",
+    "id": 65,
+    "tricks": [
+      {
+        "start": 0.044574548621190126,
+        "end": 1.6492582989840348,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.693832847605225,
+        "end": 3.744262084179971,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.7888366328011607,
+        "end": 6.374160452830188,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.463309550072569,
+        "end": 7.978844203193033,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.023418751814223,
+        "end": 9.806400696661829,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.895549793904209,
+        "end": 11.00991350943396,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.054488058055151,
+        "end": 12.748320905660377,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.792895454281567,
+        "end": 14.754175593613933,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 14.798750142235122,
+        "end": 16.091412052249638,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.135986600870826,
+        "end": 17.74067035123367,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.785244899854863,
+        "end": 20.23684507402032,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.281419622641508,
+        "end": 21.930677921625545,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 21.975252470246733,
+        "end": 23.802808963715528,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.891958060957908,
+        "end": 25.407492714078373,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.45206726269956,
+        "end": 27.1013255616836,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 27.145900110304787,
+        "end": 30.711864,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 69,
+    "created_at": "2024-06-13T20:07:37.919522Z",
+    "updated_at": "2024-06-13T20:07:37.919581Z",
+    "lead_time": 586.414
+  },
+  {
+    "video_url": "\/data\/upload\/2\/d5646a6f-p63_CAM_AV_P_BIAH_BS.mp4",
+    "id": 66,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.0414012119013063,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.0997269608127724,
+        "end": 5.365968899854862,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 5.424294648766328,
+        "end": 7.11574136719884,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 7.174067116110305,
+        "end": 9.565422821480407,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.623748570391873,
+        "end": 11.37352103773585,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.431846786647316,
+        "end": 13.998179738751814,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.114831236574746,
+        "end": 16.50618694194485,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 16.564512690856315,
+        "end": 18.43093665602322,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.48926240493469,
+        "end": 21.638852846153846,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 21.697178595065314,
+        "end": 23.155322317851958,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 23.21364806676343,
+        "end": 25.779981018867925,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 25.838306767779393,
+        "end": 28.113010975326564,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 28.171336724238028,
+        "end": 29.921109191582,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 29.804457693759073,
+        "end": 32.02083615239478,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 31.96251040348331,
+        "end": 34.295540359941945,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 34.30185754046203,
+        "end": 40.186441,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 70,
+    "created_at": "2024-06-13T20:18:41.782004Z",
+    "updated_at": "2024-06-13T20:19:22.456655Z",
+    "lead_time": 694.665
+  },
+  {
+    "video_url": "\/data\/upload\/2\/81327ada-p64_CAM_AV_P_BIAH_BS.mp4",
+    "id": 67,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.221347532656023,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.2657744833091438,
+        "end": 4.131706410740203,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.176133361393323,
+        "end": 6.175346140783745,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.219773091436865,
+        "end": 7.774716364296082,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.819143314949201,
+        "end": 9.685075242380261,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.729502193033381,
+        "end": 11.328872416545718,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.373299367198838,
+        "end": 12.883815689404933,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 12.928242640058055,
+        "end": 14.971882370101595,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.016309320754717,
+        "end": 16.66010649492017,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 16.704533445573293,
+        "end": 17.770780261248184,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 17.815207211901306,
+        "end": 19.636712188679244,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 19.681139139332366,
+        "end": 21.324936313497822,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 21.36936326415094,
+        "end": 23.279722142235123,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.32414909288824,
+        "end": 24.434822859216254,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 24.479249809869376,
+        "end": 26.07862003338171,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 26.123046984034833,
+        "end": 30.56574204934688,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 71,
+    "created_at": "2024-06-13T20:27:54.365493Z",
+    "updated_at": "2024-06-13T20:27:54.365539Z",
+    "lead_time": 498.127
+  },
+  {
+    "video_url": "\/data\/upload\/2\/6bee93d3-p65_CAM_AV_P_BIAH_BS.mp4",
+    "id": 68,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.0474281277213353,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.0973653991291727,
+        "end": 3.7952326269956456,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.845169898403483,
+        "end": 6.4918452830188675,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.541782554426705,
+        "end": 7.940026153846154,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.989963425253991,
+        "end": 10.187203367198839,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 10.237140638606675,
+        "end": 11.68532150943396,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.735258780841798,
+        "end": 14.531745979680696,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.581683251088533,
+        "end": 16.379425021770682,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.429362293178517,
+        "end": 18.17716679245283,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.227104063860665,
+        "end": 19.875034020319305,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 19.92497129172714,
+        "end": 22.22208577648766,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 22.2720230478955,
+        "end": 23.770141190130623,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 23.820078461538458,
+        "end": 26.11719294629898,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.16713021770682,
+        "end": 27.86499744557329,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 27.914934716981133,
+        "end": 29.81255103047895,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.862488301886792,
+        "end": 34.30690545718432,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 72,
+    "created_at": "2024-06-13T20:40:57.950240Z",
+    "updated_at": "2024-06-13T20:40:57.950281Z",
+    "lead_time": 628.689
+  },
+  {
+    "video_url": "\/data\/upload\/2\/9e0d776a-p66_CAM_AV_P_BIAH_BS.mp4",
+    "id": 69,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.9168532264150944,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.9660033091436866,
+        "end": 3.686256204644412,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.7354062873730043,
+        "end": 5.45565918287373,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.504809265602322,
+        "end": 8.109763650217706,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.1589137329463,
+        "end": 11.894320020319302,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.943470103047895,
+        "end": 12.631571261248187,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 12.680721343976778,
+        "end": 15.187375563134978,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.236525645863571,
+        "end": 18.283830775036286,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 18.332980857764877,
+        "end": 20.29898416690856,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.29898416690856,
+        "end": 21.281985821480404,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.331135904209,
+        "end": 23.542889626995645,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.592039709724236,
+        "end": 25.361442687953556,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 25.41059277068215,
+        "end": 27.376596079825834,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 27.425746162554425,
+        "end": 28.261297568940495,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 28.359597734397678,
+        "end": 29.78495013352685,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 29.834100216255443,
+        "end": 33.864407,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 73,
+    "created_at": "2024-06-13T21:02:10.279729Z",
+    "updated_at": "2024-06-13T21:07:46.219684Z",
+    "lead_time": 1579.2019999999998
+  },
+  {
+    "video_url": "\/data\/upload\/2\/16dc8500-p67_CAM_AV_P_BIAH_BS.mp4",
+    "id": 70,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 1.8668913222060959,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 1.9124252568940494,
+        "end": 4.371257730043541,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.4167916647314955,
+        "end": 6.374750856313498,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.4202847910014516,
+        "end": 7.968438570391872,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 8.013972505079826,
+        "end": 9.425524480406386,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 9.471058415094339,
+        "end": 11.292415802612481,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 11.337949737300436,
+        "end": 14.115519753265604,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 14.161053687953556,
+        "end": 15.436003859216257,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 15.481537793904208,
+        "end": 17.07522550798258,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 17.120759442670536,
+        "end": 18.07697207111756,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 18.122506005805516,
+        "end": 20.399202740203194,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 20.444736674891146,
+        "end": 21.53755110740203,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 21.583085042089984,
+        "end": 23.54104423367199,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 23.632112103047895,
+        "end": 25.22579981712627,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 25.271333751814222,
+        "end": 27.320360812772133,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 27.36589474746009,
+        "end": 31.372881,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 74,
+    "created_at": "2024-06-13T21:09:58.282971Z",
+    "updated_at": "2024-06-13T21:17:14.303686Z",
+    "lead_time": 561.074
+  },
+  {
+    "video_url": "\/data\/upload\/2\/55118e7a-p68_CAM_AV_P_BIAH_BS.mp4",
+    "id": 71,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.0752257126269957,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.131312894049347,
+        "end": 4.7674104208998545,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.823497602322206,
+        "end": 6.898723314949201,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 6.954810496371552,
+        "end": 9.646995204644412,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.59090802322206,
+        "end": 12.787877364296081,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 12.84396454571843,
+        "end": 14.694841532656023,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 14.807015895500724,
+        "end": 17.44311342235123,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.555287785195933,
+        "end": 18.957467320754716,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 19.01355450217707,
+        "end": 20.64008276342525,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 20.696169944847604,
+        "end": 23.220093108853412,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 23.33226747169811,
+        "end": 24.678359825834544,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 24.734447007256893,
+        "end": 26.809672719883885,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 26.809672719883885,
+        "end": 28.828811251088535,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 28.884898432510884,
+        "end": 30.847949782293178,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 30.904036963715527,
+        "end": 33.20361140203193,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 33.25969858345428,
+        "end": 38.644068,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 75,
+    "created_at": "2024-06-13T21:21:28.216875Z",
+    "updated_at": "2024-06-13T21:31:37.347903Z",
+    "lead_time": 850.375
+  },
+  {
+    "video_url": "\/data\/upload\/2\/31344a11-p69_CAM_AV_P_BIAH_BS.mp4",
+    "id": 72,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.056923532656023,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.0876238838896954,
+        "end": 3.315637933236575,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 3.3463382844702467,
+        "end": 4.94275654862119,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 5.004157251088534,
+        "end": 7.275983242380261,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 7.306683593613934,
+        "end": 8.534697642960813,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 8.565397994194484,
+        "end": 9.302206423802613,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 9.363607126269956,
+        "end": 10.745122931785197,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 10.775823283018868,
+        "end": 12.740645761973875,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 12.80204646444122,
+        "end": 14.429165079825834,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 14.459865431059507,
+        "end": 15.779980534107404,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 15.841381236574746,
+        "end": 17.038694934687953,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 17.069395285921626,
+        "end": 21.152542,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 76,
+    "created_at": "2024-06-13T21:40:48.267780Z",
+    "updated_at": "2024-06-13T21:40:48.267862Z",
+    "lead_time": 545.25
+  },
+  {
+    "video_url": "\/data\/upload\/2\/17e77f33-p70_CAM_AV_P_BIAH_BS.mp4",
+    "id": 73,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.333620336719884,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 2.386657162554427,
+        "end": 4.720277499274311,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 4.773314325108854,
+        "end": 8.061597526850507,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 8.11463435268505,
+        "end": 9.81181277939042,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 9.864849605224965,
+        "end": 11.562028031930332,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 11.562028031930332,
+        "end": 13.047059155297532,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 13.100095981132073,
+        "end": 15.115495362844701,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 15.168532188679245,
+        "end": 16.653563312046444,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 16.706600137880987,
+        "end": 18.775036345428155,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 18.828073171262698,
+        "end": 21.002583030478952,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 21.10865668214804,
+        "end": 23.28316654136429,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 23.336203367198838,
+        "end": 24.980344968069662,
+        "channel": 0,
+        "labels": [
+          "Robot Pickup and Place (RPP)"
+        ]
+      },
+      {
+        "start": 24.980344968069662,
+        "end": 26.83663387227866,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      },
+      {
+        "start": 26.889670698113203,
+        "end": 28.958106905660376,
+        "channel": 0,
+        "labels": [
+          "Human Pickup and Place (HPP)"
+        ]
+      },
+      {
+        "start": 29.01114373149492,
+        "end": 31.609948197387517,
+        "channel": 0,
+        "labels": [
+          "Human Neutral Swap (HNS)"
+        ]
+      },
+      {
+        "start": 31.662985023222056,
+        "end": 36.542373,
+        "channel": 0,
+        "labels": [
+          "Robot Neutral Swap (RNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 77,
+    "created_at": "2024-06-13T21:45:19.487385Z",
+    "updated_at": "2024-06-13T21:51:58.855647Z",
+    "lead_time": 657.8489999999999
+  }
+]

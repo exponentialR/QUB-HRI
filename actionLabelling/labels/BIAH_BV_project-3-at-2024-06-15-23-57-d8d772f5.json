@@ -1,0 +1,7922 @@
+[
+  {
+    "video_url": "\/data\/upload\/3\/aec93b05-p01_CAM_AV_P_BIAH_BV.mp4",
+    "id": 137,
+    "tricks": [
+      {
+        "start": 0.07643469877873563,
+        "end": 7.49459223441092,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 7.49459223441092,
+        "end": 11.203671002227011,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 11.241518744755746,
+        "end": 14.647815572341953,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 14.68566331487069,
+        "end": 21.838886652801722,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.838886652801722,
+        "end": 27.25111383441092,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.288961576939652,
+        "end": 30.657410661997126,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.69525840452586,
+        "end": 33.760925549353445,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 33.87446877693966,
+        "end": 39.93010758153735,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 40.00580306659483,
+        "end": 44.39614119992816,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 137,
+    "created_at": "2024-06-15T13:14:55.545296Z",
+    "updated_at": "2024-06-15T13:14:55.545331Z",
+    "lead_time": 275.319
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e51006d2-p01_CAM_AV_P_BIAH_BV_1.mp4",
+    "id": 138,
+    "tricks": [
+      {
+        "start": 0.0801353234345067,
+        "end": 5.397276783970905,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.397276783970905,
+        "end": 9.047851518070523,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.968491197764008,
+        "end": 12.93650721308968,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 12.896827052936423,
+        "end": 17.063243869028376,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 17.102924029181633,
+        "end": 22.737506770944083,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.737506770944087,
+        "end": 25.515117981672052,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.435757661365543,
+        "end": 28.967291915005386,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 28.967291915005386,
+        "end": 33.76859129354945,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 33.8082714537027,
+        "end": 38.41117003148048,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 38.41117003148048,
+        "end": 41.50622252343451,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 41.50622252343451,
+        "end": 44.87903613646133,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 44.83935597630807,
+        "end": 49.20417359316631,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 138,
+    "created_at": "2024-06-15T13:17:22.792438Z",
+    "updated_at": "2024-06-15T13:23:05.060796Z",
+    "lead_time": 486.23699999999997
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2e84f45e-p02_CAM_AV_P_BIAH_BV.mp4",
+    "id": 139,
+    "tricks": [
+      {
+        "start": 0.029015890286512924,
+        "end": 5.280892032145352,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.280892032145352,
+        "end": 8.269528731656184,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.269528731656184,
+        "end": 11.287181321453527,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 11.345213102026555,
+        "end": 15.291374180992312,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.2623582907058,
+        "end": 19.092455808525504,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.12147169881202,
+        "end": 21.965028946890286,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 22.02306072746331,
+        "end": 26.317412489867223,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.404460160726764,
+        "end": 30.55373247169811,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.582748361984624,
+        "end": 34.383829989517814,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.41284587980433,
+        "end": 37.74967326275332,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 37.74967326275332,
+        "end": 41.521739,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 139,
+    "created_at": "2024-06-15T13:27:05.586653Z",
+    "updated_at": "2024-06-15T13:28:01.362817Z",
+    "lead_time": 293.679
+  },
+  {
+    "video_url": "\/data\/upload\/3\/62fac2f6-p03_CAM_AV_P_BIAH_BV.mp4",
+    "id": 140,
+    "tricks": [
+      {
+        "start": 0.0003566831976100377,
+        "end": 4.687810094626181,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.626133076054753,
+        "end": 7.792220029388087,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.792220029388085,
+        "end": 11.184456050816657,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.163897044626182,
+        "end": 14.515015053673801,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.515015053673801,
+        "end": 18.071723124626182,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 18.092282130816656,
+        "end": 20.929424985102372,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 20.908865978911894,
+        "end": 24.054393926054754,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 23.99271690748332,
+        "end": 28.49513926319761,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 28.45402125081666,
+        "end": 31.270605098911897,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 31.229487086530938,
+        "end": 34.10774795319761,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 34.10774795319761,
+        "end": 36.86265478272142,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 36.90377279510237,
+        "end": 40.953897014626186,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 136,
+    "created_at": "2024-06-15T07:30:29.390824Z",
+    "updated_at": "2024-06-15T07:41:05.668205Z",
+    "lead_time": 657.991
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2484d73b-p04_CAM_AV_P_BIAH_BV.mp4",
+    "id": 141,
+    "tricks": [
+      {
+        "start": 0.030869261355695315,
+        "end": 5.34038221453529,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.371251475890985,
+        "end": 8.118615736547868,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.118615736547868,
+        "end": 10.927718519916143,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.927718519916143,
+        "end": 14.75550692802236,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.786376189378059,
+        "end": 18.089387154437457,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 18.089387154437457,
+        "end": 20.713274369671556,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 20.713274369671556,
+        "end": 22.87412266457023,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.93586118728162,
+        "end": 27.134080731656187,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 27.195819254367574,
+        "end": 30.313614651292802,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 30.282745389937105,
+        "end": 32.78315555974842,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 32.78315555974842,
+        "end": 35.83921243396227,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 35.77747391125087,
+        "end": 41.086986864430465,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 140,
+    "created_at": "2024-06-15T13:32:15.254734Z",
+    "updated_at": "2024-06-15T13:32:15.254786Z",
+    "lead_time": 251.986
+  },
+  {
+    "video_url": "\/data\/upload\/3\/193dd2ae-p05_CAM_AV_P_BIAH_BV.mp4",
+    "id": 142,
+    "tricks": [
+      {
+        "start": 0.07674778895877009,
+        "end": 6.063075327742838,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 6.1014492222222225,
+        "end": 9.324856358490566,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 9.324856358490566,
+        "end": 12.816880756114605,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 12.85525465059399,
+        "end": 16.539148520614955,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 16.539148520614955,
+        "end": 21.873119853249477,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 21.911493747728862,
+        "end": 25.134900883997208,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.09652698951782,
+        "end": 29.547898749126485,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 29.663020432564643,
+        "end": 34.344635559049614,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 34.344635559049614,
+        "end": 39.48673741928721,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 39.56348520824598,
+        "end": 42.90201402795248,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 42.8636401334731,
+        "end": 46.624281792452834,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 46.58590789797345,
+        "end": 52.07337480852551,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 141,
+    "created_at": "2024-06-15T13:36:04.814648Z",
+    "updated_at": "2024-06-15T13:36:04.814675Z",
+    "lead_time": 227.69
+  },
+  {
+    "video_url": "\/data\/upload\/3\/6ff0dda8-p06_CAM_AV_P_BIAH_BV.mp4",
+    "id": 143,
+    "tricks": [
+      {
+        "start": 0.03469753598881901,
+        "end": 4.822957502445842,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.788259966457024,
+        "end": 7.876340669461915,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.876340669461915,
+        "end": 11.276699196366177,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.276699196366177,
+        "end": 16.0649591628232,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 16.0649591628232,
+        "end": 19.118342329839276,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.118342329839276,
+        "end": 22.241120568832986,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 22.241120568832986,
+        "end": 26.404824887491266,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.43952242348008,
+        "end": 31.817640501747032,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 31.88703557372467,
+        "end": 35.5996719245283,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 35.56497438853948,
+        "end": 38.271382195667364,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 38.271382195667364,
+        "end": 41.94932101048218,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 42.01871608245982,
+        "end": 46.32121054507338,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 142,
+    "created_at": "2024-06-15T13:40:19.809544Z",
+    "updated_at": "2024-06-15T13:40:19.809569Z",
+    "lead_time": 252.52
+  },
+  {
+    "video_url": "\/data\/upload\/3\/20dd5d58-p07_CAM_AV_P_BIAH_BV.mp4",
+    "id": 144,
+    "tricks": [
+      {
+        "start": 0.028317078266946186,
+        "end": 4.615683757512229,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.615683757512229,
+        "end": 6.994318331935708,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.966001253668763,
+        "end": 9.65612368902865,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.599489532494758,
+        "end": 12.148026576519916,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 12.176343654786862,
+        "end": 15.60271012508735,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.574393046820404,
+        "end": 17.811442229909154,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.8397593081761,
+        "end": 20.898003761006287,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.86968668273934,
+        "end": 24.43763854437456,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.409321466107613,
+        "end": 28.51529781481481,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 28.51529781481481,
+        "end": 31.63017642417889,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 31.63017642417889,
+        "end": 34.15039638993711,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 34.15039638993711,
+        "end": 38.14310442557652,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 143,
+    "created_at": "2024-06-15T13:44:52.387611Z",
+    "updated_at": "2024-06-15T13:44:52.387664Z",
+    "lead_time": 269.8
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3ac6c049-p08_CAM_AV_P_BIAH_BV.mp4",
+    "id": 145,
+    "tricks": [
+      {
+        "start": 0.03178075541579315,
+        "end": 5.8158782410901475,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.8158782410901475,
+        "end": 8.421900185185185,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.453680940600979,
+        "end": 11.631756482180295,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.663537237596088,
+        "end": 14.20599767085954,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.20599767085954,
+        "end": 19.640506846960168,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.608726091544376,
+        "end": 22.596117100628934,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 22.56433634521314,
+        "end": 26.21912321802935,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.21912321802935,
+        "end": 30.159936889587705,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.22349840041929,
+        "end": 33.242670164919645,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 33.27445092033543,
+        "end": 35.944034375262056,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 35.944034375262056,
+        "end": 38.42293329769392,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 38.45471405310972,
+        "end": 42.39552772466807,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 144,
+    "created_at": "2024-06-15T13:50:09.514406Z",
+    "updated_at": "2024-06-15T13:50:09.514456Z",
+    "lead_time": 315.011
+  },
+  {
+    "video_url": "\/data\/upload\/3\/d0e224a2-p09_CAM_AV_P_BIAH_BV.mp4",
+    "id": 146,
+    "tricks": [
+      {
+        "start": 0.037918148148148145,
+        "end": 4.777686666666666,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.777686666666666,
+        "end": 7.8111385185185185,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.849056666666666,
+        "end": 11.337526296296296,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.413362592592593,
+        "end": 17.10108481481481,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 17.17692111111111,
+        "end": 22.220034814814813,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.220034814814813,
+        "end": 25.594749999999998,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.55683185185185,
+        "end": 30.827454444444445,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.90329074074074,
+        "end": 34.808859999999996,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 34.77094185185185,
+        "end": 38.904019999999996,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 38.94193814814815,
+        "end": 42.69583481481481,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 42.69583481481481,
+        "end": 47.58727592592592,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 47.54935777777777,
+        "end": 51.68243592592592,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 145,
+    "created_at": "2024-06-15T13:54:12.779750Z",
+    "updated_at": "2024-06-15T13:54:12.779782Z",
+    "lead_time": 241.478
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2220115a-p10_CAM_AV_P_BIAH_BV.mp4",
+    "id": 147,
+    "tricks": [
+      {
+        "start": 0.06556679664570231,
+        "end": 4.360191976939204,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.360191976939204,
+        "end": 8.294199775681342,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.326983174004193,
+        "end": 11.867590192872118,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.867590192872118,
+        "end": 15.145930025157234,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.113146626834384,
+        "end": 18.4570532557652,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 18.4570532557652,
+        "end": 22.09601046960168,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 22.09601046960168,
+        "end": 25.53826729350105,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 25.53826729350105,
+        "end": 30.58691063522013,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.619694033542977,
+        "end": 33.14401570440252,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 33.20958250104822,
+        "end": 35.963387960167715,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 35.963387960167715,
+        "end": 39.9301791572327,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 39.962962555555556,
+        "end": 44.0281039475891,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 146,
+    "created_at": "2024-06-15T13:58:39.643451Z",
+    "updated_at": "2024-06-15T13:58:39.643485Z",
+    "lead_time": 264.709
+  },
+  {
+    "video_url": "\/data\/upload\/3\/bfeb8974-p11_CAM_AV_P_BIAH_BV.mp4",
+    "id": 148,
+    "tricks": [
+      {
+        "start": 0.04122990915443745,
+        "end": 5.566037735849057,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.5248078266946195,
+        "end": 10.84346610761705,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 10.802236198462614,
+        "end": 14.636617749825298,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 14.719077568134171,
+        "end": 18.429769392033542,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 18.429769392033542,
+        "end": 22.635220125786166,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.6764500349406,
+        "end": 26.675751222921036,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.675751222921036,
+        "end": 31.046121593291403,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 31.128581411600276,
+        "end": 37.84905660377358,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 37.9727463312369,
+        "end": 43.90985324947589,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 43.992313067784764,
+        "end": 47.785464709993015,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 47.90915443745632,
+        "end": 52.19706498951782,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 52.23829489867226,
+        "end": 56.32005590496156,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 147,
+    "created_at": "2024-06-15T14:02:54.915449Z",
+    "updated_at": "2024-06-15T14:02:54.915484Z",
+    "lead_time": 252.524
+  },
+  {
+    "video_url": "\/data\/upload\/3\/25245cf3-p12_CAM_AV_P_BIAH_BV.mp4",
+    "id": 149,
+    "tricks": [
+      {
+        "start": 0.02682830468204053,
+        "end": 4.694953319357093,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.694953319357093,
+        "end": 8.10214801397624,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.10214801397624,
+        "end": 10.67766526345213,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.650836958770089,
+        "end": 13.76292030188679,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.76292030188679,
+        "end": 16.472579074772884,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.472579074772884,
+        "end": 19.1285812382949,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.1285812382949,
+        "end": 21.918724925227114,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.945553229909155,
+        "end": 24.65521200279525,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.70886861215933,
+        "end": 27.096587728860936,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.123416033542973,
+        "end": 30.1818427672956,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.23549937665968,
+        "end": 32.435420360586996,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.38176375122292,
+        "end": 37.613283164220825,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 148,
+    "created_at": "2024-06-15T14:07:32.539062Z",
+    "updated_at": "2024-06-15T14:07:32.539113Z",
+    "lead_time": 250.208
+  },
+  {
+    "video_url": "\/data\/upload\/3\/1dbb4b34-p13_CAM_AV_P_BIAH_BV.mp4",
+    "id": 150,
+    "tricks": [
+      {
+        "start": 0.029015890286512924,
+        "end": 3.77206573724668,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.6850180663871415,
+        "end": 7.021845449336128,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.0508613396226405,
+        "end": 9.778355026554856,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.80737091684137,
+        "end": 13.057150628930817,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 13.057150628930817,
+        "end": 15.378421851851849,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.378421851851849,
+        "end": 17.931820197064987,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.902804306778474,
+        "end": 20.688329774283716,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.717345664570228,
+        "end": 25.156776878406706,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.156776878406706,
+        "end": 28.377540700209643,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 28.348524809923127,
+        "end": 30.959954935709295,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.95995493570929,
+        "end": 34.441861770090846,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 34.441861770090846,
+        "end": 39.0553883256464,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 149,
+    "created_at": "2024-06-15T14:13:15.691563Z",
+    "updated_at": "2024-06-15T14:14:25.559241Z",
+    "lead_time": 410.33
+  },
+  {
+    "video_url": "\/data\/upload\/3\/dcb31c45-p14_CAM_AV_P_BIAH_BV.mp4",
+    "id": 151,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.5268130747728863,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.499042893081761,
+        "end": 6.748154150943396,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.720383969252271,
+        "end": 9.969495227113907,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.969495227113907,
+        "end": 13.163066121593292,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.190836303284417,
+        "end": 15.967854472396926,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.967854472396926,
+        "end": 18.82818318658281,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.855953368273934,
+        "end": 23.382492983927325,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 23.382492983927325,
+        "end": 26.04843042627533,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 26.04843042627533,
+        "end": 29.01983986722572,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 29.047610048916845,
+        "end": 31.74131767295598,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 31.685777309573727,
+        "end": 34.51833584206849,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 34.60164638714186,
+        "end": 37.8507576450035,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 150,
+    "created_at": "2024-06-15T14:23:40.450642Z",
+    "updated_at": "2024-06-15T14:30:24.974794Z",
+    "lead_time": 956.1419999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/fa766d48-p15_CAM_AV_P_BIAH_BV.mp4",
+    "id": 152,
+    "tricks": [
+      {
+        "start": 0.0699419678546471,
+        "end": 6.189864155136268,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 6.189864155136268,
+        "end": 10.036672387141857,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 10.001701403214534,
+        "end": 13.323944876310271,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 13.323944876310271,
+        "end": 16.261507526205452,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 16.261507526205452,
+        "end": 19.548780015373865,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.51380903144654,
+        "end": 22.626226600978338,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 22.591255617051015,
+        "end": 27.102512543675754,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.102512543675754,
+        "end": 31.089204711390636,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 31.124175695317962,
+        "end": 34.061738345213136,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.061738345213136,
+        "end": 38.25825641649196,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 38.29322740041929,
+        "end": 41.93020972886094,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 41.895238744933614,
+        "end": 46.546379607267646,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 151,
+    "created_at": "2024-06-15T14:33:33.975278Z",
+    "updated_at": "2024-06-15T14:33:33.975313Z",
+    "lead_time": 187.121
+  },
+  {
+    "video_url": "\/data\/upload\/3\/34bce5f4-p17_CAM_AV_P_BIAH_BV.mp4",
+    "id": 153,
+    "tricks": [
+      {
+        "start": 0.059368638714185885,
+        "end": 5.016649971348707,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.046334290705801,
+        "end": 6.797709132774284,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.738340494060099,
+        "end": 9.825509707197764,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.795825387840672,
+        "end": 12.140886617051015,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 12.140886617051015,
+        "end": 17.484064101327743,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 17.513748420684838,
+        "end": 19.621335095038436,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.651019414395527,
+        "end": 22.738188627533198,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.708504308176103,
+        "end": 26.80494037945493,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 26.80494037945493,
+        "end": 30.604533257162824,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 30.574848937805733,
+        "end": 33.03864744444445,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 33.09801608315863,
+        "end": 35.65086754786863,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 35.65086754786863,
+        "end": 40.90499207407407,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 152,
+    "created_at": "2024-06-15T14:37:26.689056Z",
+    "updated_at": "2024-06-15T14:37:26.689106Z",
+    "lead_time": 230.948
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f28a032e-p18_CAM_AV_P_BIAH_BV.mp4",
+    "id": 154,
+    "tricks": [
+      {
+        "start": 0.06465530398322851,
+        "end": 4.946130754716981,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.978458406708595,
+        "end": 7.661653522012578,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.693981174004192,
+        "end": 11.443988805031447,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.47631645702306,
+        "end": 15.678911215932912,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.678911215932912,
+        "end": 18.91167641509434,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 18.847021111111108,
+        "end": 21.530216226415092,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 21.530216226415092,
+        "end": 25.668155681341716,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 25.635828029350105,
+        "end": 29.77376748427673,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 29.838422788259955,
+        "end": 33.07118798742138,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 33.07118798742138,
+        "end": 36.43326379454926,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 36.43326379454926,
+        "end": 39.89232255765199,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 39.85999490566038,
+        "end": 43.73931314465409,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 153,
+    "created_at": "2024-06-15T14:40:01.388924Z",
+    "updated_at": "2024-06-15T14:43:23.058024Z",
+    "lead_time": 354.16700000000003
+  },
+  {
+    "video_url": "\/data\/upload\/3\/8b7d0949-p19_CAM_AV_P_BIAH_BV.mp4",
+    "id": 155,
+    "tricks": [
+      {
+        "start": 0.026889071278825998,
+        "end": 4.70558747379455,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.70558747379455,
+        "end": 7.233160174004193,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.233160174004193,
+        "end": 10.08340172955975,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.08340172955975,
+        "end": 13.310090283018868,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.310090283018868,
+        "end": 16.59055697903564,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.59055697903564,
+        "end": 19.198796893081763,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.225685964360586,
+        "end": 22.102816591194973,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.102816591194973,
+        "end": 25.11439257442348,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.087503503144656,
+        "end": 27.776410631027254,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.830188773584908,
+        "end": 29.873758190775686,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.873758190775686,
+        "end": 32.64333253249476,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.61644346121594,
+        "end": 36.11202272746331,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 154,
+    "created_at": "2024-06-15T14:48:21.595555Z",
+    "updated_at": "2024-06-15T14:48:21.595605Z",
+    "lead_time": 296.269
+  },
+  {
+    "video_url": "\/data\/upload\/3\/68778c2c-p20_CAM_AV_P_BIAH_BV.mp4",
+    "id": 156,
+    "tricks": [
+      {
+        "start": 0.05207668763102725,
+        "end": 4.843131949685533,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.869170293501048,
+        "end": 6.82204607966457,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.796007735849056,
+        "end": 10.233069119496855,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.259107463312368,
+        "end": 14.29505075471698,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.347127442348008,
+        "end": 17.341536981132073,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 17.341536981132073,
+        "end": 19.52875786163522,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.52875786163522,
+        "end": 21.221250209643603,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.221250209643603,
+        "end": 25.335308532494757,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.361346876310268,
+        "end": 27.236107631027252,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.236107631027252,
+        "end": 29.319175136268342,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.345213480083856,
+        "end": 32.26150798742138,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.339623018867925,
+        "end": 36.08914452830189,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 155,
+    "created_at": "2024-06-15T14:51:54.916952Z",
+    "updated_at": "2024-06-15T14:51:54.916986Z",
+    "lead_time": 211.312
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2e9a26fd-p21_CAM_AV_P_BIAH_BV.mp4",
+    "id": 157,
+    "tricks": [
+      {
+        "start": 0.04879530817610063,
+        "end": 4.659951930817611,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.659951930817611,
+        "end": 7.68526103773585,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.68526103773585,
+        "end": 9.783459289308178,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.734663981132075,
+        "end": 12.150031735849058,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.174429389937108,
+        "end": 14.882568993710692,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.882568993710692,
+        "end": 17.78588983018868,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.78588983018868,
+        "end": 20.274450547169813,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.225655238993713,
+        "end": 22.275058182389937,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 22.32385349056604,
+        "end": 24.519642358490568,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.544040012578616,
+        "end": 27.66693973584906,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.691337389937107,
+        "end": 30.00911452830189,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.03351218238994,
+        "end": 33.424786100628936,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 156,
+    "created_at": "2024-06-15T14:55:09.557236Z",
+    "updated_at": "2024-06-15T14:55:09.557264Z",
+    "lead_time": 192.689
+  },
+  {
+    "video_url": "\/data\/upload\/3\/4ce5364d-p22_CAM_AV_P_BIAH_BV.mp4",
+    "id": 158,
+    "tricks": [
+      {
+        "start": 0.03102117679944095,
+        "end": 4.498070635918937,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.529091812718379,
+        "end": 7.352018901467505,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.352018901467505,
+        "end": 9.895755399021663,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.895755399021663,
+        "end": 16.441223703703702,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 16.441223703703702,
+        "end": 19.91559550524109,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.94661668204053,
+        "end": 23.979369665967855,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 24.010390842767293,
+        "end": 26.988423815513627,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.019444992313066,
+        "end": 29.71828737386443,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 29.74930855066387,
+        "end": 33.56491329699511,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 33.56491329699511,
+        "end": 36.542946269741435,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 36.573967446540884,
+        "end": 38.86953452969951,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 38.93157688329839,
+        "end": 42.90228751362683,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 157,
+    "created_at": "2024-06-15T14:58:12.617424Z",
+    "updated_at": "2024-06-15T14:58:12.617458Z",
+    "lead_time": 181.459
+  },
+  {
+    "video_url": "\/data\/upload\/3\/d1d816bd-p23_CAM_AV_P_BIAH_BV.mp4",
+    "id": 159,
+    "tricks": [
+      {
+        "start": 0.055418831586303285,
+        "end": 3.6022240531097136,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.5745146373165624,
+        "end": 7.287576353598882,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 7.232157522012579,
+        "end": 10.28019325925926,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 10.252483843466107,
+        "end": 12.663203017470302,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 12.690912433263453,
+        "end": 15.794367002096438,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 15.766657586303285,
+        "end": 19.25804397624039,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.25804397624039,
+        "end": 22.694011534591194,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.638592703004893,
+        "end": 24.883055382250177,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 24.883055382250177,
+        "end": 27.986509951083164,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.95880053529001,
+        "end": 31.06225510412299,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 31.089964519916144,
+        "end": 34.33196616771489,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.38738499930119,
+        "end": 36.853523004891684,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 158,
+    "created_at": "2024-06-15T14:59:59.814154Z",
+    "updated_at": "2024-06-15T15:03:05.110845Z",
+    "lead_time": 289.19
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e9911f5b-p24_CAM_AV_P_BIAH_BV.mp4",
+    "id": 160,
+    "tricks": [
+      {
+        "start": 0.027891714185883997,
+        "end": 4.825266554157932,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.825266554157932,
+        "end": 8.73010654018169,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 8.757998254367577,
+        "end": 10.403609391334731,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.403609391334731,
+        "end": 12.662838240391336,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.69072995457722,
+        "end": 15.898277085953879,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.898277085953879,
+        "end": 19.133715931516424,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.161607645702308,
+        "end": 21.67186192243187,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.727645350803634,
+        "end": 25.18621790985325,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.18621790985325,
+        "end": 27.83593075751223,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.83593075751223,
+        "end": 30.931911032145354,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.95980274633124,
+        "end": 33.860541021663174,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 33.88843273584906,
+        "end": 37.87694786443047,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 159,
+    "created_at": "2024-06-15T15:07:00.774104Z",
+    "updated_at": "2024-06-15T15:07:00.774171Z",
+    "lead_time": 233.83
+  },
+  {
+    "video_url": "\/data\/upload\/3\/02bbfb9a-p25_CAM_AV_P_BIAH_BV.mp4",
+    "id": 161,
+    "tricks": [
+      {
+        "start": 0.034879834381551365,
+        "end": 5.336614660377359,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.266854991614256,
+        "end": 8.998997270440253,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 9.033877104821803,
+        "end": 13.149697561844864,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 13.184577396226416,
+        "end": 16.009843981132075,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 16.009843981132075,
+        "end": 19.358308081761006,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.323428247379454,
+        "end": 24.206605060796647,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 24.241484895178196,
+        "end": 27.415549823899372,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.415549823899372,
+        "end": 30.624494587002097,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.589614752620545,
+        "end": 35.82158990985325,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 35.82158990985325,
+        "end": 40.00717003563942,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 40.00717003563942,
+        "end": 44.576428339622645,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 44.576428339622645,
+        "end": 49.913043,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 160,
+    "created_at": "2024-06-15T17:46:13.148613Z",
+    "updated_at": "2024-06-15T17:46:13.148638Z",
+    "lead_time": 288.756
+  },
+  {
+    "video_url": "\/data\/upload\/3\/d7592e4b-p26_CAM_AV_P_BIAH_BV.mp4",
+    "id": 162,
+    "tricks": [
+      {
+        "start": 0.026402941299790355,
+        "end": 4.673320610062893,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.673320610062893,
+        "end": 7.47203238784067,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.44562944654088,
+        "end": 10.323550048218031,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.297147106918239,
+        "end": 13.544708886792453,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.544708886792453,
+        "end": 15.894570662473797,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.815361838574423,
+        "end": 18.42925302725367,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.45565596855346,
+        "end": 21.254367746331237,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.307173628930816,
+        "end": 24.158691289308177,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.132288348008387,
+        "end": 26.878194243186584,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 26.904597184486377,
+        "end": 29.940935433962267,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.940935433962267,
+        "end": 32.5812295639413,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.60763250524109,
+        "end": 35.881597226415096,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 161,
+    "created_at": "2024-06-15T17:51:04.818311Z",
+    "updated_at": "2024-06-15T17:51:04.818364Z",
+    "lead_time": 289.161
+  },
+  {
+    "video_url": "\/data\/upload\/3\/1a0dbe04-p27_CAM_AV_P_BIAH_BV.mp4",
+    "id": 163,
+    "tricks": [
+      {
+        "start": 0.022908881201956673,
+        "end": 3.4134232990915443,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.4134232990915443,
+        "end": 5.246133795248078,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.2003160328441655,
+        "end": 7.376659747030049,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.399568628232006,
+        "end": 9.461367936408106,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 9.461367936408106,
+        "end": 12.94351787910552,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 12.966426760307476,
+        "end": 15.005317187281623,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.005317187281623,
+        "end": 16.906754327044027,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 16.929663208245984,
+        "end": 19.47254902166317,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.49545790286513,
+        "end": 22.22161476589797,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.3132502907058,
+        "end": 24.489594004891682,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 24.512502886093642,
+        "end": 27.284477511530397,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.284477511530397,
+        "end": 30.216814305380854,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 162,
+    "created_at": "2024-06-15T17:55:30.251212Z",
+    "updated_at": "2024-06-15T17:55:30.251261Z",
+    "lead_time": 263.513
+  },
+  {
+    "video_url": "\/data\/upload\/3\/6bffcd40-p28_CAM_AV_P_BIAH_BV.mp4",
+    "id": 164,
+    "tricks": [
+      {
+        "start": 0.02385075821104123,
+        "end": 3.6491660062893083,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.6730167645003493,
+        "end": 5.938838794549266,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.938838794549266,
+        "end": 8.514720681341718,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.53857143955276,
+        "end": 11.01905029350105,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.01905029350105,
+        "end": 13.427976872816211,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.475678389238293,
+        "end": 16.05156027603075,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.09926179245283,
+        "end": 18.532039129979037,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.555889888190073,
+        "end": 21.13177177498253,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.15562253319357,
+        "end": 24.256221100628927,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.256221100628927,
+        "end": 26.688998438155135,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.64129692173305,
+        "end": 28.477805303983228,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 28.50165606219427,
+        "end": 32.17467282669462,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 163,
+    "created_at": "2024-06-15T17:58:42.711633Z",
+    "updated_at": "2024-06-15T17:59:35.625530Z",
+    "lead_time": 242.72500000000002
+  },
+  {
+    "video_url": "\/data\/upload\/3\/90465800-p29_CAM_AV_P_BIAH_BV.mp4",
+    "id": 165,
+    "tricks": [
+      {
+        "start": 0.02836703004891684,
+        "end": 2.893437064989518,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.893437064989518,
+        "end": 5.503203829489867,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.503203829489867,
+        "end": 8.45337495457722,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.45337495457722,
+        "end": 10.836205478686235,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.836205478686235,
+        "end": 15.062892955974842,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.062892955974842,
+        "end": 18.126532201257863,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.06979814116003,
+        "end": 22.863826219426976,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.89219324947589,
+        "end": 25.728896254367577,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.728896254367577,
+        "end": 28.508865199161427,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 28.537232229210343,
+        "end": 31.118631963661777,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 31.146998993710696,
+        "end": 35.714090831586304,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 35.714090831586304,
+        "end": 39.08976740740741,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 164,
+    "created_at": "2024-06-15T18:04:24.577885Z",
+    "updated_at": "2024-06-15T18:04:24.577917Z",
+    "lead_time": 286.958
+  },
+  {
+    "video_url": "\/data\/upload\/3\/38af7d3a-p30_CAM_AV_P_BIAH_BV.mp4",
+    "id": 166,
+    "tricks": [
+      {
+        "start": 0.028793424178895875,
+        "end": 4.002285960866526,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.059872809224318,
+        "end": 7.111975772187281,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.0831823480083855,
+        "end": 10.048905038434661,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.048905038434661,
+        "end": 12.726693487071977,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.755486911250872,
+        "end": 15.519655632424877,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.49086220824598,
+        "end": 18.456584898672258,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.456584898672258,
+        "end": 22.142143193570927,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.142143193570927,
+        "end": 25.251833004891683,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 25.28062642907058,
+        "end": 27.468926666666665,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.468926666666665,
+        "end": 29.74360717679944,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.772400600978337,
+        "end": 34.840043256464014,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 34.86883668064291,
+        "end": 38.89991606568832,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 165,
+    "created_at": "2024-06-15T18:08:56.806122Z",
+    "updated_at": "2024-06-15T18:08:56.806183Z",
+    "lead_time": 270.258
+  },
+  {
+    "video_url": "\/data\/upload\/3\/00dc4930-p31_CAM_AV_P_BIAH_BV.mp4",
+    "id": 167,
+    "tricks": [
+      {
+        "start": 0.04943798881900768,
+        "end": 4.474137988120195,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.474137988120195,
+        "end": 6.9460374290705795,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.970756423480084,
+        "end": 9.071870948287911,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.071870948287911,
+        "end": 11.988712288609364,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.03815027742837,
+        "end": 14.757239662473795,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.781958656883297,
+        "end": 16.83363519287212,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.83363519287212,
+        "end": 18.959468712089446,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.959468712089446,
+        "end": 21.505525136268346,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.505525136268346,
+        "end": 25.163936308874913,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.188655303284417,
+        "end": 27.240331839273235,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.240331839273235,
+        "end": 30.305487146051714,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.305487146051714,
+        "end": 34.16165027393431,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 166,
+    "created_at": "2024-06-15T18:13:43.928168Z",
+    "updated_at": "2024-06-15T18:13:43.928224Z",
+    "lead_time": 282.755
+  },
+  {
+    "video_url": "\/data\/upload\/3\/b745698c-p32_CAM_AV_P_BIAH_BV.mp4",
+    "id": 168,
+    "tricks": [
+      {
+        "start": 0.0669082893081761,
+        "end": 3.144689597484277,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1669923605870025,
+        "end": 5.040424461215933,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.040424461215933,
+        "end": 6.802342746331236,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.824645509433963,
+        "end": 9.857821291404612,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 9.857821291404612,
+        "end": 12.110400364779874,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 12.08809760167715,
+        "end": 13.87231864989518,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 13.894621412997903,
+        "end": 16.459439169811322,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 16.5263474591195,
+        "end": 19.202679031446543,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.247284557651994,
+        "end": 22.325065865828094,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.325065865828094,
+        "end": 23.975470335429772,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 24.042378624737946,
+        "end": 26.45107703983229,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.45107703983229,
+        "end": 30.354060582809225,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 167,
+    "created_at": "2024-06-15T18:21:03.247735Z",
+    "updated_at": "2024-06-15T18:34:45.840545Z",
+    "lead_time": 1259.3809999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/45fada4b-p33_CAM_AV_P_BIAH_BV.mp4",
+    "id": 169,
+    "tricks": [
+      {
+        "start": 0.02374776450034941,
+        "end": 3.1584526785464715,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1822004430468205,
+        "end": 5.865697831586304,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.818202302585605,
+        "end": 10.11654767714885,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.0453043836478,
+        "end": 12.325089775681343,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.277594246680644,
+        "end": 14.581127403214536,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.581127403214536,
+        "end": 16.765921737246682,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.742173972746333,
+        "end": 19.449419125786164,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 19.401923596785466,
+        "end": 22.08542098532495,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 22.08542098532495,
+        "end": 24.86390943186583,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.93515272536688,
+        "end": 27.096199294898675,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.096199294898675,
+        "end": 29.375984686932217,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 29.39973245143257,
+        "end": 32.34445524947589,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 168,
+    "created_at": "2024-06-15T18:38:24.661441Z",
+    "updated_at": "2024-06-15T18:38:24.661492Z",
+    "lead_time": 216.889
+  },
+  {
+    "video_url": "\/data\/upload\/3\/73ac91a3-p35_CAM_AV_P_BIAH_BV.mp4",
+    "id": 170,
+    "tricks": [
+      {
+        "start": 0.026270593990216633,
+        "end": 4.544812760307478,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.571083354297694,
+        "end": 6.541377903563942,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.541377903563942,
+        "end": 9.74639037037037,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.693849182389938,
+        "end": 12.347179175401818,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.373449769392035,
+        "end": 15.420838672257164,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.394568078266948,
+        "end": 17.601297973445142,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.575027379454927,
+        "end": 21.279181132075472,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.384263508036337,
+        "end": 24.352840628930817,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.300299440950386,
+        "end": 27.76801784765898,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.820559035639416,
+        "end": 29.554418238993716,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.580688832983927,
+        "end": 33.44246614954577,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 33.46873674353599,
+        "end": 37.59322,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 169,
+    "created_at": "2024-06-15T18:41:55.091045Z",
+    "updated_at": "2024-06-15T18:41:55.091095Z",
+    "lead_time": 208.685
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f6f9d8d1-p36_CAM_AV_P_BIAH_BV.mp4",
+    "id": 171,
+    "tricks": [
+      {
+        "start": 0.047424462613556956,
+        "end": 3.5805469273235504,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.5805469273235504,
+        "end": 5.524949894479385,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.524949894479385,
+        "end": 8.08587087561146,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.08587087561146,
+        "end": 10.670504088050315,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.646791856743537,
+        "end": 13.895367545772189,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.895367545772189,
+        "end": 15.816058281621245,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.863482744234801,
+        "end": 18.139856949685534,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.187281412299093,
+        "end": 20.914188012578617,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.937900243885398,
+        "end": 24.542159402515722,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.44731047728861,
+        "end": 26.676260220125787,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.723684682739346,
+        "end": 29.237181201257865,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 29.237181201257865,
+        "end": 33.932203,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 170,
+    "created_at": "2024-06-15T18:45:25.237187Z",
+    "updated_at": "2024-06-15T18:45:25.237241Z",
+    "lead_time": 208.2
+  },
+  {
+    "video_url": "\/data\/upload\/3\/0d4e764d-p37_CAM_AV_P_BIAH_BV.mp4",
+    "id": 172,
+    "tricks": [
+      {
+        "start": 0.025844200559049617,
+        "end": 4.08338368832984,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.109227888888889,
+        "end": 7.391441359888191,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.41728556044724,
+        "end": 11.035473638714187,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.983785237596086,
+        "end": 13.283919087351505,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.283919087351505,
+        "end": 15.58405293710692,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.58405293710692,
+        "end": 18.78873380642907,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.866266408106224,
+        "end": 21.890037873515027,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.864193672955977,
+        "end": 24.24186012438854,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.26770432494759,
+        "end": 26.800435979734456,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 26.852124380852555,
+        "end": 28.97134882669462,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 28.97134882669462,
+        "end": 32.09849709433963,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.12434129489868,
+        "end": 35.92343877707897,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 171,
+    "created_at": "2024-06-15T18:49:36.510128Z",
+    "updated_at": "2024-06-15T18:49:36.510157Z",
+    "lead_time": 249.03
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c2198d1c-p38_CAM_AV_P_BIAH_BV.mp4",
+    "id": 173,
+    "tricks": [
+      {
+        "start": 0.02227907477288609,
+        "end": 3.5200938141160028,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.5200938141160028,
+        "end": 5.213303496855346,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.235582571628233,
+        "end": 7.5303272732355,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.5303272732355,
+        "end": 10.738514040531097,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.760793115303983,
+        "end": 13.166933190775682,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.144654116002796,
+        "end": 15.305724368972745,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.305724368972745,
+        "end": 17.088050350803634,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 17.06577127603075,
+        "end": 19.89521377218728,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.89521377218728,
+        "end": 21.96716772606569,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 21.96716772606569,
+        "end": 23.571261109713486,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 23.548982034940604,
+        "end": 26.668052503144654,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.712610652690426,
+        "end": 30.90107670999301,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 172,
+    "created_at": "2024-06-15T18:55:17.474329Z",
+    "updated_at": "2024-06-15T18:55:17.474379Z",
+    "lead_time": 251.382
+  },
+  {
+    "video_url": "\/data\/upload\/3\/5422265b-p39_CAM_AV_P_BIAH_BV.mp4",
+    "id": 174,
+    "tricks": [
+      {
+        "start": 0.02139075401816911,
+        "end": 3.1872223487071976,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1872223487071976,
+        "end": 4.599012113906359,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 4.599012113906359,
+        "end": 7.764843708595387,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.743452954577218,
+        "end": 10.032263634521312,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.032263634521312,
+        "end": 13.369221261355694,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.390612015373863,
+        "end": 15.37995213906359,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.337170631027252,
+        "end": 17.904061113207547,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 17.904061113207547,
+        "end": 20.21426254716981,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.21426254716981,
+        "end": 22.20360267085954,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.22499342487771,
+        "end": 23.658173944095036,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 23.636783190076866,
+        "end": 26.652879506638712,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.674270260656883,
+        "end": 29.84010185534591,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 173,
+    "created_at": "2024-06-15T20:36:06.505533Z",
+    "updated_at": "2024-06-15T20:36:06.505593Z",
+    "lead_time": 6045.424
+  },
+  {
+    "video_url": "\/data\/upload\/3\/033a3d58-p40_CAM_AV_P_BIAH_BV.mp4",
+    "id": 175,
+    "tricks": [
+      {
+        "start": 0.050598728162124386,
+        "end": 3.4660128791055205,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.4660128791055205,
+        "end": 6.097146743535989,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.12244610761705,
+        "end": 8.88007679245283,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.88007679245283,
+        "end": 11.76420429769392,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.713605569531795,
+        "end": 14.850726715583507,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.850726715583507,
+        "end": 17.07707075471698,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.07707075471698,
+        "end": 20.467185541579315,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.467185541579315,
+        "end": 23.250115590496158,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 23.250115590496158,
+        "end": 25.653555178197067,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.653555178197067,
+        "end": 28.664179503843464,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 28.689478867924528,
+        "end": 31.092918455625433,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 31.143517183787562,
+        "end": 34.584230698812014,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 174,
+    "created_at": "2024-06-15T20:41:53.424359Z",
+    "updated_at": "2024-06-15T20:41:53.424396Z",
+    "lead_time": 344.91
+  },
+  {
+    "video_url": "\/data\/upload\/3\/12ad9d66-p41_CAM_AV_P_BIAH_BV.mp4",
+    "id": 176,
+    "tricks": [
+      {
+        "start": 0.05083561285814116,
+        "end": 4.702294189378057,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.651458576519916,
+        "end": 7.294910445143256,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.294910445143256,
+        "end": 9.404588378756115,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.480841798043325,
+        "end": 13.268094955974842,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.242677149545772,
+        "end": 16.546991985324947,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.546991985324947,
+        "end": 18.656669918937805,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.656669918937805,
+        "end": 22.113491593291407,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.088073786862335,
+        "end": 24.4519297847659,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.4519297847659,
+        "end": 26.68869675052411,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 26.714114556953177,
+        "end": 28.696703458420686,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 28.696703458420686,
+        "end": 31.365573133473095,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 31.46724435918938,
+        "end": 35.00031945283019,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 175,
+    "created_at": "2024-06-15T20:46:29.414605Z",
+    "updated_at": "2024-06-15T20:46:29.414629Z",
+    "lead_time": 274.162
+  },
+  {
+    "video_url": "\/data\/upload\/3\/14fa63df-p42_CAM_AV_P_BIAH_BV.mp4",
+    "id": 177,
+    "tricks": [
+      {
+        "start": 0.024257067784765895,
+        "end": 3.614303099930119,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.638560167714884,
+        "end": 5.676153861635219,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.651896793850454,
+        "end": 9.29045696156534,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.241942825995807,
+        "end": 12.565161112508735,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.54090404472397,
+        "end": 15.063639094339623,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.063639094339623,
+        "end": 17.513602940600975,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.513602940600975,
+        "end": 20.424451074772886,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.424451074772886,
+        "end": 22.94718612438854,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 22.971443192173304,
+        "end": 25.663977716282318,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.663977716282318,
+        "end": 28.08968449475891,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 28.113941562543676,
+        "end": 30.248563527603075,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.248563527603075,
+        "end": 34.493550389937106,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 176,
+    "created_at": "2024-06-15T20:50:42.575345Z",
+    "updated_at": "2024-06-15T20:50:42.575396Z",
+    "lead_time": 251.11
+  },
+  {
+    "video_url": "\/data\/upload\/3\/0f6679a6-p43_CAM_AV_P_BIAH_BV.mp4",
+    "id": 178,
+    "tricks": [
+      {
+        "start": 0.022433050314465408,
+        "end": 3.27522534591195,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.297658396226415,
+        "end": 5.361499025157232,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.361499025157232,
+        "end": 8.053465062893082,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.053465062893082,
+        "end": 10.924895503144652,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.924895503144652,
+        "end": 13.078468333333332,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.056035283018867,
+        "end": 15.590969968553459,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.590969968553459,
+        "end": 17.811841949685533,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 17.834275,
+        "end": 20.61597323899371,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.68327238993711,
+        "end": 23.173340974842766,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.173340974842766,
+        "end": 25.37177990566038,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.326913805031445,
+        "end": 27.65995103773585,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.682384088050313,
+        "end": 31.81006534591195,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 177,
+    "created_at": "2024-06-15T20:55:00.027281Z",
+    "updated_at": "2024-06-15T20:55:00.027334Z",
+    "lead_time": 252.911
+  },
+  {
+    "video_url": "\/data\/upload\/3\/82c77836-p44_CAM_AV_P_BIAH_BV.mp4",
+    "id": 179,
+    "tricks": [
+      {
+        "start": 0.02428075681341719,
+        "end": 3.8606403333333326,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.8606403333333326,
+        "end": 6.240154501048218,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.240154501048218,
+        "end": 8.959599264150942,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.98388002096436,
+        "end": 11.606201756813416,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.606201756813416,
+        "end": 16.34094933542977,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.34094933542977,
+        "end": 18.696182746331235,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.696182746331235,
+        "end": 21.294223725366873,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.294223725366873,
+        "end": 23.23668427044025,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 23.26096502725367,
+        "end": 25.689040708595385,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.713321465408804,
+        "end": 27.72862428092243,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.72862428092243,
+        "end": 30.350946016771484,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.375226773584902,
+        "end": 34.405832404612156,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 178,
+    "created_at": "2024-06-15T20:59:19.537574Z",
+    "updated_at": "2024-06-15T20:59:19.537627Z",
+    "lead_time": 256.768
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3c3e86d7-p45_CAM_AV_P_BIAH_BV.mp4",
+    "id": 180,
+    "tricks": [
+      {
+        "start": 0.04958012019566736,
+        "end": 3.09875751222921,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.123547572327044,
+        "end": 5.974404483577917,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.999194543675751,
+        "end": 8.502990613556953,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.502990613556953,
+        "end": 11.03157674353599,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.056366803633823,
+        "end": 13.560162873515024,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.560162873515024,
+        "end": 16.138329123689726,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.138329123689726,
+        "end": 18.964395974842766,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.9148158546471,
+        "end": 21.592142345213137,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.592142345213137,
+        "end": 23.7736676338225,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.7736676338225,
+        "end": 26.599734484975542,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.64931460517121,
+        "end": 30.566144100628932,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.566144100628932,
+        "end": 33.86322209364081,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 179,
+    "created_at": "2024-06-15T21:03:57.093939Z",
+    "updated_at": "2024-06-15T21:03:57.093977Z",
+    "lead_time": 275.967
+  },
+  {
+    "video_url": "\/data\/upload\/3\/80291659-p46_CAM_AV_P_BIAH_BV.mp4",
+    "id": 181,
+    "tricks": [
+      {
+        "start": 0.030700351502445843,
+        "end": 2.7937319867225714,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.7937319867225714,
+        "end": 4.819955185883997,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 4.819955185883997,
+        "end": 7.705788227113906,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.705788227113906,
+        "end": 10.960025486373166,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.990725837875612,
+        "end": 13.968659933612859,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.968659933612859,
+        "end": 16.271186296296296,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.271186296296296,
+        "end": 19.586824258560448,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 19.617524610062894,
+        "end": 21.889350621243885,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.827949918238993,
+        "end": 23.884873468902864,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 23.915573820405314,
+        "end": 26.5865044011181,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.617204752620545,
+        "end": 30.51614939343117,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.51614939343117,
+        "end": 32.57307294409504,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 32.57307294409504,
+        "end": 34.84489895527603,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.90629965828092,
+        "end": 37.39302812997904,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 37.36232777847659,
+        "end": 40.125359413696714,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 40.125359413696714,
+        "end": 43.932203,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 180,
+    "created_at": "2024-06-15T21:24:30.730541Z",
+    "updated_at": "2024-06-15T21:24:30.730591Z",
+    "lead_time": 1231.632
+  },
+  {
+    "video_url": "\/data\/upload\/3\/23b42a98-p47_CAM_AV_P_BIAH_BV.mp4",
+    "id": 182,
+    "tricks": [
+      {
+        "start": 0.03266650104821803,
+        "end": 4.115979132075471,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.115979132075471,
+        "end": 6.892631721174004,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.892631721174004,
+        "end": 9.701950811320755,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.734617312368972,
+        "end": 11.955939383647799,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.988605884696016,
+        "end": 15.09192348427673,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.09192348427673,
+        "end": 17.476578060796644,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.476578060796644,
+        "end": 20.449229656184485,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.449229656184485,
+        "end": 23.421881251572323,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 23.421881251572323,
+        "end": 26.19853384067086,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 26.19853384067086,
+        "end": 28.32185640880503,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 28.32185640880503,
+        "end": 31.686506016771485,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 31.719172517819704,
+        "end": 34.26715959958071,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 34.29982610062893,
+        "end": 37.40314370020964,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 37.46847670230608,
+        "end": 39.657132272536685,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 39.657132272536685,
+        "end": 42.36845185953878,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 42.43378486163522,
+        "end": 46.28843198532494,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 181,
+    "created_at": "2024-06-15T21:29:28.850877Z",
+    "updated_at": "2024-06-15T21:29:28.850933Z",
+    "lead_time": 296.281
+  },
+  {
+    "video_url": "\/data\/upload\/3\/4530df82-p48_CAM_AV_P_BIAH_BV.mp4",
+    "id": 183,
+    "tricks": [
+      {
+        "start": 0.05734996226415094,
+        "end": 3.756422528301887,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.699072566037736,
+        "end": 6.165120943396227,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.136445962264151,
+        "end": 8.201044603773585,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.17236962264151,
+        "end": 10.466368113207547,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.495043094339623,
+        "end": 12.932416490566037,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 12.903741509433962,
+        "end": 15.111715056603774,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.111715056603774,
+        "end": 17.118963735849057,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 17.118963735849057,
+        "end": 19.412962226415093,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.44163720754717,
+        "end": 23.82890932075472,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.82890932075472,
+        "end": 26.00820788679245,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.00820788679245,
+        "end": 28.273531396226414,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 28.273531396226414,
+        "end": 30.309455056603774,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.338130037735848,
+        "end": 32.86152837735849,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.83285339622642,
+        "end": 34.8401020754717,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 34.89745203773585,
+        "end": 36.90470071698113,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 182,
+    "created_at": "2024-06-15T21:39:41.850436Z",
+    "updated_at": "2024-06-15T21:39:41.850475Z",
+    "lead_time": 611.098
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e4f078d1-p49_CAM_AV_P_BIAH_BV.mp4",
+    "id": 184,
+    "tricks": [
+      {
+        "start": 0.03216904122990916,
+        "end": 3.667270700209644,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.6994397414395523,
+        "end": 5.983441668763103,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.983441668763103,
+        "end": 9.10383866806429,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.071669626834382,
+        "end": 11.259164430468205,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.226995389238295,
+        "end": 14.508237594689028,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.508237594689028,
+        "end": 16.888746645702305,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.920915686932215,
+        "end": 19.78396035639413,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 19.78396035639413,
+        "end": 22.164469407407406,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 22.228807489867226,
+        "end": 24.35196421104123,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.384133252271138,
+        "end": 27.37585408665269,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.37585408665269,
+        "end": 30.43191300349406,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.39974396226415,
+        "end": 32.45856260097834,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 32.490731642208246,
+        "end": 34.42087411600279,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.42087411600279,
+        "end": 37.38042590915444,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 37.412594950384346,
+        "end": 41.36938702166317,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 41.401556062893086,
+        "end": 46.033898,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 183,
+    "created_at": "2024-06-15T21:44:57.311962Z",
+    "updated_at": "2024-06-15T21:44:57.311989Z",
+    "lead_time": 311.387
+  },
+  {
+    "video_url": "\/data\/upload\/3\/98be3f44-p50_CAM_AV_P_BIAH_BV.mp4",
+    "id": 185,
+    "tricks": [
+      {
+        "start": 0.02510985534591195,
+        "end": 2.1594475597484277,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 2.134337704402516,
+        "end": 4.469554251572327,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 4.49466410691824,
+        "end": 7.45762703773585,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 7.4827368930817615,
+        "end": 9.466415465408806,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 9.466415465408806,
+        "end": 11.475203893081762,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.500313748427674,
+        "end": 13.38355289937107,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.38355289937107,
+        "end": 15.492780748427673,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.517890603773585,
+        "end": 17.52667903144654,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.551788886792455,
+        "end": 19.259259050314466,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 19.259259050314466,
+        "end": 21.569365742138363,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.51914603144654,
+        "end": 24.33144983018868,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 24.381669540880505,
+        "end": 26.340238257861635,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.39045796855346,
+        "end": 28.173257698113208,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 28.173257698113208,
+        "end": 30.357815113207547,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 30.357815113207547,
+        "end": 32.51726267295597,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 32.51726267295597,
+        "end": 35.932203,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 184,
+    "created_at": "2024-06-15T21:49:48.673491Z",
+    "updated_at": "2024-06-15T21:49:48.673527Z",
+    "lead_time": 254.218
+  },
+  {
+    "video_url": "\/data\/upload\/3\/7b6cd20d-p51_CAM_AV_P_BIAH_BV.mp4",
+    "id": 186,
+    "tricks": [
+      {
+        "start": 0.03392199371069182,
+        "end": 4.27417120754717,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.27417120754717,
+        "end": 7.63244858490566,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.63244858490566,
+        "end": 10.787194,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.821115993710691,
+        "end": 13.059967578616352,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.059967578616352,
+        "end": 15.773727075471697,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.80764906918239,
+        "end": 18.555330559748427,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.555330559748427,
+        "end": 21.472622018867924,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.472622018867924,
+        "end": 24.050693540880502,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.050693540880502,
+        "end": 27.34112693081761,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.375048924528297,
+        "end": 30.224496396226414,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.224496396226414,
+        "end": 33.989837698113206,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 34.0237596918239,
+        "end": 35.92339133962264,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 35.88946934591195,
+        "end": 38.29793089937107,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 38.29793089937107,
+        "end": 41.72405226415094,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 41.72405226415094,
+        "end": 44.8109536918239,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 44.84487568553459,
+        "end": 48.542373,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 185,
+    "created_at": "2024-06-15T21:55:16.460423Z",
+    "updated_at": "2024-06-15T21:55:16.460456Z",
+    "lead_time": 325.577
+  },
+  {
+    "video_url": "\/data\/upload\/3\/881cf85d-p52_CAM_AV_P_BIAH_BV.mp4",
+    "id": 187,
+    "tricks": [
+      {
+        "start": 0.029421170510132773,
+        "end": 3.0303805625436757,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.0009593920335424,
+        "end": 6.266709318658282,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 6.266709318658282,
+        "end": 9.561880415793151,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 9.561880415793151,
+        "end": 11.827310545073376,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 11.856731715583509,
+        "end": 13.916213651292802,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 13.945634821802935,
+        "end": 15.799168563941299,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.799168563941299,
+        "end": 19.035497320055907,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.035497320055907,
+        "end": 21.801087348008387,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 21.801087348008387,
+        "end": 23.56635757861635,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 23.56635757861635,
+        "end": 26.273105265548566,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 26.3025264360587,
+        "end": 28.450271883298395,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 28.450271883298395,
+        "end": 30.803965524109014,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.86280786512928,
+        "end": 33.1282379944095,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 33.1282379944095,
+        "end": 35.12887758909853,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 35.15829875960867,
+        "end": 37.95330995807127,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 37.95330995807127,
+        "end": 42.101695,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 186,
+    "created_at": "2024-06-15T22:01:06.459166Z",
+    "updated_at": "2024-06-15T22:01:06.459193Z",
+    "lead_time": 348.136
+  },
+  {
+    "video_url": "\/data\/upload\/3\/6c7c24d6-p53_CAM_AV_P_BIAH_BV.mp4",
+    "id": 188,
+    "tricks": [
+      {
+        "start": 0.03155313906359189,
+        "end": 3.123760767295597,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.0922076282320057,
+        "end": 5.269374223619846,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 5.269374223619846,
+        "end": 9.18196346750524,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 9.150410328441648,
+        "end": 11.674661453529,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 11.674661453529,
+        "end": 16.3445260349406,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 16.3445260349406,
+        "end": 18.711011464709994,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 18.711011464709994,
+        "end": 20.919731199161426,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 20.888178060097832,
+        "end": 23.16000407267645,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 23.19155721174004,
+        "end": 25.968233449336125,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 25.905127171208942,
+        "end": 28.587143991614255,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 28.587143991614255,
+        "end": 31.39537336827393,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 31.39537336827393,
+        "end": 33.667199380852544,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 33.667199380852544,
+        "end": 36.44387561844864,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 36.44387561844864,
+        "end": 39.03123302166317,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 39.062786160726766,
+        "end": 41.303059034241784,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 41.303059034241784,
+        "end": 45.152542,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 187,
+    "created_at": "2024-06-15T22:05:30.743892Z",
+    "updated_at": "2024-06-15T22:05:30.743940Z",
+    "lead_time": 262.361
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f2699ea5-p54_CAM_AV_P_BIAH_BV.mp4",
+    "id": 189,
+    "tricks": [
+      {
+        "start": 0.02953961285814116,
+        "end": 3.5742931558350803,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.6038327686932217,
+        "end": 6.439635603074773,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.439635603074773,
+        "end": 9.482215727463313,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.423136501747031,
+        "end": 11.431830176100629,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.402290563242488,
+        "end": 13.97223688190077,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.00177649475891,
+        "end": 16.04000978197065,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 16.04000978197065,
+        "end": 21.061743967854646,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.091283580712787,
+        "end": 23.18859609364081,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 23.218135706498952,
+        "end": 25.43360667085954,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.49268589657582,
+        "end": 27.20598344234801,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.265062668064292,
+        "end": 30.337182405310973,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.337182405310973,
+        "end": 32.050479951083155,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 32.050479951083155,
+        "end": 34.413648979734454,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.44318859259259,
+        "end": 36.36326342837177,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 36.422342654088055,
+        "end": 38.78551168273934,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 38.78551168273934,
+        "end": 42.271186,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 188,
+    "created_at": "2024-06-15T22:11:52.366006Z",
+    "updated_at": "2024-06-15T22:11:52.366059Z",
+    "lead_time": 379.761
+  },
+  {
+    "video_url": "\/data\/upload\/3\/640153cf-p55_CAM_AV_P_BIAH_BV.mp4",
+    "id": 190,
+    "tricks": [
+      {
+        "start": 0.0322993284416492,
+        "end": 4.295810682739344,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.328110011180993,
+        "end": 6.750559644304683,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 6.750559644304683,
+        "end": 9.915893831586304,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 9.915893831586304,
+        "end": 11.983050851851852,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 11.983050851851852,
+        "end": 15.27758235290007,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 15.342181009783369,
+        "end": 17.603134000698812,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 17.66773265758211,
+        "end": 20.47777423200559,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 20.51007356044724,
+        "end": 23.158618492662473,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 23.094019835779175,
+        "end": 26.67924529280224,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.67924529280224,
+        "end": 29.263191568134175,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 29.29549089657582,
+        "end": 31.71794052969951,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 31.75023985814116,
+        "end": 34.334186133473096,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 34.2695874765898,
+        "end": 37.531819649196365,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 37.531819649196365,
+        "end": 39.46977935569532,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 39.46977935569532,
+        "end": 42.4090182438854,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 42.441317572327044,
+        "end": 46.155740343116705,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 189,
+    "created_at": "2024-06-15T22:16:13.314882Z",
+    "updated_at": "2024-06-15T22:16:13.314923Z",
+    "lead_time": 259.166
+  },
+  {
+    "video_url": "\/data\/upload\/3\/eb4786f4-p56_CAM_AV_P_BIAH_BV.mp4",
+    "id": 191,
+    "tricks": [
+      {
+        "start": 0.028876334032145352,
+        "end": 1.9924670482180296,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 1.9924670482180296,
+        "end": 5.226616459818309,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 5.255492793850454,
+        "end": 7.5655995164220835,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 7.536723182389937,
+        "end": 9.096045220125786,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 9.038292552061495,
+        "end": 11.261770272536687,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.290646606568835,
+        "end": 15.044570030747728,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.044570030747728,
+        "end": 17.845574431865828,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 17.874450765897976,
+        "end": 19.433772803633826,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.46264913766597,
+        "end": 21.859384862334036,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.859384862334036,
+        "end": 24.284996921034242,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.31387325506639,
+        "end": 28.616447025856047,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 28.674199693920336,
+        "end": 30.46453240391335,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.46453240391335,
+        "end": 32.25486511390636,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.31261778197065,
+        "end": 34.73822984067086,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 34.73822984067086,
+        "end": 37.97237925227114,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 37.943502918239,
+        "end": 41.322034,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 190,
+    "created_at": "2024-06-15T22:20:34.265495Z",
+    "updated_at": "2024-06-15T22:20:34.265546Z",
+    "lead_time": 259.258
+  },
+  {
+    "video_url": "\/data\/upload\/3\/ceda4f1e-p57_CAM_AV_P_BIAH_BV.mp4",
+    "id": 192,
+    "tricks": [
+      {
+        "start": 0.027988013277428368,
+        "end": 2.938741394129979,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.938741394129979,
+        "end": 5.009854376659678,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.009854376659678,
+        "end": 7.472799545073375,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.472799545073375,
+        "end": 9.45994848777079,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 9.45994848777079,
+        "end": 11.8389296163522,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 11.8389296163522,
+        "end": 14.021994651991614,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 14.049982665269042,
+        "end": 16.876772006289308,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 16.876772006289308,
+        "end": 19.00386101537386,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 19.00386101537386,
+        "end": 22.222482542278126,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.250470555555555,
+        "end": 23.761823272536688,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 23.789811285814114,
+        "end": 26.81251671977638,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 26.840504733053805,
+        "end": 29.135521821802936,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 29.16350983508036,
+        "end": 31.59846699021663,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 31.59846699021663,
+        "end": 33.305735800139765,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 33.33372381341719,
+        "end": 35.544776862334025,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 35.57276487561146,
+        "end": 40.050847,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 191,
+    "created_at": "2024-06-15T22:24:53.811505Z",
+    "updated_at": "2024-06-15T22:24:53.811529Z",
+    "lead_time": 257.566
+  },
+  {
+    "video_url": "\/data\/upload\/3\/0b01129e-p58_CAM_AV_P_BIAH_BV.mp4",
+    "id": 193,
+    "tricks": [
+      {
+        "start": 0.03636191334730957,
+        "end": 5.417925088749127,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.454287002096436,
+        "end": 8.254154329839274,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 8.181430503144654,
+        "end": 11.0176597442348,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 11.0176597442348,
+        "end": 13.56299367854647,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 13.56299367854647,
+        "end": 17.853699453529,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 17.92642328022362,
+        "end": 21.053547828092242,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.053547828092242,
+        "end": 23.598881762403913,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.598881762403913,
+        "end": 25.526063169811323,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.526063169811323,
+        "end": 29.453149811320753,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 29.453149811320753,
+        "end": 31.78031226554857,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 31.78031226554857,
+        "end": 34.87107490006988,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 34.87107490006988,
+        "end": 38.32545666806429,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 38.361818581411605,
+        "end": 41.56166695597484,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 41.56166695597484,
+        "end": 44.034277063591894,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 44.034277063591894,
+        "end": 47.30684926484976,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 47.343211178197066,
+        "end": 52.033898,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 192,
+    "created_at": "2024-06-15T22:29:04.977373Z",
+    "updated_at": "2024-06-15T22:29:04.977443Z",
+    "lead_time": 236.886
+  },
+  {
+    "video_url": "\/data\/upload\/3\/a1e8cdea-p59_CAM_AV_P_BIAH_BV.mp4",
+    "id": 194,
+    "tricks": [
+      {
+        "start": 0.043089459119496853,
+        "end": 3.1455305157232702,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1239857861635216,
+        "end": 4.9552877987421375,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 4.9552877987421375,
+        "end": 8.165452503144653,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.143907773584905,
+        "end": 10.40610437735849,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.384559647798742,
+        "end": 12.258951119496855,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 12.258951119496855,
+        "end": 14.348789886792453,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 14.370334616352201,
+        "end": 16.95570216352201,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 16.95570216352201,
+        "end": 18.851638364779873,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 18.89472782389937,
+        "end": 22.85895806289308,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 22.902047522012577,
+        "end": 25.121154666666662,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.121154666666662,
+        "end": 27.555709106918236,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.555709106918236,
+        "end": 30.830508,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 193,
+    "created_at": "2024-06-15T22:32:49.348591Z",
+    "updated_at": "2024-06-15T22:32:49.348632Z",
+    "lead_time": 213.703
+  },
+  {
+    "video_url": "\/data\/upload\/3\/43f0ef70-p60_CAM_AV_P_BIAH_BV.mp4",
+    "id": 195,
+    "tricks": [
+      {
+        "start": 0.01912849825296995,
+        "end": 3.2518447030048914,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.2518447030048914,
+        "end": 5.088180535290007,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.107309033542977,
+        "end": 7.230572339622642,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.249700837875611,
+        "end": 9.372964143955276,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 9.353835645702306,
+        "end": 11.28581396925227,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 11.28581396925227,
+        "end": 13.198663794549267,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 13.217792292802237,
+        "end": 15.436698090146749,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 15.41756959189378,
+        "end": 17.253905424178896,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 17.273033922431864,
+        "end": 19.0328557617051,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 19.0328557617051,
+        "end": 21.156119067784765,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 21.156119067784765,
+        "end": 23.22199687910552,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 23.24112537735849,
+        "end": 27.372881,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 194,
+    "created_at": "2024-06-15T22:35:46.060624Z",
+    "updated_at": "2024-06-15T22:35:46.060658Z",
+    "lead_time": 172.348
+  },
+  {
+    "video_url": "\/data\/upload\/3\/29aee20e-p61_CAM_AV_P_BIAH_BV.mp4",
+    "id": 196,
+    "tricks": [
+      {
+        "start": 0.043918559049615655,
+        "end": 2.8766656177498255,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 2.8766656177498255,
+        "end": 5.0506342907058,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 5.028675011180993,
+        "end": 6.983050888888889,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 7.005010168413698,
+        "end": 9.113101002795249,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 9.113101002795249,
+        "end": 11.989766620545074,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 12.011725900069882,
+        "end": 14.163735293501048,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.185694573025858,
+        "end": 16.798848836477987,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.842767395527602,
+        "end": 19.368084540880503,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.390043820405314,
+        "end": 22.420424394828792,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.464342953878408,
+        "end": 24.704189465408806,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 24.726148744933614,
+        "end": 27.536936524109013,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.558895803633824,
+        "end": 31.423729,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 195,
+    "created_at": "2024-06-15T22:40:05.431766Z",
+    "updated_at": "2024-06-15T22:40:05.431803Z",
+    "lead_time": 257.506
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c4e94dad-p62_CAM_AV_P_BIAH_BV.mp4",
+    "id": 197,
+    "tricks": [
+      {
+        "start": 0.061708654088050305,
+        "end": 3.764227899371069,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.733373572327044,
+        "end": 5.9857394465408795,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.9857394465408795,
+        "end": 9.657404364779874,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.719113018867924,
+        "end": 11.13841206289308,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.076703408805031,
+        "end": 13.915301496855344,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.915301496855344,
+        "end": 16.013395735849056,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.951687081761005,
+        "end": 19.469080364779874,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 19.43822603773585,
+        "end": 21.443757295597482,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 21.443757295597482,
+        "end": 23.850394805031446,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.88124913207547,
+        "end": 26.133615006289308,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 26.10276067924528,
+        "end": 30.916035698113205,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.94689002515723,
+        "end": 32.73644099371069,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 32.79814964779874,
+        "end": 35.23564148427673,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 35.23564148427673,
+        "end": 36.994338125786165,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 36.96348379874213,
+        "end": 40.511731408805026,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 40.54258573584905,
+        "end": 44.152542,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 196,
+    "created_at": "2024-06-15T22:44:01.658505Z",
+    "updated_at": "2024-06-15T22:44:01.658560Z",
+    "lead_time": 234.44
+  },
+  {
+    "video_url": "\/data\/upload\/3\/850280d0-p63_CAM_AV_P_BIAH_BV.mp4",
+    "id": 198,
+    "tricks": [
+      {
+        "start": 0.07087612019566736,
+        "end": 4.358881392033543,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.358881392033543,
+        "end": 7.12305007966457,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.052173959468902,
+        "end": 10.241599368273935,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.277037428371768,
+        "end": 12.970329995807129,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.005768055904962,
+        "end": 15.76993674353599,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.805374803633823,
+        "end": 18.463229310971347,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.39235319077568,
+        "end": 21.227397998602374,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 21.227397998602374,
+        "end": 23.743500265548565,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 23.708062205450734,
+        "end": 27.110115974842767,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 27.145554034940602,
+        "end": 29.980598842767293,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 30.016036902865128,
+        "end": 33.41809067225716,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 33.41809067225716,
+        "end": 36.18225935988819,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 36.217697419986024,
+        "end": 39.30080864849756,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 39.33624670859538,
+        "end": 41.71059673515025,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 41.78147285534591,
+        "end": 45.60878334591195,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 45.57334528581411,
+        "end": 50.711864,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 197,
+    "created_at": "2024-06-15T22:47:52.036953Z",
+    "updated_at": "2024-06-15T22:47:52.037006Z",
+    "lead_time": 228.746
+  },
+  {
+    "video_url": "\/data\/upload\/3\/83ce424b-p64_CAM_AV_P_BIAH_BV.mp4",
+    "id": 199,
+    "tricks": [
+      {
+        "start": 0.02930272746331237,
+        "end": 3.5749327505241095,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.5749327505241095,
+        "end": 6.1828754947589095,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.153572767295598,
+        "end": 8.527093691823898,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.497790964360588,
+        "end": 10.724798251572327,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.724798251572327,
+        "end": 13.977401,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 14.006703727463313,
+        "end": 15.735564647798743,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.735564647798743,
+        "end": 18.900259213836478,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.958864668763105,
+        "end": 20.453303769392036,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.453303769392036,
+        "end": 23.500787425576522,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.500787425576522,
+        "end": 25.25895107337526,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.288253800838575,
+        "end": 28.04271018238994,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 28.101315637316564,
+        "end": 31.002285656184487,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 31.0315883836478,
+        "end": 33.34650385324948,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 33.37580658071279,
+        "end": 35.309786593291406,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 35.36839204821803,
+        "end": 37.36097751572327,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 37.36097751572327,
+        "end": 41.932203,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 198,
+    "created_at": "2024-06-15T22:52:23.516344Z",
+    "updated_at": "2024-06-15T22:52:23.516395Z",
+    "lead_time": 269.647
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c32c33f3-p65_CAM_AV_P_BIAH_BV.mp4",
+    "id": 200,
+    "tricks": [
+      {
+        "start": 0.03264281201956674,
+        "end": 4.243565562543676,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.243565562543676,
+        "end": 6.691776464011181,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.691776464011181,
+        "end": 10.413057034241788,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.413057034241788,
+        "end": 12.828625123689728,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.763339499650595,
+        "end": 15.570621333333332,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)",
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 15.570621333333332,
+        "end": 17.953546610761705,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 17.986189422781273,
+        "end": 20.956685316561845,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.956685316561845,
+        "end": 23.07846809783368,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.045825285814114,
+        "end": 26.734463044025155,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 26.79974866806429,
+        "end": 29.47645925366876,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 29.443816441649194,
+        "end": 32.31638389937107,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 32.349026711390636,
+        "end": 34.66666636477987,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 34.66666636477987,
+        "end": 37.31073413836478,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 37.376019762403914,
+        "end": 39.92215909993012,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 39.92215909993012,
+        "end": 42.53358406149546,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 42.500941249475886,
+        "end": 46.711864,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 199,
+    "created_at": "2024-06-15T22:57:06.656229Z",
+    "updated_at": "2024-06-15T22:57:06.656280Z",
+    "lead_time": 281.487
+  },
+  {
+    "video_url": "\/data\/upload\/3\/cb9d0b12-p66_CAM_AV_P_BIAH_BV.mp4",
+    "id": 201,
+    "tricks": [
+      {
+        "start": 0.07293702445842068,
+        "end": 4.923249150943397,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.886780638714186,
+        "end": 7.476045006988121,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 7.512513519217331,
+        "end": 11.341707303284418,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 11.341707303284418,
+        "end": 14.8062159650594,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 14.842684477288609,
+        "end": 17.17666925995807,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 17.17666925995807,
+        "end": 20.0941502382949,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 20.05768172606569,
+        "end": 24.032749559049616,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 24.032749559049616,
+        "end": 26.512608390635922,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 26.47613987840671,
+        "end": 29.539494905660376,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 29.57596341788959,
+        "end": 34.17099595877009,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 34.17099595877009,
+        "end": 36.72379181481482,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 36.687323302585604,
+        "end": 39.130713621942704,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 39.130713621942704,
+        "end": 43.10578145492662,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 43.069312942697415,
+        "end": 45.00214409084556,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 45.00214409084556,
+        "end": 48.24784167924528,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 48.35724721593292,
+        "end": 52.186441,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 200,
+    "created_at": "2024-06-15T23:01:22.718383Z",
+    "updated_at": "2024-06-15T23:01:22.718413Z",
+    "lead_time": 254.147
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3ebe97ff-p67_CAM_AV_P_BIAH_BV.mp4",
+    "id": 202,
+    "tricks": [
+      {
+        "start": 0.021888213836477984,
+        "end": 4.4870838364779875,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.5089720503144655,
+        "end": 6.872899144654088,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.894787358490566,
+        "end": 9.499484805031445,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.477596591194967,
+        "end": 11.666417974842767,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 11.666417974842767,
+        "end": 13.68013364779874,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.702021861635219,
+        "end": 15.540631823899371,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.540631823899371,
+        "end": 18.320434981132074,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.36421140880503,
+        "end": 20.37792708176101,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.35603886792453,
+        "end": 23.24528309433962,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.24528309433962,
+        "end": 25.696763044025158,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.718651257861634,
+        "end": 27.95124906918239,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.995025496855344,
+        "end": 31.322034,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 201,
+    "created_at": "2024-06-15T23:04:51.046606Z",
+    "updated_at": "2024-06-15T23:04:51.046690Z",
+    "lead_time": 206.6
+  },
+  {
+    "video_url": "\/data\/upload\/3\/56a78378-p68_CAM_AV_P_BIAH_BV.mp4",
+    "id": 203,
+    "tricks": [
+      {
+        "start": 0.05725520894479385,
+        "end": 4.065119835080363,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.065119835080363,
+        "end": 6.784742259958072,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.784742259958072,
+        "end": 9.561619893780573,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 9.59024749825297,
+        "end": 13.22595326624738,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 13.254580870719776,
+        "end": 16.28910694479385,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 16.346362153738642,
+        "end": 19.323633018867923,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 19.29500541439553,
+        "end": 24.76287786862334,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 24.76287786862334,
+        "end": 27.310734666666665,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 27.310734666666665,
+        "end": 30.316633136268344,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 30.37388834521314,
+        "end": 32.95037274772886,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 32.89311753878407,
+        "end": 36.271174866526906,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 36.271174866526906,
+        "end": 40.966102,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 202,
+    "created_at": "2024-06-15T23:08:23.819163Z",
+    "updated_at": "2024-06-15T23:08:23.819219Z",
+    "lead_time": 211.054
+  },
+  {
+    "video_url": "\/data\/upload\/3\/26ffd59b-p69_CAM_AV_P_BIAH_BV.mp4",
+    "id": 204,
+    "tricks": [
+      {
+        "start": 0.02480190426275332,
+        "end": 4.092314203354298,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.1171161076170515,
+        "end": 6.79572176799441,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 6.79572176799441,
+        "end": 10.863234067085955,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 10.863234067085955,
+        "end": 12.971395929419987,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 12.946594025157232,
+        "end": 15.848416823899372,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 15.848416823899372,
+        "end": 18.130192016072677,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 18.130192016072677,
+        "end": 20.659986250873516,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 20.659986250873516,
+        "end": 22.842553825995807,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 22.892157634521315,
+        "end": 25.124329018169114,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 25.14913092243187,
+        "end": 27.430906114605172,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 27.40610421034242,
+        "end": 30.704757477288613,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 30.679955573025858,
+        "end": 35.491525,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 203,
+    "created_at": "2024-06-15T23:12:54.824238Z",
+    "updated_at": "2024-06-15T23:12:54.824295Z",
+    "lead_time": 269.069
+  },
+  {
+    "video_url": "\/data\/upload\/3\/52759d94-p70_CAM_AV_P_BIAH_BV.mp4",
+    "id": 205,
+    "tricks": [
+      {
+        "start": 0.024529486373165616,
+        "end": 3.458657578616352,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.458657578616352,
+        "end": 5.911606215932914,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 5.862547243186582,
+        "end": 8.609849716981133,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 8.609849716981133,
+        "end": 10.670326572327046,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 10.645797085953877,
+        "end": 13.515746991614256,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 13.49121750524109,
+        "end": 15.968695628930817,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 15.944166142557652,
+        "end": 18.617880157232705,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 18.617880157232705,
+        "end": 20.67835701257862,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      },
+      {
+        "start": 20.67835701257862,
+        "end": 23.082246677148845,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 23.131305649895175,
+        "end": 25.633313259958072,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Neutral Swap (HBNS)"
+        ]
+      },
+      {
+        "start": 25.682372232704402,
+        "end": 27.939084979035638,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.939084979035638,
+        "end": 35.101695,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Neutral Swap (RBNS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 204,
+    "created_at": "2024-06-15T23:16:34.151743Z",
+    "updated_at": "2024-06-15T23:16:34.151798Z",
+    "lead_time": 216.335
+  }
+]

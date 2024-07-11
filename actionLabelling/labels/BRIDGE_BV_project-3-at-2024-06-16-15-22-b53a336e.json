@@ -1,0 +1,6615 @@
+[
+  {
+    "video_url": "\/data\/upload\/3\/d7e00e99-p01_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 74,
+    "tricks": [
+      {
+        "start": 0.031702898437499995,
+        "end": 6.847826062499999,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 6.879528960937499,
+        "end": 13.695652124999999,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 13.7273550234375,
+        "end": 20.7019926796875,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.670289781250002,
+        "end": 22.699275281249996,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 22.69927528125,
+        "end": 26.059782515624995,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 26.028079617187498,
+        "end": 27.77173903125,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 27.803441929687498,
+        "end": 30.086050617187496,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 30.117753515624997,
+        "end": 31.322463656249994,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 31.354166554687495,
+        "end": 33.922101328124995,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 80,
+    "created_at": "2024-06-14T14:08:54.413100Z",
+    "updated_at": "2024-06-14T14:14:31.836645Z",
+    "lead_time": 516.788
+  },
+  {
+    "video_url": "\/data\/upload\/3\/18e96f88-p02_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 75,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 4.2327851957397815,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.232785195739781,
+        "end": 7.9345198503166365,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.950138983880253,
+        "end": 11.88616064191134,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.870541508347726,
+        "end": 14.728842950489348,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.713223816925733,
+        "end": 17.993241865284972,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.962003598157743,
+        "end": 20.28925449913644,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 20.273635365572826,
+        "end": 22.038597458261368,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.022742769319184,
+        "end": 24.959139879278883,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)",
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 79,
+    "created_at": "2024-06-14T07:27:03.270869Z",
+    "updated_at": "2024-06-14T20:47:34.647620Z",
+    "lead_time": 672.587
+  },
+  {
+    "video_url": "\/data\/upload\/3\/d3eaa9e0-p03_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 76,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 5.462686567164179,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.492537313432836,
+        "end": 8.925373134328359,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.925373134328357,
+        "end": 13.432835820895521,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.462686567164178,
+        "end": 16.71641791044776,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.746268656716417,
+        "end": 20.77611940298507,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.80597014925373,
+        "end": 22.80597014925373,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 22.83582089552239,
+        "end": 25.73134328358209,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 25.791044776119406,
+        "end": 27.910447761194032,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 27.940298507462686,
+        "end": 29.791044776119403,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 82,
+    "created_at": "2024-06-14T20:50:51.094896Z",
+    "updated_at": "2024-06-14T21:15:47.120251Z",
+    "lead_time": 1985.6280000000002
+  },
+  {
+    "video_url": "\/data\/upload\/3\/63c7d9dc-p04_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 77,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 5.536740840210711,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.536740840210711,
+        "end": 8.238882302897279,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.265373885864793,
+        "end": 11.470855424934152,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.497347007901668,
+        "end": 14.596862215100964,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.62335379806848,
+        "end": 16.74268043546971,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.716188852502196,
+        "end": 18.676565992098332,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.703057575065845,
+        "end": 22.968202432835824,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.716417880597014,
+        "end": 23.259609845478494,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.286101428446006,
+        "end": 27.153872541703244,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 83,
+    "created_at": "2024-06-14T21:18:21.071821Z",
+    "updated_at": "2024-06-14T21:30:44.818972Z",
+    "lead_time": 887.7030000000001
+  },
+  {
+    "video_url": "\/data\/upload\/3\/662c387e-p05_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 78,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 4.74920787357331,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.777646244073749,
+        "end": 8.92964833713784,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.986525078138717,
+        "end": 12.342252797190518,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.370691167690957,
+        "end": 14.816391030728708,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.844829401229147,
+        "end": 17.119899041264265,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.148337411764704,
+        "end": 19.338091940298504,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.366530310798947,
+        "end": 22.380997583845478,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.409435954345916,
+        "end": 24.485437000877962,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 24.5138753713784,
+        "end": 28.15398679543459,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 84,
+    "created_at": "2024-06-14T21:32:36.076524Z",
+    "updated_at": "2024-06-14T21:39:35.936851Z",
+    "lead_time": 490.90999999999997
+  },
+  {
+    "video_url": "\/data\/upload\/3\/81345fc0-p06_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 79,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 5.431537910447761,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.463488133450395,
+        "end": 8.370958426690079,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.402908649692712,
+        "end": 12.65228830904302,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.716188755048288,
+        "end": 15.815360386303775,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.847310609306408,
+        "end": 19.234034247585598,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 19.265984470588233,
+        "end": 22.045653871817382,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 22.077604094820018,
+        "end": 25.592128625109744,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 25.687979294117646,
+        "end": 29.138603378402106,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 29.202503824407373,
+        "end": 31.82242211062335,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 85,
+    "created_at": "2024-06-14T21:41:04.713833Z",
+    "updated_at": "2024-06-14T21:45:49.594813Z",
+    "lead_time": 338.552
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e1dd241a-p07_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 80,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 4.1970072484635645,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.227201545215101,
+        "end": 7.156048330114134,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.216436923617208,
+        "end": 12.077718700614573,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.107912997366109,
+        "end": 15.097148375768217,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.117718570928195,
+        "end": 18.460481043782835,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 18.49059602101576,
+        "end": 23.67037210507881,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 23.70048708231173,
+        "end": 26.13980023817863,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 26.169915215411557,
+        "end": 28.187618690017512,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 28.217733667250435,
+        "end": 31.169001436077053,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 86,
+    "created_at": "2024-06-14T21:48:32.739236Z",
+    "updated_at": "2024-06-15T06:32:58.973357Z",
+    "lead_time": 31620.41
+  },
+  {
+    "video_url": "\/data\/upload\/3\/77293eab-p08_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 81,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.934059248686515,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.9600243747810855,
+        "end": 6.309525640980735,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.335490767075306,
+        "end": 9.269550015761821,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.295515141856391,
+        "end": 11.1650042206655,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.19096934676007,
+        "end": 14.358714730297724,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.384679856392294,
+        "end": 16.669610952714535,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.695576078809108,
+        "end": 19.188228183887915,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 19.214193309982484,
+        "end": 21.78474079334501,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.83667104553415,
+        "end": 25.52371895096322,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 87,
+    "created_at": "2024-06-15T06:38:34.647746Z",
+    "updated_at": "2024-06-15T06:38:34.647823Z",
+    "lead_time": 323.815
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f00f1787-p09_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 82,
+    "tricks": [
+      {
+        "start": 0.02714535901926445,
+        "end": 2.0359019264448337,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.7644483362521892,
+        "end": 3.2574430823117337,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.2845884413309983,
+        "end": 6.080560420315236,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.483362521891418,
+        "end": 7.057793345008756,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.084938704028021,
+        "end": 10.233800350262698,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.233800350262698,
+        "end": 12.323992994746058,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.32399299474606,
+        "end": 15.527145359019265,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.554290718038528,
+        "end": 18.377408056042032,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.404553415061297,
+        "end": 21.417688266199647,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.444833625218916,
+        "end": 25.163747810858144,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.19089316987741,
+        "end": 27.3353765323993,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 88,
+    "created_at": "2024-06-15T06:40:46.311925Z",
+    "updated_at": "2024-06-15T06:52:40.883357Z",
+    "lead_time": 832.6719999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/ea141b17-p10_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 83,
+    "tricks": [
+      {
+        "start": 0.03133328283712785,
+        "end": 3.1333282837127845,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1646615665499125,
+        "end": 7.3633214667250435,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.3946547495621715,
+        "end": 10.214650204903677,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.245983487740805,
+        "end": 14.005977428196147,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.005977428196147,
+        "end": 17.546638388791592,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.57797167162872,
+        "end": 20.773966521015762,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 20.773966521015762,
+        "end": 23.907294804728547,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 23.938628087565675,
+        "end": 29.672618846760074,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 29.735285412434326,
+        "end": 32.39861445359019,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 89,
+    "created_at": "2024-06-15T06:55:34.980583Z",
+    "updated_at": "2024-06-15T07:02:50.145334Z",
+    "lead_time": 518.4
+  },
+  {
+    "video_url": "\/data\/upload\/3\/88cd0d38-p11_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 84,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.4280819211908935,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.454656199649737,
+        "end": 6.6435696147110335,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.670143893169878,
+        "end": 10.656285661996497,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.68285994045534,
+        "end": 13.207416394045534,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.233990672504378,
+        "end": 16.21030985989492,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.236884138353766,
+        "end": 19.239777604203155,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.266351882661997,
+        "end": 21.445442716287214,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.47201699474606,
+        "end": 24.63435613134851,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 24.660930409807357,
+        "end": 27.424655369527148,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 90,
+    "created_at": "2024-06-15T07:06:07.261983Z",
+    "updated_at": "2024-06-15T07:09:58.051721Z",
+    "lead_time": 417.95599999999996
+  },
+  {
+    "video_url": "\/data\/upload\/3\/9c52319b-p12_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 85,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.321648027923211,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.347598403141361,
+        "end": 5.76098329842932,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.78693367364747,
+        "end": 7.992715567190226,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.018665942408376,
+        "end": 10.639653839441536,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.665604214659686,
+        "end": 13.909401116928446,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.935351492146598,
+        "end": 16.945595017452007,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.971545392670155,
+        "end": 19.955838542757416,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 19.981788917975567,
+        "end": 21.95401743455497,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.53881143106457,
+        "end": 25.742772216404884,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 91,
+    "created_at": "2024-06-15T07:11:28.975506Z",
+    "updated_at": "2024-06-15T07:21:24.415166Z",
+    "lead_time": 659.8439999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3b3f29ef-p13_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 86,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.6330526282722513,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.654677941535777,
+        "end": 5.968586460732984,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.99021177399651,
+        "end": 9.039380944153578,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.061006257417104,
+        "end": 11.158661643979057,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.180286957242584,
+        "end": 13.883451115183245,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.883451115183245,
+        "end": 15.808103995637,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.829729308900525,
+        "end": 17.6895062495637,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 17.711131562827223,
+        "end": 19.895288202443282,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 19.916913515706806,
+        "end": 21.992943589005236,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 92,
+    "created_at": "2024-06-15T07:27:27.534822Z",
+    "updated_at": "2024-06-15T07:27:27.534850Z",
+    "lead_time": 353.724
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3907382c-p14_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 87,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.726610452879581,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.750967383944153,
+        "end": 6.600728318499127,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.6250852495637,
+        "end": 8.987707562827223,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.012064493891797,
+        "end": 12.032323945898778,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.05668087696335,
+        "end": 14.394946259162301,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.44366012129145,
+        "end": 16.319143813263523,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.343500744328097,
+        "end": 18.535624540139615,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.559981471204186,
+        "end": 20.264966645724257,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.28932357678883,
+        "end": 24.649214237347294,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 93,
+    "created_at": "2024-06-15T07:33:51.729417Z",
+    "updated_at": "2024-06-15T07:34:56.853151Z",
+    "lead_time": 441.346
+  },
+  {
+    "video_url": "\/data\/upload\/3\/de04a33c-p15_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 88,
+    "tricks": [
+      {
+        "start": 0.02826466317626527,
+        "end": 2.4872903595113436,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.1763790645724255,
+        "end": 3.250436265270506,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.278700928446771,
+        "end": 5.935579267015706,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.483344656195461,
+        "end": 8.140222994764398,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.168487657940663,
+        "end": 10.344866722513089,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.373131385689353,
+        "end": 13.482244335078533,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.538773661431064,
+        "end": 16.817474589877836,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.845739253054102,
+        "end": 20.180969507853405,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 20.209234171029667,
+        "end": 22.809583183246072,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.83784784642234,
+        "end": 26.964488670157067,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 26.992753333333333,
+        "end": 29.423514366492146,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 94,
+    "created_at": "2024-06-15T07:36:57.796768Z",
+    "updated_at": "2024-06-15T07:46:30.740563Z",
+    "lead_time": 679.337
+  },
+  {
+    "video_url": "\/data\/upload\/3\/a4a48f28-p17_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 89,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.6829046317626526,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.7017983263525305,
+        "end": 4.515593006980803,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.553380396160558,
+        "end": 7.784202171029668,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.803095865619546,
+        "end": 9.768040102966841,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.805827492146596,
+        "end": 12.243114094240838,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.262007788830715,
+        "end": 13.905759218150086,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.924652912739964,
+        "end": 15.889597150087258,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 15.70066020418848,
+        "end": 16.85317557417103,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 16.890962963350784,
+        "end": 18.13794680628272,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 95,
+    "created_at": "2024-06-15T07:52:33.059062Z",
+    "updated_at": "2024-06-15T07:54:10.319217Z",
+    "lead_time": 446.82899999999995
+  },
+  {
+    "video_url": "\/data\/upload\/3\/de0eb4c0-p18_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 90,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.5043630017452005,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.3821989528795813,
+        "end": 3.756544502617801,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.7870855148342057,
+        "end": 7.818499127399651,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.360383944153578,
+        "end": 10.261780104712042,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.292321116928447,
+        "end": 14.140488656195462,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.201570680628272,
+        "end": 17.74432809773124,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.80541012216405,
+        "end": 19.790575916230367,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 19.790575916230367,
+        "end": 22.32547993019197,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 22.356020942408378,
+        "end": 25.19633507853403,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 25.19633507853403,
+        "end": 28.006108202443283,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 28.036649214659686,
+        "end": 30.87696335078534,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 96,
+    "created_at": "2024-06-15T07:55:18.887263Z",
+    "updated_at": "2024-06-15T08:04:55.326397Z",
+    "lead_time": 633.023
+  },
+  {
+    "video_url": "\/data\/upload\/3\/115f0009-p19_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 91,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.670953751308901,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.728393616928447,
+        "end": 5.14086797294939,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.169587905759163,
+        "end": 7.495902463350785,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.524622396160559,
+        "end": 10.856134602094242,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.884854534904015,
+        "end": 14.819485329842932,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.848205262652707,
+        "end": 18.438196863874346,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.466916796684117,
+        "end": 20.965550951134382,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.994270883944154,
+        "end": 24.440662821116927,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 24.498102686736477,
+        "end": 27.255216236474695,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 27.28393616928447,
+        "end": 30.213369315881327,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 97,
+    "created_at": "2024-06-15T08:13:29.088366Z",
+    "updated_at": "2024-06-15T08:16:56.697861Z",
+    "lead_time": 717.2719999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/483cabc2-p20_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 92,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.941877270506108,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.9633508272251308,
+        "end": 4.702708921465969,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.724182478184991,
+        "end": 7.000379490401396,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.021853047120418,
+        "end": 8.997420265270506,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.018893821989527,
+        "end": 12.776766247818498,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.798239804537522,
+        "end": 14.108126764397904,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.129600321116927,
+        "end": 16.191061766143108,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.21253532286213,
+        "end": 17.372107385689354,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 17.4150544991274,
+        "end": 20.421352439790574,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 98,
+    "created_at": "2024-06-15T08:23:15.682923Z",
+    "updated_at": "2024-06-15T08:23:15.682974Z",
+    "lead_time": 353.913
+  },
+  {
+    "video_url": "\/data\/upload\/3\/6e40ac35-p21_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 93,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.0528953956331875,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.0528953956331875,
+        "end": 5.505221205240175,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.524520841367221,
+        "end": 8.387227095530235,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.387227095530235,
+        "end": 13.987082312007011,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.012193770376863,
+        "end": 16.724231274320772,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.74934273269062,
+        "end": 19.41115731989483,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.46138023663453,
+        "end": 21.24429378089395,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.294516697633654,
+        "end": 23.20298753374233,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.228098992112184,
+        "end": 26.367031288343558,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 99,
+    "created_at": "2024-06-15T08:45:04.003703Z",
+    "updated_at": "2024-06-15T08:50:35.904674Z",
+    "lead_time": 598.874
+  },
+  {
+    "video_url": "\/data\/upload\/3\/009fb915-p22_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 94,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.384064299737073,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.408642282208589,
+        "end": 3.6375414057843996,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.6375414057843996,
+        "end": 5.06306438913234,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)",
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.080091485924113,
+        "end": 6.659038839657282,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.693363782129743,
+        "end": 9.09610975520196,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.130434697674419,
+        "end": 11.189931246022033,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.258581130966952,
+        "end": 14.279176068543451,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.31350101101591,
+        "end": 15.89244836474908,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.926773307221543,
+        "end": 18.947368244798042,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.9816931872705,
+        "end": 20.80091513831089,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.869565023255813,
+        "end": 24.919908235006123,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 100,
+    "created_at": "2024-06-15T09:01:06.356549Z",
+    "updated_at": "2024-06-15T09:32:00.497389Z",
+    "lead_time": 2478.14
+  },
+  {
+    "video_url": "\/data\/upload\/3\/082846bd-p23_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 95,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.5787877417380662,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.618115079559363,
+        "end": 7.668830875152998,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.708158212974296,
+        "end": 10.382417184822522,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.421744522643818,
+        "end": 13.646586223990207,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.725240899632803,
+        "end": 16.24219052019584,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.32084519583843,
+        "end": 19.309722870257037,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.34905020807833,
+        "end": 23.439093341493265,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 23.478420679314564,
+        "end": 25.72007893512852,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.798733610771112,
+        "end": 30.360704798041617,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 101,
+    "created_at": "2024-06-15T09:36:13.769620Z",
+    "updated_at": "2024-06-15T09:38:48.818842Z",
+    "lead_time": 397.721
+  },
+  {
+    "video_url": "\/data\/upload\/3\/5a8b04a4-p24_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 96,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.3619817441860467,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.2558138996328028,
+        "end": 4.3528816266829855,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 4.388270908200734,
+        "end": 6.688574206854344,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.334681391676866,
+        "end": 7.927199059975519,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.962588341493267,
+        "end": 10.616784455324357,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.652173736842103,
+        "end": 12.669362783353732,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.669362783353732,
+        "end": 16.385237342717257,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.420626624235005,
+        "end": 18.96865489351285,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.96865489351285,
+        "end": 21.48129388127295,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.516683162790695,
+        "end": 23.215368675642594,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.301299428157588,
+        "end": 26.316564630938586,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 102,
+    "created_at": "2024-06-15T09:41:34.748635Z",
+    "updated_at": "2024-06-15T20:54:02.023418Z",
+    "lead_time": 40499.17
+  },
+  {
+    "video_url": "\/data\/upload\/3\/a26bd745-p25_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 97,
+    "tricks": [
+      {
+        "start": 0.016524761877172653,
+        "end": 3.1892790422943222,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.2223285660486676,
+        "end": 5.701042847624565,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.767141895133256,
+        "end": 9.501738079374276,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.567837126882967,
+        "end": 12.509244741019698,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.57534378852839,
+        "end": 15.351503783893396,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.417602831402085,
+        "end": 17.896317112977986,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.962416160486672,
+        "end": 20.474179965816916,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.54027901332561,
+        "end": 23.250339961181922,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.28338948493627,
+        "end": 26.026499956546928,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 103,
+    "created_at": "2024-06-15T21:00:41.951684Z",
+    "updated_at": "2024-06-15T21:04:26.350244Z",
+    "lead_time": 618.116
+  },
+  {
+    "video_url": "\/data\/upload\/3\/85636332-p26_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 98,
+    "tricks": [
+      {
+        "start": 0.0517658325608343,
+        "end": 4.36558521263036,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.400095767670916,
+        "end": 6.884855730590962,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.953876840672074,
+        "end": 10.163358459443801,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.232379569524912,
+        "end": 12.682628977404402,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.71713953244496,
+        "end": 15.719557820973348,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.754068376013906,
+        "end": 19.205123880069525,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.308655545191197,
+        "end": 21.34477829258401,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.379288847624565,
+        "end": 23.484432705098495,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.587964370220163,
+        "end": 27.004509319235225,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 104,
+    "created_at": "2024-06-15T21:07:48.202081Z",
+    "updated_at": "2024-06-15T21:10:08.043213Z",
+    "lead_time": 336.04499999999996
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e82744f0-p27_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 99,
+    "tricks": [
+      {
+        "start": 0.015441584009269987,
+        "end": 2.5478613615295482,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.578744529548088,
+        "end": 4.833215794901506,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.864098962920046,
+        "end": 7.458285076477403,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.489168244495944,
+        "end": 11.411330582850521,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.4730969188876,
+        "end": 15.209960249130939,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.240843417149478,
+        "end": 18.143861210892236,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.174744378910773,
+        "end": 20.367449308227116,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.429215644264193,
+        "end": 21.942490877172652,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 22.004257213209733,
+        "end": 23.91901363035921,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 105,
+    "created_at": "2024-06-15T21:11:11.442392Z",
+    "updated_at": "2024-06-15T21:15:24.465899Z",
+    "lead_time": 309.974
+  },
+  {
+    "video_url": "\/data\/upload\/3\/1f3d4849-p28_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 100,
+    "tricks": [
+      {
+        "start": 0.02403143742757822,
+        "end": 4.974507547508691,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 5.022570422363848,
+        "end": 8.194720162804172,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.24278303765933,
+        "end": 12.087813026071844,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.183938775782156,
+        "end": 16.60572326245655,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.653786137311705,
+        "end": 20.402690376013904,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.450753250869063,
+        "end": 22.517456869640792,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 22.51745686964079,
+        "end": 26.50667548261877,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 26.554738357473934,
+        "end": 35.157992956546934,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 35.20605583140209,
+        "end": 37.945639698146,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 106,
+    "created_at": "2024-06-15T21:18:54.567738Z",
+    "updated_at": "2024-06-15T21:24:58.612412Z",
+    "lead_time": 566.53
+  },
+  {
+    "video_url": "\/data\/upload\/3\/536b7693-p29_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 101,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 3.105289022016223,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.1627943742757827,
+        "end": 6.613115509849363,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.459767903823871,
+        "end": 9.25836171378911,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)",
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.296698615295481,
+        "end": 12.785356652375436,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.862030455388183,
+        "end": 15.737298068366165,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.852308772885285,
+        "end": 18.65090258285052,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 18.72757638586327,
+        "end": 21.641180900347628,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 21.756191604866746,
+        "end": 24.439774710312864,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 24.478111611819237,
+        "end": 27.008347111239864,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 27.046684012746237,
+        "end": 30.3819944438007,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 107,
+    "created_at": "2024-06-15T21:27:11.951553Z",
+    "updated_at": "2024-06-15T21:36:22.100478Z",
+    "lead_time": 669.686
+  },
+  {
+    "video_url": "\/data\/upload\/3\/35a8a54e-p30_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 102,
+    "tricks": [
+      {
+        "start": 0.014769133835457705,
+        "end": 2.4959836181923523,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.555060153534183,
+        "end": 2.850442830243337,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.909519365585168,
+        "end": 7.07441510718424,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.103953374855156,
+        "end": 8.285484081691774,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.315022349362687,
+        "end": 11.00300470741599,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.032542975086907,
+        "end": 13.159298247392817,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.18883651506373,
+        "end": 15.492821393395133,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.52235966106605,
+        "end": 17.94449761008111,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.974035877752026,
+        "end": 20.66201823580533,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.691556503476242,
+        "end": 22.109393351680186,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 22.138931619351098,
+        "end": 23.99984248261877,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 108,
+    "created_at": "2024-06-15T21:55:54.223251Z",
+    "updated_at": "2024-06-15T22:00:17.094543Z",
+    "lead_time": 1426.2890000000002
+  },
+  {
+    "video_url": "\/data\/upload\/3\/18b1fc5d-p31_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 103,
+    "tricks": [
+      {
+        "start": 0.012451636732329085,
+        "end": 2.5276822566628043,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.5525855301274625,
+        "end": 3.4989099217844726,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.548716468713789,
+        "end": 4.34562121958285,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.171298305330243,
+        "end": 5.416461978563151,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.4413652520278095,
+        "end": 8.031305692352259,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.081112239281575,
+        "end": 9.450792279837776,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.475695553302433,
+        "end": 11.467957430475087,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.517763977404403,
+        "end": 13.335702940324449,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.310799666859792,
+        "end": 15.203448450173813,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 15.22835172363847,
+        "end": 17.02138741309386,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 17.071193960023177,
+        "end": 19.01364929026651,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 109,
+    "created_at": "2024-06-15T22:02:55.026534Z",
+    "updated_at": "2024-06-15T22:09:09.931805Z",
+    "lead_time": 519.129
+  },
+  {
+    "video_url": "\/data\/upload\/3\/90a4b9f9-p32_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 104,
+    "tricks": [
+      {
+        "start": 0.012451636732329085,
+        "end": 1.656067685399768,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.7058742323290847,
+        "end": 2.951037905561993,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.951037905561993,
+        "end": 4.544847407300115,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.569750680764773,
+        "end": 5.466268525492468,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.491171798957126,
+        "end": 5.964333994785631,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.964333994785631,
+        "end": 7.807176231170335,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.8320795046349945,
+        "end": 9.89905120220162,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.948857749130937,
+        "end": 12.439185095596756,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.48899164252607,
+        "end": 15.004222262456548,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.054028809385862,
+        "end": 16.97158086616454,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 17.02138741309386,
+        "end": 18.24164781286211,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 18.291454359791423,
+        "end": 19.46190821263036,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 110,
+    "created_at": "2024-06-15T22:12:27.873889Z",
+    "updated_at": "2024-06-15T22:20:34.980782Z",
+    "lead_time": 679.0699999999999
+  },
+  {
+    "video_url": "\/data\/upload\/3\/23ec5e12-p33_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 105,
+    "tricks": [
+      {
+        "start": 0.016340318655851678,
+        "end": 2.2713042931633836,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.303984930475087,
+        "end": 2.892236402085747,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.924917039397451,
+        "end": 4.003378070683661,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.003378070683661,
+        "end": 4.493587630359212,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)",
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.558948904982619,
+        "end": 7.434844988412514,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.5002062630359205,
+        "end": 9.755170237543453,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.820531512166859,
+        "end": 12.402301859791425,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.467663134414831,
+        "end": 14.330459461181924,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.395820735805328,
+        "end": 16.356658974507532,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 16.422020249130938,
+        "end": 19.592042068366165,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 19.65740334298957,
+        "end": 25.637959971031286,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 111,
+    "created_at": "2024-06-15T22:22:28.054879Z",
+    "updated_at": "2024-06-15T22:26:33.479605Z",
+    "lead_time": 350.73800000000006
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f70ecf19-p34_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 106,
+    "tricks": [
+      {
+        "start": 0.016664375434530705,
+        "end": 2.6496356940903825,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.4831294136732331,
+        "end": 3.2495532097334876,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.282881960602549,
+        "end": 5.349264514484357,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.382593265353418,
+        "end": 6.949044556199304,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.982373307068366,
+        "end": 9.382043369640787,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.415372120509849,
+        "end": 12.115000940903823,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.181658442641947,
+        "end": 15.147917269988413,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.214574771726538,
+        "end": 18.34747735341831,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.38080610428737,
+        "end": 20.847133668597916,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.913791170336037,
+        "end": 22.94684497334878,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.013502475086906,
+        "end": 27.04628133024334,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 112,
+    "created_at": "2024-06-15T22:32:13.382103Z",
+    "updated_at": "2024-06-15T22:35:37.567274Z",
+    "lead_time": 538.934
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2a062cf0-p35_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 107,
+    "tricks": [
+      {
+        "start": 0.013060471031286212,
+        "end": 1.8154054733487834,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 1.841526415411356,
+        "end": 4.0879274327925845,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 4.114048374855157,
+        "end": 5.942514319235226,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.968635261297799,
+        "end": 8.580729467555042,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.632971351680185,
+        "end": 10.461437296060256,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.487558238122828,
+        "end": 14.849755562572422,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.875876504634995,
+        "end": 16.965551869640787,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      },
+      {
+        "start": 17.017793753765936,
+        "end": 20.570241874275784,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 113,
+    "created_at": "2024-06-15T22:36:17.483007Z",
+    "updated_at": "2024-06-15T22:42:12.030235Z",
+    "lead_time": 388.48499999999996
+  },
+  {
+    "video_url": "\/data\/upload\/3\/fc3bbfb8-p36_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 108,
+    "tricks": [
+      {
+        "start": 0.07654614426419468,
+        "end": 2.311693556778679,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.6993244026651217,
+        "end": 3.1383919148319817,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.1690103725376595,
+        "end": 4.02632718829664,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.056945646002318,
+        "end": 4.577459426998842,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.60807788470452,
+        "end": 7.241265247392817,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.271883705098493,
+        "end": 9.660123406141368,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.690741863847046,
+        "end": 13.395575246234069,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.426193703939747,
+        "end": 16.794224051564314,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.855460966975667,
+        "end": 19.70297753360371,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 19.764214449015064,
+        "end": 21.601321911355736,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.662558826767093,
+        "end": 24.081416985515645,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 114,
+    "created_at": "2024-06-15T23:03:18.222946Z",
+    "updated_at": "2024-06-15T23:08:20.084857Z",
+    "lead_time": 1560.6619999999998
+  },
+  {
+    "video_url": "\/data\/upload\/3\/788eeb4b-p37_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 109,
+    "tricks": [
+      {
+        "start": 0.043099553881807647,
+        "end": 3.4048647566628043,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.4335977925840093,
+        "end": 6.42183352838934,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.47929960023175,
+        "end": 8.576811222479721,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.605544258400927,
+        "end": 10.87545409617613,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.904187132097336,
+        "end": 14.553282694090385,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.58201573001159,
+        "end": 16.765726460023174,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.79445949594438,
+        "end": 19.581563980301276,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 19.639030052143685,
+        "end": 20.73088541714948,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.759618453070683,
+        "end": 22.48360060834299,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 115,
+    "created_at": "2024-06-15T23:09:26.168925Z",
+    "updated_at": "2024-06-15T23:12:55.017788Z",
+    "lead_time": 268.86899999999997
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2ed24fea-p38_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 110,
+    "tricks": [
+      {
+        "start": 0.014720034762456547,
+        "end": 2.7232064310544613,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.7526465005793743,
+        "end": 4.254090046349942,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 4.283530115874855,
+        "end": 6.403215121668598,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.43265519119351,
+        "end": 7.4041774855156435,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.4336175550405565,
+        "end": 10.14210395133256,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.14210395133256,
+        "end": 12.350109165701044,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.379549235225957,
+        "end": 14.852515075318657,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.881955144843568,
+        "end": 16.883879872537662,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.91331994206257,
+        "end": 19.386285782155273,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 19.4451659212051,
+        "end": 21.2410101622248,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.32933037079954,
+        "end": 23.272374959443802,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 116,
+    "created_at": "2024-06-15T23:16:30.401742Z",
+    "updated_at": "2024-06-15T23:17:56.025435Z",
+    "lead_time": 287.21299999999997
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c4428165-p39_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 111,
+    "tricks": [
+      {
+        "start": 0.04884419756662804,
+        "end": 2.621305269409038,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.6864308661645424,
+        "end": 3.5005008256083427,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.5005008256083427,
+        "end": 4.998389550984936,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.030952349362688,
+        "end": 6.007836300695248,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.007836300695248,
+        "end": 9.654869719003475,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.719995315758979,
+        "end": 11.510949226535342,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.576074823290845,
+        "end": 13.529842725955968,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.594968322711471,
+        "end": 15.385922233487834,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.451047830243336,
+        "end": 17.567629724797218,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 17.63275532155272,
+        "end": 19.293458038818077,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 19.326020837195827,
+        "end": 24.01506380359212,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 117,
+    "created_at": "2024-06-15T23:28:30.389406Z",
+    "updated_at": "2024-06-15T23:29:41.030484Z",
+    "lead_time": 700.3080000000001
+  },
+  {
+    "video_url": "\/data\/upload\/3\/493e018d-p40_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 112,
+    "tricks": [
+      {
+        "start": 0.020386118771726535,
+        "end": 2.2220869461181922,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.3036314212050986,
+        "end": 3.2821651222479726,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.3229373597914256,
+        "end": 6.013905037659328,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.054677275202782,
+        "end": 7.073983213789108,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.155527688876014,
+        "end": 8.623328240440326,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.745644953070684,
+        "end": 12.333601856894553,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.374374094438007,
+        "end": 18.734843151216687,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.816387626303595,
+        "end": 21.5888997792584,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.67044425434531,
+        "end": 24.279867457126304,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 24.320639694669758,
+        "end": 27.13392408516802,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 27.174696322711476,
+        "end": 29.335624912514483,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 29.335624912514483,
+        "end": 32.39354272827347,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 118,
+    "created_at": "2024-06-15T23:30:41.355549Z",
+    "updated_at": "2024-06-15T23:37:52.584658Z",
+    "lead_time": 472.335
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e9cc4aed-p41_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 113,
+    "tricks": [
+      {
+        "start": 0.014886972769409038,
+        "end": 1.7715497595596759,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.8310976506373118,
+        "end": 2.694542071263036,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.724316016801854,
+        "end": 4.629848531286211,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 4.689396422363847,
+        "end": 8.470687505793743,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.53023539687138,
+        "end": 10.465541856894555,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.495315802433373,
+        "end": 13.532258247392816,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.562032192931634,
+        "end": 15.973721781575899,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.063043618192353,
+        "end": 18.832020553302435,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.861794498841252,
+        "end": 20.290943884704518,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.350491775782157,
+        "end": 22.76218136442642,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 119,
+    "created_at": "2024-06-15T23:43:09.626394Z",
+    "updated_at": "2024-06-15T23:43:53.097466Z",
+    "lead_time": 331.05100000000004
+  },
+  {
+    "video_url": "\/data\/upload\/3\/b3b95dd3-p42_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 114,
+    "tricks": [
+      {
+        "start": 0.06967221031286211,
+        "end": 4.445087017960603,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 4.472955902085747,
+        "end": 6.451646674971031,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.507384443221321,
+        "end": 9.43361727636153,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.461486160486675,
+        "end": 11.440176933371959,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.468045817497105,
+        "end": 14.03198315701043,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.059852041135574,
+        "end": 15.75985397276941,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.8155917410197,
+        "end": 17.571331440903823,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 17.627069209154115,
+        "end": 19.10412006778679,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 19.131988951911936,
+        "end": 21.194286377172656,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 120,
+    "created_at": "2024-06-15T23:46:53.422799Z",
+    "updated_at": "2024-06-15T23:46:53.422856Z",
+    "lead_time": 176.232
+  },
+  {
+    "video_url": "\/data\/upload\/3\/85461a4a-p43_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 115,
+    "tricks": [
+      {
+        "start": 0.0454268707995365,
+        "end": 3.3767307294322135,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.407015309965238,
+        "end": 5.829781752607184,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.8600663331402085,
+        "end": 8.615963161645423,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.676532322711472,
+        "end": 11.553567473348785,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.644421214947856,
+        "end": 14.12775681865585,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.158041399188875,
+        "end": 16.187108294901506,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.27796203650058,
+        "end": 19.094428026071842,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 19.15499718713789,
+        "end": 21.184064082850522,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.24463324391657,
+        "end": 23.455407622827348,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 121,
+    "created_at": "2024-06-15T23:48:05.891899Z",
+    "updated_at": "2024-06-15T23:51:20.918502Z",
+    "lead_time": 262.782
+  },
+  {
+    "video_url": "\/data\/upload\/3\/b3f577b6-p44_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 116,
+    "tricks": [
+      {
+        "start": 0.013904982618771726,
+        "end": 2.349942062572422,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.433371958285052,
+        "end": 4.2688296639629195,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.296639629200464,
+        "end": 5.15874855156431,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.1865585168018535,
+        "end": 8.245654692931634,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.273464658169178,
+        "end": 11.69409038238702,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.777520278099653,
+        "end": 13.724217844727693,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.779837775202783,
+        "end": 15.976825028968712,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 16.11587485515643,
+        "end": 18.28505214368482,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.36848203939745,
+        "end": 20.203939745075317,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.39860950173812,
+        "end": 22.261877172653534,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 122,
+    "created_at": "2024-06-15T23:53:26.761376Z",
+    "updated_at": "2024-06-15T23:56:16.623358Z",
+    "lead_time": 290.771
+  },
+  {
+    "video_url": "\/data\/upload\/3\/5dd668e3-p45_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 117,
+    "tricks": [
+      {
+        "start": 0.02381326477404403,
+        "end": 1.8336213876013905,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.8812479171494787,
+        "end": 3.07191115585168,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.1195376853997683,
+        "end": 7.548804933371958,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 7.596431462920046,
+        "end": 10.501649765353417,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.501649765353417,
+        "end": 14.216519070104287,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.311772129200463,
+        "end": 17.407496549826188,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.55037613847045,
+        "end": 22.45590868192352,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 22.646414800115878,
+        "end": 25.78976575028969,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 25.837392279837776,
+        "end": 28.837863641367324,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 28.933116700463497,
+        "end": 30.07615340961761,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 30.17140646871379,
+        "end": 33.07662477114716,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 33.26713088933951,
+        "end": 36.02946960312862,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 36.07709613267671,
+        "end": 39.07756749420626,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 123,
+    "created_at": "2024-06-15T23:57:20.309834Z",
+    "updated_at": "2024-06-16T00:01:19.785478Z",
+    "lead_time": 288.80199999999996
+  },
+  {
+    "video_url": "\/data\/upload\/3\/e84c850b-p46_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 118,
+    "tricks": [
+      {
+        "start": 0.15441797508690613,
+        "end": 3.1810102867902663,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.872174336616454,
+        "end": 4.292819707415991,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 4.354586897450753,
+        "end": 6.0223010283893395,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.084068218424101,
+        "end": 31.71745208285052,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 31.840986462920046,
+        "end": 34.62051001448436,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 34.68227720451912,
+        "end": 36.96766323580533,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 37.15296480590962,
+        "end": 38.944213316917725,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 39.067747696987254,
+        "end": 40.7972290179606,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 40.920763398030125,
+        "end": 43.51498537949015,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 43.63851975955967,
+        "end": 45.30623389049826,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 45.429768270567784,
+        "end": 47.282783971610655,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 47.406318351680184,
+        "end": 48.76519653244496,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 48.95049810254925,
+        "end": 50.61821223348783,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 124,
+    "created_at": "2024-06-16T00:02:18.892331Z",
+    "updated_at": "2024-06-16T08:46:08.727051Z",
+    "lead_time": 31477.357
+  },
+  {
+    "video_url": "\/data\/upload\/3\/d00d88e7-p47_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 119,
+    "tricks": [
+      {
+        "start": 0.0450733539976825,
+        "end": 1.6076162925840094,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.637665195249131,
+        "end": 2.5090833725376593,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.539132275202781,
+        "end": 4.071626311123986,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.101675213789108,
+        "end": 5.003142293742758,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.03319119640788,
+        "end": 7.797690241599073,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.827739144264195,
+        "end": 10.832629410776363,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.892727216106605,
+        "end": 13.236541623986094,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.266590526651218,
+        "end": 15.09957358922364,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.159671394553882,
+        "end": 17.142898970451913,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.172947873117035,
+        "end": 18.465050687717266,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.525148493047507,
+        "end": 19.727104599652378,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.78720240498262,
+        "end": 22.10096791019699,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 22.13101681286211,
+        "end": 24.41473341541136,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 125,
+    "created_at": "2024-06-16T08:50:10.818103Z",
+    "updated_at": "2024-06-16T08:55:10.197518Z",
+    "lead_time": 537.121
+  },
+  {
+    "video_url": "\/data\/upload\/3\/45a2e04d-p48_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 120,
+    "tricks": [
+      {
+        "start": 0.07418936558516802,
+        "end": 1.8547341396292005,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 1.8844098858632676,
+        "end": 5.801608388760139,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 5.860959881228274,
+        "end": 8.02728935631518,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.086640848783315,
+        "end": 11.024539725955968,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.083891218424101,
+        "end": 13.30957218597914,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.368923678447276,
+        "end": 15.416550168597913,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.44622591483198,
+        "end": 17.642231136152954,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.70158262862109,
+        "end": 19.333748671494785,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 19.36342441772885,
+        "end": 20.87688747566628,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.87688747566628,
+        "end": 22.063917325028967,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.093593071263037,
+        "end": 23.814786352838933,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 126,
+    "created_at": "2024-06-16T09:02:17.792676Z",
+    "updated_at": "2024-06-16T09:47:09.787985Z",
+    "lead_time": 3106.177
+  },
+  {
+    "video_url": "\/data\/upload\/3\/f704122d-p49_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 121,
+    "tricks": [
+      {
+        "start": 0.015309228852838934,
+        "end": 2.801588880069525,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.8628257954808807,
+        "end": 4.761170173232909,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.791788630938587,
+        "end": 7.945489774623407,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.976108232329085,
+        "end": 10.119400271726535,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.150018729432214,
+        "end": 11.92588927636153,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.956507734067209,
+        "end": 14.68155046987254,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.804024300695252,
+        "end": 16.457421016801856,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.51865793221321,
+        "end": 17.774014698146004,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 17.80463315585168,
+        "end": 19.243700668018544,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.304937583429897,
+        "end": 20.43782051853998,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.499057433951332,
+        "end": 23.805850866164544,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 127,
+    "created_at": "2024-06-16T09:53:29.074905Z",
+    "updated_at": "2024-06-16T09:53:29.074981Z",
+    "lead_time": 309.4
+  },
+  {
+    "video_url": "\/data\/upload\/3\/ffd808ee-p50_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 122,
+    "tricks": [
+      {
+        "start": 0.013227409038238701,
+        "end": 1.679880947856315,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.7063357659327925,
+        "end": 2.605799580533024,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.6322543986095015,
+        "end": 3.8227212120509844,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.8227212120509844,
+        "end": 5.2512813881807645,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.2777362062572415,
+        "end": 7.394121652375434,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.447031288528388,
+        "end": 9.16659446349942,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.193049281575897,
+        "end": 11.362344363847045,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.415254,
+        "end": 13.267091265353416,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.346455719582849,
+        "end": 14.933744804171495,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.960199622247972,
+        "end": 16.256485707995363,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 16.309395344148317,
+        "end": 17.155949522595595,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.20885915874855,
+        "end": 18.61096451680185,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 18.637419334878327,
+        "end": 20.833169235225952,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 128,
+    "created_at": "2024-06-16T09:55:31.545577Z",
+    "updated_at": "2024-06-16T09:59:15.874727Z",
+    "lead_time": 341.612
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3b51ae05-p51_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 123,
+    "tricks": [
+      {
+        "start": 0.12606791541135573,
+        "end": 1.891018731170336,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.9630575399768249,
+        "end": 2.755484436848204,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.791503841251448,
+        "end": 4.880629296639629,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.520435252607184,
+        "end": 6.465483090382387,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.5015024947856315,
+        "end": 8.986841398609503,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.022860803012746,
+        "end": 11.724316133256083,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.796354942062573,
+        "end": 15.290237169177287,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.290237169177287,
+        "end": 18.02771190382387,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.135770117033605,
+        "end": 21.16140008690614,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.197419491309386,
+        "end": 23.106447924681344,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 23.178486733487834,
+        "end": 24.727321122827348,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 24.76334052723059,
+        "end": 26.27615551216686,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 26.34819432097335,
+        "end": 28.869552629200463,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 129,
+    "created_at": "2024-06-16T10:00:52.125145Z",
+    "updated_at": "2024-06-16T10:04:40.427300Z",
+    "lead_time": 312.988
+  },
+  {
+    "video_url": "\/data\/upload\/3\/b19141d9-p52_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 124,
+    "tricks": [
+      {
+        "start": 0.014720034762456547,
+        "end": 3.223687612977984,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.2825677520278105,
+        "end": 5.431692827346466,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 5.461132896871379,
+        "end": 7.551377833140209,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.639698041714948,
+        "end": 10.024343673232908,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.083223812282734,
+        "end": 12.909470486674392,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.968350625724218,
+        "end": 14.528674310544611,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.528674310544611,
+        "end": 17.413801123986094,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 17.53156140208575,
+        "end": 18.915244669756664,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 18.97412480880649,
+        "end": 20.446128285052144,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 20.475568354577057,
+        "end": 22.919094125144845,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 130,
+    "created_at": "2024-06-16T10:07:01.586933Z",
+    "updated_at": "2024-06-16T10:11:14.588610Z",
+    "lead_time": 388.777
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c143a59a-p53_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 125,
+    "tricks": [
+      {
+        "start": 0.020818194090382387,
+        "end": 3.6848203539976825,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.726456742178448,
+        "end": 4.642457282155273,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.684093670336037,
+        "end": 6.682640303012747,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 6.765913079374275,
+        "end": 7.848459172074159,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.9733683366164545,
+        "end": 11.803916049246812,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.845552437427578,
+        "end": 14.635190445538818,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.718463221900349,
+        "end": 17.258282900927,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.34155567728853,
+        "end": 19.88137535631518,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 19.96464813267671,
+        "end": 22.12974031807648,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 22.213013094438008,
+        "end": 23.420468351680185,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 23.587013904403243,
+        "end": 27.167743287949015,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 27.29265245249131,
+        "end": 30.498654342410198,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 30.54029073059096,
+        "end": 33.32992873870221,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 131,
+    "created_at": "2024-06-16T11:19:36.464205Z",
+    "updated_at": "2024-06-16T11:24:06.040272Z",
+    "lead_time": 4362.284
+  },
+  {
+    "video_url": "\/data\/upload\/3\/82970526-p54_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 126,
+    "tricks": [
+      {
+        "start": 0.01321758922363847,
+        "end": 2.3923836494785635,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.4452540063731174,
+        "end": 4.427892389918887,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.480762746813442,
+        "end": 6.357660416570105,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 6.410530773464658,
+        "end": 8.657520941483199,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.683956119930476,
+        "end": 11.010251823290847,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.036687001738123,
+        "end": 12.596362530127463,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.596362530127463,
+        "end": 14.050297344727694,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.023862166280418,
+        "end": 15.187010017960603,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 15.239880374855158,
+        "end": 17.19608357995365,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 17.301824293742758,
+        "end": 18.41210178852839,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 18.43853696697567,
+        "end": 20.73839749188876,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 132,
+    "created_at": "2024-06-16T11:29:37.807403Z",
+    "updated_at": "2024-06-16T12:00:05.421766Z",
+    "lead_time": 2153.9579999999996
+  },
+  {
+    "video_url": "\/data\/upload\/3\/63ad84a1-p55_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 127,
+    "tricks": [
+      {
+        "start": 0.017076811123986093,
+        "end": 2.4078303684820392,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 2.476137612977984,
+        "end": 5.310888259559675,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 5.37919550405562,
+        "end": 7.974870794901506,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.009024417149478,
+        "end": 10.843775063731169,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.877928685979143,
+        "end": 13.64437208806489,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.712679332560834,
+        "end": 16.718198090382387,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.752351712630357,
+        "end": 19.348027003476243,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.382180625724217,
+        "end": 21.397244338354575,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.533858827346464,
+        "end": 23.583076162224796,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 23.685537028968714,
+        "end": 24.949221052143685,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 25.0516819188876,
+        "end": 27.06674563151796,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 133,
+    "created_at": "2024-06-16T12:12:57.823095Z",
+    "updated_at": "2024-06-16T12:12:57.823143Z",
+    "lead_time": 767.811
+  },
+  {
+    "video_url": "\/data\/upload\/3\/695d9da3-p56_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 128,
+    "tricks": [
+      {
+        "start": 0.05894887717265353,
+        "end": 1.9846121981460023,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.0239114495944377,
+        "end": 2.888494981460023,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.9277942329084587,
+        "end": 4.028173273464658,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.6351807589803014,
+        "end": 4.656961296639629,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.7355597995365,
+        "end": 7.643704406720741,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.683003658169177,
+        "end": 9.805163236384704,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.883761739281576,
+        "end": 12.398913831981458,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.398913831981458,
+        "end": 14.128080895712628,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.2066793986095,
+        "end": 16.682532239860947,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.721831491309384,
+        "end": 18.726093315179604,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.804691818076474,
+        "end": 21.830734179606022,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.909332682502896,
+        "end": 26.310848844727694,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 26.271549593279257,
+        "end": 29.179694200463498,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 29.33689120625724,
+        "end": 31.53764928736964,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 134,
+    "created_at": "2024-06-16T12:19:24.056063Z",
+    "updated_at": "2024-06-16T12:27:13.411354Z",
+    "lead_time": 836.979
+  },
+  {
+    "video_url": "\/data\/upload\/3\/cd540493-p57_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 129,
+    "tricks": [
+      {
+        "start": 0.05529587311703361,
+        "end": 2.783225613557358,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.820089528968714,
+        "end": 6.13784191599073,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 6.211569746813442,
+        "end": 10.303464357473928,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.37719218829664,
+        "end": 12.589027112977984,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.662754943800696,
+        "end": 15.64873209212051,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.685596007531867,
+        "end": 18.892756648319814,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.92962056373117,
+        "end": 21.62068638876014,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.657550304171497,
+        "end": 24.053704805909618,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 24.090568721320974,
+        "end": 26.671042800115874,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 26.74477063093859,
+        "end": 28.477374655272307,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 28.919741640208574,
+        "end": 30.578617833719584,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 135,
+    "created_at": "2024-06-16T12:31:56.180997Z",
+    "updated_at": "2024-06-16T12:31:56.181050Z",
+    "lead_time": 278.68
+  },
+  {
+    "video_url": "\/data\/upload\/3\/2c77e8a6-p58_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 130,
+    "tricks": [
+      {
+        "start": 0.08289962050984936,
+        "end": 4.614745541714948,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.725278369061414,
+        "end": 8.81499298088065,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.925525808227114,
+        "end": 11.467780837195829,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.633580078215529,
+        "end": 14.839032071263038,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.89429848493627,
+        "end": 17.98921765063731,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.09975047798378,
+        "end": 21.194669643684822,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.305202471031286,
+        "end": 23.515859017960604,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 23.62639184530707,
+        "end": 24.676453705098496,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 24.731720118771726,
+        "end": 27.937172111819233,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 27.99243852549247,
+        "end": 30.258361486095016,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 30.424160727114717,
+        "end": 42.96963663093859,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      },
+      {
+        "start": 43.080169458285056,
+        "end": 45.014493936848204,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 136,
+    "created_at": "2024-06-16T13:00:48.019415Z",
+    "updated_at": "2024-06-16T13:00:48.019474Z",
+    "lead_time": 1727.339
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c55ed289-p59_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 131,
+    "tricks": [
+      {
+        "start": 0.14326256315179606,
+        "end": 2.1489384472769406,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 2.1807745724217846,
+        "end": 3.454219578215527,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 3.5815640787949015,
+        "end": 6.60599596755504,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 6.60599596755504,
+        "end": 8.516163476245655,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.547999601390499,
+        "end": 10.71285611123986,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.776528361529547,
+        "end": 13.005057121668598,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.03689324681344,
+        "end": 14.756044004634992,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.787880129779838,
+        "end": 17.334770141367326,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.366606266512168,
+        "end": 20.1681852792584,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      },
+      {
+        "start": 20.231857529548087,
+        "end": 24.30688154808806,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 137,
+    "created_at": "2024-06-16T14:04:06.003495Z",
+    "updated_at": "2024-06-16T14:04:06.003531Z",
+    "lead_time": 3794.439
+  },
+  {
+    "video_url": "\/data\/upload\/3\/3a2a0d4a-p60_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 132,
+    "tricks": [
+      {
+        "start": 0.011548205677867903,
+        "end": 1.4897185324449596,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.5128149438006953,
+        "end": 3.1064673273464662,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.1295637387022017,
+        "end": 4.51534842004635,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.284384306488992,
+        "end": 5.462301285631517,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.4623012856315185,
+        "end": 7.310014194090383,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.333110605446119,
+        "end": 9.180823513904983,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 9.227016336616455,
+        "end": 11.328789769988413,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.374982592699885,
+        "end": 13.176502678447276,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.199599089803014,
+        "end": 14.839444296060256,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 14.862540707415993,
+        "end": 15.901879218424103,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 15.901879218424103,
+        "end": 17.68030289281576,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 138,
+    "created_at": "2024-06-16T14:05:42.074970Z",
+    "updated_at": "2024-06-16T14:07:35.858987Z",
+    "lead_time": 205.539
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c82b52e5-p61_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 133,
+    "tricks": [
+      {
+        "start": 0.019207730011587484,
+        "end": 2.2857198713789106,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.324135331402086,
+        "end": 3.43818367207416,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.4765991320973346,
+        "end": 5.282125753186558,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.358956673232908,
+        "end": 7.202898754345306,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.241314214368481,
+        "end": 9.853565495944379,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.891980955967554,
+        "end": 12.465816777520278,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.504232237543452,
+        "end": 16.576271,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.65310192004635,
+        "end": 19.265353201622244,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 19.30376866164542,
+        "end": 21.647111723059094,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 21.53186534298957,
+        "end": 22.68432914368482,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.722744603707994,
+        "end": 24.56668668482039,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 24.64351760486674,
+        "end": 26.56429060602549,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 26.602706066048665,
+        "end": 30.789991208574737,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 139,
+    "created_at": "2024-06-16T14:13:40.105658Z",
+    "updated_at": "2024-06-16T14:14:38.922853Z",
+    "lead_time": 419.229
+  },
+  {
+    "video_url": "\/data\/upload\/3\/4856b970-p62_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 134,
+    "tricks": [
+      {
+        "start": 0.019423768250289686,
+        "end": 1.922953056778679,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.689867837775203,
+        "end": 2.7387513232908463,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.7775988597914254,
+        "end": 4.525738002317497,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.2538052468134415,
+        "end": 7.322760630359212,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.361608166859792,
+        "end": 9.45937513789108,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.537070210892237,
+        "end": 12.644873130938587,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 12.722568203939746,
+        "end": 14.742640101969874,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 14.781487638470452,
+        "end": 18.04468070451912,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.0835282410197,
+        "end": 20.60861811355736,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.64746565005794,
+        "end": 21.8517392815759,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.929434354577058,
+        "end": 23.48333581460023,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 23.522183351100814,
+        "end": 25.891883077636155,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.96957815063731,
+        "end": 31.330538187717266,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 140,
+    "created_at": "2024-06-16T14:15:25.745206Z",
+    "updated_at": "2024-06-16T14:19:28.367477Z",
+    "lead_time": 285.16099999999994
+  },
+  {
+    "video_url": "\/data\/upload\/3\/7bff448b-p63_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 135,
+    "tricks": [
+      {
+        "start": 0.021319009269988413,
+        "end": 2.4090480475086906,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.1958579548088064,
+        "end": 3.21917039976825,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.261808418308227,
+        "end": 6.203831697566628,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 6.2464697161066045,
+        "end": 7.909352439165701,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.994628476245654,
+        "end": 10.808737699884126,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.851375718424102,
+        "end": 13.622846923522596,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.708122960602548,
+        "end": 16.991250388180767,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.07652642526072,
+        "end": 21.297690260718426,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 21.3403282792584,
+        "end": 25.00719787369641,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 25.049835892236388,
+        "end": 26.243700411355736,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 26.243700411355736,
+        "end": 27.43756493047509,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 27.480202949015066,
+        "end": 29.612103876013908,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 29.740017931633837,
+        "end": 31.57345272885284,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 31.658728765932793,
+        "end": 34.643390063731175,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 141,
+    "created_at": "2024-06-16T14:20:33.688995Z",
+    "updated_at": "2024-06-16T14:24:11.744229Z",
+    "lead_time": 279.563
+  },
+  {
+    "video_url": "\/data\/upload\/3\/72976ddc-p64_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 136,
+    "tricks": [
+      {
+        "start": 0.07458216396292006,
+        "end": 1.9540526958285052,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.6258911743916569,
+        "end": 2.6700414698725377,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.699874335457706,
+        "end": 3.9528546900347625,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 3.7440246309385867,
+        "end": 5.20583504461182,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.295333641367323,
+        "end": 8.129455871958285,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.189121603128621,
+        "end": 9.979093538238702,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.008926403823871,
+        "end": 13.022045827925838,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 13.081711559096176,
+        "end": 15.408675074739282,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.498173671494786,
+        "end": 17.85497005272306,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.884802918308228,
+        "end": 18.89912034820394,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 18.958786079374274,
+        "end": 20.360930761877174,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 20.42059649304751,
+        "end": 21.524412519698725,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 21.61391111645423,
+        "end": 24.030373228852838,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 142,
+    "created_at": "2024-06-16T14:25:03.398063Z",
+    "updated_at": "2024-06-16T14:28:40.893076Z",
+    "lead_time": 264.578
+  },
+  {
+    "video_url": "\/data\/upload\/3\/fe22798a-p65_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 137,
+    "tricks": [
+      {
+        "start": 0.01491643279258401,
+        "end": 2.4910442763615297,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.5208771419466975,
+        "end": 4.0423532867902665,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 4.102019017960602,
+        "end": 6.697478323870221,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 6.727311189455388,
+        "end": 8.51728312456547,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 8.576948855735806,
+        "end": 10.933745236964079,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 10.993410968134414,
+        "end": 13.141377290266512,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.201043021436849,
+        "end": 16.36332677346466,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 16.393159639049827,
+        "end": 18.72012315469293,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      },
+      {
+        "start": 18.77978888586327,
+        "end": 20.927755207995364,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 20.957588073580535,
+        "end": 23.791710304171495,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 143,
+    "created_at": "2024-06-16T14:31:54.618932Z",
+    "updated_at": "2024-06-16T14:32:48.737200Z",
+    "lead_time": 240.143
+  },
+  {
+    "video_url": "\/data\/upload\/3\/90f91eec-p66_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 138,
+    "tricks": [
+      {
+        "start": 0.01776420451911935,
+        "end": 1.616542611239861,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.6875994293163383,
+        "end": 2.575809655272306,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.611338064310545,
+        "end": 5.844423286790266,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 5.453610787369641,
+        "end": 7.40767328447277,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.443201693511008,
+        "end": 11.351326687717265,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 11.386855096755506,
+        "end": 13.376446002896872,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.41197441193511,
+        "end": 16.21871872595597,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 16.289775544032445,
+        "end": 18.35042326825029,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.421480086326767,
+        "end": 20.446599401506376,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.51765621958285,
+        "end": 21.476923263615294,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 21.547980081691776,
+        "end": 23.644156214947856,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 23.715213033024334,
+        "end": 25.42057666685979,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.456105075898034,
+        "end": 27.907565299536504,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 144,
+    "created_at": "2024-06-16T14:34:39.711947Z",
+    "updated_at": "2024-06-16T14:37:28.056588Z",
+    "lead_time": 275.387
+  },
+  {
+    "video_url": "\/data\/upload\/3\/a013697f-p67_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 139,
+    "tricks": [
+      {
+        "start": 0.018068621668597913,
+        "end": 3.2704205220162224,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 3.306557765353418,
+        "end": 5.872302042294321,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.944576528968713,
+        "end": 8.835555995944379,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 8.871693239281576,
+        "end": 11.94335892294322,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 11.979496166280418,
+        "end": 15.195710823290845,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 15.267985309965237,
+        "end": 18.014415803592122,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 18.08669029026651,
+        "end": 20.905395270567784,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 20.94153251390498,
+        "end": 23.21817884414832,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 23.29045333082271,
+        "end": 25.71164863441483,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.74778587775203,
+        "end": 28.964000534762455,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 145,
+    "created_at": "2024-06-16T14:38:17.882614Z",
+    "updated_at": "2024-06-16T14:42:52.849566Z",
+    "lead_time": 319.755
+  },
+  {
+    "video_url": "\/data\/upload\/3\/c21afac6-p68_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 140,
+    "tricks": [
+      {
+        "start": 0.12586169524913093,
+        "end": 1.5283205851680186,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 1.240636710312862,
+        "end": 2.7509770533024334,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 2.7869375376593277,
+        "end": 3.9736335214368483,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.009594005793743,
+        "end": 4.980527083429895,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.016487567786791,
+        "end": 7.174116629200464,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.210077113557358,
+        "end": 10.086915862108922,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.122876346465816,
+        "end": 12.568189282734647,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.604149767091542,
+        "end": 15.445028031286212,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 15.516949,
+        "end": 18.393787748551564,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 18.46570871726535,
+        "end": 22.31348054345307,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 22.349441027809966,
+        "end": 24.471109604866744,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 24.543030573580534,
+        "end": 25.94548946349942,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.981449947856316,
+        "end": 28.7144467589803,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 146,
+    "created_at": "2024-06-16T14:43:45.101896Z",
+    "updated_at": "2024-06-16T14:48:53.555381Z",
+    "lead_time": 356.212
+  },
+  {
+    "video_url": "\/data\/upload\/3\/1e10d4d5-p69_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 141,
+    "tricks": [
+      {
+        "start": 0.03567570799536501,
+        "end": 2.699461904982619,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.3189210196987253,
+        "end": 3.2940570382387016,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.3178408435689457,
+        "end": 4.3881120834298954,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)"
+        ]
+      },
+      {
+        "start": 4.150274030127462,
+        "end": 5.2681128806489,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.291896685979143,
+        "end": 7.7891962456546935,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 7.812980050984937,
+        "end": 10.120009168018541,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 10.143792973348784,
+        "end": 12.664876338354576,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 12.712443949015064,
+        "end": 14.258391295480882,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.163256074159907,
+        "end": 14.258391295480882,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 14.305958906141369,
+        "end": 16.113528111239862,
+        "channel": 0,
+        "labels": [
+          "Robot Structural Alignment (RSA)"
+        ]
+      },
+      {
+        "start": 16.16109572190035,
+        "end": 17.469205015063732,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 17.51677262572422,
+        "end": 18.777314308227115,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 147,
+    "created_at": "2024-06-16T14:49:51.984665Z",
+    "updated_at": "2024-06-16T14:54:15.395209Z",
+    "lead_time": 316.934
+  },
+  {
+    "video_url": "\/data\/upload\/3\/b44b663f-p70_CAM_AV_P_BRIDGE_BV.mp4",
+    "id": 142,
+    "tricks": [
+      {
+        "start": 0,
+        "end": 2.896662085086543,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Place (RBPP)"
+        ]
+      },
+      {
+        "start": 2.244196925735218,
+        "end": 3.35458999755301,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 3.3706103474477964,
+        "end": 6.388277203016242,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)",
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 5.064739108468678,
+        "end": 6.9882811392111375,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Place (HBPP)",
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 7.033063656431055,
+        "end": 9.923846713209734,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 9.959100165121669,
+        "end": 13.2024177410197,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 13.237671192931636,
+        "end": 17.397578518539976,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 17.43283197045191,
+        "end": 20.85241680590962,
+        "channel": 0,
+        "labels": [
+          "Human Bimanual Pickup and Stack (HBPS)"
+        ]
+      },
+      {
+        "start": 20.887670257821554,
+        "end": 23.637439506952493,
+        "channel": 0,
+        "labels": [
+          "Robot Bimanual Pickup and Stack (RBPS)"
+        ]
+      },
+      {
+        "start": 23.707946410776362,
+        "end": 25.928913881228276,
+        "channel": 0,
+        "labels": [
+          "Human Structural Alignment (HSA)"
+        ]
+      },
+      {
+        "start": 25.999420785052145,
+        "end": 28.149881351680186,
+        "channel": 0,
+        "labels": [
+          "Two Handed Placement (THP)"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 81,
+    "created_at": "2024-06-14T15:40:09.688718Z",
+    "updated_at": "2024-06-16T14:58:15.004453Z",
+    "lead_time": 23558.263
+  }
+]

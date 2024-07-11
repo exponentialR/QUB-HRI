@@ -41,6 +41,7 @@ def segment_videos(json_files_directory, base_videos_directory, output_directory
                 vid_url = video_url.split('-')[-1]
                 vid_url = vid_url.replace('CAM_AV_P', cam_view)
                 vid_url = vid_url.split('_')
+                # output_directory = os.path.join(output_directory, f'')
                 segmented_path = os.path.join(output_directory,
                                               f'{vid_url[0]}_{vid_url[1]}_{vid_url[2]}_{vid_url[3]}_{vid_url[4][:-4]}')
 
@@ -51,6 +52,8 @@ def segment_videos(json_files_directory, base_videos_directory, output_directory
                         start_time = str(trick['start'])
                         end_time = str(trick['end'])
                         label_abv = extract_bracket_letters(trick['labels'][0])
+                        print(f'Label: {label_abv}, Start: {start_time}, End: {end_time}')
+
                         output_filename = f'{segmented_path}_{label_abv}_{start_time}_{end_time}.mp4'
 
                         command = [
@@ -58,15 +61,15 @@ def segment_videos(json_files_directory, base_videos_directory, output_directory
                             '-y',
                             output_filename
                         ]
-                        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Suppress output
+                        # subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Suppress output
                 else:
                     print(f'Video {vid_path} does not exist. Skipping...')
 
 
 if __name__ == '__main__':
     json_files_directory = '/home/iamshri/PycharmProjects/QUB-HRI/actionLabelling/labels'
-    base_videos_directory = '/home/iamshri/ml_projects/Datasets/test-qub-pheo'
-    output_directory = '/home/iamshri/ml_projects/Datasets/qub-pheo-segmented-Videos'
+    base_videos_directory = '/home/iamshri/ml_projects/Datasets/QUB-PHEO'
+    output_directory = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos'
     os.makedirs(output_directory, exist_ok=True)
 
     segment_videos(json_files_directory, base_videos_directory, output_directory)
