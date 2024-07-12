@@ -4,6 +4,7 @@ import numpy as np
 from tqdm import tqdm
 from moviepy.editor import VideoFileClip, AudioFileClip
 import logging
+import json
 
 # ANSI escape codes for coloured terminal text
 COLOURS = {
@@ -136,9 +137,43 @@ def setup_calibration_video_logger(logger_name, format_str, extra_attrs, error_l
     return logger
 
 
+def get_subtask_list(project_dir, json_file_path):
+    """
+    Get subtask list and save to json file
+    """
+    subtask_list = []
+    for root, dirs, files in os.walk(project_dir):
+        for file in files:
+            if file.endswith('.mp4'):
+                subtask_list.append(extract_name(os.path.join(root, file)))
+    with open(json_file_path, 'w') as f:
+        json.dump(subtask_list, f, indent=4)
+    print(f"Subtask list saved to {json_file_path}")
+
+def get_label_abv(project_dir, json_file_path):
+    subtask = []
+    for label in os.listdir(project_dir):
+
+        # check if it is a directory and the files in it are videos
+        if os.path.isdir(os.path.join(project_dir, label)):
+            for root, dirs, files in os.walk(os.path.join(project_dir, label)):
+                for file in files:
+                    if file.endswith('.mp4'):
+                        if subtask.count(label) == 0:
+                            subtask.append(label)
+    # save subtask to json file
+    with open(json_file_path, 'w') as f:
+        json.dump(subtask, f, indent=4)
+    print(len(subtask))
+    print(f"Subtask list saved to {json_file_path}")
+
 # Testing
 if __name__ == "__main__":
-    input_video_path = 'data/input/BIAH_RB.mp4'
-    output_video_path = 'data/output/output.mp4'
-    reduce_resolution(input_video_path, output_video_path, 45)
-    display_video(output_video_path, 'Reduced Resolution Video')
+    proj_dir = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos'
+    json_file_path = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos/subtask_labellist.json'
+    get_subtask_list(proj_dir, json_file_path)
+    # get_label_abv(proj_dir, json_file_path)
+#     input_video_path = 'data/input/BIAH_RB.mp4'
+#     output_video_path = 'data/output/output.mp4'
+#     reduce_resolution(input_video_path, output_video_path, 45)
+#     display_video(output_video_path, 'Reduced Resolution Video')

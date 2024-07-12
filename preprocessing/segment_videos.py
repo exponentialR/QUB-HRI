@@ -52,16 +52,17 @@ def segment_videos(json_files_directory, base_videos_directory, output_directory
                         start_time = str(trick['start'])
                         end_time = str(trick['end'])
                         label_abv = extract_bracket_letters(trick['labels'][0])
-                        print(f'Label: {label_abv}, Start: {start_time}, End: {end_time}')
+                        # print(f'Label: {label_abv}, Start: {start_time}, End: {end_time}')
 
                         output_filename = f'{segmented_path}_{label_abv}_{start_time}_{end_time}.mp4'
+                        print(f'Output filename: {output_filename}')
 
                         command = [
                             'ffmpeg', '-i', vid_path, '-ss', start_time, '-to', end_time, '-c', 'copy',
                             '-y',
                             output_filename
                         ]
-                        # subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Suppress output
+                        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Suppress output
                 else:
                     print(f'Video {vid_path} does not exist. Skipping...')
 
