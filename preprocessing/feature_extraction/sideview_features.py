@@ -54,8 +54,8 @@ class SubtaskSideviewFeatures:
                 video_file = video_file.split('mp4')
                 output_path = os.path.join(self.output_dir, subtask, video_file[0] + 'h5')
                 print(output_path)
-                # landmarks = LandmarksToHDF5(video_path, output_path, logger=logger)
-                # landmarks.process_and_save()
+                landmarks = LandmarksToHDF5(video_path, output_path, logger=logger)
+                landmarks.process_and_save()
                 subtask_count_landmark += 1
             print(f'{subtask_count_landmark} files processed for subtask {subtask}')
 
