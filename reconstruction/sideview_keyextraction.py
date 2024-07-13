@@ -33,7 +33,6 @@ import h5py
 import numpy as np
 from tqdm import tqdm
 
-
 def convert_to_pixel_coords(norm_x, norm_y, frame_width, frame_height):
     """
     Convert normalized coordinates to pixel coordinates.
@@ -97,9 +96,11 @@ class LandmarksToHDF5:
 
                     # Process frame
                     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                    frame_rgb.flags.writeable = False
                     face_results = self.face_mesh.process(frame_rgb)
                     pose_results = self.pose.process(frame_rgb)
                     hand_results = self.hands.process(frame_rgb)
+                    frame_rgb.flags.writeable = True
 
                     # Store face landmarks
                     if face_results.multi_face_landmarks:
