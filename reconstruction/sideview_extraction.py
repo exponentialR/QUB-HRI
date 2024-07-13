@@ -27,10 +27,10 @@ Year: 2024
 """
 
 
-from sideview_keyextraction import LandmarksToHDF5
+from reconstruction.sideview_keyextraction import LandmarksToHDF5
 import os
 from tqdm import tqdm
-from utils import setup_calibration_video_logger
+from reconstruction.utils import setup_calibration_video_logger
 import logging
 
 logger = setup_calibration_video_logger(

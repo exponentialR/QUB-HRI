@@ -1,5 +1,7 @@
 import cv2
 import mediapipe as mp
+from gaze_aerial import compute_aerial_gaze
+# from ultralytics import yolov5
 import h5py
 import numpy as np
 from tqdm import tqdm
@@ -28,7 +30,7 @@ class LandmarksToHDF5:
             face_dset = f.create_dataset("face_landmarks", (frame_count, 478, 3), dtype='f')
             pose_dset = f.create_dataset("pose_landmarks", (frame_count, 33, 4), dtype='f')
             hands_dset = f.create_dataset("hand_landmarks", (frame_count, 2, 21, 3),
-                                          dtype='f')  # 2 hands, 21 landmarks, 3 coordinates
+                                          dtype='f')
 
             with tqdm(total=frame_count, desc=f"Processing Video {self.video_path}") as pbar:
                 frame_idx = 0

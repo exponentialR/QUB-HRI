@@ -1,7 +1,7 @@
-from preprocess_landmark import LandmarksToHDF5
+from preprocessing.preprocess_landmark import LandmarksToHDF5
 import os
 from tqdm import tqdm
-from logger_utils import setup_calibration_video_logger
+from preprocessing.logger_utils import setup_calibration_video_logger
 import logging
 
 logger = setup_calibration_video_logger(

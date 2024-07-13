@@ -40,26 +40,24 @@ def segment_videos(json_files_directory, base_videos_directory, output_directory
                     output_filename = f'{vid_url[0]}-{cam_view}-{vid_url[3]}_{vid_url[-1][0:-4]}-{label_abv}-{start_time}_{end_time}.mp4'
                     output_path = os.path.join(label_dir, output_filename)
 
-                    # print(output_path)
-
                     vid_path = os.path.join(base_videos_directory, vid_url[0],
                                             f'{vid_url[1]}_{vid_url[2]}/{vid_url[3]}_{vid_url[4]}')
 
                     if os.path.exists(vid_path):
                         command = [
                             'ffmpeg', '-i', vid_path, '-ss', start_time, '-to', end_time, '-c', 'copy',
-                            '-n',  # Automatically overwrite existing files
+                            '-n',
                             output_path
                         ]
-                        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Suppress output
+                        subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                         print(f'Segmented video saved at {output_path}')
                     else:
                         continue
 
 
 if __name__ == '__main__':
-    json_files_directory = '/home/iamshri/PycharmProjects/QUB-HRI/actionLabelling/labels'
-    base_videos_directory = '/home/iamshri/ml_projects/Datasets/QUB-PHEO'
-    output_directory = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos'
+    json_files_directory = '/home/samueladebayo/PycharmProjects/QUB-HRI/actionLabelling/labels'
+    base_videos_directory = '/media/samueladebayo/EXTERNAL_USB/QUB-PHEO-Proceesed'
+    output_directory = '/home/samueladebayo/Documents/PhD/QUB-PHEO-Dataset/segmented_videos'
     os.makedirs(output_directory, exist_ok=True)
     segment_videos(json_files_directory, base_videos_directory, output_directory)
