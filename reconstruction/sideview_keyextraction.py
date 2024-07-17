@@ -33,6 +33,7 @@ import h5py
 import numpy as np
 from tqdm import tqdm
 
+
 def convert_to_pixel_coords(norm_x, norm_y, frame_width, frame_height):
     """
     Convert normalized coordinates to pixel coordinates.
