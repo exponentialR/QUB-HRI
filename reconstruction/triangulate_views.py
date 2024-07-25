@@ -1,6 +1,53 @@
 import numpy as np
 import h5py
 import cv2
+import os
+import json
+from tqdm import tqdm
+import argparse
+
+PROJ_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LL/BHO'
+OUTPUT_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/TRIANGULATED'
+CALIB_PARENT_DIR = '/home/samueladebayo/Downloads/stereo_data'
+BATCHSIZE = 100
+LANDMARK_PROCESSED_JSON = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK'
+
+
+def load_json(json_file):
+    """
+    Load data from a JSON file. If the file doesn't exist, return an empty dictionary.
+
+    Args:
+    json_file (str): Path to the JSON file.
+
+    Returns:
+    dict: The data from the JSON file or an empty dictionary if the file doesn't exist.
+    """
+    if os.path.exists(json_file):
+        with open(json_file, 'r') as f:
+            return json.load(f)
+    else:
+        return {}
+
+
+def save_json(json_file, data, merge=True):
+    """
+    Save data to a JSON file. If merging is True, it loads existing data and merges it.
+
+    Args:
+    json_file (str): Path to the JSON file.
+    data (dict): Data to be saved.
+    merge (bool): Whether to merge with existing data in the file.
+    """
+    current_data = {}
+    if merge and os.path.exists(json_file):
+        current_data = load_json(json_file)
+
+    # Update current data with new data
+    current_data.update(data)
+
+    with open(json_file, 'w') as f:
+        json.dump(current_data, f, indent=4)  # Using indent for pretty printing
 
 
 def load_keypoints(hdf5_file):
@@ -70,12 +117,103 @@ class TriangulateViews:
         print(f"3D points saved to {self.output_file}")
 
 
+class SubtaskTriangulateViews:
+    def __init__(self, proj_dir, output_dir, calib_parent_dir=None, batchsize=100, landmark_processed_json=None):
+        self.proj_dir = proj_dir  # Path to the directory containing the subtask data (e.g. '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LR/BHO'
+        self.output_dir = output_dir
+        self.calib_parent_dir = calib_parent_dir
+        self.batchsize = batchsize
+        self.landmark_processed_json = landmark_processed_json
+        self.landmark_processed = load_json(self.landmark_processed_json) if self.landmark_processed_json else {}
+        self.calib_parent_dir = calib_parent_dir
+
+    def save_landmark_status(self):
+        """
+        Save the processed landmark status to JSON.
+        """
+        json_file_path = os.path.join(self.landmark_processed_json)
+        save_json(json_file_path, self.landmark_processed)
+
+    def extract_landmarks(self):
+        subtask = os.path.basename(self.proj_dir)
+        subtask_dir = self.proj_dir
+        print(f'{subtask_dir} subtask_dir')
+        current_subtask_files = [file for file in os.listdir(subtask_dir) if
+                                 file.endswith('.h5') and file.split('-')[1].startswith('CAM_LL')]
+        os.makedirs(os.path.join(self.output_dir, subtask), exist_ok=True)
+
+        subtask_count_landmark = 0
+        for side_video_file in tqdm(current_subtask_files, desc='Processing subtask files'):
+            if self.landmark_processed.get(side_video_file):
+                continue
+            else:
+                left_hdf5 = os.path.join(subtask_dir, side_video_file)
+                right_hdf5 = os.path.join(subtask_dir.replace('CAM_LL', 'CAM_LR'), side_video_file.replace('CAM_LL', 'CAM_LR'))
+                participant_number = side_video_file.split('_')[0].split('-')[0]
+                calib_file = os.path.join(self.calib_parent_dir, f'{participant_number}_LL_LR_stereo.npz')
+                output_file = os.path.join(self.output_dir, subtask, side_video_file.replace('CAM_LL', 'LL_LR-3d'))
+                print(output_file)
+                # Check if output file already exists, if it does, it means the 3D points have already been saved, so skip
+                if os.path.exists(output_file):
+                    continue
+
+
+                # if os.path.exists(calib_file):
+                #     triangulate_views = TriangulateViews(calib_file, left_hdf5, right_hdf5, os.path.join(self.output_dir, subtask, side_video_file))
+                #     triangulate_views.save_3d_points_hdf5()
+
+
+#                 side_video_path = os.path.join(subtask_dir, side_video_file)
+#                 aerial_video_path = os.path.join(subtask_dir, side_video_file.replace('CAM_LR', 'CAM_AV'))
+#                 side_video_file = side_video_file.split('mp4')
+#                 aerial_video_file = side_video_file[0].replace('CAM_LR', 'CAM_AV')
+#                 side_output_path = os.path.join(self.output_dir, subtask, side_video_file[0] + 'h5')
+#                 aerial_output_path = os.path.join(self.output_dir, subtask, aerial_video_file + 'h5')
+#                 print(aerial_output_path, f'{aerial_video_path} aerial_video_path')
+#                 participant, camera = side_video_file[0].split('-')[0], side_video_file[0].split('-')[1]
+#                 current_calib_file = os.path.join(self.calib_parent_dir, f'{participant}-{camera}-intrinsic.npz')
+#                 cam_matrix, dist_matrix = load_calibration_data(current_calib_file)
+#
+#                 landmarks = LandmarksToHDF5(side_video_path, aerial_video_path, side_output_path, aerial_output_path,
+#                                             cam_matrix, dist_matrix, logger=logger)
+#                 landmarks.process_and_save()
+#                 subtask_count_landmark += 1
+#                 self.landmark_processed[f'{side_video_file[0]}mp4'] = True
+#                 self.save_landmark_status()
+#                 if subtask_count_landmark % self.batchsize == 0:
+#                     self.save_landmark_status()
+#                     logger.info(f'Landmarks extracted for subtask {subtask}',
+#                                 extra={'task_name': 'Landmark Extraction', 'detail': 'Subtask Processing'})
+#                     print(f'{subtask_count_landmark} files processed for subtask {subtask}')
+#                     break
+#
+#
+def main(args):
+    subtask_dir = args.subtask_dir
+    output_dir = args.output_dir
+    calib_parent_dir = args.calib_dir
+    landmark_processed_json = os.path.join(output_dir, F'{os.path.basename(subtask_dir)}_processed.json')
+
+    subtask_sideview_features = SubtaskTriangulateViews(subtask_dir, output_dir, calib_parent_dir=calib_parent_dir,
+                                                        landmark_processed_json=landmark_processed_json)
+    subtask_sideview_features.extract_landmarks()
+
+
 # Test the TriangulateViews class
 if __name__ == '__main__':
-    stereo_path = 'stereo_calib.npz'
-    left_path = 'left_keypoints.hdf5'
-    right_path = 'right_keypoints.hdf5'
-    output_file = '3d_points.hdf5'
+    parser = argparse.ArgumentParser(description="Process video files for facial landmark extraction.")
+    parser.add_argument('--subtask_dir', type=str, help='Path to the subtask directory.', default=PROJ_DIR)
+    parser.add_argument('--output_dir', type=str, help='Path to the output directory where results will be saved.',
+                        default=OUTPUT_DIR)
+    parser.add_argument('--calib_dir', type=str, help='Path to the calibration parameters directory.',
+                        default=CALIB_PARENT_DIR)
 
-    triangulate_views = TriangulateViews(stereo_path, left_path, right_path, output_file)
-    triangulate_views.save_3d_points_hdf5()
+    args = parser.parse_args()
+    main(args)
+
+    # PROJ_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LL/BHO'
+    # OUTPUT_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/TRIANGULATED'
+    # CALIB_PARENT_DIR = '/home/samueladebayo/Downloads/stereo_data'
+    # BATCHSIZE = 100
+    # LANDMARK_PROCESSED_JSON = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK'
+    # proj_dir, output_dir, calib_parent_dir=None, batchsize=100, landmark_processed_json=None)
