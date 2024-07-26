@@ -5,12 +5,88 @@ import os
 import json
 from tqdm import tqdm
 import argparse
+import logging
 
-PROJ_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LL/BHO'
-OUTPUT_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/TRIANGULATED'
-CALIB_PARENT_DIR = '/home/samueladebayo/Downloads/stereo_data'
-BATCHSIZE = 100
+# PROJ_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LL/BHO'
+# OUTPUT_DIR = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/TRIANGULATED'
+# CALIB_PARENT_DIR = '/home/samueladebayo/Downloads/stereo_data'
+# BATCHSIZE = 100
 LANDMARK_PROCESSED_JSON = '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK'
+
+COLOURS = {
+    'WARNING': '\033[93m',
+    'INFO': '\033[94m',
+    'DEBUG': '\033[92m',
+    'CRITICAL': '\033[91m',
+    'ERROR': '\033[91m',
+    'ENDC': '\033[0m'
+}
+
+
+def setup_calibration_video_logger(logger_name, format_str, extra_attrs, error_log_file, levels_to_save, console_level):
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(min(levels_to_save))  # Set logger level to the lowest level specified
+
+    # Clear existing handlers
+    logger.handlers.clear()
+
+    # File handler setup
+    file_handler = logging.FileHandler(error_log_file)
+    file_handler.setLevel(min(levels_to_save))  # Set to the minimum level in levels_to_save
+    file_handler.addFilter(FlexibleLevelFilter(levels_to_save))
+
+    # Console handler setup
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(console_level)  # Control console level dynamically
+    console_handler.addFilter(FlexibleLevelFilter(levels_to_save))  # Ensure consistent filtering with file
+
+    formatter = DynamicVideoFormatter(format_str, extra_attrs)
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    return logger
+
+
+class FlexibleLevelFilter(logging.Filter):
+    def __init__(self, allowed_levels):
+        super().__init__()
+        self.allowed_levels = allowed_levels
+
+    def filter(self, record):
+        # Allow only specified levels
+        return record.levelno in self.allowed_levels
+
+
+class DynamicVideoFormatter(logging.Formatter):
+    def __init__(self, format_str, extra_attrs):
+        super().__init__(format_str)
+        self.extra_attrs = extra_attrs
+
+    def format(self, record):
+        # Ensure extra attributes have default values
+        for attr in self.extra_attrs:
+            setattr(record, attr, getattr(record, attr, 'N/A'))
+        log_message = super().format(record)
+        return f"{COLOURS[record.levelname]}{log_message}{COLOURS['ENDC']}"
+        # return f"{log_message}"  # Simplified formatting
+
+
+logger = setup_calibration_video_logger(
+    "Subtask-Sideview-Features-Logger",
+    format_str='%(asctime)s - %(name)s - [Task: %(task_name)s] - [Detail: %(detail)s] - %(levelname)s - %('
+               'message)s',
+    extra_attrs=['task_name', 'detail'],
+    error_log_file='landmark_extraction_log.txt',
+    levels_to_save={logging.DEBUG, logging.INFO},
+    console_level=logging.INFO
+)
+
+# Set up logging
+logging.basicConfig(filename='processing_log.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def load_json(json_file):
@@ -137,9 +213,8 @@ class SubtaskTriangulateViews:
     def extract_landmarks(self):
         subtask = os.path.basename(self.proj_dir)
         subtask_dir = self.proj_dir
-        print(f'{subtask_dir} subtask_dir')
         current_subtask_files = [file for file in os.listdir(subtask_dir) if
-                                 file.endswith('.h5') and file.split('-')[1].startswith('CAM_LL')]
+                                 file.endswith('.h5') and file.split('-')[1].startswith('CAM_LR')]
         os.makedirs(os.path.join(self.output_dir, subtask), exist_ok=True)
 
         subtask_count_landmark = 0
@@ -148,21 +223,24 @@ class SubtaskTriangulateViews:
                 continue
             else:
                 left_hdf5 = os.path.join(subtask_dir, side_video_file)
-                right_hdf5 = os.path.join(subtask_dir.replace('CAM_LL', 'CAM_LR'), side_video_file.replace('CAM_LL', 'CAM_LR'))
+                right_hdf5 = os.path.join(subtask_dir.replace('CAM_LR', 'CAM_LL'),
+                                          side_video_file.replace('CAM_LR', 'CAM_LL'))
                 participant_number = side_video_file.split('_')[0].split('-')[0]
                 calib_file = os.path.join(self.calib_parent_dir, f'{participant_number}_LL_LR_stereo.npz')
-                output_file = os.path.join(self.output_dir, subtask, side_video_file.replace('CAM_LL', 'LL_LR-3d'))
-                print(output_file)
-                # Check if output file already exists, if it does, it means the 3D points have already been saved, so skip
+                output_file = os.path.join(self.output_dir, subtask, side_video_file.replace('CAM_LR', 'LL_LR-3d'))
+
                 if os.path.exists(output_file):
                     print(f'{output_file} already exists')
                     continue
                 else:
+                    print(f'Stereo Calib File: {calib_file}')
                     if os.path.exists(calib_file):
-                        triangulate_views = TriangulateViews(calib_file, left_hdf5, right_hdf5, os.path.join(self.output_dir, subtask, side_video_file))
+                        triangulate_views = TriangulateViews(calib_file, left_hdf5, right_hdf5,
+                                                             os.path.join(self.output_dir, subtask, side_video_file))
                         triangulate_views.save_3d_points_hdf5()
-                        subtask_count_landmark +=1
-                        self.landmark_processed[f'{side_video_file[0]}mp4'] = True
+                        subtask_count_landmark += 1
+
+                        self.landmark_processed[side_video_file] = True
                         self.save_landmark_status()
                         if subtask_count_landmark % self.batchsize == 0:
                             self.save_landmark_status()
@@ -170,6 +248,7 @@ class SubtaskTriangulateViews:
                                         extra={'task_name': 'Landmark Extraction', 'detail': 'Subtask Processing'})
                             print(f'{subtask_count_landmark} files processed for subtask {subtask}')
                             break
+
 
 def main(args):
     subtask_dir = args.subtask_dir
@@ -185,11 +264,12 @@ def main(args):
 # Test the TriangulateViews class
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Process video files for facial landmark extraction.")
-    parser.add_argument('--subtask_dir', type=str, help='Path to the subtask directory.', default=PROJ_DIR)
+    parser.add_argument('--subtask_dir', type=str, help='Path to the subtask directory.')
     parser.add_argument('--output_dir', type=str, help='Path to the output directory where results will be saved.',
-                        default=OUTPUT_DIR)
+                        )
     parser.add_argument('--calib_dir', type=str, help='Path to the calibration parameters directory.',
-                        default=CALIB_PARENT_DIR)
+                        )
 
     args = parser.parse_args()
+    print(f'CURRENT SUBTASK DIR {args.subtask_dir}')
     main(args)

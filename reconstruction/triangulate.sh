@@ -2,7 +2,7 @@
 
 # Define constants
 OUTPUT_DIR="/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/TRIANGULATED"
-CALIB_DIR="/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CALIBRATION"
+CALIB_DIR="/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/STEREOCALIBRATION/"
 SCRIPT_PATH="/home/samueladebayo/PycharmProjects/QUB-HRI/reconstruction/triangulate_views.py"
 VENV_PATH="/home/samueladebayo/PycharmProjects/QUB-HRI/pheo"  # Path to the virtual environment
 
