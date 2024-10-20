@@ -172,7 +172,7 @@ if __name__ == "__main__":
     proj_dir = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos'
     json_file_path = '/home/iamshri/ml_projects/Datasets/QUB-PHEO-segmented-Videos/subtask_labellist.json'
     get_subtask_list(proj_dir, json_file_path)
-    # get_label_abv(proj_dir, json_file_path)
+    # get_label_abv(subtask_vid_dir, json_file_path)
 #     input_video_path = 'data/input/BIAH_RB.mp4'
 #     output_video_path = 'data/output/output.mp4'
 #     reduce_resolution(input_video_path, output_video_path, 45)

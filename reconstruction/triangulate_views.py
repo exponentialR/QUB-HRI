@@ -194,9 +194,9 @@ class TriangulateViews:
 
 
 class SubtaskTriangulateViews:
-    def __init__(self, proj_dir, output_dir, calib_parent_dir=None, batchsize=100, landmark_processed_json=None):
-        self.proj_dir = proj_dir  # Path to the directory containing the subtask data (e.g. '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LR/BHO'
-        self.output_dir = output_dir
+    def __init__(self, subtask_dir, output_subtask_dir, calib_parent_dir=None, batchsize=100, landmark_processed_json=None):
+        self.subtask_dir = subtask_dir  # Path to the directory containing the subtask data (e.g. '/home/samueladebayo/Documents/PhD/QUBPHEO/LANDMARK/CAM_LR/BHO'
+        self.output_subtask_dir = output_subtask_dir
         self.calib_parent_dir = calib_parent_dir
         self.batchsize = batchsize
         self.landmark_processed_json = landmark_processed_json
@@ -211,23 +211,24 @@ class SubtaskTriangulateViews:
         save_json(json_file_path, self.landmark_processed)
 
     def extract_landmarks(self):
-        subtask = os.path.basename(self.proj_dir)
-        subtask_dir = self.proj_dir
-        current_subtask_files = [file for file in os.listdir(subtask_dir) if
+        subtask = os.path.basename(self.subtask_dir)
+        print(f'{self.subtask_dir} subtask_dir')
+        current_subtask_files = [file for file in os.listdir(self.subtask_dir) if
                                  file.endswith('.h5') and file.split('-')[1].startswith('CAM_LR')]
-        os.makedirs(os.path.join(self.output_dir, subtask), exist_ok=True)
+        os.makedirs(self.output_subtask_dir, exist_ok=True)
 
         subtask_count_landmark = 0
         for side_video_file in tqdm(current_subtask_files, desc='Processing subtask files'):
             if self.landmark_processed.get(side_video_file):
                 continue
             else:
-                left_hdf5 = os.path.join(subtask_dir, side_video_file)
-                right_hdf5 = os.path.join(subtask_dir.replace('CAM_LR', 'CAM_LL'),
-                                          side_video_file.replace('CAM_LR', 'CAM_LL'))
+                left_hdf5 = os.path.join(self.subtask_dir, side_video_file)
+                right_hdf5 = os.path.join(self.subtask_dir.replace('CAM_LR', 'CAM_LR'),
+                                          side_video_file.replace('CAM_LL', 'CAM_LR'))
                 participant_number = side_video_file.split('_')[0].split('-')[0]
                 calib_file = os.path.join(self.calib_parent_dir, f'{participant_number}_LL_LR_stereo.npz')
-                output_file = os.path.join(self.output_dir, subtask, side_video_file.replace('CAM_LR', 'LL_LR-3d'))
+                output_file = os.path.join(self.output_subtask_dir, subtask, side_video_file.replace('CAM_LR', 'LL_LR-3d'))
+                print(output_file)
 
                 if os.path.exists(output_file):
                     print(f'{output_file} already exists')
@@ -236,7 +237,7 @@ class SubtaskTriangulateViews:
                     print(f'Stereo Calib File: {calib_file}')
                     if os.path.exists(calib_file):
                         triangulate_views = TriangulateViews(calib_file, left_hdf5, right_hdf5,
-                                                             os.path.join(self.output_dir, subtask, side_video_file))
+                                                             os.path.join(self.output_subtask_dir, side_video_file))
                         triangulate_views.save_3d_points_hdf5()
                         subtask_count_landmark += 1
 
@@ -271,5 +272,4 @@ if __name__ == '__main__':
                         )
 
     args = parser.parse_args()
-    print(f'CURRENT SUBTASK DIR {args.subtask_dir}')
     main(args)
