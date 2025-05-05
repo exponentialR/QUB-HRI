@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this dataset or the preprocessing code, please cite it as below:"
+title: "Pre-processing Repository of QUB – Perception of Human Engagement in Assembly Operations Dataset"
+authors:
+  - family-names: Adebayo
+    given-names: Samuel
+    orcid: https://orcid.org/0000-0002-8592-1196
+date-released: 2024-10-19
+version: "1.0.0"
+doi: 10.5281/zenodo.13956098
+repository-code: https://github.com/exponentialR/QUB-HRI
+license: MIT
