@@ -1,5 +1,4 @@
-# Set your dataset root
-SRC=""
+SRC="qub-pheo-consented-videos/segmented"
 
 # 1) Distinct participant IDs detected (normalised to uppercase: P01..P70)
 find "$SRC" -type f -iname 'p[0-9][0-9]-*.mp4' -printf '%f\n' \

@@ -7,10 +7,10 @@ consented_participants = [
     "P64","P65","P67","P68","P69","P70"
 ]
 exts = ['mp4']
-
-with open('participants_include.txt', 'w') as f: 
-    for pid in consented_participants:
-        for ext in exts:
-            f.write(f'**/{pid.lower()}-*.{ext}\n')
-            f.write(f'**/{pid.upper()}-*.{ext}\n')
-print(f'Wrote participants_include.txt with {len(consented_participants)*len(exts)*2} lines.')
+if __name__ == '__main__':
+    with open('participants_include.txt', 'w') as f:
+        for pid in consented_participants:
+            for ext in exts:
+                f.write(f'**/{pid.lower()}-*.{ext}\n')
+                f.write(f'**/{pid.upper()}-*.{ext}\n')
+    print(f'Wrote participants_include.txt with {len(consented_participants)*len(exts)*2} lines.')

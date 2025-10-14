@@ -55,3 +55,6 @@ coverage.xml
 
 # Environment files
 .env
+
+gdrive/rclone_copy.log
+gdrive/rclone_missing_copy.log

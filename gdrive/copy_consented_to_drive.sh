@@ -5,19 +5,20 @@ set -euo pipefail
 # Copy only consented & PRESENT participant videos to Google Drive,
 # preserving folder structure, using rclone.
 #
-# The script first AUDITS the source tree to find which consented IDs
-# are actually present (by filename prefix 'pXX-*.EXT'), writes an
-# include file (case-insensitive patterns), then optionally runs rclone.
+# Flow:
+# 1) Audit the source tree for consented IDs present (filenames 'pXX-*.EXT').
+# 2) Build an include file containing ONLY (PID, EXT) pairs actually observed.
+# 3) Optionally rclone copy (dry-run by default).
 #
 # Defaults (override via flags below)
-SRC_DEFAULT="/home/alien_arise/Documents/qub-pheo-consented-videos/segmented"
+SRC_DEFAULT="/qub-pheo-consented-videos/segmented"
 DST_DEFAULT="gdrive:/QUB-PHEO-DATASET"
-EXTS_DEFAULT=("mp4")            # add more via -e "mp4,mov,mkv"
+EXTS_DEFAULT=(mp4 mov avi)       # -iname is case-insensitive
 INC_OUT_DEFAULT="participants_include_present.txt"
-DRY_RUN=1                       # default: dry-run
-IGNORE_EXISTING=0               # default: re-upload if differs
-AUDIT_ONLY=0                    # default: run copy after audit
-QUIET=0                         # default: verbose audit output
+DRY_RUN=1
+IGNORE_EXISTING=0
+AUDIT_ONLY=0
+QUIET=0
 LOG_FILE="rclone_copy.log"
 
 usage() {
@@ -25,15 +26,15 @@ usage() {
 Usage: $0 [options]
 
 Audit the source tree for consented participants that are PRESENT, generate an
-rclone --include-from file, and (unless --audit-only) copy matching files to Drive.
+rclone --include-from file (only observed extensions per PID), and (unless
+--audit-only) copy matching files to Drive.
 
 Options:
   -s, --src PATH           Local source root (default: ${SRC_DEFAULT})
   -d, --dst REMOTE_PATH    Remote destination (default: ${DST_DEFAULT})
   -e, --exts LIST          Comma/space-separated extensions (default: ${EXTS_DEFAULT[*]})
                            e.g. -e mp4,mov or -e "mp4 mkv"
-  -o, --inc-out FILE       Where to write the include file
-                           (default: ${INC_OUT_DEFAULT})
+  -o, --inc-out FILE       Where to write the include file (default: ${INC_OUT_DEFAULT})
       --real               Do the real copy (default is dry-run)
       --ignore-existing    Skip files already present on Drive
       --audit-only         Only audit + write include file; do not copy
@@ -41,22 +42,10 @@ Options:
   -h, --help               Show this help
 
 Examples:
-  # Dry-run with defaults (audit + show planned copy)
-  $0
-
-  # Real copy with defaults
-  $0 --real
-
-  # Add extensions, skip already-uploaded on reruns
+  $0                         # Dry-run (audit + planned copy)
+  $0 --real                  # Real copy
   $0 -e mp4,mov --real --ignore-existing
-
-  # Only audit and write include file
   $0 --audit-only -o /tmp/include.txt
-
-Notes:
-- Filenames are assumed to start with participant ID like p01-*.EXT (case-insensitive).
-- Folder structure is preserved on Google Drive.
-- Safe to rerun; consider --ignore-existing for idempotent top-ups.
 EOF
 }
 
@@ -87,16 +76,9 @@ done
 
 # ---- Check deps
 command -v rclone >/dev/null 2>&1 || { echo "rclone not found. Install it first."; exit 1; }
-command -v find   >/dev/null 2>&1 || { echo "find not found."; exit 1; }
-command -v sed    >/dev/null 2>&1 || { echo "sed not found."; exit 1; }
-command -v tr     >/dev/null 2>&1 || { echo "tr not found."; exit 1; }
-command -v sort   >/dev/null 2>&1 || { echo "sort not found."; exit 1; }
-command -v uniq   >/dev/null 2>&1 || { echo "uniq not found."; exit 1; }
-command -v awk    >/dev/null 2>&1 || { echo "awk not found."; exit 1; }
-command -v column >/dev/null 2>&1 || true   # nice-to-have only
 
-# ---- Consented list (normalised to uppercase PXX)
-read -r -d '' CONSENTED_STR <<'EOS' || true
+# ---- Consented list (CRLF-safe, normalised)
+read -r -d '' CONSENTED_STR_RAW <<'EOS' || true
 P01 P02 P03 P04 P05 P06 P07 P08 P09
 P11 P12 P14 P15 P17 P18 P19
 P21 P22 P23 P24 P25 P26 P29 P30 P31 P32 P33
@@ -105,52 +87,66 @@ P52 P53 P54 P55 P57 P58 P60
 P64 P65 P67 P68 P69 P70
 EOS
 
-# ---- Build find predicates for extensions (case-insensitive)
+CONSENTED_LIST_NORM=$(
+  printf '%s\n' "$CONSENTED_STR_RAW" \
+  | tr -d '\r' \
+  | tr '[:lower:]' '[:upper:]' \
+  | tr ' \t' '\n' \
+  | grep -E '^P[0-9]{2}$' \
+  | sort -V | uniq
+)
+readarray -t CONSENTED_ARR <<< "$CONSENTED_LIST_NORM"
+
+# ---- Build find predicates for extensions (case-insensitive via -iname)
 ext_globs=()
 for ext in "${EXTS[@]}"; do
   ext_globs+=( -o -iname "p[0-9][0-9]-*.${ext}" )
 done
-ext_globs=( "${ext_globs[@]:1}" )  # drop leading -o
+ext_globs=( "${ext_globs[@]:1}" )
 
-# ---- Scan filenames under SRC that match PXX-*.EXT
+# ---- Audit header
 if [[ $QUIET -eq 0 ]]; then
   echo "Auditing source for consented participants:"
   echo "  Source:      $SRC"
   echo "  Extensions:  ${EXTS[*]}"
   echo "  Include out: $INC_OUT"
+  echo "  Consented IDs parsed (${#CONSENTED_ARR[@]}):"
+  printf '    %s\n' "${CONSENTED_ARR[@]}"
   echo
 fi
 
+# ---- Scan matching filenames (names only)
 mapfile -t FILENAMES < <(find "$SRC" -type f \( "${ext_globs[@]}" \) -printf '%f\n' || true)
-
 if [[ ${#FILENAMES[@]} -eq 0 ]]; then
   echo "No matching files found under: $SRC"
   echo "Nothing to include. Exiting."
   exit 0
 fi
 
-# ---- Extract PIDs and count
+# ---- Extract PIDs, counts, and per-PID observed extensions
 declare -A COUNTS=()
 declare -A FOUND=()
+declare -A SEEN_PID_EXT=()   # key "P11.mp4" -> 1
 
 for f in "${FILENAMES[@]}"; do
   pid=$(sed -E 's/^([pP][0-9]{2})-.*/\1/' <<<"$f" | tr '[:lower:]' '[:upper:]')
-  if [[ "$pid" =~ ^P[0-9]{2}$ ]]; then
-    FOUND["$pid"]=1
-    ((COUNTS["$pid"]++)) || true
-  fi
+  [[ "$pid" =~ ^P[0-9]{2}$ ]] || continue
+  ext="${f##*.}"; ext="${ext,,}"
+
+  FOUND["$pid"]=1
+  ((COUNTS["$pid"]++)) || true
+  SEEN_PID_EXT["$pid.$ext"]=1
 done
 
-read -ra CONSENTED <<< "$CONSENTED_STR"
-FOUND_LIST=$(printf "%s\n" "${!FOUND[@]}" | sort -V)
-CONSENTED_LIST=$(printf "%s\n" "${CONSENTED[@]}" | sort -V)
+FOUND_LIST=$(printf "%s\n" "${!FOUND[@]}" | sort -V | uniq)
+CONSENTED_LIST=$(printf "%s\n" "${CONSENTED_ARR[@]}" | sort -V | uniq)
 
+# ---- Set math with comm (quote to preserve newlines)
 tmp_found=$(mktemp); tmp_consent=$(mktemp)
 trap 'rm -f "$tmp_found" "$tmp_consent"' EXIT
-printf "%s\n" $FOUND_LIST     | sort -V > "$tmp_found"
-printf "%s\n" $CONSENTED_LIST | sort -V > "$tmp_consent"
+printf "%s\n" "$FOUND_LIST"     | sort -V > "$tmp_found"
+printf "%s\n" "$CONSENTED_LIST" | sort -V > "$tmp_consent"
 
-# ---- Audit reports
 if [[ $QUIET -eq 0 ]]; then
   echo "============ Counts per participant (FOUND) ============"
   for pid in $(printf "%s\n" "${!COUNTS[@]}" | sort -V); do
@@ -171,15 +167,20 @@ if [[ $QUIET -eq 0 ]]; then
   echo
 fi
 
-# ---- Build include file ONLY for consented & present (case-insensitive patterns)
+# ---- Build include file ONLY for consented & present, and ONLY seen extensions
 : > "$INC_OUT"
 while read -r pid; do
   [[ -z "${pid:-}" ]] && continue
   lower="${pid,,}"
   upper="${pid^^}"
+
+  # Emit patterns only for (PID, ext) pairs actually observed
   for ext in "${EXTS[@]}"; do
-    echo "**/${lower}-*.${ext}" >> "$INC_OUT"
-    echo "**/${upper}-*.${ext}" >> "$INC_OUT"
+    ext_lc="${ext,,}"
+    if [[ -n "${SEEN_PID_EXT["$pid.$ext_lc"]+x}" ]]; then
+      echo "**/${lower}-*.${ext_lc}" >> "$INC_OUT"
+      echo "**/${upper}-*.${ext_lc}" >> "$INC_OUT"
+    fi
   done
 done < <(comm -12 "$tmp_consent" "$tmp_found")
 
@@ -196,7 +197,7 @@ if [[ $AUDIT_ONLY -eq 1 ]]; then
   exit 0
 fi
 
-# ---- Assemble rclone flags
+# ---- rclone copy (recursive by default)
 [[ $QUIET -eq 0 ]] && {
   echo "Source:      $SRC"
   echo "Destination: $DST"
@@ -208,13 +209,12 @@ fi
 
 RFLAGS=(copy "$SRC" "$DST"
   --include-from "$INC_OUT"
-  --recursive
-  --progress -v --stats=30s
+  -P --stats=30s
+  --fast-list
   --transfers=12 --checkers=16
   --drive-chunk-size=256M
   --log-file="$LOG_FILE" --log-level=INFO
 )
-
 [[ $DRY_RUN -eq 1 ]] && RFLAGS+=(--dry-run)
 [[ $IGNORE_EXISTING -eq 1 ]] && RFLAGS+=(--ignore-existing)
 
