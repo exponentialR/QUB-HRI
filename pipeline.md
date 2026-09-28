@@ -6,6 +6,8 @@ For a dataset copy on another machine, configure `.env` from `.env.example` and 
 
 Source clips use `videos/<task>/<video-stem>.mp4`; landmarks use `landmarks/<task>/<video-stem>.h5`, following the CAM_AV filename layout. UL/UR contents use the versioned landmark/object schema. The viewer supports synchronized AV/UL/UR/LL/LR playback. Historical LL/LR pixels can be copied into this layout with additive normalized arrays using [the lower-view import command](docs/visualiser.md#normalize-and-import-historical-lower-views). The table below describes the historical preprocessing pipeline.
 
+For existing UL/UR extraction archives, [the landmark file tools](docs/landmark_file_tools.md) provide validation, organization into the video-filename layout, additive normalization and coverage reports. These commands work on saved outputs and require their collection records.
+
 Our dataset follows the following pipeline:
 
 | No. | **Task Description**                                  | **Script/Command**                            |

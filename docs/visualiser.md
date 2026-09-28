@@ -76,6 +76,8 @@ You do **not** need `ul_ur_landmarks_full/`, a consent-list file, an extraction 
 
 Other historical HDF5 formats are not automatically converted. A view that fails validation is reported separately; other valid views of the clip remain usable.
 
+For existing UL/UR extraction archives, see [the landmark file tools](landmark_file_tools.md) to validate, organize and normalize saved outputs before viewing them. Those archive-management commands require the original collection records; the viewer itself does not.
+
 ### Normalize and import historical lower views
 
 The old LL/LR writer multiplied MediaPipe coordinates by the image dimensions and truncated to integer pixels. These files are **not normalized**. Use this command with the viewer environment to import independent copies from `CAM_L/CAM_LL/<task>/*.h5` and `CAM_L/CAM_LR/<task>/*.h5`:
