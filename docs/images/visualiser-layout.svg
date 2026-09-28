@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title description">
+  <title id="title">QUB-PHEO five-camera visualiser layout</title>
+  <desc id="description">Illustrative layout, without research data. Upper left and lower left camera panels sit on the left, aerial in the middle, and upper right and lower right on the right. A shared playback timeline runs below all five views.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#253346" stroke-width="1"/>
+    </pattern>
+    <g id="panel">
+      <rect width="356" height="188" rx="10" fill="#080c12" stroke="#38465b"/>
+      <rect x="1" y="1" width="354" height="38" rx="9" fill="#18212e"/>
+      <rect x="1" y="28" width="354" height="11" fill="#18212e"/>
+      <rect x="12" y="51" width="332" height="122" rx="5" fill="url(#grid)"/>
+      <path d="M160 103h36m-18-18v36" fill="none" stroke="#50647e" stroke-width="1.5"/>
+      <circle cx="178" cy="103" r="25" fill="none" stroke="#50647e" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <rect width="1200" height="680" rx="16" fill="#10151d"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="34" y="37" font-size="12" letter-spacing="2" fill="#8fa4bf">QUB-PHEO / LOCAL RESEARCH TOOLS</text>
+    <text x="34" y="71" font-size="29" font-weight="700" fill="#e8edf5">Landmark review</text>
+    <rect x="884" y="29" width="282" height="36" rx="18" fill="#14262b" stroke="#3b5860"/>
+    <text x="1025" y="52" font-size="14" fill="#8fdcce" text-anchor="middle">Read only · stays on this computer</text>
+    <path d="M0 92H1200" stroke="#2c3544"/>
+    <text x="34" y="122" font-size="14" fill="#aebdd0">Five synchronized camera views</text>
+    <text x="1166" y="122" font-size="12" fill="#8fa4bf" text-anchor="end">ILLUSTRATED LAYOUT · NO DATA</text>
+
+    <use href="#panel" x="34" y="144"/>
+    <use href="#panel" x="34" y="352"/>
+    <use href="#panel" x="422" y="248"/>
+    <use href="#panel" x="810" y="144"/>
+    <use href="#panel" x="810" y="352"/>
+
+    <g font-size="14" font-weight="700" fill="#e8edf5">
+      <text x="50" y="169">CAM_UL</text>
+      <text x="50" y="377">CAM_LL</text>
+      <text x="438" y="273">CAM_AV</text>
+      <text x="826" y="169">CAM_UR</text>
+      <text x="826" y="377">CAM_LR</text>
+    </g>
+    <g font-size="13" fill="#aebdd0" text-anchor="end">
+      <text x="374" y="169">Upper left</text>
+      <text x="374" y="377">Lower left</text>
+      <text x="762" y="273">Aerial</text>
+      <text x="1150" y="169">Upper right</text>
+      <text x="1150" y="377">Lower right</text>
+    </g>
+    <g font-size="13" fill="#94a3b8" text-anchor="middle">
+      <text x="212" y="302">Video + saved landmarks</text>
+      <text x="212" y="510">Video + saved landmarks</text>
+      <text x="600" y="406">Video + hands, gaze and boxes</text>
+      <text x="988" y="302">Video + saved landmarks</text>
+      <text x="988" y="510">Video + saved landmarks</text>
+    </g>
+
+    <rect x="34" y="568" width="101" height="39" rx="6" fill="#23444e" stroke="#4f7b85"/>
+    <path d="M50 579l12 8-12 8z" fill="#8fdcce"/>
+    <text x="76" y="593" font-size="15" fill="#e8edf5">Play</text>
+    <path d="M158 587H930" stroke="#38465b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M158 587H478" stroke="#6bd7ee" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="478" cy="587" r="8" fill="#6bd7ee"/>
+    <rect x="957" y="568" width="209" height="39" rx="6" fill="#1b2432" stroke="#38465b"/>
+    <text x="1061" y="593" font-size="14" fill="#e8edf5" text-anchor="middle">Save visible views</text>
+
+    <g font-size="13" fill="#b8c5d8">
+      <circle cx="40" cy="641" r="5" fill="#f2c66d"/><text x="53" y="646">Body</text>
+      <circle cx="130" cy="641" r="5" fill="#96dc82"/><text x="143" y="646">Face</text>
+      <circle cx="217" cy="641" r="5" fill="#58d9ef"/><text x="230" y="646">Participant hand</text>
+      <circle cx="382" cy="641" r="5" fill="#f190cf"/><text x="395" y="646">Other actor hand</text>
+      <circle cx="557" cy="641" r="5" fill="#c4afff"/><text x="570" y="646">Objects / assembly</text>
+      <circle cx="742" cy="641" r="5" fill="#ffdc62"/><text x="755" y="646">AV gaze</text>
+      <text x="1166" y="646" text-anchor="end">Shared playback · frame stepping</text>
+    </g>
+  </g>
+</svg>
