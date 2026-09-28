@@ -8,6 +8,8 @@ Source clips use `videos/<task>/<video-stem>.mp4`; landmarks use `landmarks/<tas
 
 For existing UL/UR extraction archives, [the landmark file tools](docs/landmark_file_tools.md) provide validation, organization into the video-filename layout, additive normalization and coverage reports. These commands work on saved outputs and require their collection records.
 
+Before a new UL/UR run, [the inventory and source-snapshot utilities](docs/landmark_inventory.md) can record the explicitly selected video scope and retain the package source used by the run. Inventory reports contain metadata and do not replace decoded-frame or synchronization checks.
+
 Our dataset follows the following pipeline:
 
 | No. | **Task Description**                                  | **Script/Command**                            |
