@@ -1,0 +1,5 @@
+# Viewer only; tested with Python 3.12. Use Python 3.10–3.12.
+# No CUDA, PyTorch, MediaPipe, model checkpoints or training dependencies.
+numpy==1.26.4
+h5py==3.14.0
+opencv-python-headless==4.11.0.86

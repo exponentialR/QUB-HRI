@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QUB-PHEO · Landmark review</title>
+<style>
+:root{color-scheme:dark;font:14px/1.5 system-ui,sans-serif;background:#10151d;color:#e8edf5}*{box-sizing:border-box}body{margin:0}header{padding:23px 30px 17px;border-bottom:1px solid #2c3544;display:flex;align-items:center;justify-content:space-between;gap:20px}h1{margin:0;font-size:24px;font-weight:600;letter-spacing:-.6px}.eyebrow{font-size:11px;letter-spacing:2px;color:#8fa4bf;margin-bottom:5px}.tag{border:1px solid #3b5860;color:#8fdcce;padding:6px 12px;border-radius:30px;font-size:12px}main{padding:20px 30px 32px;max-width:2100px;margin:auto}.filters{display:grid;grid-template-columns:140px 130px minmax(180px,1fr) minmax(260px,2fr);gap:12px}label.field{display:flex;flex-direction:column;gap:5px;color:#aebdd0;font-size:12px}input,select,button{font:inherit;color:inherit;border:1px solid #38465b;background:#1b2432;border-radius:6px;padding:8px 10px}input[type=checkbox],input[type=range]{accent-color:#6bd7ee}button{cursor:pointer}button:hover{background:#2b3c53}button:disabled{opacity:.45;cursor:wait}input:focus,select:focus,button:focus-visible{outline:2px solid #6bd7ee;outline-offset:2px}.layers{display:flex;flex-wrap:wrap;gap:9px 19px;margin:18px 0 14px;font-size:13px}.layers label{display:flex;align-items:center;gap:5px;cursor:pointer}.layers input{margin:0}.pairline{display:flex;justify-content:space-between;gap:15px;align-items:center;margin:15px 0 9px;color:#aebdd0;font-size:12px}#pairName{overflow-wrap:anywhere}.views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.views[data-mode=aerial]{grid-template-columns:1fr}.views[data-mode=upper],.views[data-mode=lower]{grid-template-columns:1fr 1fr}.view[hidden]{display:none}.view{background:#080c12;border:1px solid #303c4f;border-radius:9px;overflow:hidden}.viewhead{padding:9px 12px;display:flex;justify-content:space-between;align-items:center;background:#18212e}.viewhead strong{font-size:13px;letter-spacing:1px}.viewhead span{font-size:12px;color:#b8c5d8}canvas{width:100%;height:auto;display:block;cursor:crosshair}.stats{padding:8px 12px;font-size:12px;color:#aebdd0;min-height:35px}.transport{display:flex;align-items:center;gap:10px;margin:17px 0 12px;flex-wrap:wrap}#play{min-width:87px;background:#23444e;border-color:#4f7b85}#scrub{flex:1;min-width:200px;padding:0}#frameNumber{width:87px}#speed{padding:8px 5px}.legend{display:flex;flex-wrap:wrap;gap:18px;font-size:12px;color:#b8c5d8;margin:12px 0}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.body{background:#f2c66d}.face{background:#96dc82}.participant{background:#58d9ef}.other{background:#f190cf}.lego{background:#c4afff}#status{color:#9bd8d0;min-height:22px;font-size:12px}#inspect{background:#192332;border-left:3px solid #6bd7ee;padding:9px 12px;min-height:39px;font:12px/1.6 ui-monospace,monospace;color:#c1d3e8;overflow-wrap:anywhere}.notes{color:#94a3b8;font-size:12px;max-width:1100px;margin:12px 0}.summary{border-top:1px solid #303c4f;margin-top:22px;padding-top:15px}summary{cursor:pointer;font-weight:600}#coverage{color:#aebdd0;font-size:13px;padding:10px 0}.error{color:#ffb6a8!important}kbd{border:1px solid #3b485c;border-radius:3px;padding:1px 4px}a{color:#7cd7ec}@media(max-width:900px){header,main{padding:15px}.filters{grid-template-columns:1fr 1fr}.views,.views[data-mode=upper],.views[data-mode=lower]{grid-template-columns:1fr}.tag{white-space:nowrap}.pairline{display:block}}
+</style>
+<script src="/viewer.js" defer></script>
+</head>
+<body>
+<header><div><div class="eyebrow">QUB-PHEO / LOCAL RESEARCH TOOLS</div><h1>Landmark review</h1></div><div class="tag">Read only · stays on this computer</div></header>
+<main>
+<section class="filters" aria-label="Clip selection">
+<label class="field">Participant<select id="participant"><option value="">All participants</option></select></label>
+<label class="field">Task<select id="task"><option value="">All tasks</option></select></label>
+<label class="field">Find a clip<input id="search" type="search" placeholder="Search the filename…"></label>
+<label class="field"><span id="matches">Clips</span><select id="pair" aria-label="Clip"></select></label>
+</section>
+<section class="layers" aria-label="Visible layers">
+<label><input type="checkbox" id="background" checked>Source video</label>
+<label><input type="checkbox" id="body" checked>Body</label>
+<label><input type="checkbox" id="face" checked>Dense face</label>
+<label><input type="checkbox" id="hands" checked>Hands</label>
+<label><input type="checkbox" id="gaze" checked>AV gaze</label>
+<label><input type="checkbox" id="boxes" checked>Hand boxes</label>
+<label><input type="checkbox" id="objects" checked>Objects / assemblies</label>
+<label><input type="checkbox" id="labels" checked>Labels</label>
+<label><input type="checkbox" id="coarse">Coarse face (UL/UR)</label>
+<label><input type="checkbox" id="native">Native pose hands (UL/UR)</label>
+<label><input type="checkbox" id="feet">Feet (UL/UR)</label>
+</section>
+<div class="pairline"><span id="pairName">Loading collection…</span><span id="modelLabel"></span></div>
+<section class="views" id="views" data-mode="all" aria-label="Synchronized camera views">
+<article class="view" id="viewAV"><div class="viewhead"><strong>CAM_AV · Aerial</strong><span id="timeAV">—</span></div><canvas id="canvasAV" width="1728" height="972" aria-label="Aerial camera landmarks and gaze"></canvas><div class="stats" id="statsAV">Loading…</div></article>
+<article class="view" id="viewUL"><div class="viewhead"><strong>CAM_UL</strong><span id="timeUL">—</span></div><canvas id="canvasUL" width="1728" height="972" aria-label="Upper left camera landmarks"></canvas><div class="stats" id="statsUL">Loading…</div></article>
+<article class="view" id="viewUR"><div class="viewhead"><strong>CAM_UR</strong><span id="timeUR">—</span></div><canvas id="canvasUR" width="1728" height="972" aria-label="Upper right camera landmarks"></canvas><div class="stats" id="statsUR">Loading…</div></article>
+<article class="view" id="viewLL"><div class="viewhead"><strong>CAM_LL</strong><span id="timeLL">—</span></div><canvas id="canvasLL" width="1728" height="972" aria-label="Lower left camera landmarks"></canvas><div class="stats" id="statsLL">Loading…</div></article>
+<article class="view" id="viewLR"><div class="viewhead"><strong>CAM_LR</strong><span id="timeLR">—</span></div><canvas id="canvasLR" width="1728" height="972" aria-label="Lower right camera landmarks"></canvas><div class="stats" id="statsLR">Loading…</div></article>
+</section>
+<div class="transport"><button id="previous" title="Previous frame">←</button><button id="play" disabled>Play</button><button id="next" title="Next frame">→</button><input id="scrub" aria-label="Frame timeline" type="range" min="0" max="0" value="0"><label>Frame <input id="frameNumber" type="number" min="0" max="0" value="0"></label><select id="speed" aria-label="Playback speed"><option value="0.25">0.25×</option><option value="0.5" selected>0.5×</option><option value="1">1×</option></select><label>Views <select id="viewMode"><option value="all">All five</option><option value="aerial">Aerial only</option><option value="upper">UL + UR</option><option value="lower">LL + LR</option></select></label><button id="save">Save visible views</button></div>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="aerialStatus" class="notes"></div>
+<div class="legend"><span><i class="dot body"></i>Body</span><span><i class="dot face"></i>Face</span><span><i class="dot participant"></i>Participant hand</span><span><i class="dot other"></i>Surrogate / other actor hand</span><span><i class="dot" style="background:#ffab70"></i>Hand actor unknown</span><span><i class="dot lego"></i>Objects / assembly</span><span><i class="dot" style="background:#ffdc62"></i>AV gaze</span></div>
+<div id="inspect">Click a landmark to inspect its source-pixel coordinates, model and score.</div>
+<p class="notes">Use <kbd>Space</kbd> to play/pause and <kbd>←</kbd> / <kbd>→</kbd> to step. Hide “Source video” for landmarks only. AV, UL, UR, LL and LR share playback controls and are aligned by their relative clip timestamps; timestamps and frame indices are shown separately for each view. Track IDs apply within one clip and view. Dashed hand boxes come from native landmark extents. Missing predictions are omitted; confidence is not calibrated visibility.</p>
+<p class="notes">Aerial layers use the original normalized hand/gaze coordinates and detection boxes. AV has no body/face landmarks, saved object classes, confidence scores or track IDs. Zero-filled hands and boxes are omitted; zero-filled gaze is ambiguous and omitted. No new aerial inference is performed.</p>
+<p class="notes">Lower views use the historical MediaPipe 33-point body, 478-point face and 21-point hands. Hand actor identity, confidence and tracks were not saved. Orange hands have unknown actors; left/right are the original detector labels. Whole zero-filled groups are absent or unknown. LL/LR rows follow decoded video timestamps; no new synchronization offset or inference is estimated.</p>
+<details class="summary"><summary>UL/UR coverage and interpretation</summary><div id="coverage">Loading coverage audit…</div><p class="notes">Body: COCO 17 points; feet: 6; coarse face: 68; native hands: 21 per side, all from RTMW’s 133-point output. Dense face: MediaPipe 478. Hand observations retain their own recorded topology and model. The LEGO layer omits the LEGO model’s three hand classes to avoid duplicate hand boxes. Coverage counts returned predictions, not accuracy. Sapiens was not evaluated and is optional future work.</p></details>
+</main>
+</body></html>

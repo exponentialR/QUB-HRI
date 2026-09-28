@@ -55,6 +55,10 @@ coverage.xml
 
 # Environment files
 .env
+.env.*
+!.env.example
+.venv/
+.venv-viewer/
 
 gdrive/rclone_copy.log
 gdrive/rclone_missing_copy.log
