@@ -131,9 +131,9 @@ Alternative examples:
 
 - Filter by participant, task or filename.
 - Play/pause with **Space**; step with **← / →**; scrub with the timeline.
-- Select **All five**, **Aerial only**, **UL + UR**, or **LL + LR** under **Views**.
+- Select **All five**, **Aerial only**, **UL + UR**, or **LL + LR** under **Views**. On wide screens, **All five** places UL above LL on the left, UR above LR on the right, and AV in the center. Narrow screens stack the panels with AV first.
 - Toggle source video, hands, AV gaze, body/face and object layers. Hiding source video shows landmarks only.
-- Click a point to inspect its pixel coordinates and available score. **Save visible views** downloads an image locally.
+- Click a point to inspect its pixel coordinates and available score. **Save visible views** downloads an image locally; five-view exports retain the camera arrangement, while paired-view exports sit side by side.
 
 UL is the reference timeline when available; otherwise AV, UR, LL, then LR. Each other view uses its nearest relative clip timestamp, with no extrapolation beyond its coverage. AV landmark timestamps must match decoded video timing within 2 ms. LL/LR landmark row indices are mapped to their source videos' relative presentation timestamps. This uses the clips' existing synchronization; it does not estimate a new camera offset.
 

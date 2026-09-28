@@ -87,10 +87,15 @@ function togglePlay(){if(!info)return;if(playing){stop();return;}playing=true;$(
 function step(amount){stop();showFrame(frame+amount).catch(error);}
 function saveImage(){
   if(!current)return;const selected=VIEWS.filter(([,suffix])=>!$('view'+suffix).hidden);
-  const out=document.createElement('canvas');out.width=selected.reduce((n,[,suffix])=>n+$('canvas'+suffix).width,0);
-  out.height=Math.max(...selected.map(([,suffix])=>$('canvas'+suffix).height))+52;
+  const gap=24,titleHeight=52,columnWidth=Math.max(...selected.map(([,suffix])=>$('canvas'+suffix).width));
+  const panelHeight=suffix=>{const c=$('canvas'+suffix);return titleHeight+c.height*columnWidth/c.width;};
+  const rowHeight=Math.ceil(Math.max(...selected.map(([,suffix])=>panelHeight(suffix))));
+  const all=$('viewMode').value==='all',out=document.createElement('canvas');
+  out.width=all?3*columnWidth+2*gap:selected.length*columnWidth+(selected.length-1)*gap;
+  out.height=all?2*rowHeight+gap:rowHeight;
+  const positions=all?{UL:[0,0],LL:[0,rowHeight+gap],AV:[columnWidth+gap,(out.height-panelHeight('AV'))/2],UR:[2*(columnWidth+gap),0],LR:[2*(columnWidth+gap),rowHeight+gap]}:Object.fromEntries(selected.map(([,suffix],i)=>[suffix,[i*(columnWidth+gap),0]]));
   const ctx=out.getContext('2d');ctx.fillStyle='#10151d';ctx.fillRect(0,0,out.width,out.height);ctx.font='20px system-ui';ctx.fillStyle='#e8edf5';
-  let x=0;for(const [view,suffix] of selected){const c=$('canvas'+suffix);ctx.fillText(`QUB-PHEO · ${view} · ${$('time'+suffix).textContent}`,x+16,32);ctx.drawImage(c,x,52);x+=c.width;}
+  for(const [view,suffix] of selected){const c=$('canvas'+suffix),[x,y]=positions[suffix];ctx.fillText(`QUB-PHEO · ${view} · ${$('time'+suffix).textContent}`,x+16,y+32);ctx.drawImage(c,x,y+titleHeight,columnWidth,c.height*columnWidth/c.width);}
   const a=document.createElement('a');a.download=`qub-pheo_views${$('pair').value}_frame${frame}.png`;a.href=out.toDataURL('image/png');a.click();
 }
 async function coverage(){try{const r=await api('/api/quality');$('coverage').textContent=`${r.audited_clips.toLocaleString()} / ${r.expected_clips.toLocaleString()} clips audited. `+Object.entries(r.views).map(([v,d])=>`${v}: body predictions on ${(100*d.body_prediction_frame_fraction).toFixed(1)}% of frames; dense face on ${(100*d.dense_face_prediction_frame_fraction).toFixed(1)}%.`).join(' ');}catch{$('coverage').textContent='The collection-wide coverage audit is not available yet.';}}
