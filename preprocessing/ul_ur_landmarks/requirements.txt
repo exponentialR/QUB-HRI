@@ -1,0 +1,6 @@
+# CPU baseline and pilot annotation/evaluation environment (Python 3.12)
+mediapipe==0.10.35
+opencv-contrib-python==5.0.0.93
+numpy==2.5.3
+h5py==3.14.0
+pytest==8.4.2

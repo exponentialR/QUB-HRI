@@ -10,6 +10,8 @@ For existing UL/UR extraction archives, [the landmark file tools](docs/landmark_
 
 Before a new UL/UR run, [the inventory and source-snapshot utilities](docs/landmark_inventory.md) can record the explicitly selected video scope and retain the package source used by the run. Inventory reports contain metadata and do not replace decoded-frame or synchronization checks.
 
+The [UL/UR extraction guide](docs/landmark_pipeline.md) describes the available model backends, reference annotation, evaluation, hand training/refinement, and the steps from an inventory to saved landmarks. These additions operate on segmented UL/UR clips; they do not rerun the historical synchronization or perform 3D reconstruction.
+
 Our dataset follows the following pipeline:
 
 | No. | **Task Description**                                  | **Script/Command**                            |

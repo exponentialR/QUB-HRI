@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>QUB-PHEO UL/UR pilot annotation</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 18px; color: #17202a; background: #f6f7f8; }
+  h1 { font-size: 20px; margin: 0 0 8px; }
+  p { max-width: 1050px; line-height: 1.4; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
+  button, select, textarea { font: inherit; padding: 5px; }
+  canvas { width: min(100%, 1280px); height: auto; border: 1px solid #555; background: #222; cursor: crosshair; }
+  .details { max-width: 1280px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .details section { padding: 8px; background: white; border: 1px solid #ddd; }
+  #status { font-weight: bold; }
+</style>
+<h1>UL/UR pilot reference labels</h1>
+<p>This local page displays and edits reference labels. Existing draft provenance and ambiguity flags appear below the image. Check visible hands and selected joints before marking a frame reviewed. Saved manual hand labels include the reference image hash; they remain subject to independent validation.</p>
+<ol>
+  <li>The seated person is <strong>participant</strong>. A hand entering from the assisting person, often in a black glove, is <strong>other_actor</strong>.</li>
+  <li>For each visible hand, click <strong>Add hand</strong>, choose its actor and occlusion, then drag a <strong>hand box</strong> around the visible hand. Use the point tools only for joints you can actually see. If no hand is visible, leave the hand list empty.</li>
+  <li>To save a hand-only correction, check <strong>I checked every visible hand</strong> and click <strong>Save hand draft</strong>. You can leave body and face untouched.</li>
+  <li>For a complete reference frame later, set face visibility and mark clearly visible participant upper-body points and face anchors. Check all three review boxes, then click <strong>Save / mark reviewed</strong>.</li>
+</ol>
+<div class="bar">
+  <button id="prev">← Previous</button><span id="counter"></span><button id="next">Next →</button>
+  <label><input id="handsChecked" type="checkbox">I checked every visible hand (including none)</label>
+  <label><input id="bodyChecked" type="checkbox">I checked visible upper-body joints</label>
+  <label><input id="faceChecked" type="checkbox">I checked face visibility and anchors</label>
+  <span id="status"></span><button id="saveDraft">Save hand draft</button><button id="save">Save / mark reviewed</button>
+</div>
+<div class="bar">
+  <button id="addHand">Add hand</button><button id="deleteHand">Delete selected hand</button>
+  <label>Hand <select id="handIndex"></select></label>
+  <label>Actor <select id="actor"><option>unknown</option><option>participant</option><option>other_actor</option></select></label>
+  <label>Handedness <select id="handedness"><option>unknown</option><option>left</option><option>right</option></select></label>
+  <label>Occlusion <select id="occlusion"><option>none</option><option>partial</option><option>heavy</option></select></label>
+  <label>Face visible <select id="faceVisible"><option value="unknown">unknown</option><option value="yes">yes</option><option value="no">no</option></select></label>
+</div>
+<div class="bar">
+  <label>Draw/click <select id="tool">
+    <option value="bbox">hand box (drag)</option><option value="hand:wrist">hand wrist</option>
+    <option value="hand:thumb_tip">thumb tip</option><option value="hand:index_tip">index tip</option>
+    <option value="hand:middle_tip">middle tip</option><option value="hand:ring_tip">ring tip</option>
+    <option value="hand:pinky_tip">pinky tip</option>
+    <option value="pose:left_shoulder">left shoulder</option><option value="pose:left_elbow">left elbow</option>
+    <option value="pose:left_wrist">left wrist</option><option value="pose:right_shoulder">right shoulder</option>
+    <option value="pose:right_elbow">right elbow</option><option value="pose:right_wrist">right wrist</option>
+    <option value="face:nose">face nose</option><option value="face:left_eye">participant's left eye</option>
+    <option value="face:right_eye">participant's right eye</option><option value="face:mouth">mouth</option>
+  </select></label>
+</div>
+<canvas id="canvas"></canvas>
+<div class="details"><section><strong>Frame</strong><pre id="frameInfo"></pre></section>
+<section><strong>Notes</strong><br><textarea id="notes" rows="4" style="width:98%"></textarea></section></div>
+<script>
+let data, index = 0, image = new Image(), selectedHand = -1, dragStart = null;
+const $ = id => document.getElementById(id), canvas = $('canvas'), ctx = canvas.getContext('2d');
+function current() { return data.frames[index]; }
+function coords(event) { const rect = canvas.getBoundingClientRect(); return [Math.round((event.clientX - rect.left) * canvas.width / rect.width), Math.round((event.clientY - rect.top) * canvas.height / rect.height)]; }
+function show() {
+  const frame = current(); image = new Image(); image.onload = draw; image.src = '/' + frame.image;
+  canvas.width = frame.width; canvas.height = frame.height;
+  $('counter').textContent = `${index + 1}/${data.frames.length}`;
+  const provenance = frame.hand_annotation_provenance;
+  $('status').textContent = frame.reviewed ? 'Reviewed' : provenance?.status === 'provisional_assistant_visual' ? (provenance.needs_review ? 'Assistant draft — ambiguous' : 'Assistant hand draft') : frame.hands_checked ? 'Hand draft saved' : 'Needs review';
+  $('frameInfo').textContent = `${frame.id}\n${frame.pair_id}\n${frame.view}, frame ${frame.frame_index}, ${frame.timestamp_ms} ms`;
+  if (provenance) $('frameInfo').textContent += `\nSource: ${provenance.annotator}\n${provenance.note}`;
+  $('notes').value = frame.notes || '';
+  $('handsChecked').checked = Boolean(frame.hands_checked);
+  $('bodyChecked').checked = Boolean(frame.body_checked);
+  $('faceChecked').checked = Boolean(frame.face_checked);
+  $('faceVisible').value = frame.face.visible === true ? 'yes' : frame.face.visible === false ? 'no' : 'unknown';
+  refreshHand();
+}
+function refreshHand() {
+  const frame = current(), list = $('handIndex'); list.innerHTML = '';
+  frame.hands.forEach((hand, i) => { const option = document.createElement('option'); option.value = i; option.textContent = `hand ${i + 1}`; list.append(option); });
+  if (selectedHand >= frame.hands.length) selectedHand = frame.hands.length - 1;
+  list.value = selectedHand;
+  const hand = frame.hands[selectedHand];
+  $('actor').value = hand?.actor || 'unknown'; $('handedness').value = hand?.handedness || 'unknown';
+  $('occlusion').value = hand?.occlusion || 'none'; draw();
+}
+function dot(point, label, color) {
+  if (!point) return; ctx.fillStyle = color; ctx.beginPath(); ctx.arc(point[0], point[1], 7, 0, Math.PI * 2); ctx.fill();
+  ctx.font = '20px system-ui'; ctx.fillText(label, point[0] + 9, point[1] - 9);
+}
+function draw() {
+  if (!image.complete || !image.naturalWidth) return; ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+  const frame = current();
+  frame.hands.forEach((hand, i) => {
+    ctx.strokeStyle = i === selectedHand ? '#ffcc00' : '#00e5ff'; ctx.lineWidth = 5;
+    if (hand.bbox) { ctx.strokeRect(...hand.bbox); ctx.fillStyle = ctx.strokeStyle; ctx.font = '20px system-ui'; ctx.fillText(`${i + 1}: ${hand.actor}`, hand.bbox[0], Math.max(22, hand.bbox[1] - 8)); }
+    for (const [name, point] of Object.entries(hand.points || {})) dot(point, `${i + 1}:${name}`, ctx.strokeStyle);
+  });
+  for (const [name, point] of Object.entries(frame.pose || {})) dot(point, name, '#ff55ff');
+  for (const [name, point] of Object.entries(frame.face?.anchors || {})) dot(point, name, '#77ff00');
+}
+function edit() { current().reviewed = false; $('status').textContent = 'Needs review'; draw(); }
+$('prev').onclick = () => { if (index > 0) { index--; selectedHand = -1; show(); } };
+$('next').onclick = () => { if (index < data.frames.length - 1) { index++; selectedHand = -1; show(); } };
+$('addHand').onclick = () => { current().hands.push({actor:'unknown', handedness:'unknown', occlusion:'none', bbox:null, points:{}}); selectedHand = current().hands.length - 1; edit(); refreshHand(); };
+$('deleteHand').onclick = () => { if (selectedHand < 0) return; current().hands.splice(selectedHand, 1); selectedHand = -1; edit(); refreshHand(); };
+$('handIndex').onchange = e => { selectedHand = Number(e.target.value); refreshHand(); };
+for (const id of ['actor','handedness','occlusion']) $(id).onchange = e => { const hand = current().hands[selectedHand]; if (hand) { hand[id] = e.target.value; edit(); } };
+$('faceVisible').onchange = e => { current().face.visible = e.target.value === 'unknown' ? null : e.target.value === 'yes'; edit(); };
+$('notes').onchange = e => { current().notes = e.target.value; edit(); };
+$('handsChecked').onchange = e => { current().hands_checked = e.target.checked; edit(); };
+$('bodyChecked').onchange = e => { current().body_checked = e.target.checked; edit(); };
+$('faceChecked').onchange = e => { current().face_checked = e.target.checked; edit(); };
+canvas.onmousedown = e => { if ($('tool').value === 'bbox') dragStart = coords(e); };
+canvas.onmouseup = e => { if (!dragStart || $('tool').value !== 'bbox') return; const hand = current().hands[selectedHand]; if (!hand) return;
+  const end = coords(e), x = Math.min(dragStart[0], end[0]), y = Math.min(dragStart[1], end[1]);
+  hand.bbox = [x, y, Math.abs(end[0] - dragStart[0]), Math.abs(end[1] - dragStart[1])]; dragStart = null; edit(); };
+canvas.onclick = e => { const tool = $('tool').value; if (tool === 'bbox') return; const [group, point] = tool.split(':');
+  if (group === 'hand') { const hand = current().hands[selectedHand]; if (!hand) return; hand.points[point] = coords(e); }
+  else if (group === 'pose') current().pose[point] = coords(e);
+  else current().face.anchors[point] = coords(e); edit(); };
+async function saveFrame(markReviewed) { const frame = current(); frame.notes = $('notes').value;
+  if (!frame.hands_checked) { alert('Check every visible hand before saving.'); return; }
+  if (frame.hands.some(hand => !hand.bbox || hand.bbox[2] <= 0 || hand.bbox[3] <= 0)) { alert('Draw a box for every added hand.'); return; }
+  if (markReviewed && (!frame.body_checked || !frame.face_checked || frame.face.visible === null)) {
+    alert('Check upper body and face, and set face visibility before marking this frame reviewed.'); return;
+  }
+  frame.reviewed = markReviewed;
+  const response = await fetch('/save', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)});
+  if (!response.ok) { frame.reviewed = false; alert(`Save failed: ${response.status}`); return; }
+  data = await response.json();
+  $('status').textContent = markReviewed ? 'Reviewed' : 'Hand draft saved';
+}
+$('saveDraft').onclick = () => saveFrame(false);
+$('save').onclick = () => saveFrame(true);
+document.onkeydown = e => { if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+  if (e.key === 'ArrowLeft') $('prev').click(); if (e.key === 'ArrowRight') $('next').click(); };
+fetch('/annotations.json').then(response => response.json()).then(value => { data = value; show(); });
+</script>
+</html>
