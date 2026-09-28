@@ -13,7 +13,6 @@ QUB-PHEO and its methodology were published in [*IEEE Access* in 2024](https://d
 
 ## Dataset
 
-
 ## Visualiser
 
 The repository includes a local browser viewer for synchronized **AV, UL, UR, LL and LR** videos and saved landmarks, including aerial gaze and object boxes. It works with a local dataset copy and supports any subset of these views. No GPU or model checkpoints are needed. The [visualiser guide](docs/visualiser.md#normalize-and-import-historical-lower-views) also explains how to normalize and import historical LL/LR landmarks while preserving their original pixel arrays.
@@ -36,7 +35,10 @@ Open **http://127.0.0.1:8767/**. Your `.env` stays local and is ignored by Git. 
 
 See [the visualiser guide](docs/visualiser.md) for system prerequisites, Windows instructions, supported formats, configuration overrides and troubleshooting. Use `visualise.py --check` to check dataset discovery without starting the server.
 
+
 ## Preprocessing
+
+For UL/UR landmark and LEGO extraction, see [the pipeline guide](docs/landmark_pipeline.md). It covers model prerequisites, a bounded comparison, resumable collection, hand refinement and evaluation. Source clips use `videos/<task>/<video-stem>.mp4`; delivered landmarks use `landmarks/<task>/<video-stem>.h5`. Extraction requires separately obtained checkpoints; the [visualiser](docs/visualiser.md) works with saved outputs without those models.
 
 ## Eula and License
 To get access to the dataset, please download and fill out the [End User License Agreement](https://github.com/exponentialR/QUB-HRI/license/EULA.md) and send it to [Samuel Adebayo](mailto:samueladebayo@ieee.org)

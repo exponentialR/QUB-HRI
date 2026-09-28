@@ -1,0 +1,19 @@
+# Install torch==2.5.1 and torchvision==0.20.1 from the PyTorch cu124 index first.
+# Then: pip install -r requirements-gpu.txt
+# Followed by: pip install --no-deps rtmlib==0.0.16
+# Crop Tasks: pip install --no-deps mediapipe==0.10.35
+# This preserves the pinned OpenCV/numpy versions; MediaPipe face inference was
+# verified using opencv-python, without installing a competing contrib wheel.
+# Optional graph inspection: pip install --no-deps onnx==1.17.0
+# RTMLib's default dependency installs CPU onnxruntime, which must not overwrite
+# onnxruntime-gpu in this environment.
+numpy==1.26.4
+opencv-python==4.11.0.86
+onnxruntime-gpu==1.20.2
+ultralytics==8.1.42
+h5py==3.14.0
+tqdm==4.67.1
+pytest==8.4.2
+absl-py==2.3.1
+sounddevice==0.5.5
+flatbuffers==25.12.19

@@ -1,0 +1,6 @@
+# Separate environment for the recovered April 2024 checkpoint.
+# Install torch==2.5.1 and torchvision==0.20.1 from PyTorch's CPU wheel index first.
+ultralytics==8.1.42
+numpy==1.26.4
+opencv-python==4.10.0.84
+h5py==3.14.0
