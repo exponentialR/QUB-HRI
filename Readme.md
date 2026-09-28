@@ -11,6 +11,28 @@ To address this, we introduce QUB-PHEO, a novel visual-based dyadic multi-view d
 ## Dataset
 
 
+## Visualiser
+
+The repository includes a local browser viewer for synchronized **AV, UL, UR, LL and LR** videos and saved landmarks, including aerial gaze and object boxes. It works with a local dataset copy and supports any subset of these views. No GPU or model checkpoints are needed. The [visualiser guide](docs/visualiser.md#normalize-and-import-historical-lower-views) also explains how to normalize and import historical LL/LR landmarks while preserving their original pixel arrays.
+
+Use **Python 3.10–3.12** and install **FFmpeg** (`ffprobe` must be on `PATH`). From the cloned repository:
+
+```bash
+python3 -m venv .venv-viewer
+.venv-viewer/bin/python -m pip install -r requirements-viewer.txt
+cp .env.example .env
+```
+
+Set `QUB_PHEO_DATASET_ROOT="/path/to/dataset"` in `.env`. That directory should contain `videos/<task>/*.mp4` and matching `landmarks/<task>/*.h5`. Then run:
+
+```bash
+.venv-viewer/bin/python visualise.py
+```
+
+Open **http://127.0.0.1:8767/**. Your `.env` stays local and is ignored by Git. Dataset files are read only and are supplied separately from the repository.
+
+See [the visualiser guide](docs/visualiser.md) for system prerequisites, Windows instructions, supported formats, configuration overrides and troubleshooting. Use `visualise.py --check` to check dataset discovery without starting the server.
+
 ## Preprocessing
 
 ## Eula and License
