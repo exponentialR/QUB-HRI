@@ -8,6 +8,9 @@
 ## Description
 One of the core stages of efficient human-robot collaboration (HRC) is human-intention inference, enabling robots to anticipate and respond to human actions seamlessly. Existing approaches often rely on rule-based models or handcrafted heuristics, which lack adaptability to dynamic environments. In contrast, learning-based approaches leverage data-driven models to infer human intent, but their effectiveness depends on the availability of high-quality, multi-view datasets that capture rich spatial-temporal cues.
 To address this, we introduce QUB-PHEO, a novel visual-based dyadic multi-view dataset designed to enhance intention inference in HRC. The dataset consists of synchronized multi-view recordings of 70 participants performing 36 distinct assembly subtasks, providing fine-grained labels for action recognition, gaze estimation, and object tracking. By enabling deep learning models to learn intent prediction from diverse viewpoints, QUB-PHEO paves the way for proactive and adaptive robotic collaboration in real-world settings.
+
+QUB-PHEO and its methodology were published in [*IEEE Access* in 2024](https://doi.org/10.1109/ACCESS.2024.3485162).
+
 ## Dataset
 
 
@@ -49,9 +52,23 @@ In using this dataset, you agree to the terms of the license described in the LI
 
 
 ## Citation
-If you use this code for your research, please cite our paper.
-```bibtex
+For the QUB-PHEO dataset and its published methodology, cite the paper:
 
+```bibtex
+@article{adebayo2024qubpheo,
+  author  = {Samuel Adebayo and Se{\'a}n McLoone and Joost C. Dessing},
+  title   = {{QUB-PHEO}: A Visual-Based Dyadic Multi-View Dataset for Intention Inference in Collaborative Assembly},
+  journal = {IEEE Access},
+  volume  = {12},
+  pages   = {157050--157066},
+  year    = {2024},
+  doi     = {10.1109/ACCESS.2024.3485162}
+}
+```
+
+The preprocessing repository is archived separately on Zenodo as [10.5281/zenodo.13956098](https://doi.org/10.5281/zenodo.13956098):
+
+```bibtex
 @misc{adebayo_exponentialrqub-hri_2024,
 	title = {{exponentialR}/{QUB}-{HRI}: v1.1},
 	shorttitle = {{exponentialR}/{QUB}-{HRI}},
@@ -64,3 +81,4 @@ If you use this code for your research, please cite our paper.
 	year = {2024},
 	doi = {10.5281/zenodo.13956098},
 }
+```

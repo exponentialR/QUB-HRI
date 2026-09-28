@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset or the preprocessing code, please cite it as below:"
+message: "For the published QUB-PHEO paper, cite DOI 10.1109/ACCESS.2024.3485162. For this preprocessing repository, cite the archive below."
 title: "Pre-processing Repository of QUB – Perception of Human Engagement in Assembly Operations Dataset"
 authors:
   - family-names: Adebayo
