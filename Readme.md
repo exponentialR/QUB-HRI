@@ -1,6 +1,5 @@
 # Repository of Preprocessing of QUB-Perception of Human Engagement in assembly Operations Dataset (QUB-PHEO V1.0) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13956098.svg)](https://doi.org/10.5281/zenodo.13956098)
-![GitHub](https://img.shields.io/github/license/exponentialR/QUB-HRI)
 
 ## Introduction
 <!-- Embed the GIF -->
@@ -57,17 +56,25 @@ QUB-PHEO and its methodology were published in [*IEEE Access* in 2024](https://d
 
 For UL/UR landmark and LEGO extraction, see [the pipeline guide](docs/landmark_pipeline.md). It covers model prerequisites, a bounded comparison, resumable collection, hand refinement and evaluation. Source clips use `videos/<task>/<video-stem>.mp4`; delivered landmarks use `landmarks/<task>/<video-stem>.h5`. Extraction requires separately obtained checkpoints; the [visualiser](docs/visualiser.md) works with saved outputs without those models.
 
-## Eula and License
-To get access to the dataset, please download and fill out the [End User License Agreement](https://github.com/exponentialR/QUB-HRI/license/EULA.md) and send it to [Samuel Adebayo](mailto:samueladebayo@ieee.org)
-In using this dataset, you agree to the terms of the license described in the LICENSE file included in this repository.
+## Dataset access and licensing
+
+### Dataset access / EULA
+
+Follow the access instructions in the [QUB-PHEO dataset repository](https://github.com/exponentialR/QUB-PHEO). Download and complete the [QUB-PHEO End User License Agreement (PDF)](https://drive.google.com/file/d/15ciZPOGSz2PM0Bd3rrlV8ZRb3WikVSV2/view?usp=sharing), then send it to [s.mcloone@qub.ac.uk](mailto:s.mcloone@qub.ac.uk) for approval. Include the intended use and your research group or institution.
+
+The linked EULA governs dataset access and use. Recordings and the agreement are supplied separately from this preprocessing repository.
+
+### Preprocessing code
+
+The [Zenodo record for the archived v1.1 code release](https://zenodo.org/records/13956098) lists Creative Commons Attribution 4.0 International in its license metadata. This checkout does not contain a standalone code `LICENSE` file. For clarification of licensing for the current code, contact [Samuel Adebayo](mailto:samueladebayo@ieee.org). Dataset access remains subject to the EULA above.
 
 ## What is in the Dataset
 - The dataset contains the following:
   - `Annotations` folder: This folder contains the annotations for the dataset. The annotations are in the form of hdf5 files.
   - `Videos` folder: This folder contains the videos for the dataset. The videos are in the form of mp4 files.
   - `README.md` file: This file contains the description of the dataset.
-  - `LICENSE` file: This file contains the license for the dataset.
-  - `EULA` file: This file contains the End User License Agreement for the dataset.
+
+For the access agreement and applicable terms, use the [dataset access and licensing](#dataset-access-and-licensing) links above.
 
 
 ## Citation
